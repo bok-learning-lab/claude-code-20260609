@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 1 (8 June 2026) — Top 10 Key Takeaways — Bok Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+/* Standalone "Deep thoughts" essay styling.
+   Mirrors components/essay-layout.module.css from
+   /Users/mk/Development/ai-enhancement-stories (screen + mobile + print)
+   with the TOC sidebar and footer-links stripped, plus a floating
+   Print/Copy-MD control pair in the header. Light-mode only. */
+
+:root {
+  --bg: rgb(240, 238, 230);
+  --fg: rgb(31, 30, 29);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Newsreader", "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 32px;
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.author-name {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.header-controls {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ctrl-btn {
+  background: none;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  font-family: "Newsreader", "Times New Roman", serif;
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.ctrl-btn:hover {
+  opacity: 1;
+}
+
+/* Layout */
+.essay-layout {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  gap: 64px;
+}
+
+/* Main content */
+.essay-content {
+  flex: 1;
+  max-width: 680px;
+}
+
+.essay-content h1 {
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0 0 12px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 0 12px 0;
+  opacity: 0.8;
+}
+
+.date {
+  font-size: 16px;
+  margin: 0 0 32px 0;
+  opacity: 0.6;
+}
+
+.essay-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 48px 0 16px 0;
+  line-height: 1.3;
+}
+
+.essay-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 36px 0 12px 0;
+  line-height: 1.3;
+}
+
+.essay-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 32px 0 12px 0;
+  line-height: 1.3;
+  font-style: italic;
+}
+
+.essay-content p {
+  margin: 0 0 20px 0;
+}
+
+.essay-content em {
+  font-style: italic;
+}
+
+.essay-content strong {
+  font-weight: 600;
+}
+
+.essay-content ul,
+.essay-content ol {
+  margin: 0 0 20px 0;
+  padding-left: 24px;
+}
+
+.essay-content li {
+  margin-bottom: 8px;
+}
+
+.essay-content blockquote {
+  border-left: 3px solid var(--fg);
+  margin: 24px 0;
+  padding: 0 0 0 20px;
+  opacity: 0.85;
+}
+
+.essay-content a {
+  color: var(--fg);
+  text-decoration: underline;
+}
+
+.essay-content hr {
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  margin: 40px 0;
+}
+
+.essay-content pre {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 16px 20px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+.essay-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.essay-content :not(pre) > code {
+  background: rgba(0, 0, 0, 0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.essay-content table {
+  border-collapse: collapse;
+  margin: 0 0 20px 0;
+  width: 100%;
+  font-size: 17px;
+}
+
+.essay-content th,
+.essay-content td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.essay-content th {
+  font-weight: 600;
+}
+
+.footnotes {
+  font-size: 16px;
+  opacity: 0.85;
+  margin-top: 32px;
+}
+
+.footnotes li {
+  margin-bottom: 6px;
+}
+
+/* Mobile */
+@media (max-width: 860px) {
+  .essay-layout {
+    padding: 32px 20px;
+    gap: 0;
+  }
+
+  .essay-content {
+    max-width: 100%;
+  }
+
+  .essay-content h1 {
+    font-size: 36px;
+  }
+
+  .site-header {
+    padding: 16px 20px;
+  }
+
+  .header-controls {
+    right: 20px;
+    gap: 10px;
+  }
+}
+
+/* Print */
+@media print {
+  @page {
+    margin: 0.75in;
+  }
+
+  body {
+    background: none;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.45;
+    min-height: 0;
+  }
+
+  .site-header,
+  .header-controls {
+    display: none !important;
+  }
+
+  .essay-layout {
+    display: block;
+    max-width: none;
+    padding: 0;
+    gap: 0;
+  }
+
+  .essay-content {
+    max-width: 6.5in;
+    margin: 0 auto;
+  }
+
+  .essay-content h1 {
+    font-size: 22pt;
+    line-height: 1.15;
+    margin: 0 0 6pt 0;
+  }
+
+  .subtitle {
+    font-size: 12pt;
+    margin: 0 0 6pt 0;
+    opacity: 1;
+  }
+
+  .date {
+    font-size: 10pt;
+    margin: 0 0 18pt 0;
+    opacity: 1;
+  }
+
+  .essay-content h2 {
+    font-size: 16pt;
+    margin: 20pt 0 6pt 0;
+    line-height: 1.25;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .essay-content h3 {
+    font-size: 13pt;
+    margin: 16pt 0 4pt 0;
+    line-height: 1.25;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .essay-content h4 {
+    font-size: 12pt;
+    margin: 14pt 0 4pt 0;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .essay-content p {
+    margin: 0 0 8pt 0;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .essay-content ul,
+  .essay-content ol {
+    margin: 0 0 8pt 0;
+  }
+
+  .essay-content li {
+    margin-bottom: 3pt;
+  }
+
+  .essay-content blockquote {
+    margin: 10pt 0;
+    padding-left: 14pt;
+    border-left-color: #000;
+    opacity: 1;
+  }
+
+  .essay-content hr {
+    margin: 18pt 0;
+  }
+
+  .essay-content a {
+    color: #000;
+  }
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <span class="author-name">Bok Center</span>
+    <div class="header-controls">
+      <button type="button" class="ctrl-btn" id="print-btn">Print</button>
+      <button type="button" class="ctrl-btn" id="copy-btn">Copy MD</button>
+    </div>
+  </header>
+
+  <main class="essay-layout">
+    <article class="essay-content">
+      <h1>Day 1 (8 June 2026) — Top 10 Key Takeaways</h1>
+      <p class="subtitle">Distilled from the diarized session transcript (<a href="../inputs/20260608-transcript.md"><code>20260608-transcript.md</code></a>), Chunks 1–9 (~13:24–14:53). Instructors: Madeleine (MW), Marlon (MK), with the executive-director demo from Becca and questions from Jonah, Ian, Christine, Jordan, and Jungyoon, among others.</p>
+
+      <hr>
+      <ol>
+        <li><strong>"Strings in, strings of numbers out" — that is all an LLM is.</strong> The day's most repeated mantra. The Tiktokenizer demo on <code>unhappily</code> (split into <code>un</code> + <code>app</code> + <code>ily</code>) makes it visceral: language gets chopped into chunks "no human decided," reduced to integers, and the model predicts more integers. The intuition this builds: it is a "very inhuman sort of machine" that mimics patterns of human knowledge — and everything downstream (memory, the system prompt, skills, even <code>/compact</code>) is just more text.</li>
+        <li><strong>LLMs recognize patterns but cannot actually calculate — so make them call a tool.</strong> The five-digit × five-digit demo: the first three digits, last three digits, and order of magnitude come out right; the middle is hallucinated. Marlon's line: it's "close to truth, capable of persuading you that they are true if you're not careful." Ask for a Python function and it nails it — "we're really leveraging what it's trained to do well." The LLM-alone-vs.-LLM-plus-tool pattern recurs everywhere.</li>
+        <li><strong>It will be confidently — and sycophantically — wrong.</strong> The live <em>Coriolanus</em> close-reading demo: Claude insists Act 1 Scene 9 doesn't exist, then ("I apologize. I'm so sorry. You're totally right") flips and analyzes it once the scene is pasted in. Hallucination plus sycophancy on stage. This is the naïve "do my homework" failure mode faculty most need to internalize.</li>
+        <li><strong>Don't ask for an <em>image</em> of a data viz — ask for an interactive artifact and attach the CSV.</strong> The population-pyramid contrast: a diffusion model produces something pretty but wrong (pixels, not data); Claude artifacts open code tools, read the CSV's structure, and generate an actual interactive. As Marlon put it for the recipe-website moment later: "you don't need to know code at all, you just need to know to ask for an HTML doc." Same logic as Python for math — route the task to the tool that does it well.</li>
+        <li><strong>The "light at the end of the tunnel" is Becca's demos — what faculty can actually build.</strong> A Monty Hall lesson auto-assembled from her existing course materials into the new LXP (video clip → quiz → vibe-coded interactive → reveal clip). Handwriting grading on in-class assessments, where Claude reads the student's diagonal cross-outs and <code>UUURRR</code> lattice notation, and gets it wrong "at a lesser rate than my TFs." A blackboard-video lecture transcribed and turned into course notes. The point of the failure demos is to make these results legible — not to scare people off.</li>
+        <li><strong>The context window = Memento (or "a brilliant student who hasn't done the reading").</strong> Every new chat is amnesiac. What loads first and invisibly: the <strong>system prompt</strong> (Anthropic publishes theirs — safety plus style; "you can't edit it"), then <strong>memory</strong> (also just text — a file you can toggle on). Then your prompts and Claude's responses pile in until you hit the wall: ~200K tokens for older models, 1M for the newer ones. Marlon's alternative metaphor for the non-Memento-watchers: don't let the brilliant student fill the window with smart-sounding stuff that isn't grounded in your reading.</li>
+        <li><strong>Primacy, recency, and "context rot" — the middle of a long thread quietly loses weight.</strong> The first tokens (system prompt) and the most recent instruction pull the most weight; everything in between degrades as the window grows. The practical move: refresh aggressively — start new chats, run <code>/compact</code> before you have to, and shift the ratio toward your own vetted, high-signal context so Claude isn't dominating the conversation with its own long outputs.</li>
+        <li><strong>Cowork's killer feature is local-file access — and its main risk is yes-fatigue.</strong> Chat (cloud-only) can't touch your files; Cowork and Code can read and write them. Point Cowork at one specific folder (subfolders are included — "I wouldn't give it access to my desktop or, you know, my root drive"). And watch the permission prompts: the Homer-Simpson-at-the-reactor warning — Claude will keep asking until you stop reading and just click yes. Create a dedicated <code>Development/</code> folder so the system-wide pop-up stops creeping you out.</li>
+        <li><strong>The recipe-cards demo is the whole workshop in five minutes.</strong> Point Cowork at a folder of weirdly-named recipe photos; ask it to rename each by what's actually on the card, write a markdown doc of the recipe, add historical context on the dish, and finally produce "one single stylish HTML file" embedding all of them. In one prompt: batch file ops + image reading + transcription + creative writing + HTML output. Marlon's pitch — translate the same move to syllabi, manuscripts, marginalia, blackboard photos, a teaching journal.</li>
+        <li><strong>The recipe mental model — ingredients (context) + instructions (prompt) → dish (output).</strong> The day's closing analogy and the take-home homework: when you plan a project, list the ingredients you'd hand a "brilliant student who hasn't done the reading" (syllabus, readings, P-sets, course videos), specify the output precisely (a new file? slides plus a lecture script?), and write the prompts that connect them. Skills, scripts, and tools — coming on later days — are just ways of packaging the same recipe so you stop copy-pasting.</li>
+      </ol>
+      <hr>
+      <h2>Secondary points worth keeping</h2>
+      <ul>
+        <li><strong>Model tiers.</strong> Opus 4.8 (most capable, slowest, priciest); Sonnet 4.6 (workhorse); Haiku (cheapest). You can also dial reasoning effort high → low for speed during demos.</li>
+        <li><strong>Markdown is the lingua franca</strong> for feeding context — also HTML and other structured formats. Matthew Schwartz's online interactive physics textbook is the scale-up example.</li>
+        <li><strong>"Coding is just reading and writing files."</strong> Said in passing while introducing GitHub, but it's the frame that lets non-coders work in Cowork and Code without flinching.</li>
+        <li><strong>"You are X" is the speaker-audience inversion.</strong> With an LLM you're at "interaction zero" — the LLM is the speaker, you set the role and the form. ChatGPT's original "You are a helpful assistant" is the ur-version.</li>
+        <li><strong>Chain prompts, and draft prompts with another LLM.</strong> Translation courses use this: produce a draft, ask "what are the top five problems with this," then fix. Madeleine grows a "super prompt" inside one chat, then starts a fresh chat with it.</li>
+        <li><strong>Compaction sands off rough edges.</strong> As Claude summarizes its own context to keep going, your original vision drifts — worth flagging for academics and creatives.</li>
+        <li><strong>"Ten top tips from yesterday" is the model for your own course materials.</strong> Hand students the curated repo and let Claude be their index — grounding their learning in context you've vetted.</li>
+        <li><strong>3D / spatial layout is still weak.</strong> Madeleine still hand-edits XY coordinates in vibe-coded frontends.</li>
+        <li><strong><code>/compact</code> is editable.</strong> Madeleine wrote her own <code>/mw-compact</code> slash command because she disagrees with some of Anthropic's defaults.</li>
+        <li><strong>Sycophancy is a feature of training, not a bug</strong> — flag for faculty so they don't read "you're absolutely right" as confirmation.</li>
+      </ul>
+    </article>
+  </main>
+
+  <script type="text/x-markdown-source" id="source-md"># Day 1 (8 June 2026) — Top 10 Key Takeaways
+
+_Distilled from the diarized session transcript ([`20260608-transcript.md`](../inputs/20260608-transcript.md)), Chunks 1–9 (~13:24–14:53). Instructors: Madeleine (MW), Marlon (MK), with the executive-director demo from Becca and questions from Jonah, Ian, Christine, Jordan, and Jungyoon, among others._
+
+---
+
+1. **"Strings in, strings of numbers out" — that is all an LLM is.** The day's most repeated mantra. The Tiktokenizer demo on `unhappily` (split into `un` + `app` + `ily`) makes it visceral: language gets chopped into chunks "no human decided," reduced to integers, and the model predicts more integers. The intuition this builds: it is a "very inhuman sort of machine" that mimics patterns of human knowledge — and everything downstream (memory, the system prompt, skills, even `/compact`) is just more text.
+
+2. **LLMs recognize patterns but cannot actually calculate — so make them call a tool.** The five-digit × five-digit demo: the first three digits, last three digits, and order of magnitude come out right; the middle is hallucinated. Marlon's line: it's "close to truth, capable of persuading you that they are true if you're not careful." Ask for a Python function and it nails it — "we're really leveraging what it's trained to do well." The LLM-alone-vs.-LLM-plus-tool pattern recurs everywhere.
+
+3. **It will be confidently — and sycophantically — wrong.** The live *Coriolanus* close-reading demo: Claude insists Act 1 Scene 9 doesn't exist, then ("I apologize. I'm so sorry. You're totally right") flips and analyzes it once the scene is pasted in. Hallucination plus sycophancy on stage. This is the naïve "do my homework" failure mode faculty most need to internalize.
+
+4. **Don't ask for an *image* of a data viz — ask for an interactive artifact and attach the CSV.** The population-pyramid contrast: a diffusion model produces something pretty but wrong (pixels, not data); Claude artifacts open code tools, read the CSV's structure, and generate an actual interactive. As Marlon put it for the recipe-website moment later: "you don't need to know code at all, you just need to know to ask for an HTML doc." Same logic as Python for math — route the task to the tool that does it well.
+
+5. **The "light at the end of the tunnel" is Becca's demos — what faculty can actually build.** A Monty Hall lesson auto-assembled from her existing course materials into the new LXP (video clip → quiz → vibe-coded interactive → reveal clip). Handwriting grading on in-class assessments, where Claude reads the student's diagonal cross-outs and `UUURRR` lattice notation, and gets it wrong "at a lesser rate than my TFs." A blackboard-video lecture transcribed and turned into course notes. The point of the failure demos is to make these results legible — not to scare people off.
+
+6. **The context window = Memento (or "a brilliant student who hasn't done the reading").** Every new chat is amnesiac. What loads first and invisibly: the **system prompt** (Anthropic publishes theirs — safety plus style; "you can't edit it"), then **memory** (also just text — a file you can toggle on). Then your prompts and Claude's responses pile in until you hit the wall: ~200K tokens for older models, 1M for the newer ones. Marlon's alternative metaphor for the non-Memento-watchers: don't let the brilliant student fill the window with smart-sounding stuff that isn't grounded in your reading.
+
+7. **Primacy, recency, and "context rot" — the middle of a long thread quietly loses weight.** The first tokens (system prompt) and the most recent instruction pull the most weight; everything in between degrades as the window grows. The practical move: refresh aggressively — start new chats, run `/compact` before you have to, and shift the ratio toward your own vetted, high-signal context so Claude isn't dominating the conversation with its own long outputs.
+
+8. **Cowork's killer feature is local-file access — and its main risk is yes-fatigue.** Chat (cloud-only) can't touch your files; Cowork and Code can read and write them. Point Cowork at one specific folder (subfolders are included — "I wouldn't give it access to my desktop or, you know, my root drive"). And watch the permission prompts: the Homer-Simpson-at-the-reactor warning — Claude will keep asking until you stop reading and just click yes. Create a dedicated `Development/` folder so the system-wide pop-up stops creeping you out.
+
+9. **The recipe-cards demo is the whole workshop in five minutes.** Point Cowork at a folder of weirdly-named recipe photos; ask it to rename each by what's actually on the card, write a markdown doc of the recipe, add historical context on the dish, and finally produce "one single stylish HTML file" embedding all of them. In one prompt: batch file ops + image reading + transcription + creative writing + HTML output. Marlon's pitch — translate the same move to syllabi, manuscripts, marginalia, blackboard photos, a teaching journal.
+
+10. **The recipe mental model — ingredients (context) + instructions (prompt) → dish (output).** The day's closing analogy and the take-home homework: when you plan a project, list the ingredients you'd hand a "brilliant student who hasn't done the reading" (syllabus, readings, P-sets, course videos), specify the output precisely (a new file? slides plus a lecture script?), and write the prompts that connect them. Skills, scripts, and tools — coming on later days — are just ways of packaging the same recipe so you stop copy-pasting.
+
+---
+
+## Secondary points worth keeping
+
+- **Model tiers.** Opus 4.8 (most capable, slowest, priciest); Sonnet 4.6 (workhorse); Haiku (cheapest). You can also dial reasoning effort high → low for speed during demos.
+- **Markdown is the lingua franca** for feeding context — also HTML and other structured formats. Matthew Schwartz's online interactive physics textbook is the scale-up example.
+- **"Coding is just reading and writing files."** Said in passing while introducing GitHub, but it's the frame that lets non-coders work in Cowork and Code without flinching.
+- **"You are X" is the speaker-audience inversion.** With an LLM you're at "interaction zero" — the LLM is the speaker, you set the role and the form. ChatGPT's original "You are a helpful assistant" is the ur-version.
+- **Chain prompts, and draft prompts with another LLM.** Translation courses use this: produce a draft, ask "what are the top five problems with this," then fix. Madeleine grows a "super prompt" inside one chat, then starts a fresh chat with it.
+- **Compaction sands off rough edges.** As Claude summarizes its own context to keep going, your original vision drifts — worth flagging for academics and creatives.
+- **"Ten top tips from yesterday" is the model for your own course materials.** Hand students the curated repo and let Claude be their index — grounding their learning in context you've vetted.
+- **3D / spatial layout is still weak.** Madeleine still hand-edits XY coordinates in vibe-coded frontends.
+- **`/compact` is editable.** Madeleine wrote her own `/mw-compact` slash command because she disagrees with some of Anthropic's defaults.
+- **Sycophancy is a feature of training, not a bug** — flag for faculty so they don't read "you're absolutely right" as confirmation.
+</script>
+
+  <script>
+    (function () {
+      var copyBtn = document.getElementById('copy-btn');
+      var printBtn = document.getElementById('print-btn');
+      var src = document.getElementById('source-md');
+
+      printBtn.addEventListener('click', function () {
+        window.print();
+      });
+
+      copyBtn.addEventListener('click', function () {
+        var text = src.textContent;
+        var done = function () {
+          var prev = copyBtn.textContent;
+          copyBtn.textContent = 'Copied';
+          setTimeout(function () { copyBtn.textContent = prev === 'Copied' ? 'Copy MD' : prev; }, 2000);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, function () {
+            fallbackCopy(text); done();
+          });
+        } else {
+          fallbackCopy(text); done();
+        }
+      });
+
+      function fallbackCopy(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+    })();
+  </script>
+</body>
+</html>

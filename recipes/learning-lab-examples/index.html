@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning Lab Examples — Faculty Recipes for Claude Code & Cowork</title>
+<style>
+  :root {
+    --ink: #1c1a17;
+    --muted: #5e574d;
+    --line: #e3dccf;
+    --bg: #faf7f1;
+    --card: #ffffff;
+    --accent: #8c1515;      /* crimson */
+    --accent-soft: #f3e7e7;
+    --chip: #efe9dd;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 56px 24px 80px; }
+  header.page { border-bottom: 2px solid var(--line); padding-bottom: 28px; margin-bottom: 40px; }
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 { font-size: 34px; line-height: 1.2; margin: 0 0 14px; letter-spacing: -.01em; }
+  .lede { font-size: 18px; color: var(--muted); margin: 0; max-width: 70ch; }
+  .meta { margin-top: 18px; font-size: 14px; color: var(--muted); }
+
+  .grid { display: grid; gap: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px 28px;
+    box-shadow: 0 1px 2px rgba(28,26,23,.04);
+  }
+  .card h2 { font-size: 22px; margin: 0 0 4px; }
+  .card .path { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; color: var(--accent); margin: 0 0 14px; }
+  .card p { margin: 0 0 14px; color: #2c2822; }
+  .card p.scenario { color: var(--muted); font-style: italic; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  .chip {
+    background: var(--chip);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .flow {
+    display: grid;
+    gap: 10px;
+    margin: 0 0 4px;
+    padding: 16px 18px;
+    background: var(--bg);
+    border: 1px dashed var(--line);
+    border-radius: 10px;
+  }
+  .flow div { font-size: 14px; }
+  .flow .label { font-weight: 700; color: var(--accent); display: inline-block; min-width: 92px; }
+  .takeaway { margin-top: 16px; font-size: 14.5px; color: #2c2822; }
+  .takeaway strong { color: var(--ink); }
+
+  .why { background: var(--accent-soft); border: 1px solid #e6cccc; border-radius: 12px; padding: 22px 26px; margin-bottom: 40px; }
+  .why h3 { margin: 0 0 8px; font-size: 16px; color: var(--accent); }
+  .why p { margin: 0; color: #4a2222; }
+
+  footer { margin-top: 56px; border-top: 1px solid var(--line); padding-top: 22px; font-size: 13.5px; color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page">
+    <p class="kicker">Harvard Bok Center · Learning Lab</p>
+    <h1>Faculty Recipes for Claude Code &amp; Cowork</h1>
+    <p class="lede">
+      Four worked examples of how instructors and course staff can use an LLM
+      harness — Claude Code or Cowork — to take real teaching and research tasks
+      off their plate. Each is a small, self-contained project: source files go in
+      <code>inputs/</code>, the prompt or command lives in
+      <code>operations-tools-commands/</code>, and the finished artifact lands in
+      <code>outputs/</code>.
+    </p>
+    <p class="meta">A reference set for workshops · drawn largely from GENED 1104 “Science &amp; Cooking”</p>
+  </header>
+
+  <div class="why">
+    <h3>The shared pattern</h3>
+    <p>
+      Every example follows the same shape: gather the real materials you already
+      have (a syllabus, past exams, papers, a recording), tell Claude who it is and
+      what “good” looks like, and let it produce a draft you review. The point isn’t
+      automation — it’s a knowledgeable first pass that keeps your judgment in the loop.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <!-- class-schedule-conflict -->
+    <section class="card">
+      <h2>1 · Resolving a Schedule Conflict</h2>
+      <p class="path">class-schedule-conflict/</p>
+      <div class="chips">
+        <span class="chip">Course planning</span>
+        <span class="chip">Trade-off analysis</span>
+        <span class="chip">One-shot prompt</span>
+      </div>
+      <p class="scenario">
+        “My guest lecturer from Flour Bakery can only come on the 30th — but
+        something’s already scheduled that day. What do I do?”
+      </p>
+      <p>
+        Claude is given the full course schedule and syllabus, then asked to find the
+        conflict, weigh 2–3 concrete fixes against their <em>pedagogical</em>
+        trade-offs (does moving a session break a topic sequence?), recommend one, and
+        draft a revised schedule in the original format.
+      </p>
+      <div class="flow">
+        <div><span class="label">Inputs</span> course schedule + syllabus (Markdown)</div>
+        <div><span class="label">Operation</span> a single planning prompt</div>
+        <div><span class="label">Outputs</span> revised-schedule.md / .html</div>
+      </div>
+      <p class="takeaway">
+        <strong>Why it’s a good example:</strong> shows Claude reasoning about
+        teaching priorities, not just shuffling calendar cells — and producing a
+        usable, formatted artifact in one pass.
+      </p>
+    </section>
+
+    <!-- makeup-exams -->
+    <section class="card">
+      <h2>2 · Generating a Makeup Exam</h2>
+      <p class="path">makeup-exams/</p>
+      <div class="chips">
+        <span class="chip">Assessment</span>
+        <span class="chip">Reads PDFs &amp; DOCX</span>
+        <span class="chip">CLAUDE.md persona</span>
+        <span class="chip">Grading rubric</span>
+      </div>
+      <p class="scenario">
+        “A student missed Midterm 2. I need a fresh exam at the same difficulty —
+        plus an answer key my TFs can grade from.”
+      </p>
+      <p>
+        Claude reads several years of past midterms and keys to <em>calibrate</em>
+        difficulty, format, and the course’s signature culinary framing, then writes a
+        brand-new exam (no reused questions) and a separate answer key with
+        partial-credit rubrics. A <code>CLAUDE.md</code> casts it as a TA who knows the
+        course and must err toward the harder side.
+      </p>
+      <div class="flow">
+        <div><span class="label">Inputs</span> syllabus + a folder of past exams/keys</div>
+        <div><span class="label">Operation</span> generate exam, then key, in separate passes</div>
+        <div><span class="label">Outputs</span> makeup-exam + answer-key (.md / .html)</div>
+      </div>
+      <p class="takeaway">
+        <strong>Why it’s a good example:</strong> calibration from real artifacts,
+        a project-level persona via <code>CLAUDE.md</code>, and a deliberate
+        separation of exam from key so answers don’t leak into the questions.
+      </p>
+    </section>
+
+    <!-- research_helper -->
+    <section class="card">
+      <h2>3 · Research Summaries with a Pedagogical Twist</h2>
+      <p class="path">research_helper/</p>
+      <div class="chips">
+        <span class="chip">Research synthesis</span>
+        <span class="chip">Batch processing</span>
+        <span class="chip">Self-contained HTML</span>
+        <span class="chip">Linked index</span>
+      </div>
+      <p class="scenario">
+        “Turn this stack of arXiv papers into readable summaries — and tell me, honestly,
+        what each one means for using LLMs in teaching and research.”
+      </p>
+      <p>
+        For each paper Claude writes a faithful neutral summary (claims, method,
+        evidence, limitations) and then, as a distinct pass, “the twist”: an honest
+        bridge to the research agenda — explicitly saying <em>“this doesn’t transfer”</em>
+        when that’s the truthful reading. Every file is portable HTML, and an
+        <code>index.html</code> hub links them all.
+      </p>
+      <div class="flow">
+        <div><span class="label">Inputs</span> arXiv PDFs + markdown extracts</div>
+        <div><span class="label">Operation</span> summarize each, build a linking index</div>
+        <div><span class="label">Outputs</span> one HTML per paper + index.html hub</div>
+      </div>
+      <p class="takeaway">
+        <strong>Why it’s a good example:</strong> faithfulness over relevance —
+        Claude is instructed to mark speculation and resist overstating, exactly the
+        discipline scholarly synthesis needs.
+      </p>
+    </section>
+
+    <!-- day-1-summary -->
+    <section class="card">
+      <h2>4 · “Top Tips” from a Workshop Recording</h2>
+      <p class="path">day-1-summary/</p>
+      <div class="chips">
+        <span class="chip">Transcription</span>
+        <span class="chip">Shell + API</span>
+        <span class="chip">Distillation</span>
+        <span class="chip">Audience-aware writing</span>
+      </div>
+      <p class="scenario">
+        “We recorded Day 1 of the workshop. Pull out the durable advice — not a
+        play-by-play of the demos.”
+      </p>
+      <p>
+        A bundled shell script chunks the recording and transcribes it with
+        diarization in parallel; Claude then reads the noisy transcript and distills
+        ~10–15 <em>principles</em> for non-engineer faculty, using demos only as
+        illustration and preserving every caveat about data sensitivity faithfully.
+      </p>
+      <div class="flow">
+        <div><span class="label">Inputs</span> diarized session transcript</div>
+        <div><span class="label">Operation</span> transcribe (script) → distill tips (prompt)</div>
+        <div><span class="label">Outputs</span> day-1-top-tips.md / .html</div>
+      </div>
+      <p class="takeaway">
+        <strong>Why it’s a good example:</strong> pairs a real tool (a transcription
+        script) with careful prompt design — extract the mental models, not the
+        minutes — and writes for a specific, non-technical audience.
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    Each folder runs on its own. Open its
+    <code>operations-tools-commands/</code> file for the exact prompt or command,
+    drop your materials into <code>inputs/</code>, and review what Claude writes to
+    <code>outputs/</code>. The throughline across all four: keep human judgment in
+    the loop — the harness extends the instructor, it doesn’t replace them.
+  </footer>
+
+</div>
+</body>
+</html>
