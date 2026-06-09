@@ -1,0 +1,16 @@
+assessment,column_key,week,date,weight_pct,max_points,type,counts_toward,notes
+Mini-Exam,Mini-Exam,2,2025-09-12,5,100,exam,Mini-Exam,"Early diagnostic; first timed assessment. Lowest-stakes exam — meant as a calibration check, not a verdict."
+Problem Set 1,PS1,1,2025-09-16,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 2,PS2,2,2025-09-19,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 3,PS3,3,2025-09-26,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 4,PS4,4,2025-10-03,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 5,PS5,5,2025-10-10,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 6,PS6,6,2025-10-17,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 7,PS7,7,2025-10-24,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 8,PS8,8,2025-10-31,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 9,PS9,9,2025-11-07,3,100,homework,Problem Sets,Weekly problem set.
+Problem Set 10,PS10,10,2025-11-14,3,100,homework,Problem Sets,Weekly problem set.
+Midterm 1,Midterm1,5,2025-10-07,15,100,exam,Midterm 1,Covers vectors / curves / partial derivatives (Units 1-2).
+Midterm 2,Midterm2,10,2025-11-11,15,100,exam,Midterm 2,Covers multiple integrals / vector fields (Units 3-4).
+Participation,Participation,14,2025-12-02,5,100,participation,Participation,Section attendance and in-class polling across the term.
+Final Exam,Final,16,2025-12-15,30,100,exam,Final Exam,Cumulative; scheduled in the December exam period.
