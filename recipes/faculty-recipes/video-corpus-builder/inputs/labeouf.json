@@ -1,0 +1,175 @@
+{
+  "startEpoch": 1781017958,
+  "segments": [
+    {
+      "type": "transcript.text.segment",
+      "text": " Just do it.",
+      "speaker": "A",
+      "start": 5.748,
+      "end": 7.248,
+      "id": "seg_0",
+      "absoluteStartEpoch": 1781017963,
+      "absoluteEndEpoch": 1781017965
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Don't let your dreams be dreams.",
+      "speaker": "A",
+      "start": 8.698,
+      "end": 10.748000000000001,
+      "id": "seg_1",
+      "absoluteStartEpoch": 1781017966,
+      "absoluteEndEpoch": 1781017968
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Yesterday you said tomorrow.",
+      "speaker": "A",
+      "start": 11.597999999999999,
+      "end": 13.398,
+      "id": "seg_2",
+      "absoluteStartEpoch": 1781017969,
+      "absoluteEndEpoch": 1781017971
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " So just do it. Make your dreams come true.",
+      "speaker": "A",
+      "start": 13.498,
+      "end": 17.748,
+      "id": "seg_3",
+      "absoluteStartEpoch": 1781017971,
+      "absoluteEndEpoch": 1781017975
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Just do it.",
+      "speaker": "A",
+      "start": 18.048000000000002,
+      "end": 20.048000000000002,
+      "id": "seg_4",
+      "absoluteStartEpoch": 1781017976,
+      "absoluteEndEpoch": 1781017978
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Some people dream success while you're going to wake up and work hard at it. Nothing is impossible.",
+      "speaker": "A",
+      "start": 22.798000000000002,
+      "end": 28.148000000000003,
+      "id": "seg_5",
+      "absoluteStartEpoch": 1781017980,
+      "absoluteEndEpoch": 1781017986
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " You should get to the point where anyone else would quit,",
+      "speaker": "A",
+      "start": 30.708,
+      "end": 34.108,
+      "id": "seg_6",
+      "absoluteStartEpoch": 1781017988,
+      "absoluteEndEpoch": 1781017992
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " and you're not going to stop there.",
+      "speaker": "A",
+      "start": 34.158,
+      "end": 35.808,
+      "id": "seg_7",
+      "absoluteStartEpoch": 1781017992,
+      "absoluteEndEpoch": 1781017993
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " No,",
+      "speaker": "A",
+      "start": 36.458,
+      "end": 37.007999999999996,
+      "id": "seg_8",
+      "absoluteStartEpoch": 1781017994,
+      "absoluteEndEpoch": 1781017995
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " what are you waiting for?",
+      "speaker": "A",
+      "start": 37.108,
+      "end": 38.157999999999994,
+      "id": "seg_9",
+      "absoluteStartEpoch": 1781017995,
+      "absoluteEndEpoch": 1781017996
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Do it!",
+      "speaker": "A",
+      "start": 39.507999999999996,
+      "end": 40.308,
+      "id": "seg_10",
+      "absoluteStartEpoch": 1781017997,
+      "absoluteEndEpoch": 1781017998
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Just do it!",
+      "speaker": "A",
+      "start": 42.158,
+      "end": 45.007999999999996,
+      "id": "seg_11",
+      "absoluteStartEpoch": 1781018000,
+      "absoluteEndEpoch": 1781018003
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Yes, you can!",
+      "speaker": "A",
+      "start": 45.257999999999996,
+      "end": 46.408,
+      "id": "seg_12",
+      "absoluteStartEpoch": 1781018003,
+      "absoluteEndEpoch": 1781018004
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Just do it!",
+      "speaker": "A",
+      "start": 47.158,
+      "end": 48.30799999999999,
+      "id": "seg_13",
+      "absoluteStartEpoch": 1781018005,
+      "absoluteEndEpoch": 1781018006
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " If you're tired of starting over,",
+      "speaker": "A",
+      "start": 52.858,
+      "end": 54.608,
+      "id": "seg_14",
+      "absoluteStartEpoch": 1781018010,
+      "absoluteEndEpoch": 1781018012
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " stop.",
+      "speaker": "A",
+      "start": 55.108,
+      "end": 56.007999999999996,
+      "id": "seg_15",
+      "absoluteStartEpoch": 1781018013,
+      "absoluteEndEpoch": 1781018014
+    },
+    {
+      "type": "transcript.text.segment",
+      "text": " Giving up.",
+      "speaker": "A",
+      "start": 56.532,
+      "end": 57.831999999999994,
+      "id": "seg_16",
+      "absoluteStartEpoch": 1781018014,
+      "absoluteEndEpoch": 1781018015
+    }
+  ]
+}

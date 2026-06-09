@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Corpus Builder</title>
+  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header>
+    <a href="#" id="home-link"><h1>Video Corpus</h1></a>
+    <nav>
+      <button id="nav-search" class="nav-btn active" data-view="search">Search</button>
+      <button id="nav-freq" class="nav-btn" data-view="freq">Frequency</button>
+      <button id="nav-videos" class="nav-btn" data-view="videos">Videos</button>
+    </nav>
+  </header>
+
+  <!-- VIDEOS VIEW -->
+  <section id="view-videos" class="view" hidden>
+    <p class="muted">Open a full video to watch it and click through every segment.</p>
+    <div id="video-list"></div>
+  </section>
+
+  <!-- SEARCH VIEW -->
+  <section id="view-search" class="view">
+    <form id="search-form" class="controls">
+      <input type="text" id="query" placeholder="Search a word..." autocomplete="off">
+      <label class="toggle">
+        <select id="mode">
+          <option value="lemma">Lemma</option>
+          <option value="exact">Exact</option>
+        </select>
+      </label>
+      <select id="filter-video"><option value="">All videos</option></select>
+      <select id="filter-gender" class="meta-filter" data-field="gender" hidden></select>
+      <select id="filter-age_group" class="meta-filter" data-field="age_group" hidden></select>
+      <select id="filter-region" class="meta-filter" data-field="region" hidden></select>
+      <button type="submit">Search</button>
+    </form>
+    <p id="result-count" class="muted"></p>
+    <table id="results">
+      <thead>
+        <tr><th>Video</th><th>Line</th><th>Speaker</th><th>Start</th>
+            <th class="pre">Pre</th><th class="match">Match</th><th class="post">Post</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- FREQUENCY VIEW -->
+  <section id="view-freq" class="view" hidden>
+    <div class="freq-layout">
+      <div id="lemma-list" class="lemma-list"></div>
+      <div id="lemma-detail" class="lemma-detail"><p class="muted">Select a lemma.</p></div>
+    </div>
+  </section>
+
+  <!-- PLAYER VIEW -->
+  <section id="view-player" class="view" hidden>
+    <button id="back-btn">&larr; Back</button>
+    <h2 id="player-title"></h2>
+    <div id="player-host"></div>
+    <div id="transcript"></div>
+  </section>
+
+  <script src="corpus-data.js"></script>
+  <script src="app.js?v=11"></script>
+</body>
+</html>

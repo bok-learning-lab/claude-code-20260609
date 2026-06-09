@@ -1,0 +1,42 @@
+{
+  "_comment": "Describes the demo corpus for build_corpus.py. Four records: three local clips of the same speech by different speakers (Mode A) plus the YouTube original (Mode B), so both player paths are exercised from one data file. Run: python3 operations/scripts/build_corpus.py --manifest inputs/corpus.manifest.json",
+  "lang": "en",
+  "videos": [
+    {
+      "source_id": "madeleine",
+      "title": "Just Do It — Madeleine Woods (local clip)",
+      "srt": "madeleine.srt",
+      "video": "madeleine.mp4",
+      "_note": "This .srt was generated from madeleine.json with millisecond precision (operations/scripts/diarize_to_srt.py). To ingest the diarized JSON directly instead, replace the \"srt\" line with: \"diarize_json\": \"madeleine.json\" — both produce identical timestamps and speaker labels.",
+      "scene_meta": { "setting": "green-screen studio", "topic": "motivation" }
+    },
+    {
+      "source_id": "jonah",
+      "title": "Just Do It — Jonah Johnson (local clip)",
+      "srt": "jonah.srt",
+      "video": "jonah.mp4",
+      "scene_meta": { "setting": "green-screen studio", "topic": "motivation" }
+    },
+    {
+      "source_id": "jungyoon",
+      "title": "Just Do It — Jungyoon Koh (local clip)",
+      "srt": "jungyoon.srt",
+      "video": "jungyoon.mp4",
+      "scene_meta": { "setting": "green-screen studio", "topic": "motivation" }
+    },
+    {
+      "source_id": "labeouf",
+      "title": "Just Do It — Shia LaBoeuf (original, YouTube)",
+      "srt": "labeouf.srt",
+      "youtube_id": "ZXsQAXx_ao0",
+      "_note": "labeouf.srt was generated from labeouf.json (operations/scripts/transcribe_parallel diarization of labeouf.mp4) — a clean diarized transcript, not YouTube's rolling auto-captions.",
+      "scene_meta": { "setting": "green-screen studio", "topic": "motivation" }
+    }
+  ],
+  "speakers": {
+    "madeleine:A": { "label": "Madeleine Woods", "role": "speaker", "region": "US" },
+    "jonah:A": { "label": "Jonah Johnson", "role": "speaker", "region": "US" },
+    "jungyoon:A": { "label": "Jungyoon Koh", "role": "speaker", "region": "US" },
+    "labeouf:A": { "label": "Shia LaBoeuf", "role": "speaker", "region": "US" }
+  }
+}

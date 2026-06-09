@@ -1,0 +1,16 @@
+# Python bytecode from the pipeline
+__pycache__/
+*.pyc
+
+# Local-only tooling artifacts (browser-automation logs, local settings)
+.playwright-mcp/
+.claude/settings.local.json
+
+# Intermediate audio + chunk files produced by operations/transcribe_parallel
+# (the *_diarize.md / *_diarize.json transcripts are kept; the audio is not)
+*.mp3
+inputs/**/*_chunk_*.json
+.chunk_*_result.json
+
+# We DO commit the worked-example data so the demo is runnable out of the box:
+#   outputs/corpus.json, outputs/corpus-data.js, the sample videos and .srt files
