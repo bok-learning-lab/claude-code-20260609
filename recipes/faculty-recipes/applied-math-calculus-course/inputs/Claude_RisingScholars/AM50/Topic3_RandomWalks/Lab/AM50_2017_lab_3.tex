@@ -1,0 +1,179 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+%\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+\usepackage{pxfonts}
+\usepackage{enumerate,verbatim,cite}
+\usepackage[margin=1in]{geometry}
+%\usepackage{../../tex/pythonhighlight} %https://github.com/olivierverdier/python-latex-highlighting
+\usepackage[framed]{mcode}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\addtolength{\headheight}{\baselineskip}
+\addtolength{\footskip}{\baselineskip}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{}
+\fancyfoot[L]{\textit{Last Modified: \today}}
+\fancyfoot[C]{\thepage}
+
+
+\usepackage[pdftex,bookmarks,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pdfstartview=FitH]{hyperref}
+
+
+%\usepackage{epsf}
+% \topmargin -0.5in \setlength{\textwidth}{6.in}
+% \setlength{\textheight}{8.5in}
+%\setlength{\evensidemargin}{0.25in}
+% \setlength{\oddsidemargin}{0.25in}
+\renewcommand{\r}{{\bf r}}
+\newcommand{\dery}{\frac{dx}{dt}}
+\renewcommand{\k}{{\bf k}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{hyperref}
+
+
+\title{Applied Math 50 Lab 3: Random Walks
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+In today's computer lab, we will:
+\begin{enumerate}
+	\item Carry out simulations of random walks, and verify the $L(t) = \sqrt{D t}$ relationship that we outlined last week in class 11.
+	\item Read in data for the Standard and Poor's 500 Index in Matlab, and start to ask whether there is evidence for or against the hypothesis that the data are well described by a random walk.
+\end{enumerate}
+
+\section{Simulating Random Walkers}
+\subsection{Unbiased random walkers}
+
+\noindent We'll begin this lab by simulating a random walk.  To do this we recall the model from class.  We consider a walker at $x =0$ and flip a coin to let the walker move either to the left or to the right.  This is accomplished with the following snippet of code:
+
+\lstinputlisting{random_walk.m}
+
+\noindent Now we'd like to run a similar code for many different walkers starting at $x = 0$, and then compile statistics over time.  The code below does this --- please copy this code into a script file and save it as 
+\verb+random_walkers.m+.  Do not run the code yet.
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 1}\vspace{1mm} \\
+Read through and comment each line of code in random\_walkers.m.  In particular, please make sure to explain 1) the purpose of each of the two loops and 2) the meaning of Matlab's built-in functions getframe, pause, std, and mean.  Consult Matlab's documentation.
+ }}}
+\end{center}
+\bigskip
+
+\lstinputlisting{random_walkers.m}
+
+
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 2}\vspace{1mm} \\
+Now run random\_walkers.m.  The variable width saves the width of the distribution as a function of time, calculated as the standard deviation of the distribution of the positions of the walkers at each time.  Plot the width and convince yourself that the width grows according to 
+\[
+L(t) = \sqrt{D t}.
+\]
+ }}}
+\end{center}
+\bigskip
+
+\noindent A good way to convince yourself of the $L(t) = \sqrt{D t}$ law is to use a log-log plot.  Note if we calculate
+
+\[
+\log(L(t)) = \log(\sqrt{D t}) = \frac{1}{2} \log(D t) = \frac{1}{2} \log(t) + \frac{1}{2} \log (D).
+\]
+Thus if we plot $\log(L(t))$ versus $\log(t)$ we should find a straight line with a slope of $\frac{1}{2}$.   We could also check that the value of the diffusion constant is what we expect: in class we argued that $D = \frac{(\Delta x)^2}{2 \Delta t}$, where $\Delta x$ is the lattice spacing and $\Delta t$ is the time step.  In our simulation,  the lattice spacing $\Delta x = 1$ and time step $\Delta t = 1$ so that $D = \frac{1}{2}$.
+\bigskip
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 3}\vspace{1mm} 
+\begin{enumerate}
+\item Do a log-log plot of $L(t)$ and verify that the slope is 1/2 in accordance with the prediction.  You may want to use the Matlab command loglog.  
+\item Plot the average value of the walkers over time.  What happens to the mean?  Does it make sense?
+\item Let's check that the diffusion constant is correct.  First plot the width and then, on the same figure, plot the prediction $L(t) = \sqrt{D t}$.
+\end{enumerate}
+ }}}
+ \end{center}
+ 
+ \subsection{Biased random walkers}
+ 
+ What happens if we change the probability of moving to the left or the right?  Modify your code and replace the 0.5 probability in the \verb+if+ statement by the variable \verb+p+.  Set the value of \verb+p+ before entering the loop.
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 4}\vspace{1mm} \\
+What happens if $p = 1$?  $p = 0$?  $p = 0.75$?  Can you explain what is going on with these behaviors?  You may want to plot the mean as a function of time in these different cases and see what happens.  Also see if there is a change in the behavior of the standard deviation.  Can you explain what's going on?
+ }}}
+ \end{center}
+ \bigskip
+ \begin{center}
+ \colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 5}\vspace{1mm} \\
+Can you think of an example where a biased random walker might be an appropriate model?  Discuss with your neighbors and brainstorm what might work.
+ }}}
+  \end{center}
+
+  \section{Fun with Stock Data}
+ \noindent Can we apply the above ideas to data from stocks?  Download the file S\_P\_500.csv from the random walks lab folder on the course website.  You may want to look at the data first in Excel, but make sure you don't accidentally resave the file in Excel.  If you run into problems just redownload the file.\\
+  
+\noindent This file contains data from January 3, 1953 to February 19, 2010 in \textit{reverse} chronological order.  The data are saved for every day that the Stock Market is open.  The first column stores the dates.  The second column gives the opening price; the third column gives the high; the fourth column gives the low, and the fifth column gives the close.  The fifth column gives the volume of shares traded.  For the some strange reason the data are stored backwards --- the early dates are at the end of the table and the end dates are at the beginning.  So you must be careful when plotting and analyzing the data.\\
+  
+ \noindent Load the data into Matlab using the command \verb+csvread+ (see the earlier epidemiology lab and Matlab's documentation on \verb+csvread+).  Now plot the opening price as a function of time.  The data look quite exponential!  This makes sense of course, you are usually told to invest in stocks  because of exponential growth.  A simple first bit of analysis to do is to see how well the data are fit by the law
+  
+  \begin{equation}\label{stockexp}
+  S(t) = S_0 e^{r t}
+  \end{equation}
+  
+ \noindent where $S(t)$ is the price of the stock portfolio and time $t$, $S_0$ is the initial price, and $r$ is the growth rate.  Similar to our work in the previous section, we can test that the stock prices grow exponentially by taking the logarithm of (\ref{stockexp}).  We have
+  
+  \[
+  \log(S(t)) = \log(S_0 e^{rt}) = \log(S_0) + r t.
+  \]
+  
+  \noindent Then, if we plot $\log(S)$ versus $t$, the data should fall on a straight line.
+  
+   \bigskip
+   \begin{center}
+ \colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 6}\vspace{1mm} \\
+To test this theory, let's make a semi-log plot of the stock data.  You may want to use the command semilogx or semilogy.  You will see that the data lie  basically along a straight line.  Demonstrate that the data are pretty well fit by the law $S(t) = 20 e^{r t}$, with $r = 3 \times 10^{-4}$.  According to this law, how much should Harvard's $\approx$ 20 billion dollar endowment increase in size during a decade?
+ }}}
+  \end{center}
+  
+ \bigskip
+     \begin{center}
+
+   \colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 7}\vspace{1mm} \\
+Discuss how you might decide if the data are consistent with the random walk model.  We will explore this more carefully in the homework.}}}
+  \end{center}
+
+
+
+
+
+\end{document}

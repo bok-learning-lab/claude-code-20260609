@@ -1,0 +1,30 @@
+#!/usr/bin/python
+import sys
+import re
+reload(sys) 
+sys.setdefaultencoding("utf-8")
+import unicodedata
+
+if len(sys.argv)!=2:
+    print "Syntax: ./remove_acc.py <filename>"
+    sys.exit()
+
+def remove_accents(input_str):
+    nkfd_form = unicodedata.normalize('NFKD', unicode(input_str))
+    return u"".join([c for c in nkfd_form if not unicodedata.combining(c)])
+
+f=open(sys.argv[1],"r")
+
+
+ps=re.compile("\*\*\* START OF THIS PROJECT GUTENBERG")
+pe=re.compile("\*\*\* END OF THIS PROJECT GUTENBERG")
+
+for x in f:
+    if(ps.match(x)):
+        break
+
+g=open(sys.argv[1]+".prc","w")
+for x in f:
+    if(pe.match(x)):
+        break
+    g.write(remove_accents(x))

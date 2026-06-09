@@ -1,0 +1,237 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm,fullpage,microtype,mathpazo,graphicx,wrapfig}
+\usepackage[T1]{fontenc}
+
+\include{hyper}
+
+\renewcommand{\r}{{\bf r}}
+\newcommand{\dery}{\frac{dx}{dt}}
+\renewcommand{\k}{{\bf k}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ns}{\vspace{3mm}}
+\newcommand{\Dth}{\Delta \theta}
+\newcommand{\p}{\partial}
+
+\setlength{\fboxsep}{8pt}
+
+\newcommand{\exer}[2]{
+\begin{center}
+  \vspace{2mm}
+\framebox{\parbox{15cm}{
+{
+\textbf{\large Exercise #1}\vspace{1mm} \\
+#2
+}}}
+  \vspace{2mm}
+\end{center}
+}
+
+\usepackage{hyperref,color}
+
+\definecolor{webred}{rgb}{0.7,0,0.1}
+\definecolor{webgreen}{rgb}{0,.35,0}
+\definecolor{webbrown}{rgb}{.6,0,0}
+\definecolor{RoyalBlue}{rgb}{0,0,0.9}
+\definecolor{mywhite}{rgb}{1.0,1.0,1.0}
+\newcommand{\white}[1]{\textcolor{mywhite}{#1}}
+
+\hypersetup{%
+   colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+   breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
+   plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
+   hypertexnames=true, pdfhighlight=/O,
+   urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
+   pdfauthor={Chris H. Rycroft},
+   pdfsubject={Harvard AM50 (Spring 2014)},
+   pdfkeywords={},
+   pdfcreator={pdfLaTeX},
+   pdfproducer={LaTeX with hyperref}
+}
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+\section*{AM50: Rosalind Franklin and the discovery of the double helix\footnote{Based on notes from Professor Rafael Jaramillo, MIT.}}
+\subsection*{Biography}
+Franklin was born in 1920 to a well-off London banking family.  After primary
+boarding school she attended St.~Paul's Girls' School, the sister campus to the
+famous St.~Paul's Boys' school that had educated the cream of English society
+since 1506. Franklin was a privileged child, active in her upper class London
+Jewish society and school sporting clubs and spending weekends at the family
+country estate. Her relatively high position in the English class system saw
+her well during her time at Cambridge and in Paris, but later became a sticking
+point in her relationships in the decidedly more working class environment at
+King's College. To paraphrase from {\it My Fair Lady}, the moment and
+Englishman speaks he makes some other Englishman despise him. This dynamic was
+certainly present with Franklin at King's.
+
+She entered Cambridge in 1938 and stayed on for her doctorate through the war.
+Franklin was conflicted over how she could stay in academia while most of her
+family was directly helping the war effort. This conflict was partially
+resolved when she found a highly utilitarian Ph.D. project working for the
+British Coal Utilisation Research Association on porosity in coal.
+
+Franklin had always been more comfortable in continental society than among her
+fellow English, and after the war she landed a dream job at the State Central
+Chemical Services Laboratory in Paris. In a disarming letter to her French
+friend and mentor Adrienne Weill she encapsulated what many of us feel upon
+emerging from our narrowly defined Ph.D. projects:
+\begin{quotation}
+  {\it If ever you hear of anybody anxious for the services of a physical
+  chemist who knows very little about physical chemistry but a lot about the
+  holes in coal, please let me know.}
+\end{quotation}
+In Paris she learned the techniques of X-ray diffraction, and built an
+international reputation for her continued work on the structure of coals.
+Those were probably the happiest years of her life. The image on the screen was
+taken in the Paris lab and shows Franklin carrying the ritual after-lunch
+coffee in labware.
+
+In 1951 Franklin returned to London to a job in the biophysics group at King's
+College. Her return was motivated by persistent suggestions from her large,
+tight-knit family that she should be closer to home.  But in every other way
+she dreaded returning to England and trading the heady atmosphere of the Paris
+Left Bank for dowdy King's College. Her two years at King's were highly
+productive, but also turbulent and unhappy, and in 1953 she gladly left for
+Birkbeck College. At Birkbeck she turned from DNA to the structure of viruses
+and spent the most productive years of her life. 
+
+Franklin died in 1958 at the age of 37 from ovarian cancer, five years before
+the Nobel Prize that went to Watson, Crick, and Wilkins. At the time of her
+death she was a Research Associate in Biophysics at Birkbeck College and was
+busily engaged with Aaron Klug on work on the structure of viruses that was
+later recognized in Klug's 1982 Nobel Prize. 
+
+I've marked a few select historical events along the timeline of her life. The
+Battle of Britain in 1940 took place while Franklin was preparing for her
+undergraduate degree exam. Erwin Schrodinger's influential book
+{\it What is Life?}~was published in 1944. In 1951 Linus Pauling published the alpha-helix protein
+structure; from that time on it was said that helices were in the air. Two
+years later, in 1953, the three papers describing the structure of DNA appeared
+in Nature.
+
+\subsection*{The Race}
+The story of the double helix traces the relationships between a small number
+of scientists at two institutions, King's College London (shown on the right)
+and Cambridge University (and specifically the Cavendish Laboratory, shown on
+the left).
+
+After World War II, molecular biology was the next big thing in science. Erwin
+Schrodinger's book {\it What is Life?}, published in 1944, stimulated interest
+in biological problems in the physical science community and is often credited
+with giving birth to the field of biophysics. One of the largest groups in
+England was assembled at King's College London by John Randall, who was
+considered somewhat of a hero for his invention of the cavity magnetron during
+the war. Randall's deputy director of biophysics was Maurice Wilkins, who had
+spent the war working on the Manhattan Project in California but soon after
+read Schrodinger's book and switched into biophysics. At King's Wilkins was
+working on X-ray diffraction studies of nucleic acid with the help of a Ph.D.
+student named Ray Gosling. At the same time a biophysics group was being
+assembled at the Cavendish Laboratory at Cambridge under the direction of
+William Lawrence Bragg (the younger of the two Braggs and also Randall's Ph.D.
+advisor). In 1951 a biochemist named Francis Crick joined a team working on
+protein structure at the Cavendish.
+
+In 1951 Randall hired Rosalind Franklin, a physical chemist with an
+international reputation for her X-ray diffraction work on the structure of
+coals. Rosalind was hired to study the structure of proteins in solution, but
+as her start date approached Randall became increasingly interested in DNA. His
+interest was driven in part by an extraordinary batch of samples that had been
+produced by Rudolf Singer in Berne and that had been distributed freely to
+Wilkins (and others) at a meeting in 1950. Wilkins and Gosling had already
+shown that these samples gave excellent X-ray diffraction data. In a fateful
+letter to Franklin, Randall assigned her to the DNA problem and gave her
+supervision over Gosling. Wilkins, who was cut out of the DNA work, had not
+been consulted.
+
+Franklin had joined a well funded but poorly managed lab. Wilkins was badly
+stung by being ousted from the work on DNA, and after starting off on this
+wrong foot the relationship between Wilkins and Franklin only got worse. Their
+personality differences compounded the awkward situation at work and soon each
+was complaining about the other to their respective friends. Franklin was an
+enthusiastic hostess and quickly gained a reputation for throwing excellent
+dinner parties. The guest lists often included colleagues from King's, but
+never Wilkins. Within a short time the rift between Franklin and Wilkins was
+widely known within the biophysics community at King's and Cambridge, as was
+the fact that Franklin was obtaining remarkable data. Word even travelled as
+far as Pasadena. Linus Pauling bluntly asked Randall to see the King's data,
+under the assumption that King's was sufficiently dysfunctional that they would
+not be able to analyze their own results. Pauling was rebuffed, but the English
+community was put on alert that Pauling was on the DNA trail.
+
+Wilkins, for his part, began spending more time in Cambridge. He and Crick had
+met during the war and had remained friends. Crick and his wife presided over a
+lively social scene in Cambridge where, unlike in London, Wilkins was always
+welcome to dinner. That same year saw the arrival in Cambridge of another man
+with keen interest in DNA, James Watson. Watson and Crick got along
+marvelously, and together they peppered Wilkins with questions about Franklin's
+work on DNA. Late in 1951 Watson and Crick built their first DNA model, and
+invited the King's group up for a review. Franklin wasted no time in making
+clear that their model was patently incorrect.  Bragg was embarrassed for his
+institution and ordered all DNA work at Cambridge to a halt. Bragg and Randall
+quietly agreed that all DNA work would be left to King's, and Watson and Crick
+were made to send their bits of metal and wire down to London.
+
+After the agreement between the lab directors, the DNA work at King's continued
+throughout 1952 with an extreme sense of urgency. Watson remained highly
+curious, and was often seen hanging around King's. And Franklin knew that
+Wilkins was in near-constant communication with Watson and Crick about her
+work. A preprint containing a proposed DNA model from Pauling added to the
+pressure; Pauling's model was wrong, but that only bought the English groups a
+small amount of time. Adding to the sense of urgency, in the middle of 1952
+Franklin decided that she would leave King's for a position at Birkbeck
+College, making this her final year working on DNA. 
+
+The critical encounter took place on January 30, 1953. Watson was on one of his
+frequent trips to London, and ran into Wilkins in the hallway. After some time
+spent listening to Wilkins complain (again) about his treatment at King's,
+Watson was shown photo 51. As he described in The Double Helix, ``The instant I
+saw the picture my mouth fell open and my pulse began to race.'' Over dinner
+Watson pressed Wilkins for numbers to go with the diagram, and began sketching
+models on the train ride home. The very next day Bragg was convinced to break
+the agreement with Randall, allowing Watson and Crick to resume model building.
+In February, Watson and Crick obtained a copy of an up-to-date report on the
+King's work presented to the Medical Research Council, the primary funding
+agency for biophysics in England. The copy was given to them by Max Perutz, a
+colleague at Cambridge and a member of the Research Council committee. This
+detailed report, combined with the information Watson had from photo 51, was
+nearly all that Watson and Crick needed to complete their model, which was
+finished on March 7.
+
+By the middle of March 1953 the word at King's was that the Cavendish had
+cracked the structure of DNA. Randall was furious, but for Franklin the news
+was irrelevant. She was looking forward to her new position at Birkbeck, and
+she was confident that the Cambridge model was just that---a model made of
+scrap metal and cardboard that would rise or fall on the experimental evidence.
+She was unaware that her best data had been central to the Cambridge discovery,
+and with several papers in preparation she was confident that her contribution
+to the field rested on solid ground. The ensuing rush to publish was
+accompanied by negotiations between King's, Cambridge, and the editorial
+offices at Nature. The importance of the King's data to the Cambridge model was
+not openly acknowledged, and it's unclear who at the time knew the full story.
+Probably not the editors at Nature. Of the trio of papers on DNA that appeared
+on April 25, the classic by Watson and Crick with its incomplete acknowledgment
+came first, and the Franklin and Gosling paper containing photo 51 was placed
+last.
+
+One of the interesting ``What Ifs'' in this story is whether Franklin would have
+been first to the DNA structure, had the Cambridge group not had such direct
+access to her unpublished data. At the time of the discovery she was busily
+engaged in Patterson analysis, a highly quantitative but time-consuming
+technique that likely would have led to the double helix. Besides the
+diffraction analysis, many of the stereochemical ideas that guided Watson and
+Crick were also understood at King's. But as we all know, the seemingly short
+distance between having 99\% of the results and telling a complete physical
+story can in fact be quite long. Speaking after her death, and after carefully
+reviewing her notebooks, her good friend, collaborator, and beneficiary Aaron
+Klug concluded that:
+
+\begin{quotation}
+  {\it She needed a collaborator, and she didn't have one. Somebody to break
+  the pattern of her thinking, to show her what was right in front of her, to
+  push her up and over.}
+\end{quotation}
+
+
+\end{document}

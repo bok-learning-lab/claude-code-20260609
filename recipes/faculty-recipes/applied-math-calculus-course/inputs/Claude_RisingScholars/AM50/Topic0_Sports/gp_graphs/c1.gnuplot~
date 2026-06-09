@@ -1,0 +1,8 @@
+set style line 1 lc rgbcolor "#ff0000" lw 1 lt 2
+set style line 2 lc rgbcolor "#222266" lw 3 lt 1
+set style line 3 lc rgbcolor "#11cccc" lw 2
+set style line 4 lc rgbcolor "#ff6600" lw 2
+set style line 5 lc rgbcolor "#777777" lw 2
+set style line 6 lc rgbcolor "#22aa88" lw 2
+set style increment user
+set size 0.7,0.7

@@ -1,0 +1,122 @@
+#!/usr/bin/python
+import re
+import sys
+from table_plot import *
+
+p=re.compile("[\-_\[\]`]")
+p2=re.compile("[^a-zA-z ]")
+
+def num(char):
+    return ord(char)&31
+
+# This function will create a table of 
+def create_table(filename):
+
+    # Create empty counters for each digram
+    c=[0 for i in range(729)]
+
+    # Open the text file
+    f=open(filename,"r")
+
+    # Loop over each line in the file
+    for x in f:
+
+        # Convert some punctuation marks to spaces
+        x=p.sub(" ",x)
+
+        # Remove everything other than letters and spaces
+        x=p2.sub("",x).lower()
+
+        # Loop over each word
+        for w in x.split():
+            lw=len(w)
+
+            # Add one to the "_X" digram counter where X is the first character
+            c[27*num(w[0])]+=1
+
+            # Scan the word and add one two each digram counter
+            for i in range(lw-1):
+                c[num(w[i])+27*num(w[i+1])]+=1
+
+            # Add one to the "X_" digram counter where X is the last character
+            c[num(w[lw-1])]+=1
+
+    # Close the file
+    f.close()
+
+    # Count up the total number of entries and add a small fictitious count of
+    # 0.1 to all digrams that were not observed, to avoid numerical problems
+    # later when computing likelihoods
+    n=0
+    for i in range(729):
+        if(c[i]==0):
+            c[i]=0.1        
+        n+=c[i]
+
+    print "%s : %d digrams" % (filename,int(n))
+
+    # Divide all of the entries by total to get normalized probabilities, and
+    # return the entries as a list
+    ni=1.0/n
+    for i in range(729):
+        c[i]*=ni
+    return c
+
+
+# Create tables for the five languages by processing the five project 
+lang=["English","French","German","Italian","Spanish","sp2"]
+t=[0 for i in range(5)]
+t[0]=create_table("en_voyage_out.txt.prc")
+t[1]=create_table("fr_atlantide.txt.prc")
+t[2]=create_table("ge_siddartha.txt.prc")
+t[3]=create_table("it_dal_cellulare.txt.prc")
+t[4]=create_table("sp_la_voz.txt.prc")
+
+# Make a 2D plot of the frequencies
+#table_plot_difference(t[4],t[5])
+
+def difference(c,c2):
+    v=0
+    for i in range(729):
+        d=c[i]-c2[i]
+        v+=d*d
+    return sqrt(v)
+
+for i in range(6):
+    for j in range(6):
+        print lang[i],lang[j],difference(t[i],t[j])
+
+#table_plot(t[0])
+log2i=1/log(2)
+#def ent(p):
+#    if(p==0):
+#        return 0
+#    else:
+#        return -p*log(p)*log2i
+
+#for k in range(5):
+#    v=0
+#    for i in range(729):
+#        v+=ent(t[k][i])
+#    print lang[k],v
+
+for k in range(5):
+    for i in range(729):
+        t[k][i]=-log(t[k][i])*log2i
+
+
+
+st=sys.argv[1].lower()
+
+ma=1e20
+for k in range(5):
+    
+    v=0
+    for w in st.split():
+        lw=len(w)
+        v+=t[k][27*num(w[0])]
+        for i in range(lw-1):
+            v+=t[k][num(w[i])+27*num(w[i+1])]
+        v+=t[k][num(w[lw-1])]
+
+    print "%8s : %.3f" % (lang[k],v)
