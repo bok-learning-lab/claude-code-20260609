@@ -1,0 +1,410 @@
+ES 53
+2025
+
+
+        Module 2
+         Muscle
+
+        (Sept. 17, 2025)
+
+                           1
+Force vs. tension
+
+What is the difference?
+
+ What are the units?
+
+
+
+
+                          2
+             Recall
+
+Within a sarcomere, how is maximal
+      tension/force achieved?
+
+
+
+
+                                     3
+                  4
+© Forsman, 2020
+  Recall: Amount of force production depends on
+amount of overlap between thin and thick filaments
+
+Thin filaments
+(mostly made of the protein actin)
+
+                                                large overlap = lots of
+                                                engagement of myosin
+                                                and actin
+
+
+
+
+Thick filaments
+(mostly made of the protein myosin)
+                                      Small overlap = little
+                                      engagement of myosin and actin
+           Part II:
+ Muscle contraction, force,
+tension, length, recruitment
+
+
+
+                          6
+Excitation-contraction coupling
+Q: What are the steps from an action
+potential arriving to the muscle contracting?
+
+See how many you can write down during the
+              short video.
+ https://www.youtube.com/watch?v=D3JkAe838Zo
+                 Also helpful:
+ https://www.youtube.com/watch?v=IOkn1ldFO60
+Excitation-contraction coupling
+Q: What causes force generation?
+Q: What molecule, released by the
+sarcoplasmic reticulum, is absolutely
+necessary to cause this contraction?
+                         Stimulating a muscle fiber
+                                                    1) Action potential in the neuron causes
+                                                    release of acetylcholine at the neuromuscular
+                                                    junction
+
+                                                    Acetylcholine binds to nicotinic acetylcholine
+                                                    receptors (ligand-gated ion channels), which
+                                                    induces a depolarization. . .
+
+
+                                                    2) . . . voltage gated ion channels in the
+                                                    muscle cell are activated, inducing an action
+                                                    potential. . .
+
+                                                    3) . . . the action potential travels down the
+                                                    t-tubule, which stimulates the opening of
+                                                    voltage-gated Ca2+ channels. . .
+
+
+                                                    4) . . . these channels are coupled to Ca2+
+Low Ca2+, myosin can't      High Ca2+, myosin can   release channels in the sarcoplasmic
+      bind actin                  bind actin        reticulum, which causes Ca2+ to be released
+                                                    to the cytoplasm. . .
+
+                                                    5) . . . Ca2+ binds to troponin, which causes a
+                                                    readjustment of the troponin-tropomyosin
+                                                    complex, which allows myosin to bind to actin
+One action potential produces one muscle “twitch”
+  Ca2+ is released from the        Increase of cytoplasmic Ca2+
+  sarcoplasmic reticulum, so       leads to force production
+  cytoplasmic Ca2+ increases
+  after an action potential
+
+
+
+
+ Ca2+ is taken back up into the
+ sarcoplasmic reticulum, so       Decrease of cytoplasmic Ca2+
+ cytoplasmic Ca2+ decreases       leads the muscle to relax
+
+
+             How do we make prolonged, smooth motions?
+                  Muscle twitch and summation
+
+Force
+
+
+
+
+        One stimuli produces one   A second stimuli a long time later
+             muscle twitch             produces a second twitch
+
+
+
+                                   When the two stimuli are close together the
+                                    second twitch reaches a higher maximum
+                                           force than the first twitch
+Force
+                                          Summation = the force from
+                                         multiple stimuli can “combine”
+                      Summation, Ca2+, and tetanus
+                                                                 Smooth, constant force
+                                                                Normal in vivo contraction
+                       Summation with oscillations
+
+
+
+                                                                                             Cytoplasmic Ca2+
+
+       Force
+                                                                                              concentration
+
+
+
+
+   Single stimuli               Closely spaced stimuli          Very closely spaced stimuli
+
+Internal Ca returns             Internal Ca oscillates, but     Internal Ca stays uniformly
+  to baseline. . .            doesn’t return to baseline. . .   elevated at a high level. . .
+
+                              . . . muscle partially relaxes,     . . . muscle force stays
+. . . and the muscle
+                                leading to summation with       uniformly high, and smooth
+        relaxes
+                                        oscillations
+Complete tetanus requires ~60 stimuli per second
+                Summation with oscillations             Smooth, constant force
+
+
+
+
+    Force
+
+
+
+
+Prolonged stimulation can lead to fatigue = reduction in force
+Muscle fatigue is complex and can have many causes including:
+1) Increased extracellular K+ concentration
+2) Decrease in cellular “energy” stores: ATP, glycogen, . . .
+3) Build up of byproducts: Phosphate, ADP,. . .
+Muscle fatigue is the reduced ability to generate
+force due to:
+ 1. Accumulation of extracellular K+, reducing membrane
+    potential
+ 2. Depletion of stored glycogen
+ 3. Reduced SR calcium release
+ 4. Lactic acid accumulation and lower pH
+ 5. Increased concentration of PO4 due to phosphocreatine
+    breakdown
+ 6. Lack of ATP
+ 7. Buildup of ADP
+ 8. Fatigue of upper motor neurons (in the CNS), called central
+    fatigue
+
+
+
+                                                         15
+Electrical conduction & muscles
+
+
+
+
+          Q: Is this realistic?
+      Q: What movie is this from?
+Studying muscle forces ex vivo
+
+
+
+
+ https://www.youtube.com/watch?v=bMjl3CN-PUA   17
+Experimental set-up for measuring isometric
+force in an isolated muscle
+Studying muscle forces ex vivo
+
+
+
+                             Stimulator = excites somatic neurons, which induces
+                             action potentials (which activate the muscle)
+
+
+
+    Nerve = contains multiple somatic neurons
+Studying muscle forces ex vivo
+
+                        Gradation of muscle force by
+                        the frequency of stimulation.
+
+
+
+
+       Incomplete Tetanus
+           Studying muscle forces ex vivo
+      Muscle force depends on frequency of stimulation
+                    . . .but not that much
+
+
+
+
+                                                       Force at tetany is 2-10 the
+                                                       force from a single twitch
+                                                       (depending on the muscle)
+
+
+
+
+                                       average force
+
+     Muscle forces can be varied by over 20,000 fold in vivo
+How are muscle forces modulated over such a large range in vivo?
+Studying muscle forces ex vivo
+   Varying voltage of stimulation
+
+
+
+
+   Nerve = contains multiple somatic neurons
+Studying muscle forces ex vivo
+   Varying voltage of stimulation
+
+
+
+
+   Nerve = contains multiple somatic neurons
+   Studying muscle forces ex vivo
+Muscle force depends on voltage of stimulation
+
+
+
+
+        Nerve = contains multiple somatic neurons
+
+
+
+
+                   What’s going on?
+                      Studying muscle forces ex vivo
+
+
+
+
+                               Nerve = contains multiple
+                               somatic neurons
+
+
+
+
+                                                 Large stimulus excites more somatic neurons. . .
+                                                  . . which causes more motor units to be recruited
+
+
+
+
+Recruitment of more motor units is the primary
+means of controlling muscle force in vivo
+In vivo recruitment is NOT controlled by stimulus
+amplitude (this is an in vitro artifact). In vivo recruitment
+is controlled by modulation of neuronal inputs.
+  What if instead of
+stimulating you were
+ recording electrical
+     potentials?
+                          Summation vs Recruitment
+Summation
+Increase force from multiple twitches “summing up”
+This is about what happens within individual muscle cells
+
+
+
+
+Recruitment
+Increase force from multiple motor units being “recruited” to contract at the same time
+This is about multiple muscle cells working together
+
+
+Large motor units are innervated by large motor neurons
+Small motor units are innervated by small motor neurons
+
+Small motor units are recruited first
+                  Studying muscle forces ex vivo
+              Muscle force depends on length of the muscle
+                                                                                    Total force when
+                                     Active tension = extra force,                  stimulated
+                                     beyond the passive response,
+                                     caused by stimulation
+
+                                                                          Total = Active + Passive
+                                                                          Active = Total - Passive
+
+
+
+
+1) Change muscle length
+                                                                         The active force is maximal
+2) Measure force in the absence of stimuli                               at intermediate lengths
+(passive response)
+                                                Passive tension = force in the
+3) Stimulate and measure force (total           absence of stimulation
+response)                                        This passive force is due to the
+4) Repeat                                        elasticity of the muscle
+Muscle force depends on the length of the muscle
+         and # of muscle fibers activated
+
+sarcomere                      whole muscle
+
+
+
+
+                                    The active force is maximal
+                                    at intermediate lengths
+Experimental set-up for measuring the force
+and velocity of isotonic muscle contractions.
+                  Position can be recorded. Velocity of shortening can
+                  be calculated.
+
+
+
+                                 The muscle is free to move during
+                                           contraction.
+
+
+
+                     A weight is added by pulley. This keeps the
+                           afterload constant (isotonic).
+                         The muscle is free to move during
+                                    contraction.
+
+
+
+
+                  Tension in the muscle is recorded as the
+                            muscle is stimulated.
+Experimental set-up for measuring the force
+and velocity of isotonic muscle contractions.
+                                            Summary
+
+
+
+
+                                                                                 Increasing afterload
+                                                                                 •   Longer isometric phase
+                                                                                 •   Higher isotonic force
+                                                                                 •   Lower isotonic velocity
+
+
+
+
+Muscle shortening against a fixed weight (i.e. “afterload”)
+1) After the start of stimulation force exerted by the muscle begins to increase
+• If the force from the muscle is insufficient to lift the weight then the length of the muscle stays constant
+• isometric contraction = active force generation with no change in muscle length
+2) When the force becomes high enough to lift the weight, the muscle gets shorter
+• Initially, the contraction occurs at a constant velocity
+• Isotonic contraction = muscle contraction with constant velocity
+  Force-velocity curves
+Slow twitch vs fast twitch fibers
+                                Skeletal Muscle
+      slow twitch (red) versus fast twitch (white) fibers
+
+
+
+
+The reason red meat is red!
+Red color comes from the
+protein myoglobin, which
+binds oxygen
+Helps deliver oxygen to
+mitochondria = which make ATP
+Concentric, eccentric, and isometric contractions
+Summary
+• What factors determine muscle strength?
+• How do the force-velocity and force-length
+  curves depend on sarcomere/muscle length?
+• Compare and contrast isometric vs. isotonic
+  contraction.
+
+
+
+
+                                                36
+

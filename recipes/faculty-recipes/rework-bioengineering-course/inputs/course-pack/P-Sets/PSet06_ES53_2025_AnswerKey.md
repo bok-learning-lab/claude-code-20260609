@@ -1,0 +1,133 @@
+# PSet06_ES53_2025_AnswerKey.docx — text digest
+
+_Extracted text from 451 paragraphs. Images, tables, and formatting omitted._
+
+1
+
+2
+
+3
+
+32.[10 pts] Microbubbles, such as Definity®, are used in cardiology to opacify (make bright and distinguishable) blood in echocardiography (ultrasound of the heart). Microbubbles are tiny air bubbles that are pressure sensitive. (Just FYI: Microbubbles are also under investigation in research for applications such as drug delivery, molecular imaging, and theranostics.) When injected into humans, they are injected through a vein in the arm (the same veins used for blood draws).
+
+a)[2] To which chamber of the heart will the microbubbles arrive first assuming they are injected in a vein in
+
+the left arm? Why?
+
+Number/ml
+
+1
+
+the right atrium of the heart, so the
+
+0.6
+
+The left vs. right arm doesn’t matter.
+
+Blood from the systemic veins flow into
+
+0.8
+
+microbubbles will reach the RA
+
+Normalized
+
+0.4
+
+chamber of the heart first.
+
+b)  [2] Eventually the microbubbles will
+
+0.2
+
+pass through a capillary network. Which
+
+0
+
+capillary network will they pass through
+
+5
+
+10
+
+first (pulmonary, systemic, coronary,
+
+0
+
+MB Diameter (µm)
+
+etc.) and how small is the diameter of
+
+one of these capillaries?
+
+The microbubbles will first pass through the capillaries within the lungs or pulmonary capillaries. The diameter of capillaries is roughly 6 microns (you can use the slides from class or a similar value from the textbook).
+
+[1] Microbubbles cannot deform like RBCs. What is the largest microbubble, in terms of diameter, that can pass through the capillary network you described in part B?
+
+If the capillaries are 6 microns then the microbubbles must be just under 6 microns in diameter.
+
+[1] The microbubbles are not all one diameter. Let’s assume these microbubbles have a size distribution as listed in the figure above. What percent will be able to pass through the entire circulatory system based on their size? Since this is tricky to estimate precisely from the graph, please pick one of the following estimates based on the graph: ~0% 10%, ~50%, ~90%, ~100%.
+
+From the graph we see that most of the microbubbles are less than 6 microns in diameter, but about 10% are greater. So about 90% will pass through.
+
+[2] These microbubbles are pressure sensitive and their sensitivity to rupture is based on their diameter. Where in the circulatory system will the microbubbles be subjected to the highest pressure, and what, based on an average human, will that pressure be? Assuming that the threshold for rupture is based on the radius as 15 kPa per µm diameter, will most of the microbubbles be destroyed, or will the majority be able to pass through the circulatory system unscathed? Briefly explain your reasoning?
+
+The highest pressure is in the left ventricle during systole, and reaches roughly 120 mmHg. We need to convert 120 mmHg to kPa.  120 mmHg = ~16 kPa
+
+Only the microbubbles smaller than ~1 µm will be ruptured due to pressure within the circulatory system. The majority of the microbubbles are greater than 1 µm so the majority will pass.
+
+[2] Based on your answers for D and E, how would you design a microbubble such that it can withstand pressures in the body while also being able to fit through capillaries? Please list your ideal diameter. By what are you most constrained (pressure or vessel size)?
+
+Pressure is not as constraining as is capillary size. We would ensure that the microbubbles are over 1 µm and less than 6 microns. To be safe a size, of ~3.5 microns might be best. Anything bigger than ~1.1 µm and smaller than 6 µm is acceptable.
+
+2
+
+4
+
+[2] What is the pressure drop (pressure difference) across the artificial lung? (not across the whole system, just the artificial lung) List your answer in mmHg.
+
+24.. [9 pts] Patients with congestive heart failure (CHF) have a reduced ability to pump blood which can be due to an enlarged left ventricle with a thin wall.
+
+Aorta
+
+Blood out
+
+ Blood in
+
+LV
+
+The Impella device (a tube-like left ventricular assists device) can be operated over a range of flow outputs from 1-4 L/min. It has an inner diameter of 5 mm, and the length of the tube between the inlet and outlet ports is 10 cm.
+
+[1] The below PV loop represents a typical CHF patient. How would you predict the stroke work of the heart to change if the Impella was introduced into the CHF patient?
+
+Circle one: Increase / Decrease / no change
+
+[2] Draw a new P-V loop for the CHF patient with the Impella device working inside their heart. Think about how the volumes and pressures in the left ventricle change over a single heartbeat with the device now constantly pumping at a uniform rate.
+
+3
+
+5
+
+c)[4] At what flow rate (in L/min) would the flow through the Impella device become turbulent?
+
+[10 pts] In lab you measured the average velocity of blood flow in one of your carotid arteries. The ultrasound system measured the average velocity between the two green cursors, but could never measure the absolute max velocity.
+
+Assume that you had a right carotid artery with a diameter of 6 mm. Assume you had a cardiac output of 5 L/min and 5% of that flow went to your right carotid artery.
+
+[2] What is the average velocity in this carotid artery assuming laminar flow? (don’t use the color bars on the images). List your answer in units of cm/s.
+
+Vartery = Qartery /Axs
+
+Qartery = 5% (5L/min) = 0.25L/min = 0.25 mL/min  convert 1min/60s  4.17 cm3/s
+
+Axs = π r2 = π(0.3 cm)2 = π* 0.09cm2
+
+Vavg = (4.17 cm3/s)/( π* 0.09cm2) = 14.7 cm/s
+
+[2] What portion of the flow is in the center 2 mm (diameter = 2 mm) of the artery (e.g r = 0 to r = 1 mm)?
+
+[2] What is the average velocity of this flow in the center portion? List your answer in units of cm/s.
+
+4
+
+6

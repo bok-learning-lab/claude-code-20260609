@@ -1,0 +1,341 @@
+ES 53
+2025
+
+
+        Module 2
+         Muscle
+
+        (Sept. 19, 2025)
+
+                           1
+Recall
+• What factors determine muscle force?
+
+• At what lengths are maximal tensions
+  reached?
+
+• Compare and contrast isometric vs. isotonic
+  contraction.
+
+• How do the force-velocity and force-length
+  curves depend on sarcomere/muscle length?
+
+
+                                                2
+Muscle force depends on the length of the muscle
+         and # of muscle fibers activated
+
+sarcomere                      whole muscle
+
+
+
+
+                                    The active force is maximal
+                                    at intermediate lengths
+                  Studying muscle forces ex vivo
+              Muscle force depends on length of the muscle
+                                                                                    Total force when
+                                     Active tension = extra force,                  stimulated
+                                     beyond the passive response,
+                                     caused by stimulation
+
+                                                                          Total = Active + Passive
+                                                                          Active = Total - Passive
+
+
+
+
+1) Change muscle length
+                                                                         The active force is maximal
+2) Measure force in the absence of stimuli                               at intermediate lengths
+(passive response)
+                                                Passive tension = force in the
+3) Stimulate and measure force (total           absence of stimulation
+response)                                        This passive force is due to the
+4) Repeat                                        elasticity of the muscle
+Experimental set-up for measuring the force
+and velocity of isotonic muscle contractions.
+                  Position can be recorded. Velocity of shortening can
+                  be calculated.
+
+
+
+                                 The muscle is free to move during
+                                           contraction.
+
+
+
+                     A weight is added by pulley. This keeps the
+                           afterload constant (isotonic).
+                         The muscle is free to move during
+                                    contraction.
+
+
+
+
+                  Tension in the muscle is recorded as the
+                            muscle is stimulated.
+Experimental set-up for measuring the force
+and velocity of isotonic muscle contractions.
+                                            Summary
+
+
+
+
+                                                                                 Increasing afterload
+                                                                                 •   Longer isometric phase
+                                                                                 •   Higher isotonic force
+                                                                                 •   Lower isotonic velocity
+
+
+
+
+Muscle shortening against a fixed weight (i.e. “afterload”)
+1) After the start of stimulation force exerted by the muscle begins to increase
+• If the force from the muscle is insufficient to lift the weight then the length of the muscle stays constant
+• isometric contraction = active force generation with no change in muscle length
+2) When the force becomes high enough to lift the weight, the muscle gets shorter
+• Initially, the contraction occurs at a constant velocity
+• Isotonic contraction = muscle contraction with constant velocity
+Denote concentric, eccentric, isometric
+contractions on a single force-velocity curve
+                                Skeletal Muscle
+      slow twitch (red) versus fast twitch (white) fibers
+
+
+
+
+The reason red meat is red!
+Red color comes from the
+protein myoglobin, which
+binds oxygen
+Helps deliver oxygen to
+mitochondria = which make ATP
+                   Force-velocity curves
+                 Slow twitch vs fast twitch fibers
+
+
+
+
+Velocity (m/s)
+
+
+
+
+                          Force (tension)(N)
+        Part III:
+Muscle work, power and
+     Hill’s model
+
+
+
+                         13
+                            Work and Power
+
+When the application of a force causes an object to move, the force is said to
+have done Work
+
+The Work is the amount of energy that is transferred to the object by
+application of the force
+
+
+If a force, 𝐹𝐹, displaces an object a distance 𝑑𝑑𝑑𝑑, the work, 𝑊𝑊, that is done is
+                                   𝑊𝑊 = 𝐹𝐹 � 𝑑𝑑𝑑𝑑
+
+
+Power is the rate that work is performed, or the work per unit time
+
+If an amount of work, 𝑊𝑊, is done in time 𝑑𝑑𝑑𝑑, then the amount of power 𝑃𝑃 is
+                                         𝑊𝑊 𝐹𝐹𝐹𝐹𝐹𝐹        𝑑𝑑𝑑𝑑
+                                    𝑃𝑃 =      =      = 𝐹𝐹      = 𝐹𝐹𝐹𝐹
+                                         𝑑𝑑𝑑𝑑   𝑑𝑑𝑑𝑑      𝑑𝑑𝑑𝑑
+
+                                                                velocity
+                       Hill’s model of force-velocity relationship
+       An empirical equation that describes the relationship between force and
+       velocity for nearly all muscles        𝑇𝑇 + 𝑎𝑎 𝑣𝑣 + 𝑏𝑏 = 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+
+        Hill’s equation
+                                                       𝑇𝑇 is the force (or tension) the muscle produces
+                 𝑇𝑇 + 𝑎𝑎 𝑣𝑣 + 𝑏𝑏 = 𝑇𝑇0 + 𝑎𝑎 𝑏𝑏
+                                                       𝑣𝑣 is the velocity of the muscle
+                                                       𝑎𝑎, 𝑏𝑏, 𝑇𝑇0 are constants
+
+                                                                                 𝑇𝑇 𝑏𝑏
+                         Maximum velocity occurs at no load         𝑣𝑣 = 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 = 0𝑎𝑎 when 𝑇𝑇 = 0
+
+
+
+
+Velocity (m/s)
+                                          Maximum force occurs at
+                                              no zero velocity
+                                                                        𝑇𝑇 = 𝑇𝑇𝑚𝑚𝑚𝑚𝑚𝑚 = 𝑇𝑇0 when 𝑣𝑣 = 0
+
+
+
+
+                                 Force (tension)(N)
+        Hill’s model of force-velocity relationship
+
+An empirical equation that describes the relationship between force and
+velocity for nearly all muscles
+                                     𝑇𝑇 is the force (or tension) the muscle produces
+    𝑇𝑇 + 𝑎𝑎 𝑣𝑣 + 𝑏𝑏 = 𝑇𝑇0 + 𝑎𝑎 𝑏𝑏    𝑣𝑣 is the velocity of the muscle
+                                     𝑎𝑎, 𝑏𝑏, 𝑇𝑇0 are constants
+
+Solve the Hill Eqn. for v as a function of T (Try in groups ~2 min)
+
+
+
+
+                                                                               16
+        Hill’s model of force-velocity relationship
+
+An empirical equation that describes the relationship between force and
+velocity for nearly all muscles
+                                     𝑇𝑇 is the force (or tension) the muscle produces
+    𝑇𝑇 + 𝑎𝑎 𝑣𝑣 + 𝑏𝑏 = 𝑇𝑇0 + 𝑎𝑎 𝑏𝑏    𝑣𝑣 is the velocity of the muscle
+                                     𝑎𝑎, 𝑏𝑏, 𝑇𝑇0 are constants
+
+Solve the Hill Eqn. for T as a function of v (Try in groups ~2 min)
+
+
+
+
+                                                                               17
+                                               Example Question
+               You’re running an experiment with two                              Muscle 1         Muscle 2
+               muscles both of which have nearly the same                     a       20 N              80N
+               length-tension relationship as shown below to
+                                                                              b    0.2 m/s          0.4 m/s
+               the left. One muscle is composed of primarily
+               fast twitch fibers and one is composed of
+                                                                           Vmax    0.4 m/s          0.2 m/s
+               mostly slow twitch fibers.
+
+
+                         Length-Tension Curve                                 Tension-Velocity Curve
+
+
+
+
+      Tension (N)
+
+                                                                                                          Power (N·m/s)
+                                                          Velocity (m/s)
+10 20 30 40 50 60
+
+
+
+                     3     4        5      6    7
+                               Length (cm)                                        Tension (N)
+                                               Example Question
+               A thermodynamic experiment like that run by                         Muscle 1         Muscle 2
+               A.V. Hill was used to collect a, b, and Vmax for                a       20 N              80N
+               each muscle. Given the length-tension curves
+                                                                               b    0.2 m/s          0.4 m/s
+               for these muscles and the constants answer
+               the following:
+                                                                            Vmax    0.4 m/s          0.2 m/s
+
+
+
+
+                         Length-Tension Curve                                  Tension-Velocity Curve
+
+
+
+
+      Tension (N)
+
+                                                                                                           Power (N·m/s)
+                                                           Velocity (m/s)
+10 20 30 40 50 60
+
+
+
+                     3     4        5      6    7
+                               Length (cm)                                         Tension (N)
+                                              Example Question
+       If you want to maximize the tension
+                                                                                  Muscle 1         Muscle 2
+       generated in each muscle, at what length (in
+       cm) should each start?
+                                                                           a          20 N              80N
+                                                                           b       0.2 m/s          0.4 m/s
+       Based on the table, which muscle is the slow                     Vmax       0.4 m/s          0.2 m/s
+       twitch and which is the fast twitch muscle?
+
+       Below are the active length-tension relationships for these two muscles. Draw the
+       passive length-tension relationship for the dark blue muscle on the same left axes.
+
+                        Length-Tension Curve                                   Tension-Velocity Curve
+
+
+
+
+      Tension (N)
+
+                                                                                                              Power (N·m/s)
+                                                       Velocity (m/s)
+10 20 30 40 50 60
+
+
+
+                    3     4        5      6    7
+                              Length (cm)                                          Tension (N)
+                                              Example Question
+       On the graph on the right draw the tension-velocity
+                                                                                  Muscle 1         Muscle 2
+       curves for the two muscles (assume a starting
+       length of 5 cm) and clearly delineate which is
+                                                                           a          20 N              80N
+       which. Clearly include accurate values for the                      b       0.2 m/s          0.4 m/s
+       axes. Denote the values of To and Vmax for each.                 Vmax       0.4 m/s          0.2 m/s
+
+       Place a star on your tension-velocity graph
+       wherever isometric contraction occurs.
+
+
+                        Length-Tension Curve                                   Tension-Velocity Curve
+
+
+
+
+      Tension (N)
+
+                                                                                                              Power (N·m/s)
+                                                       Velocity (m/s)
+10 20 30 40 50 60
+
+
+
+                    3     4        5      6    7
+                              Length (cm)                                          Tension (N)
+                          Example Question
+Consider Hill’s model of the force-velocity
+                                                             Muscle 1   Muscle 2
+relationship for a muscle fiber and how it relates to
+muscle power. Calculate the power of the fast twitch
+                                                         a       20 N        80N
+muscle under a load of 20N. (Recall Power has units      b    0.2 m/s    0.4 m/s
+of Watts or Joules/s.)                                Vmax    0.4 m/s    0.2 m/s
+
+How much work is done by this muscle in 1 second?
+Force-velocity curves and power
+               𝑃𝑃 = 𝐹𝐹𝐹𝐹
+
+
+
+
+   Force (N)
+                           Power is maximal at
+                           intermediate loads, where
+                           both 𝐹𝐹 and 𝑣𝑣 are moderate
+
+
+
+
+  Force (N)
+

@@ -1,0 +1,353 @@
+ES 53
+2025
+
+
+       Module 5
+  Pulmonary Physiology
+
+        (Oct. 27th, 2025)
+
+                            1
+Outline for Pulmonary Physiology
+
+Part I: Pulmonary anatomy; Blood; Gas
+relationships
+Part II: Gas exchange, gas transport, and O2
+consumption
+Part III: Mechanics of breathing, lung volumes,
+expiration and inspiration, lung pressures
+Part IV: Ventilation, perfusion, and pulmonary
+circulation
+Part V: Pulmonary Disorders
+                                                  2
+           Learning
+                                                          the function of each type, specifically what is the
+                                                          role of surfactant and where does it come from?
+
+
+          Objectives
+                                                        • Describe the structures and functions of the
+                                                          conducting and respiratory zone of the lungs.
+                                                        • Apply knowledge of laminar flow to the tubes of the
+• Calculate and estimate the partial pressures of         lungs and apply knowledge of flow to the
+  gases outside the body, inside the lungs and in the     pulmonary vascular system. Use the derivation of
+  blood. Are there any differences in how these are       Poiseuille’s law to calculate flow in
+  calculated?                                             vessels/airways.
+
+• Describe the normal hematocrit levels in men,         • Describe the processes of inhalation and
+  women, and anemic people. What does                     exhalation. What is the role of the diaphragm and
+  hemoglobin do? Why is iron (Fe) essential? Why          intercostal muscles? What is the difference
+  does iron deficiency cause anemia?                      between quiet and forced breathing? What
+                                                          pressure changes (and where) occur to drive this
+• What is the O2 carrying capacity of hemoglobin          exchange of air? Describe the location and
+  (Hb), and what are the units?                           significance of the pleural membranes, and how
+                                                          the intrapleural and intrapulmonary pressures
+• Determine the O2 content in the blood based on          change during breathing.
+  blood volume, PO2 throughout the vascular
+  system, and the hematocrit levels.                    • Understand the four primary lung volumes (TV,
+                                                          IRV, ERV, RV) and four primary lung capacities
+• Apply Fick’s principle and determine the rate of O2     (sum of two or more lung volumes). Which of these
+  consumption under normal conditions, exercise,          can be estimated from simple laboratory
+  and/or extreme conditions. What are the units?          equipment?
+• Describe and numerically estimate the change in       • Describe several pulmonary disorders and what
+  oxy-hemoglobin saturation when carbon monoxide          happens to the flow/partial pressures, etc., in each
+  (CO) is present, or when tissue is                      case.
+  acidic/basic/cold/hot. What affects Hb-O2
+  saturation?
+• Describe the role of cells in the alveolar sacs and
+                                                                                                       3
+Overview of Respiration
+Respiration is comprised of 3 related functions: ventilation, gas
+exchange, and O2 utilization (cellular respiration)
+   • Ventilation moves air in and out of lungs for gas exchange
+     with blood (external respiration)
+   • Gas exchange between blood and tissues occurs via
+     passive diffusion which rely on spatial concentration
+     gradients.
+   • O2 is consumed (and CO2 created) by aerobic metabolism in
+     tissues throughout the body - this is called internal respiration
+Part 1: Pulmonary anatomy; Blood; Gas
+             relationships
+Gas exchange between air and blood
+         occur at alveoli
+
+
+
+
+           Conduction zone:   Respiratory zone:
+           gets air to the    site of gas exchange
+           respiratory zone
+       Whole Blood                                     Blood Centrifuged
+                                                          at 150 x g for ~10 mins
+
+
+
+
+solation and proteomic analysis of platelets by SELDI-TOF MS, January 2012, Methods in molecular biology
+(Clifton, N.J.) 818:153-70
+         Constituents of blood
+Made of ~45% formed elements (cells) and ~55%
+plasma (by volume)
+             Red blood cells (Erythrocytes)
+             ~5 million per cubic mm of blood
+             Transport oxygen
+             White blood cells (Leukocytes)
+             ~6,000 per cubic mm of blood
+             Part of the immune system
+             Platelets
+             ~200,000 per cubic mm of blood
+             Cell fragments
+             Blood clotting
+         Constituents of blood
+Made of ~45% formed elements (cells) and ~55%
+plasma (by volume)
+
+                Hematocrit in
+              “men” vs. “women”?
+
+               female: 36-46%
+                male: 41-53%
+Hematocrit = volume fraction of red blood cells in blood
+
+
+
+
+Anemia lack of red blood cells
+Iron-deficiency anemia = most common. Results from insufficient iron to make adequate
+hemoglobin
+Polycythemia too many red blood cells. Blood becomes thick, making flow difficult.
+Can be caused by cancers
+Plasma is water and dissolved solutes
+ • Proteins make up 7-8% of the plasma
+ • Albumin: creates osmotic pressure to help
+   draw water from tissues into capillaries to
+   maintain blood volume and pressure
+ • Globulins
+ • Fibrinogen: helps in clotting after becoming
+   fibrin
+   • Serum is plasma without fibrinogen
+ • Regulatory mechanisms maintain plasma
+   volume to maintain blood pressure
+What are these?
+Erythrocyte (red blood cell) morphology
+
+
+
+
+                               a)   Normal – top view
+                               b)   Normal – side view
+                               c)   In hypo-osmotic solution
+    Electron Micrograph of
+                               d)   In hyper-osmotic solution
+   red and white blood cells
+Red blood cells are essentially bags of Hemoglobin
+-The protein Hemoglobin comprises 97% of red blood cell dry
+content. ~280 million Hemoglobin molecules per red blood cell
+-Key to transporting oxygen
+                     Hemoglobin             Heme group
+
+
+
+
+    • Each Hemoglobin molecule       • Each heme group contain an
+      consists of 4 protein chains     iron atom (Fe)
+
+    • Each of the 4 protein chains   • The iron in the heme group can
+      contains a heme group            bind to oxygen
+Gases will expand               Gas molecules move around and bump
+to fill the container           into the walls of their container
+that they are in
+                                                      • This produces a force
+                                                        on the walls of the
+                                                        container
+
+                                                      • The Pressure is the
+                                                        force per unit area
+              www.pngitem.com
+
+
+
+
+  Pressure measurements:                        Standard atmospheric
+                                                pressure (at sea level)
+  1 Pa = 1 N/m2                                 is 760 mm Hg
+  1 atm = 101,325 Pa
+
+  1 mm Hg = 133.332 Pa
+                     The Ideal Gas Law
+                                 𝑃𝑃 is the pressure
+     𝑃𝑃𝑃𝑃 = 𝑛𝑛𝑛𝑛𝑛𝑛               𝑉𝑉 is the volume
+                                 𝑛𝑛 is the number of moles of gas
+         𝑛𝑛                      𝑅𝑅 is the gas constant [ 8.314 J / (mol K) ]
+  or 𝑃𝑃 = 𝑅𝑅𝑅𝑅
+         𝑉𝑉                      𝑇𝑇 is absolute temperature [K]
+  The ideal gas law is an approximation that works well for many gases
+
+                     Partial pressure
+       For a mixture with 𝑛𝑛𝐴𝐴 moles of gas A and 𝑛𝑛𝐵𝐵 moles of gas B
+     𝑛𝑛      𝑛𝑛𝐴𝐴 + 𝑛𝑛𝐵𝐵       𝑛𝑛𝐴𝐴     𝑛𝑛𝐵𝐵          𝑛𝑛𝐴𝐴 𝑛𝑛        𝑛𝑛𝐵𝐵 𝑛𝑛
+𝑃𝑃 = 𝑅𝑅𝑅𝑅 =              𝑅𝑅𝑅𝑅 = 𝑅𝑅𝑅𝑅 +       𝑅𝑅𝑅𝑅 =           𝑅𝑅𝑅𝑅 +         𝑅𝑅𝑅𝑅
+     𝑉𝑉           𝑉𝑉            𝑉𝑉       𝑉𝑉            𝑛𝑛 𝑉𝑉          𝑛𝑛 𝑉𝑉
+    𝑛𝑛𝐴𝐴   𝑛𝑛𝐵𝐵
+  = 𝑃𝑃 +        𝑃𝑃 = 𝑓𝑓𝐴𝐴 𝑃𝑃 + 𝑓𝑓𝐵𝐵 𝑃𝑃 = 𝑃𝑃𝐴𝐴 + 𝑃𝑃𝐵𝐵
+     𝑛𝑛     𝑛𝑛
+                  𝑛𝑛             𝑛𝑛
+          𝑓𝑓𝐴𝐴 = 𝐴𝐴 and 𝑓𝑓𝐵𝐵 = 𝐵𝐵            𝑃𝑃𝐴𝐴 = 𝑓𝑓𝐴𝐴 𝑃𝑃 and 𝑃𝑃𝐵𝐵 = 𝑓𝑓𝐵𝐵 𝑃𝑃
+                     𝑛𝑛             𝑛𝑛
+             are the mole fractions             are the partial pressures of
+                 of gas A and B                         gas A and B
+ The partial pressure is the pressure that a specific gas in a mixture
+ exerts (independent of the other gases).
+
+ The total pressure of a gas mixture is the sum of the partial pressures
+ of each gas in the mixture (Dalton’s law).
+
+For dry air      𝑃𝑃 = 𝑃𝑃𝑁𝑁2 + 𝑃𝑃𝑂𝑂2 + 𝑃𝑃𝐶𝐶𝑂𝑂2 = 𝑓𝑓𝑁𝑁2 𝑃𝑃 + 𝑓𝑓𝑂𝑂2 𝑃𝑃 + 𝑓𝑓𝐶𝐶𝑂𝑂2 𝑃𝑃
+The partial pressure of a gas is kind of like a measure of the concentration of that gas.
+
+
+                        Partial pressure
+        For a mixture with 𝑛𝑛𝐴𝐴 moles of gas A and 𝑛𝑛𝐵𝐵 moles of gas B
+      𝑛𝑛      𝑛𝑛𝐴𝐴 + 𝑛𝑛𝐵𝐵       𝑛𝑛𝐴𝐴     𝑛𝑛𝐵𝐵          𝑛𝑛𝐴𝐴 𝑛𝑛        𝑛𝑛𝐵𝐵 𝑛𝑛
+ 𝑃𝑃 = 𝑅𝑅𝑅𝑅 =              𝑅𝑅𝑅𝑅 = 𝑅𝑅𝑅𝑅 +       𝑅𝑅𝑅𝑅 =           𝑅𝑅𝑅𝑅 +         𝑅𝑅𝑅𝑅
+      𝑉𝑉           𝑉𝑉            𝑉𝑉       𝑉𝑉            𝑛𝑛 𝑉𝑉          𝑛𝑛 𝑉𝑉
+     𝑛𝑛𝐴𝐴   𝑛𝑛𝐵𝐵
+   = 𝑃𝑃 +        𝑃𝑃 = 𝑓𝑓𝐴𝐴 𝑃𝑃 + 𝑓𝑓𝐵𝐵 𝑃𝑃 = 𝑃𝑃𝐴𝐴 + 𝑃𝑃𝐵𝐵
+      𝑛𝑛     𝑛𝑛
+                   𝑛𝑛             𝑛𝑛
+           𝑓𝑓𝐴𝐴 = 𝐴𝐴 and 𝑓𝑓𝐵𝐵 = 𝐵𝐵            𝑃𝑃𝐴𝐴 = 𝑓𝑓𝐴𝐴 𝑃𝑃 and 𝑃𝑃𝐵𝐵 = 𝑓𝑓𝐵𝐵 𝑃𝑃
+                         𝑛𝑛               𝑛𝑛
+                are the mole fractions                  are the partial pressures of
+                    of gas A and B                              gas A and B
+                   Exercise 1
+• What are the partial pressures of O2 and N at 1 atm
+  in this room and in your lungs (airways)?
+Definition of water vapor pressure
+                          Exercise 1
+• What is the partial pressure of O2 and N at 1 atm in
+  this room and in your lungs?
+• Dalton’s Law: Total pressure of gas mixture is sum of pressures of
+ each gas in mixture
+   • Pdry air = PN2 + PO2 + PCO2 so,
+Part II: Gas exchange, gas transport, and
+              O2 consumption
+
+
+
+
+                                     22
+ Partial Pressures for Gas Exchange in the Lungs
+and the Alveolar Gas Equation:
+• Gas exchange is driven by differences in the partial pressures of
+  gases between alveoli and capillaries
+     The “alveolar gas equation” approximates PaO2:
+      PaO2 = (PATM - PH20)  FIO2 – PaCO2 / R
+
+
+
+
+    • Partial pressures of
+      gases in inspired air
+      and alveolar air at
+      sea level
+ Partial Pressures for Gas Exchange in the Lungs
+and the Alveolar Gas Equation:
+• Gas exchange is driven by differences in the partial pressures of
+  gases between alveoli and capillaries
+     The “alveolar gas equation” approximates PaO2:
+      PaO2 = (PATM - PH20)  FIO2 – PaCO2 / R
+  Gas exchange between air and
+      blood occur at alveoli
+
+
+
+
+• Capillaries surround alveoli
+• Gasses passively diffuse across the alveolar membrane
+                   Exercise 2
+• What is the partial pressure of oxygen in the alveoli
+  considering CO2 has now diffused out of the blood
+  into the sacs and is at 40mmHg?
+                         Exercise 2
+• What is the partial pressure of oxygen in the alveoli
+  considering CO2 has now diffused out of the blood
+  into the sacs and is at 40mmHg?
+   • Pwet air = PN2 + PO2 + PCO2 + PH2O so,
+                          PaO2 (alveoli in lungs) =~ ? mm Hg
+                    Exercise 2
+
+During respiration, your body uses O2 and expels CO2
+
+The inside of your body is wet, so you also expel H2O
+(water vapor) when you breath
+
+
+
+
+         What you breath in   What you breath out
+Partial pressures
+of gases in blood
+through the
+pulmonary and
+systemic
+circulations.
+Exercise 3: Dry air in our atmosphere is about 79%
+N2 and 21% O2.
+Assuming an atmospheric pressure of 760 mmHg
+(sea level), what are the partial pressures of these
+gases in the atmosphere
+
+at 0% humidity at 27C?
+
+At 80% relative humidity when the temperature is
+27C?
+
+At 100% relative humidity when the temperature is
+37C?
+                                                 30
+SUGGESTED RESOURCES
+
+National Geographic News: “Altitude a
+Major Challenge to Climbers”
+http://news.nationalgeographic.com/news/
+2002/05/0513_020514_
+ADValtitude_2.html
+
+National Geographic News: “Three High-
+Altitude Peoples, Three Adaptations
+to Thin Air”
+http://news.nationalgeographic.com/news/
+2004/02/0224_040225_
+evolution.htm
+
+
+
+
+                                           31
+                      Exercise 4
+
+Atmospheric pressure
+decreases with increasing
+altitude
+The mole fractions of N2,
+O2, and CO2 do not
+significantly vary with
+altitude
+
+What is the partial pressure of oxygen in the surrounding
+air and in the lungs (before reaching alveoli) at 20,000 ft?
+                                    Exercise 4
+
+ What is the partial pressure of oxygen in the surrounding
+ air and in the lungs (before reaching alveoli) at 20,000 ft?
+
+Altitude (feet above     Atmospheric     PO2 in Air (mmHg)   PO2 in Alveoli (mmHg)   PO2 in Arterial Blood
+      sea level)       Pressure (mmHg)                                                      (mmHg)
+         0                  760                159                   105                     100
+       2000                 707                148                    97                      92
+       4000                 656                137                    90                      85
+       8000                 564                118                    79                      74
+      20,000                349                 73                    40                      35
+      30,000                226                 47                    21                      19
+Layers of the alveolar/blood interface
+

@@ -1,0 +1,424 @@
+ES 53
+2025
+
+
+        Module 3
+   Cardiac Physiology
+
+        (Sept. 22, 2025)
+
+                           1
+Outline for Cardiac Physiology
+• Part I: Cardiac anatomy, electrical properties of
+  the heart, and ECG
+• Part II: Cardiac mechanics, cardiac cycle
+• Part III: Pressure volume dynamics
+
+
+
+
+                                                  2
+           Learning
+                                                          atrium and left ventricle. Correlate the mechanical
+                                                          pressure and volume cycles with the electrical
+                                                          (ECG) cycle of the heart. You should be able to
+
+          Objectives                                      recall approximate pressures, volumes and the
+                                                          timing. You should be able to read the EDV and
+                                                          ESV, EDP and ESP of the left ventricle.
+• Describe the purpose of all four chambers of the      • Recreate a pressure-volume loop from a Wigger’s
+  heart, the valves within the heart, the pulmonary       diagram and estimate the work done by the left
+  vein, and the aorta; how do defects in these affect     ventricle.
+  flow and circulation?
+                                                        • What is pre-load and what is after-load? How do
+• How do electrical signals move through the heart        changes in them change the stroke work done by
+  and why is the order important?                         the heart, and how do they change the pressure-
+                                                          volume loop of the work done by the heart?
+• Draw an ECG and label the waves. Indicate the
+  electrical and mechanical events that produce         • What might cause increased resistance
+  these waves. Differentiate atrial vs. ventricular       (afterload)? What might cause increased pre-load
+  abnormalities based on an ECG. How do the               (filling)?
+  waves of the ECG change with heart rate and
+  breathing rate?                                       • What is the Frank-Starling Mechanism, and how
+                                                          does it relate to cardiac output and/or stroke
+• What is the primary pacemaker of the heart (SA          volume?
+  node), and where is it located?
+                                                        • Calculate mean arterial pressure (MAP), ejection
+• What is a refractory period and why is it essential     fraction (EF), stroke volume (SV), stroke work
+  to cardiac contraction?                                 (SW), cardiac output (CO), heart rate (HR in units
+                                                          of beats per min (BPM)), pulse pressure (PP),
+• Map the flow of blood throughout the systemic and       total peripheral resistance (TPR).
+  pulmonary vascular systems starting at the left
+  ventricle. How does pressure vary along this          • What are a few biomedical interventions that can
+  path?                                                   alleviate heart dysfunction? In other words, what
+                                                          are some biomedical engineering devices that
+• Re-create a Wigger’s diagram showing the                assist cardiac function (e.g. LVAD, pacemaker),
+  phases of contraction and relaxation in the left        and what do they change about cardiac function?
+                                                                                                        3
+           Part I:
+Cardiac anatomy, electrical
+properties of the heart, and
+            ECG
+
+
+                           4
+The Engineer’s Definition of the Heart
+
+
+
+      Biochemically powered,
+       Electrically-activated,
+  Pressure and Volume regulated,
+              Tandem,
+Mechanical pump with a mean time to
+     failure of 2 billion cycles
+
+
+                                         5
+Heart anatomy and structure
+ • 2 atria receive blood from venous system
+ • 2 ventricles pump blood to arteries
+ • 2 sides of heart are 2 pumps
+     • Right side pumps blood to lungs (pulmonary circulation)
+     • Left side pumps blood to body (systemic circulation)
+
+
+
+
+Q: Which chamber is
+primarily responsible                                             LA
+for ejecting blood to
+the systemic
+vasculature?                                        RA
+                                                                       LV
+Do veins carry blood                                             RV
+to/from the heart?
+                                                                            6
+Q: What ensures that blood moves
+        unidirectionally?
+
+
+
+
+                                   7
+Atrioventricular Valves
+• Blood flows from atria into
+  ventricles thru 1-way
+  atrioventricular (AV) valves
+   • Between right atrium and
+     ventricle is tricuspid valve
+   • Between left atrium and
+     ventricle is bicuspid or mitral
+     valve
+
+
+
+Semilunar Valves
+• During ventricular
+  contraction blood is
+  pumped through aortic and
+  pulmonary semilunar valves
+   – Close during relaxation
+
+
+                                       8
+    Skeletal vs. Cardiac Tissue Microstructure
+
+
+
+
+ Myocardial cells are short, branched, and interconnected by gap
+  junctions
+ Entire muscle that forms a chamber is called a myocardium
+    APs originating in any cell are transmitted to all others in
+     myocardium
+    Chambers are separated by nonconductive tissue                 9
+Recall Action Potentials
+                  Q: Approximately how
+                  long is a typical neuronal
+                  action potential?
+Recall Action Potentials
+Myocardial Action Potential
+ Approximately how long is a typical
+ cardiomyocyte action potential?
+
+
+
+
+                                       12
+Excitation-Contraction in Cardiomyocytes
+• APs in cardiac muscle
+  cells last about 250
+  milliseconds
+  (3 minutes)
+ Given the much longer
+ AP of cardiac muscle
+ cells how do you think
+ this affects tetany?
+
+ Harder/easier to reach
+ tetany?
+ Doesn’t reach it? Always
+ reaches it?
+
+                                           13
+Excitation-Contraction in Cardiomyocytes
+• APs in cardiac muscle
+  cells last about 250
+  milliseconds
+• Because the action
+  potential of cardiac
+  cells is long, they also
+  have long refractory
+  periods before they can
+  contract again.
+• Because the atria and
+                             Q: What would happen if
+  ventricles contract as
+  single units, they         your heart could reach
+  cannot sustain a           tetany?
+  contraction.
+
+                                                 14
+                 Copyright © McGraw-Hill Education. Permission required for reproduction or display.
+
+
+
+
+Make sure you can locate the
+following:
+
+SA node
+AV node
+Bundle of His
+Ventricular septum
+Purkinje fibers
+Atrial septum
+
+
+
+
+                                                                                                       15
+16
+                     Copyright © McGraw-Hill Education. Permission required for reproduction or display.
+
+
+
+
+Make sure you can locate the
+following:
+
+SA node
+AV node
+Bundle of His
+Ventricular septum
+Purkinje fibers
+Atrial septum
+
+
+
+ Poll: which one of these is
+ the primary pacemaker of
+ the heart?
+                                                                                                           17
+Conducting Tissues of Heart
+• In normal heart, SA node functions as pacemaker
+    • Depolarizes spontaneously to threshold (= pacemaker potential)
+
+
+
+
+                                                                   18
+                                                                        13-53
+Cardiomyocytes spontaneously beating
+
+
+
+
+        https://www.youtube.com/watch?v=AONaH_oi3wQ   19
+Cardiomyocytes engineered to
+     simulate a jellyfish
+
+
+
+
+                                                                                  20
+https://news.harvard.edu/gazette/story/2012/07/behold-the-artificial-jellyfish/
+   Cardiomyocytes engineered to align
+               helically
+
+
+
+
+https://www.youtube.com/watc
+h?v=ZaSRH2AaTiQ
+
+
+                                    21
+     Electrical properties of the heart
+                                                        Intrinsic
+                                                    Pacemaker rate
+                                                     ~60 beats/min
+
+
+
+                                                     ~40 beats/min
+
+
+                                                     ~20 beats/min
+                                                      (unreliable)
+
+
+
+Q: Why do you think there are different conduction velocities in
+different parts of the conducting system of the heart?
+
+Q: What do you think would be different about a heart beat if all of
+the tissues had the same conduction velocity?
+
+Work with a peer (3 min)                                               22
+Copyright © McGraw-Hill Education. Permission required for reproduction or display.
+
+                                                                                        R
+
+
+
+
+                                                                                       Q
+                                                                                           S
+(a)                                                                         (e) QRS complex: Ventricles
+                                                                                depolarize and contract
+
+
+
+
+(b)                                                                         (f)
+
+
+
+
+                                                                                               T
+          P
+
+
+
+
+(c) P wave: Atria depolarize                                                (g) T wave: Ventricles
+    and contract                                                                repolarize and relax
+
+
+                                                 Depolarization
+
+                                                 Repolarization
+
+                                                                                  AP Propagation
+                                                                                                          23
+(d)
+The electrocardiogram (ECG or EKG)
+
+
+
+
+                                24
+The electrocardiogram (ECG or EKG)
+
+
+
+
+                                          25
+                           From Boron, Boulpaep, Ch. 21
+ Relationship between cardiomyocyte
+ action potentials and the ECG
+                              Copyright © McGraw-Hill Education. Permission required for reproduction or display.
+
+
+
+
+             R                                  R                                                                               Atria Ventricles
+                                                                                                                               contract contract
+
+                                                                                                                         +1          R
+
+
+
+                                                                                                 Potential (mV)
+                                   P–Q                S–T
+                                 segment            segment
+                                                                          ECG
+       P                  T
+                                                                                                                                P            T
+                                                                                                                          0
+            Q                                                                                                                        Q
+        P–R    S     S–T                                                                                                                 S
+
+
+
+
+                                                                                               Membrane potential (mV)
+      interval     interval                                                                                              +20
+                                        QRS complex
+                                                                          Action
+(a)                                                                       potential of
+                                                                          myocardial
+                                                                          cell in
+                                                                          ventricles
+
+                                                                                                                         –90
+                                                                          (b)
+                                                                                                                                                   26
+27
+                                           Arrhythmias
+1. Abnormal heart rhythms
+a) Bradycardia: slow heart rate, below 60 bpm
+b) Tachycardia: fast heart rate, above 100 bpm
+      -These heart rhythms are normal if the person is active, but not
+normal at rest.)
+      -Abnormal tachycardia can occur due to drugs or fast ectopic
+pacemakers.
+      -Ventricular tachycardia occurs when pacemakers in the ventricles
+make them contract out of synch with the atria. This condition is very
+dangerous and can lead to ventricular fibrillation and sudden death.
+2. Flutter and Fibrillation
+a) Flutter: extremely fast (200 to 300 bpm) but coordinated contractions
+b) Fibrillation: uncoordinated pumping between the atria and ventricles (or
+   uncoordinated contraction of a chamber)
+
+
+
+                                                                     28
+    Exercise 1: Arrhythmias as seen on an ECG
+
+
+
+
+a) What does the y axis represent on the ECG, and what are the typical units?
+
+b) Briefly, what, if anything, is abnormal about this ECG?
+
+c) Based on the ECG signature where in the heart do you expect the electrical
+abnormality to be located (which chamber(s))? Why?
+
+d) What kind of arrhythmia do you think this is?
+
+e) What do you think ventricular fibrillation looks like on an ECG?
+                                                                            29
+What is abnormal about this ECG?
+
+
+
+
+                                   30
+31
+Example of heart attack as seen on an ECG
+
+
+
+
+                                STEMI = ST elevated
+                                myocardial infarction
+
+
+
+
+                                             32
+

@@ -1,0 +1,253 @@
+ES 53 - Quantitative Physiology                                                             Fall 2025
+Problem Set 5: Cardio and Vascular Physiology
+Due Tues. Oct. 21st                                                               (out of 45 points)
+
+
+ [Be sure to keep all of your answers with the boxes provided and be sure to clearly CIRLCLE your
+ final answers.]
+
+
+1. [10 pts] In lab you measured the average velocity of blood flowing in one of your carotid arteries.
+   The ultrasound system measured the average velocity between the two green cursors, but could
+   never measure the absolute max velocity. Assume that you had a right carotid artery with a
+   diameter of 6 mm. Assume
+   you had a cardiac output of
+   5 L/min and 5% of that flow
+   went to your right carotid
+   artery. [Hint: it will be
+   helpful to watch the vimeo
+   video or read the
+   corresponding notes in
+   order to derive the right
+   equations for this question.]
+
+a) [2] Calculate the average velocity in this carotid artery assuming laminar flow? (Base your answer
+   only on the information given. Don’t use the color bars on the images). List your answer in cm/s.
+
+
+
+
+b) [2] What portion of the flow is in the center 2 mm (diameter = 2 mm) of the artery (e.g r = 0 to r = 1
+   mm)?
+
+
+
+
+                                                                                                            1
+c) [2] What is the average velocity of this flow in the center portion? List your answer in units of cm/s.
+
+
+
+
+d) [2] Given all of the information above that you either calculated or were given, what should Vmax
+   be? List your answer in units of cm/s.
+
+
+
+
+e) [2] What is the velocity of blood that is at a radius of 1 mm in this vessel?
+
+
+
+
+                                                                                                             2
+2. [13 pts] During exercise, the body radically changes its cardiac output and distribution of blood
+   flow.
+
+   At rest, a “typical” person’s cardiac output is roughly 5 L/min. During exercise the cardiac output can
+   increase by ~4 fold. Changes in the cardiovascular system account for the increased flow. Let’s
+   look at an example. We’ll explore Ifeoluwa’s cardiac function.
+
+   Below are approximate distributions of her blood flow at rest (bottom) and during exercise (top). The
+   cardiac output (CO) at rest for Ifeoluwa is 5 L/min while during exercise it is ~20 L/min. The
+   percentage of that total CO is shown above/below each organ.
+
+   During rest, the mean arterial pressure is about 100 mmHg. During exercise, the mean arterial
+   pressure reaches about 180 mmHg.
+
+          Exercise                5%    5%    5%            4%          75%            6%
+               CO =
+
+
+
+
+                                                                                       other
+
+
+
+
+          Rest
+
+
+                 CO =            20%    5%    20%          15%          15%            25%
+                 5 L/min
+
+
+
+
+   a. [1] Ife starts exercising and her heart rate increases, but does it increase four fold? No, what
+      else accounts for the increased cardiac output? [Keep your answer short.]
+
+
+
+
+                                                                                                         3
+ b. [3] Ife’s resting heart rate is approximately 60 beats/min and her resting stroke volume is 80
+    ml/beat. During exercise her heart rate increases to 130 beats/min and stroke volume increases
+    to 140 ml/beat. Calculate Ife’s cardiac output in L/min at rest and during exercise. By what
+    percentage does cardiac output increase during exercise for this person?
+
+
+
+
+c. [2] During rest, Ife’s systolic blood pressure is 120 mmHg and the diastolic blood pressure is 80
+   mmHg. During exercise her systolic pressure increases to 200 mmHg, while the diastolic pressure
+   is unchanged. Calculate the mean arterial pressure (MAP) at rest and during exercise. By what
+   percentage does mean arterial pressure increase during exercise?
+
+
+
+
+d. [2] Calculate Ife’s total peripheral resistance (TPR) at rest and during exercise. Calculate this in
+   units of mmHg*min/mL. By what percentage does the TPR change during exercise?
+
+
+
+
+                                                                                                          4
+ e. [2] What is the blood flow to the brain (in L/min) at rest and under exercise?
+
+
+
+
+ f.   [2] In this scenario, what is the pressure drop across the brain both at rest and under exercise?
+
+
+
+
+g. [1] What is the relative resistance of the brain vasculature at rest compared to exercise? (e.g. 4 / 5)
+
+
+
+
+                                                                                                          5
+3. [11 pts] In ECMO a pump is used to send blood through an artificial lung (extracorporeal
+   membrane oxygenator) to oxygenate the blood before sending it back in through the aortic arch.
+   You are given a circuit equivalent diagram of the pump, which includes the tube carrying
+   deoxygenated blood, the artificial lung, and the tube carrying oxygenated blood. The pressure at
+   the end of the system is equivalent to mean aortic pressure which you can assume is 100mmHg.
+   Assume the resistance of the artificial lung is 4x that of either tube and that both have a diameter of
+   5mm.
+
+                                                                  R           4R         R
+                                                                                                   To aorta
+                                                                                                   P = 100 mmHg
+                                                                  tube    Artificial   tube
+                                                                            lung
+                                                        Q
+                                                              Pump       Let the artificial lung have a resistance
+                                                                         4x that of either tube and let each tube
+                                                                         have the same resistance.
+
+
+
+
+a) [3] You are in charge of determining how much tubing to use. What length of tubing is required for
+   each of the two identical tubes if the flow at the pump is 200 mL/min and the pressure at the pump
+   is 150 mmHg? List your answer in meters.
+
+
+
+
+                                                                                                                     6
+b) [3] Given this blood flow, is the flow turbulent, laminar, or transitional? Show your calculation.
+
+
+
+
+c) [3] What is the velocity (in cm/s) of flow at the very center of the tube given that the flow is
+   200ml/min?
+
+
+
+
+d) [2] What is the pressure drop (pressure difference) across the artificial lung? (not across the whole
+   system, just the artificial lung) List your answer in mmHg.
+
+
+
+
+                                                                                                           7
+4. [ 11 pts] Last year, a senior BME student in ES100 was trying to increase the efficiency of the tissue
+vascularization process within Prof. Lewis’s lab. Shown is the tissue vascularization culture system
+through which the fluid flows. Per culture system there is one tube connecting the pump to the inlet, and
+another equally sized tube connecting the outlet of the culture system to a zero pressure reservoir.
+*Image adapted from: https://www.science.org/doi/10.1126/sciadv.aaw2459
+
+This student iwa tasked with making the process more reliable and efficient by creating a parallel
+perfusion system. Only the flow can be controlled and kept constant with this system. Assume all of the
+tubes are equal length and diameter and have a resistance of 12 kPa⋅s/cm3 [(Note that this is in kPa,
+not Pa.] Assume all of the culture systems are identical. Assume that the resistance of one culture
+system is 3 times greater than a single tube.
+a. [1] If the total flow is constant and he adds a total of 4 more parallel culture systems (five in total)
+   what happens to the pressure across each culture system? (circle only one) Decreases
+   Increases Stays the same
+
+
+
+                             inlet tubes from pump                     outlet tubes to reservoir
+
+
+
+
+                                                                                                   Reservoir
+
+
+
+      Pump (constant flow)
+
+
+
+                                                     Culture systems
+
+b. [2] Draw a diagram showing the pump as the only source of flow. Flow is held constant. In your
+   drawing denote each tube as a resistor and each culture system as a resistor. Show the resistive
+   model for the entire system of 5 parallel culture systems starting at the pump and ending at the
+   reservoir. Draw this between the labels below.
+
+
+
+
+ Pump                                                                                                   Reservoir
+ (0.5 mL/min)                                                                                           (0 Pa)
+
+
+
+
+                                                                                                                8
+c. [2] What is the total resistance of the system in terms of “R,” where R is the resistance of a single
+   tube?
+
+
+
+
+d. [2] What pressure (in Pa) is expected across the entire system from the pump to the reservoir if the
+   total flow is held constant at 0.5 mL per minute?
+
+
+
+
+e. [2] What pressure (in Pa) is expected across each individual culture system?
+
+
+
+
+f.   [2] In case one of the tubes becomes blocked, Ben needs a way to change the flow throughout the
+     system. What new flow (in mL/min) is required in order to maintain the same pressure as expected
+     in part “e”?
+
+
+
+
+                                                                                                           9
+

@@ -2,6 +2,12 @@
 
 Use this prompt after sharing the syllabus and practice materials from `inputs/`. It asks Claude to generate a new midterm exam at the same difficulty and covering the same content as Midterm 2.
 
+## Project context
+
+Generates a makeup version of Midterm 2 for GENED 1104: Science and Cooking (Pia Sörensen / Dave Weitz, Harvard Fall 2025), covering Weeks 6–9: Diffusion, Heat Transfer, Viscosity, Emulsions/Foams. Act as a knowledgeable TA with deep familiarity with the course's content and assessment style. Before generating anything, read the past exams in `inputs/Midterm-2-Practice-Materials/` to calibrate question types, point distribution, mathematical formalism, and culinary framing. Goal: indistinguishable from the originals — not simplified, not inflated. Generate the exam first; the answer key in a separate pass so the key doesn't bleed into question construction.
+
+**Hard rules.** Do not reuse exact questions or numerical values — rephrase conceptually equivalent questions with new numbers, foods, or scenarios. Maintain the culinary framing (every physics concept anchored to a cooking context — spherification, baking, sauces, emulsification). Keep the answer key in a separate file. Include explicit grading rubrics with partial-credit breakdowns (TFs grade). Flag any question whose correctness depends on a debatable assumption — those need instructor review. If adjusting difficulty, err harder: the original exam population already set the grade distribution.
+
 ---
 
 ## How to share inputs

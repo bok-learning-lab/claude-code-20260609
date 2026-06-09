@@ -1,0 +1,382 @@
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+        (Oct. 10, 2025)
+
+                          1
+Quick review with a peer
+
+1. What two factors determine flow?
+
+
+
+2. What is the equivalence to V = IR for the CV system?
+
+
+
+3. What is the typical blood flow rate through the system vasculature
+for a “normal person at rest? What about the pulmonary
+vasculature?
+
+
+4. What is the difference between blood flow and blood velocity?
+
+
+                                                                        2
+          Part II:
+Modeling the cardiovascular
+   system as a circuit
+
+
+
+                         6
+Systemic and Pulmonary Circulation
+Exercise 1:
+• What is the pressure driving blood flow? How can we calculate it?
+• What is the average cardiac output (CO) in a person? This is the blood flow
+  (volume/minute) that results from the pressure applied by the heart. How can we
+  calculate it?
+• What creates resistance to blood flow? What is the total peripheral resistance? How
+  can it be calculated?
+
+
+
+
+                                                                                8
+Total Peripheral Resistance
+• Sum of all vascular resistances within the systemic circulation is the total
+  peripheral resistance (TPR); TPR relates to afterload
+    • Sum of all Levels: arteries + arterioles + capillaries + veins
+• Arteries supply tissues and organs in parallel circuits
+    • Changes in resistance in these circuits determines overall & relative
+      blood flow
+
+
+
+
+                                                                                 9
+Physical Laws Describing Blood Flow - Resistance
+• Mean arterial pressure (MAP) and vascular
+  resistance (R) are the 2 major factors regulating
+  blood flow
+
+• Flow rate is proportional to the pressure drop (∆P)
+  & inversely proportional to resistance
+
+
+
+
+                                                  10
+Poll: Have you encountered V=IR before?
+
+
+
+
+                                          11
+                   Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+                     Equivalent relationships in electromagnetics and fluid flow:
+                                                         Pressure (ΔP) = flow (Q) * resistance (R)
+ Voltage (V) = current (I) * resistance (R)                             ΔP = Q*R
+                 V = I*R                                     For the whole CV system this is:
+                                                                     MAP = CO*TPR
+
+
+        Relationships for Resistors in Series                Relationships for Resistors in Parallel
+
+Equivalent circuit models:                           Equivalent circuit models:
+             R1
+                                         R1
+    I                           Q                        I
+                                                                                    Q
+        +                    ΔP heart           R2           +                    ΔP heart   R1        R3
+V       _               R2                           V       _
+                                                                                               R2
+             R3                                                   R1    R2   R3
+                                    R3
+
+                  Adding resistances:                                  Adding resistances:
+                  Rtot = R1+ R2 + R3                                   1     1 1       1
+                                                                       Rtot= R1+ R2 + R3
+                                                                                                 12
+                   Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+                     Equivalent relationships in electromagnetics and fluid flow:
+                                                         Pressure (ΔP) = flow (Q) * resistance (R)
+ Voltage (V) = current (I) * resistance (R)                             ΔP = Q*R
+                 V = I*R                                     For the whole CV system this is:
+                                                                     MAP = CO*TPR
+
+
+        Relationships for Resistors in Series                Relationships for Resistors in Parallel
+
+Equivalent circuit models:                           Equivalent circuit models:
+             R1
+                                         R1
+    I                           Q                        I
+                                                                                    Q
+        +                    ΔP heart           R2           +                    ΔP heart   R1        R3
+V       _               R2                           V       _
+                                                                                               R2
+             R3                                                   R1    R2   R3
+                                    R3
+
+                  Adding resistances:                                  Adding resistances:
+                  Rtot = R1+ R2 + R3                                   1     1 1       1
+                                                                       Rtot= R1+ R2 + R3
+                                                                                                 13
+                  Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+
+   Relationships for Resistors in Series
+Equivalent circuit models:
+             R1
+                                         R1
+    I                          Q
+
+V       +              R2   ΔP heart              R2
+        _
+             R3
+                                    R3
+
+
+            Adding resistances in series:
+                  Rtot = R1+ R2 + R3
+
+        Current in series remains the same:
+                  Qtot = Q1= Q2 = Q3
+
+        Pressure across resistors in series:
+              (voltage divider rule)
+                              where n is any
+ ΔPn= ΔPtot*Rn /Rtot          individual resistor in
+                              series
+                                                                               14
+                  Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+
+   Relationships for Resistors in Series                 Relationships for Resistors in Parallel
+Equivalent circuit models:                             Equivalent circuit models:
+             R1
+                                         R1
+    I                          Q                           I
+                                                                                          Q
+        +                   ΔP heart              R2           +                        ΔP heart      R1        R3
+V       _              R2                              V       _
+                                                                                                        R2
+             R3                                                        R1    R2   R3
+                                    R3
+
+
+            Adding resistances in series:                             Adding resistances in parallel:
+                                                                                       For only two resistors in
+                  Rtot = R1+ R2 + R3                   1     1 1      1                parallel you can rewrite
+                                                       Rtot= R1+ R2 + R3               this as:         R1*R2
+        Current in series remains the same:                                                      Rtot =
+                                                                                                        R1+R2
+                  Qtot = Q1= Q2 = Q3                           Current in parallel: (current divider rule)
+                                                                                       where n is any individual
+                                                           Qn = Qtot*Rtot /Rn
+        Pressure across resistors in series:                                           resistor in parallel
+              (voltage divider rule)
+                                                                   Pressure across parallel resistors is
+                              where n is any
+ ΔPn= ΔPtot*Rn /Rtot          individual resistor in
+                                                                               constant:
+                              series                                    ΔPtot = ΔP1 = ΔP2 = ΔP3
+                                                                                                           15
+Exercise 2: Take a look at the example of a very simple cardiovascular system.
+What is the equivalent circuit model?
+           RA                                   What is the equivalent circuit model?
+
+
+
+                         RB
+Q=                                        RC
+5 L/min
+
+
+                  RD
+
+ What is the equation for the overall          What is the flow through each branch, A, B,
+ resistance in terms of RA, RB, RC, RD?        C, D in terms of RA, RB, RC, RD and Qtot?
+                                               Assume the total cardiac output (Qtot) is
+                                               5L/min.
+
+
+
+
+                                                                                   16
+Exercise 2: Take a look at the example of a very simple cardiovascular system.
+What is the equivalent circuit model?
+          RA                                   What
+                                             What      is the
+                                                   is the flowequivalent  circuit
+                                                               through each       model?
+                                                                             branch, A, B,
+                                             C, D in terms of RA, RB, RC, RD and Qtot?
+                                             Assume the total cardiac output (Qtot) is
+                                             5L/min.
+                       RB
+Q=                                    RC
+5 L/min
+
+
+                 RD
+
+
+
+
+                                                                                    17
+           Part III:
+Blood pressure and blood
+flow; turbulent and laminar
+flow; Poiseuille flow
+
+
+                          18
+Relationship
+Between Blood
+Pressure and
+Cross-Sectional
+Area of Vessels
+Exercise 3: Answer the following questions with respect to
+the cardiovascular system.
+
+a. In which set of vessels of the CV system will you find the
+greatest cross-sectional area?
+
+b. Where within the CV system will you find the highest
+velocity?
+
+c. Where within the CV system will you find the highest
+pressure?
+
+d. Is there greater resistance in the aorta or in the combination
+of all of the systemic capillaries combined?
+
+
+
+
+                                                             20
+Physical Laws Describing Blood Flow - Pressure
+• Blood flows through vascular system when there is pressure difference
+  (∆P) between its two ends
+    • Flow rate is directly proportional to difference (∆P = P1 - P2)
+    • Flow = ∆P/R analogous to current-voltage relationship: V=IR 
+      I=V/R
+    • Q = ∆P/R
+
+
+
+
+                         ΔP = 93 – 0
+                          = ~93 mmHg
+                                                     Pressure = 120/80
+                                                     (mean = ~93 mmHg)
+
+
+
+                                                                 22
+Effect of Vasoconstriction on Blood
+Pressure
+
+
+
+
+                                      23
+Applies to experimental systems too!
+Physical Laws Describing Blood Flow - Resistance
+• Flow rate is proportional to the pressure drop (∆P) & inversely
+  proportional to resistance
+
+   • Flow = ∆P / R  ∆P = Flow ∙ R  R = ∆P / Flow
+   • Resistance is directly proportional to length of vessel (L) and
+     viscosity of blood (η)
+       • Inversely proportional to 4th power of radius (r4)
+           • So diameter of vessel is very important for resistance
+
+• Poiseuille's Law describes factors affecting blood flow:
+   • Blood flow = π ∆Pr4     Resistance = ∆P = 8ηL
+                  8ηL                                Flow   πr4
+   • Vasodilation dramatically decreases resistance, increases
+     blood flow
+   • Vasoconstriction does opposite
+                Derivation of Poiseuille Flow
+You can watch the video of the derivation:   Or check out the notes of that derivation –
+https://vimeo.com/367080117/88185b3615       linked in the “Vascular” folder on Canvas
+Physical Laws Describing Blood Flow - Resistance
+
+
+Example – Which vessel has the highest resistance?
+Physical Laws Describing Blood Flow - Resistance
+
+
+Example – Which vessel has the highest resistance?
+Exercise 4: Consider the two vessels below.
+
+ Calculate the resistance for each vessel assuming that ΔP
+ across the length is 10 mmHg in each case. What is R in terms
+ of η/π?
+ How would you convert the units so that the answer is in SI
+ units only?
+
+   L = 5 mm, r = 1 mm
+
+                                 A          L = 1 mm, r = 0.5 mm
+
+                                                        B
+
+
+  How long would vessel A have to be to have the same
+  resistance as vessel B?
+30
+Laminar vs. Turbulent Flow
+     Derivation of Poiseuille flow resources:
+You can watch the video of the derivation:   Or check out the notes of that derivation –
+https://vimeo.com/367080117/88185b3615       linked in the “Vascular” folder on Canvas
+Poiseuille’s flow assumes laminar flow
+Flow: Laminar vs. Turbulent
+Blood Flow and Korotkoff Sounds
+
+
+
+
+                                  35
+Indirect, or Auscultatory, Method of
+Blood Pressure Measurement
+
+
+
+
+                                       36
+Flow: Laminar vs. Turbulent
+Reynolds Number
+• For flow in a pipe or tube, the Reynolds
+  number is defined as:
+        ρvD                  ρQD
+   Re =                 Re =
+         µ                    µA
+ D is the diameter of the pipe
+ v is the mean velocity
+ ρ is the fluid density
+ µ is the viscosity
+ Q is the flow rate
+ A is the pipe cross-sectional area
+
+                                Laminar when Re<2300
+                                Transitional when 2300<Re<4000
+                                Turbulent when 4000<Re
+Influence of Turbulent Flow
+• Remember that Pouiseille’s Law assumes
+  laminar flow.
+• We have learned that stenotic lesions can result
+  in turbulent flow, because of the increase in
+  Reynolds number!
+• What is the effect of turbulent flow on the
+  relationship between pressure drop and flow?
+

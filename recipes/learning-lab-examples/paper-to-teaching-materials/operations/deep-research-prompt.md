@@ -2,6 +2,14 @@
 
 Use this as the prompt for an LLM Deep Research tool (Claude Deep Research, ChatGPT Deep Research, Perplexity Deep Research). The output is a contextualizing essay for workshop participants who have just seen a live demo of LLM-assisted teaching-material generation built around Grant, Behrends & Basl's (2025) paper on decision-subject ethics.
 
+## Project context
+
+A worked example of using Claude to build teaching material for an ethics-of-AI session, grounded in Grant, Behrends & Basl (2025), "What we owe to decision-subjects: beyond transparency and explanation in automated decision-making" (*Philosophical Studies* 182, 55–85). Jeff Behrends is among the workshop participants, so alignment with **his** paper's framework is non-negotiable.
+
+**The self-referential point.** The workshop teaches faculty to lean on an AI tool. The paper is precisely about the *limits* of relying on AI for consequential decisions about people. That tension is the lesson, not a problem to hide. So this project models the relationship the paper *prescribes*: Claude **augments the instructor's reasoning** and drafts material; Claude **never makes the consequential call** — it surfaces candidates for human judgment. The human stays the moral agent. If a prompt or output ever positions Claude as the *decider* about how a person should be treated, it has violated the paper it is built on.
+
+**Alignment with the paper (hard constraints).** Don't collapse transparency into due consideration — due consideration is *broader*. The Explainability Thesis is "often," "prima facie," "potentially overridable," "context-sensitive" — never absolute. Interpretable models are safer, not a panacea (§6). Keep the three Problems distinct (Definition, Double Standard, Grounding) and cite by section. Black-box ≠ "any AI" — the target is high-flexibility, high-dimensional, low-rule-transparency systems (§4). Case IDs (C1–C4) and student-argument IDs (S1–S3) stay stable across every output. Cite by section (page numbers only if verified against the PDF). No emojis.
+
 ---
 
 ## Prompt

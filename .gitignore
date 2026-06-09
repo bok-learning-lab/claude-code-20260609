@@ -1,2 +1,6 @@
 .DS_Store
 **/.DS_Store
+
+# Commercial textbooks — never push (copyright + size)
+recipes/faculty-recipes/rework-bioengineering-course/inputs/textbooks/Human Physiology, 16th Edition.pdf
+recipes/faculty-recipes/rework-bioengineering-course/inputs/textbooks/Medical physiology (Boron Walter F., Boulpaep Emile L.) 3rd.pdf

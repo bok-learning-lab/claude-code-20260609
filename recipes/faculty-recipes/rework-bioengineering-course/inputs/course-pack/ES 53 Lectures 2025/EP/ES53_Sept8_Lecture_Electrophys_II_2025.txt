@@ -1,0 +1,378 @@
+Logistics & Announcements
+
+
+
+
+                            1
+ES 53
+2025
+
+
+        Module 1
+    Electrophysiology
+
+        (Sept. 8, 2025)
+                          2
+        Part II con’t:
+Nernst potential, membrane
+ potential, driving voltages
+
+
+
+                          3
+Cardiomyocytes engineered to
+     simulate a jellyfish
+
+
+
+
+                                                                                  4
+https://news.harvard.edu/gazette/story/2012/07/behold-the-artificial-jellyfish/
+Worksheet exercise #2 – Nernst
+equilibrium potentials
+                                                   1) Which way does
+                                                   diffusion push K+?
+Intracellular fluid          Extracellular fluid
+ concentrations               concentrations
+
+
+
+                                                   2) Which way does
+      12 mM           Na+           145 mM
+                                                   the electrical flux
+      150 mM           K+           5 mM           push K+?
+      9 mM             Cl–          125 mM
+
+
+      0.0001 mM       Ca2+          2.5 mM
+                                                   3) What is the Nernst
+                                                   potential for K+?
+Recall the equilibrium potential for K+?
+                              –90 mV
+
+
+                                               Voltmeter
+
+
+              Intracellular                     Extracellular
+                                       +        electrode
+              electrode
+                                                            The K+ equilibrium
+                                       –                    potential (EK) is the
+ K+                                                         electrical potential
+                                Fixed anions                that counters the
+ Charge                              –
+ attraction                                                 diffusion of K+
+(electrical flux)             K+ K+    K+   K+ K+
+                                                           (chemical flux)
+
+                                                           Diffusion         K+
+
+                                                                        6
+    The Nernst Potential
+                                            …also called the equilibrium potential
+
+
+            RT    CiX                                               CiX
+     EX = -    ln                               Ex = - (61mV) log10
+            zXF CoX                                     zX          CoX
+Plug in constants: R = the gas constant [ 8.314 J / (mol K) ]
+                    T = absolute temperature [K]; assume body temp in constant = 310 K
+                    F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+                    zX = valence (charge) of the ionic species x
+
+
+ Example (K+): Co = 4 mM and Ci = 140 mM
+               EK = -(61mV/1) log(140/4)
+               EK = -61mV * log(35)
+               EK = -94 mV               So, if the membrane were
+                                                     permeable only to K+,
+                                                     Vmem would be -94 mV
+                                                                              7
+The Sodium Nernst Potential
+
+                                   Nai
+            VNa =        -61 log10
+                                   Nao
+
+     Example (Na+): C(Na)o = 145 mM and C(Na)i = 12 mM
+                    VNa = -61 log(12/145)
+                    VNa = -61 log(0.1)
+                    VNa = +66 mV
+
+
+   So, if the membrane were permeable only to
+            Na+, Vmem would be +66 mV
+
+                                                         8
+               Each ion has its own Nernst potential
+           Intracellular fluid                Extracellular fluid                  𝑅𝑅𝑅𝑅      𝑐𝑐𝑁𝑁𝑁𝑁,𝑜𝑜𝑜𝑜𝑜𝑜
+            concentrations                     concentrations       Δ𝑉𝑉𝑁𝑁𝑁𝑁 =             ln
+                                                                                 𝑍𝑍𝑁𝑁𝑁𝑁 𝐹𝐹 𝑐𝑐𝑁𝑁𝑁𝑁,𝑖𝑖𝑖𝑖
+
+                                                                              𝑅𝑅𝑅𝑅 𝑐𝑐𝐾𝐾,𝑜𝑜𝑜𝑜𝑜𝑜
+                 12 mM                  Na+          145 mM          Δ𝑉𝑉𝐾𝐾 =        ln
+                                                                             𝑍𝑍𝐾𝐾 𝐹𝐹 𝑐𝑐𝐾𝐾,𝑖𝑖𝑖𝑖
+                 150 mM                 K+           5 mM
+                                                                                  𝑅𝑅𝑅𝑅       𝑐𝑐𝐶𝐶𝐶𝐶,𝑜𝑜𝑜𝑜𝑜𝑜
+                 9 mM                   Cl–          125 mM          Δ𝑉𝑉𝐶𝐶𝐶𝐶 =            ln
+                                                                                 𝑍𝑍𝐶𝐶𝐶𝐶 𝐹𝐹 𝑐𝑐𝐶𝐶𝐶𝐶,𝑖𝑖𝑖𝑖
+                 0.0001 mM             Ca2+          2.5 mM
+                                                                                   𝑅𝑅𝑅𝑅      𝑐𝑐𝐶𝐶𝐶𝐶,𝑜𝑜𝑜𝑜𝑜𝑜
+                                                                    Δ𝑉𝑉𝐶𝐶𝐶𝐶 =             ln
+                                                                                 𝑍𝑍𝐶𝐶𝐶𝐶 𝐹𝐹 𝑐𝑐𝐶𝐶𝐶𝐶,𝑖𝑖𝑖𝑖
+
+ Δ𝑉𝑉𝐾𝐾 ≈ −92 𝑚𝑚𝑚𝑚          If K+ was the only ion that could pass across the membrane, then
+                           the membrane potential would become Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 ≈ −92 𝑚𝑚𝑚𝑚
+
+                           If Na+ was the only ion that could pass across the membrane, then
+Δ𝑉𝑉𝑁𝑁𝑁𝑁 ≈ +60 𝑚𝑚𝑚𝑚
+                           the membrane potential would become Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 ≈ +60 𝑚𝑚𝑚𝑚
+In reality, both K+ and Na+ (and other ions) can pass through channels in cell membranes
+                                        What happens?
+Equilibrium potentials for Na, K, and Cl
+            in a muscle cell
+
+
+
+
+                                    10
+Consider two ions               –70 mV
+
+
+                                         Voltmeter
+
+
+
+
+                                +
+             Fixed anions   –
+                   –
+
+
+  Na+        Na+
+
+   K+        K+
+
+
+                                                 11
+Resting Membrane Potential (Vmem)
+
+                   Why is Vmem so close to VK?
+
+   Vm -90 to -60
+
+
+                    0 mV
+ VK -94                           VNa
+                                  +61
+
+
+      Because the membrane is far
+      more permeable to K than Na.
+                                                 12
+    Resting Membrane Potential (Vmem)
+1. Each ion has its own equilibrium (Nernst) potential, which is typically
+   different from all of the other ions.
+2. The membrane potential is the weighted average of the Nernst potentials
+   of the ions present in the cell. The weights are directly related to the
+   permeability of each ion and the absolute concentration of the ion.
+3. In the resting state K+ usually dominates the membrane potential as can
+   be seen in the GHK equation. Sodium permeability is low so it makes a
+   small contribution. Chloride is intermediate, but its equilibrium potential is
+   usually close to the K+ equilibrium potential.
+4. There will be a flux across the membrane of any ion for which the
+   membrane potential is not at the equilibrium potential (this difference in
+   potentials leads to a driving force or driving potential which in turn causes
+   a current).
+5. If membrane potential is stable, then the total net flow of ionic charge
+   across the membrane is zero even if the individual ion flows are not zero.
+
+                                                                             13
+     The Goldman-Hodgkin-Katz voltage equation
+We found the Nernst potential for a single ion, 𝑥𝑥, by calculating it’s flux
+(which is proportional to it’s current)
+
+
+                                                                   𝑅𝑅𝑅𝑅 𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜
+And then finding the potential for which the flux is zero: 𝐸𝐸𝑥𝑥 =        ln
+                                                                  𝑍𝑍𝑥𝑥 𝐹𝐹 𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖
+
+We can use a similar logic to analyze what happens with multiple ions:
+                      𝐼𝐼𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 𝐼𝐼1 + 𝐼𝐼2 + 𝐼𝐼3 +. . .
+
+And find the potential for which the total current is zero
+
+Considering only K+, Na+, and Cl-, this gives:
+                                                                                   The total current is zero
+               𝑅𝑅𝑅𝑅 𝑃𝑃𝑁𝑁𝑁𝑁 𝑐𝑐𝑁𝑁𝑁𝑁,𝑜𝑜𝑜𝑜𝑜𝑜 + 𝑃𝑃𝐾𝐾 𝑐𝑐𝐾𝐾,𝑜𝑜𝑜𝑜𝑜𝑜 + 𝑃𝑃𝐶𝐶𝐶𝐶 𝑐𝑐𝐶𝐶𝐶𝐶,𝑖𝑖𝑖𝑖   at this potential. . .
+   Δ𝑉𝑉𝐺𝐺𝐺𝐺𝐺𝐺 =     ln
+                𝐹𝐹    𝑃𝑃𝑁𝑁𝑁𝑁 𝑐𝑐𝑁𝑁𝑁𝑁,𝑖𝑖𝑖𝑖 + 𝑃𝑃𝐾𝐾 𝑐𝑐𝐾𝐾,𝑖𝑖𝑖𝑖 + 𝑃𝑃𝐶𝐶𝐶𝐶 𝑐𝑐𝐶𝐶𝐶𝐶,𝑜𝑜𝑜𝑜𝑜𝑜   . . . but the current of
+                                                                                   each ion is nonzero
+   The Goldman-Hodgkin-Katz voltage equation
+                                     𝑅𝑅𝑅𝑅 𝑃𝑃𝑁𝑁𝑁𝑁 𝑐𝑐𝑁𝑁𝑁𝑁,𝑜𝑜𝑜𝑜𝑜𝑜 + 𝑃𝑃𝐾𝐾 𝑐𝑐𝐾𝐾,𝑜𝑜𝑜𝑜𝑜𝑜 + 𝑃𝑃𝐶𝐶𝐶𝐶 𝑐𝑐𝐶𝐶𝐶𝐶,𝑖𝑖𝑖𝑖
+           Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 = Δ𝑉𝑉𝐺𝐺𝐺𝐺𝐺𝐺 =       ln
+                                      𝐹𝐹    𝑃𝑃𝑁𝑁𝑁𝑁 𝑐𝑐𝑁𝑁𝑁𝑁,𝑖𝑖𝑖𝑖 + 𝑃𝑃𝐾𝐾 𝑐𝑐𝐾𝐾,𝑖𝑖𝑖𝑖 + 𝑃𝑃𝐶𝐶𝐶𝐶 𝑐𝑐𝐶𝐶𝐶𝐶,𝑜𝑜𝑜𝑜𝑜𝑜
+        Under typical conditions 𝑃𝑃𝐾𝐾 >> 𝑃𝑃𝑁𝑁𝑁𝑁 and 𝑃𝑃𝐶𝐶𝐶𝐶 , so Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 ≈ 𝐸𝐸𝑘𝑘
+            Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 -70 mV
+
+
+                                     0 mV
+        𝐸𝐸𝐾𝐾 -90 mV                                           𝐸𝐸𝑁𝑁𝑁𝑁 +60 mV
+
+    What if the cell transiently becomes much more permeable to Na+?
+                                                 Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 +50 mV
+                                                                                      If 𝑃𝑃𝑁𝑁𝑁𝑁 >> 𝑃𝑃𝐾𝐾 and 𝑃𝑃𝐶𝐶𝐶𝐶
+                                                                                      then Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 ≈ 𝐸𝐸𝑁𝑁𝑁𝑁
+                                 0 mV
+       𝐸𝐸𝐾𝐾 -90 mV                                           𝐸𝐸𝑁𝑁𝑁𝑁 +60 mV
+
+Selectively changing membrane permeability changes membrane potential!
+So is there a net current at rest (steady state)?
+
+
+
+
+                                               18
+                   The chord conductance equation
+
+  An alternative approach is to consider current                       𝐼𝐼𝑥𝑥 = 𝑔𝑔𝑥𝑥 Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 − 𝐸𝐸𝑥𝑥
+
+  Consider:
+𝐼𝐼𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 𝐼𝐼𝑁𝑁𝑁𝑁 + 𝐼𝐼𝐾𝐾 + 𝐼𝐼𝐶𝐶𝐶𝐶 = 𝑔𝑔𝑁𝑁𝑁𝑁 Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 − 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 − 𝐸𝐸𝐶𝐶𝐶𝐶
+
+  At what voltage is there no net current?
+                 0 = 𝑔𝑔𝑁𝑁𝑁𝑁 Δ𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 Δ𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 − 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 Δ𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 − 𝐸𝐸𝐶𝐶𝐶𝐶
+
+                                                    𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+                     Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 =     Δ𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 =
+                                                            𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶
+                                    The chord conductance equation
+              An alternative approach to calculate the membrane potential
+Resting Membrane Potential (Vmem)
+       Two ways to find Vmem
+
+  Goldman-Hodgkin-Katz equation
+
+
+
+Chord conductance equation from the
+          sum of currents
+
+                                20
+Worksheet exercise #3 – Resting
+Membrane potentials
+
+Intracellular fluid
+ concentrations
+                            Extracellular fluid
+                             concentrations
+                                                  Assume gK = 65; gNa = 3
+
+
+      12 mM           Na+          145 mM
+                                                   1) What is the (resting)
+      150 mM          K+           5 mM
+                                                   membrane potential?
+                                                   2) What is the driving
+                                                   voltage for K+?
+                                                   3) What is IK the current
+                                                   for K+?
+What could happen if potassium
+levels were too low or too high?
+
+What do you think would happen
+to a cell’s resting membrane
+potential?
+
+
+                                   22
+                  Clinical Case: Hypokalemia
+•   Hypokalemia is caused by abnormally low levels of potassium in the
+    body.
+•   Almost 98% of potassium is found inside the cells. Small changes in
+    the level of potassium that is present outside the cells can have
+    severe effects on the heart, nerves, and muscles.
+•   Potassium is important to maintain muscle contraction.
+•   The kidney is the main organ that controls the balance of potassium
+    by removing excess potassium into the urine.
+                           Intracellular fluid          Extracellular fluid
+                            concentrations               concentrations
+
+
+
+
+                                  12 mM          Na+           145 mM
+
+                                  150 mM         K+            5 mM
+
+                                  9 mM           Cl–           125 mM
+
+                                  0.0001 mM      Ca2+          2.5 mM
+     Part III:
+Action Potentials
+
+
+   (time permitting)
+
+
+                       24
+Review
+(2 min, check w/ neighbor)
+
+• What is a typical resting membrane potential?
+• Why are the resting membrane potentials of
+  neurons and muscle cells negative?
+• What factors determine the resting membrane
+  potential?
+• How can we calculate the resting membrane
+  potential?
+
+
+
+                                                  25
+ Recall the chord conductance equation
+
+                              𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+   𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 =   𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 =
+                                      𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶
+
+
+
+When is this a reasonable estimate of the
+membrane potential (i.e. in what scenarios?)?
+Changes in
+Membrane Potential
+
+Changes can be
+recorded on an
+oscilloscope by
+recording the voltage
+inside and outside
+the cell.
+
+
+
+
+                        27
+Membrane potential can be altered experimentally
+
+
+                               +
+                      −      −    −    − −
+                  −               − −
+                            −
+               − − −− − −− −        −−
+                 − − − − +−− −
+                      − − − −− −       −
+                 −    −−− −− − − − −
+                                      −
+                  −         −− − −
+               −    −             − −
+                            −
+
+A microscopic electrode can be placed into a cell and positive
+charge can be “injected” into the cell to alter the membrane
+potential.
+                                                          29
+

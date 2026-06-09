@@ -1,0 +1,309 @@
+ES 53
+2025
+
+
+        Module 3
+   Cardiac Physiology
+
+        (Sept. 26, 2025)
+
+                           1
+       Part II con’t:
+Cardiac mechanics, cardiac
+          cycle
+
+
+
+                        2
+Blood Pressure Parameters you need to know
+
+• Systolic pressure = arterial pressure during ventricular
+ contraction
+• Diastolic pressure = arterial pressure during ventricular
+relaxation
+• Pulse pressure = (systolic pressure) – (diastolic pressure)
+• Mean arterial pressure (MAP) represents average arterial
+pressure during the entire cardiac cycle
+   • MAP ≈ 2/3 diastolic pressure + 1/3 systolic pressure
+      • Why is MAP closer to the diastolic pressure?
+   • MAP ≈ diastolic pressure + 1/3 pulse pressure
+
+                                                         3
+Cardiac Cycle – Volume parameters you need
+to know
+
+• End-diastolic volume is volume of blood in
+  ventricles at end of diastole (EDV)
+• End-systolic volume is amount of blood left in
+  ventricles at end of systole (ESV)
+• Stroke volume is amount of blood ejected from
+  ventricles during systole (SV = EDV-ESV)
+• Ejection fraction is the portion of blood ejected
+  from the LV compared to the total volume of blood
+  at the end of diastole. (EF = SV/EDV)
+• Cardiac output is the volume of blood ejected from
+  the LV per minute. (CO = HR x SV)
+                                                4
+The cardiac cycle
+Wigger’s Diagram
+
+
+
+
+             5
+Exercise 2: (~5 minutes, work together)
+What are the following based on the given
+Wigger’s Diagram? (Let HR = 70 bpm)
+
+
+EDV
+ESV
+SV
+EF
+Blood pressure (Systolic/diastolic)
+MAP
+CO
+                                            6
+   Q: Given what you know about the ECG in
+ exercise 1, how do you expect this electrical
+ activity to affect end diastolic volume (EDV),
+and stroke volume (SV) if at all? Briefly discuss
+ with your group if you expect each factor to
+increase, decrease, or remain the same. Why?
+
+
+
+
+                                             7
+Q: We have been
+
+
+                           Pressure
+looking at the left side
+of the heart, but what
+would the Wigger’s
+diagram look like for
+the right side of the
+heart?
+
+What are some
+similarities?
+                           Volume
+Differences?
+
+
+                           8
+                                                     Pressure
+
+
+
+
+                                                     Volume
+
+You should be able to draw the ECG on top of this!
+                                                     9
+Exercise 3 (~5 minutes, work in groups)
+Draw a set of axes including one for volume on the x axis,
+and one for pressure on the y axis. Consider the Wigger’s
+diagram. Plot volume of the left ventricle vs. pressure of the
+left ventricle over the period of one cardiac cycle.
+
+
+
+
+                     Pressure
+
+
+
+
+                                Volume
+
+
+Denote
+• the opening and closing of the mitral valve and the aortic valve
+• the end systolic volume (ESV) and the end diastolic volume (EDV)
+• Isovolumetic contraction and isovolumetric relaxation
+                                                                10
+       Part III:
+Pressure-Volume Loops
+
+
+
+
+                        11
+Exercise 3 (~5 minutes, work in groups)
+Draw a set of axes including one for volume on the x axis,
+and one for pressure on the y axis. Consider the Wigger’s
+diagram. Plot volume of the left ventricle vs. pressure of the
+left ventricle over the period of one cardiac cycle.
+
+
+
+
+                     Pressure
+
+
+
+
+                                Volume
+
+
+Denote
+• the opening and closing of the mitral valve and the aortic valve
+• the end systolic volume (ESV) and the end diastolic volume (EDV)
+• Isovolumetic contraction and isovolumetric relaxation
+                                                                12
+Pressure-volume loop of the cardiac cycle
+
+
+
+
+Q: 1,2,3,4 in the right diagram refer to
+the mitral and aortic valves
+opening/closing.
+Which refers to the aortic valve opening?
+Which refers to the mitral valve opening?   13
+ Pressure-volume
+ loop of the
+ cardiac cycle
+
+
+
+
+Q: Which point in
+the PV loop
+indicates the
+systolic pressure?
+Which indicates
+the diastolic
+pressure?
+
+                     14
+Stroke Work
+SW refers to the work done by the ventricle to eject a
+volume of blood (i.e., stroke volume) into the aorta. It is
+the area within the ventricular P-V loop.
+
+
+
+
+ SW ~= Stroke Volume X Mean Aortic (arterial) Pressure15
+Recall from the reading assignment:
+
+Stroke Volume is determined by 3 variables
+
+ End diastolic volume (EDV) = volume of blood in
+  ventricles at end of diastole = Preload
+ Contractility = strength of ventricular contraction
+ Total peripheral resistance (TPR) = impedance to blood
+  flow in arteries = Afterload
+
+
+
+
+                                                        16
+Frank-Starling Law of the Heart
+• (a) is state of myocardial sarcomeres just before filling
+     • Actins overlap, actin-myosin interactions are
+        reduced and contraction would be weak
+• In (b, c and d) there is increasing interaction of actin
+  and myosin allowing more force to be developed
+
+
+                 Q: For which sarcomere
+                 starting length can the most
+                 tension be generated?
+
+
+
+
+                                                              17
+Length – tension relationship in muscle
+
+
+
+
+                                 Q: Does passive
+                                 tension play a
+                                 larger role in
+                                 skeletal or cardiac
+                                 muscle?
+
+
+
+
+                                              18
+ How do you expect the P-V loop
+to change with increased filling of
+     the LV during diastole?
+
+         Try drawing this
+
+
+                                  19
+Frank Starling Mechanism
+
+
+
+
+                           Q: Is the ejection
+                           fraction the same
+                           in these two
+                           scenarios?
+
+
+
+
+                                        20
+                   End-diastolic volume
+
+                                              What affects EDV?
+                      Venous return
+
+
+
+
+                        Negative
+                      intrathoracic
+                        pressure
+
+    Blood volume                          Venous pressure
+
+                         Breathing
+
+
+
+
+ Urine    Tissue-fluid           Venoconstriction    Skeletal
+volume      volume                                   muscle
+                                                      pump
+
+                                   Sympathetic
+                                 nerve stimulation
+           Exercise 4: What would happen to this P-V loop if:
+           1) Pre-load (EDV) increased?
+           2) Arterial pressure (total peripheral resistance)
+           increased?
+           3) Contractility increased?
+
+             Increased Preload              Increased Afterload              Increased Contractility
+
+
+
+
+Pressure                         Pressure                         Pressure
+
+
+
+
+                 Volume                          Volume                           Volume
+
+
+                                                                                            22
+Let’s try the Harvi simulator!
+
+
+
+
+                                 24
+

@@ -1,0 +1,163 @@
+# PSet08_ES53_2025drfat.docx — text digest
+
+_Extracted text from 163 paragraphs. Images, tables, and formatting omitted._
+
+ES 53 - Quantitative Physiology Fall 2025
+
+Problem Set 8: Oxygen Consumption, Pulmonary Ventilation, Renal intro
+
+Due Tues. Nov. 18th           (out of  points)
+
+Make sure you show all of your work and include units throughout your calculations. Be sure to keep all of your answers within the boxes provided. Be sure to clearly CIRLCLE your final answers.Ignore dissolved oxygen content in blood unless otherwise stated in the problem.Make sure you show all of your work and include units throughout your calculations. Be sure to keep all of your answers within the boxes provided. Be sure to clearly CIRLCLE your final answers.Ignore dissolved oxygen content in blood unless otherwise stated in the problem.
+
+Make sure you show all of your work and include units throughout your calculations. 
+
+Be sure to keep all of your answers within the boxes provided. 
+
+Be sure to clearly CIRLCLE your final answers.
+
+Ignore dissolved oxygen content in blood unless otherwise stated in the problem.
+
+Make sure you show all of your work and include units throughout your calculations. 
+
+Be sure to keep all of your answers within the boxes provided. 
+
+Be sure to clearly CIRLCLE your final answers.
+
+Ignore dissolved oxygen content in blood unless otherwise stated in the problem.
+
+[12 pts] Recall typical lung volumes. Suppose that anatomical dead-space is fixed at 100ml and that functional dead-space is 10% of the remaining tidal volume.
+
+a. [3] Emiko has the following lung volumes below. Fill in the values for vital capacity, total lung capacity and total deadspace.
+
+inspiratory reserve volume = 3000 mLresidual volume = 1500 mL
+
+inspiratory capacity = 2500 mLvital capacity = 
+
+tidal volume = 500 mLtotal lung capacity = 
+
+expiratory reserve volume = 1500 mLtotal dead space =
+
+b. [3] What is her alveolar ventilation rate (in L/min) if she is exercising with a respiratory rate of 24 breaths per minute and inhaling maximally with each breath?
+
+c. [1] If Emiko has an asthma attack what will happen to her FEV1?  
+
+(circle one): Increase, decrease, no change
+
+d. [1] Is asthma considered a restrictive or obstructive disorder? (circle one) 
+
+[10 pts] Nadir is traveling on a plane and it suddenly loses pressure. The cabin pressure drops from 760 mmHg to 405 mmHg. You may ignore dissolved oxygen for this question. List your answer in appropriate units.
+
+Nadir has the following vitals before the cabin loses pressure:
+
+Breathing rate = 11 breaths/min
+
+Cardiac output = 5 L/min
+
+Blood volume = 6 L
+
+Ht = 13.5 gHb / dL
+
+3/4 blood in veins, 1/4 arteries
+
+Oxygen consumption = 250 mL O2/min
+
+Tissue CO2 = 40 mmHg
+
+Tissue PO2 = 45 mmHg
+
+TV = 500 mL
+
+IRV = 2000 mL
+
+VC =  5200 mL
+
+TLC = 6000 mL
+
+[1] What is Nadir’s minute volume?
+
+[2] What is his alveolar PO2 before and after the cabin loses pressure?
+
+[2] How many milliliters of oxygen were in his body (including lungs and blood) before if the plane was pressurized to 760 mmHg? Assume he was breathing normally
+
+[2] What is the amount of O2 in Nadir’s body (including lungs and blood) one minute after the cabin loses pressure? Assume he is breathing normally and is calm.
+
+[1] To stay conscious as long as possible is it best to: (circle only one)
+
+Hold your breath immediately as the plane loses pressure 
+
+Breath as fast as possible as the plane loses pressure (hyperventilate)
+
+[2] What % oxygen must be given to those on the plane in order to reach a normal alveolar PO2?
+
+3. [12] One complication of alcohol intoxication, especially above a blood alcohol level of 0.25%, is that the cough reflex is suppressed and there is an increased likelihood of aspiration of vomit (aspiration is the inhalation of a non-gas substance such as food, water, etc into the airways of the lungs). Aspiration can lead to pneumonia - a lung infection in which there is inflammation of the alveoli that can impair gas exchange in the lungs. 
+
+Suppose that a patient has severe aspiration pneumonia that primarily affects the right lung leading to effectively zero gas exchange in the right lung. Assume this person has a [Hb] = 15 gHb/dL
+
+A compensatory mechanism would lead to uneven blood flow between the two lungs. What mechanism/effect is this? 
+
+Assuming that the pulmonary vascular resistance is tripled on the right side compared to the left. What is the corresponding ratio of blood flow (Q) on the right compared to the left (Qright/Qleft)?
+
+RR = 3RL
+
+If the PO2 in the left pulmonary vein is normal, but the PO2 is 20mmHg in the right pulmonary vein, what PO2 level (in mmHg) would be expected from an arterial blood gas measurement (PO2 in an artery in the systemic circulation)?
+
+What cardiac output (in L/min) would be required to support an O2 consumption rate of 400 mlO2/min given the resistance ratio mentioned in (b)?   ignore dissolved O2, no info given about [Hb]; assume 15 gHb/dL
+
+What cardiac output (in L/min) would be required to support an O2 consumption rate of 400ml/min, for the situation in (d) if the person happened to be anemic with [Hb]=10g/dL.
+
+Because this patient has trouble breathing, he borrows his Grandpa's 02 canister (Grandpa was a lifelong smoker who now suffers from COPD) which delivers 50% 02 (as opposed to 21% in regular air). After breathing 50% 02 for a couple minutes, what would the P02 be in the patient’s left pulmonary vein?  Right pulmonary vein?  Aorta?  
+
+[9 pts] In very rare cases certain local anesthetics (e.g. Benzocaine) can cause a potentially serious condition called methemoglobinemia. In such cases some of the hemoglobin proteins are converted to methemoglobin which is unable to bind and carry oxygen. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC307717/)
+
+In one such case, a patient received local anesthetic prior to an endoscopic procedure. The patient’s blood oxygen saturation level before the procedure was measured as 100%. 
+
+Within a few minutes into the procedure, the patient's saturation decreased and he became cyanotic. He was placed on 50% oxygen supplementation by face mask but he remained cyanotic.  Methemoglobinemia was suspected, and arterial blood gas test showed:
+
+Arterial PO2: 248mmHg Venous PO2: 40mmHg
+
+Arterial PCO2: 34 mmHg Venous PCO2: 40 mmHg
+
+Oxygen saturation: 100%; 
+
+Methemoglobin comprised 42% of the total hemoglobin
+
+Hematocrit  = 0.45
+
+Hemoglobin concentration = 15 gHb/dL
+
+Blood volume = 6L
+
+[3] How much oxygen was in his entire bloodstream while cyanotic and wearing the supplemental oxygen mask? Do not ignore dissolved oxygen.
+
+[2] What cardiac output is required if the oxygen consumption is constant at 250 mL-O2 / min?
+
+[2] Given that the patient was breathing 50% oxygen at sea level what was the expcted alveolar PO2 in mmHg?
+
+[1] Does the supplmental oxygen increase the arterial saturation of hemoglobin as compared to breathing room air?  YES,   NO,  (circle one)
+
+[1] Not only does methemoglobin prevent the binding of oxygen, but it also oxidizes iron which reduces the amount of oxygen released from hemoglobin. This shifts the oxyhemoglobin dissociation curve as in alkalosis. On the curve below draw this effect.
+
+5. [6 pts] Be sure to complete the assigned reading on renal physiology before completing this problem. You’ll need to understand the difference between efferent and afferent arterioles. Assume that the average glomerular capillary pressure is about 60 mmHg, plasma oncotic pressure is about 30 mm Hg, the hydrostatic pressure within Bowman’s space is 20 mmHg, ultrafiltrate oncotic pressure is 0 mm Hg, and the GFR is 120 mL/min. 
+
+What is the net driving pressure (in mmHg) that is driving glomerular filtration? 
+
+How will dilation of the afferent arterioles affect GFR? (increase or decrease, and why) 
+
+How will constriction of the efferent arterioles affect GFR? (increase or decrease, and why) 
+
+6. [8 pts] Please type this component of your assignment. Using Pubmed or Google Scholar, look up the prevalence of patients on dialysis in the U.S., and the prevalence of kidney transplants. Cite all references using IEEE citation standards (Word can automatically do this for you). You might also find this 2018 John Oliver episode on dialysis in the US informative, albeit a few (https://www.youtube.com/watch?v=yw_nqzVfxFQ).
+
+How large of a problem is kidney failure and dialysis in terms of the number of patients on this treatment at any given time in the US?
+
+What are the approximate healthcare costs of this many patients on dialysis?
+
+How many kidney transplants are performed each year? Why aren’t kidney transplants performed on everyone who needs dialysis?
+
+Boards at hospitals have to decide who receives transplants from the limited supply of donor kidneys. Using your own ethical reasoning, describe who you think should get a kidney transplant out of the two patients below. List a couple factors you took into account and what other factors you would want to know to make a decision. (There are no wrong answers. We are just looking for a well-reasoned argument.)
+
+i. A 16 year old boy who is a promising star athlete and may become valedictorian.
+
+ii. A 39 year old mother of three kids who is a social justice advocate for human rights. 
+
+As engineers we should consider the impact of engineering solutions in global, economic, environmental, and societal contexts. How might one or more of these play a role in designing a better solution for dialysis patients?

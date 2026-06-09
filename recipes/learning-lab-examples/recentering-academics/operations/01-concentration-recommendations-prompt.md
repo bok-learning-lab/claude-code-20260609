@@ -4,6 +4,14 @@ Use this prompt to turn one concentration's Fields-of-Concentration profile into
 of curricular recommendations aligned with the Bok Center's Recentering Academics
 initiative. Output is a single Markdown file in `outputs/`.
 
+## Project context
+
+Helps faculty bring a course or whole concentration into alignment with the Bok Center's **Recentering Academics** initiative: (1) meaningful, engaged classroom sessions and (2) rigorous assessment & feedback that grades the full range of student achievement and is resilient to generative AI. Act as a curricular consultant for the Director of the Bok Center Learning Lab.
+
+**The three input layers — read all three before generating.** (1) `inputs/bok-advice/` — Bok's Recentering framework: the *normative basis*. (2) `inputs/harvard-context/` — Dean Claybaugh's October 2025 grade-compression report (A's: 24% in 2005 → 60.2% in 2025) and the February 2026 Subcommittee on Grading proposal (20%+4 cap on A grades). The *why now*. (3) `inputs/research/` — Sadler 2005, Jonsson & Svingby 2007, Butcher et al. 2014, Bar et al. 2009. The *what works*.
+
+**Two passes.** Read and diagnose first — honest about what the target already does well, not only its gaps. Recommend second — organize around the two pillars (engaged classroom; rigorous assessment & feedback) and anchor every recommendation in the concentration's actual structure. If a recommendation would read identically for any field, sharpen or cut. Cite source by section and target by its actual feature. Respect research cautions (mean caps work but are costly; publishing grade data to students can backfire). Markdown output; overwrite on regeneration, no parallel copies. No emojis.
+
 ---
 
 ## How to share inputs

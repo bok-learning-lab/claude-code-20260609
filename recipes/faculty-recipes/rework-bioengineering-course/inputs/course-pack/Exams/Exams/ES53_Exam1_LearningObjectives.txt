@@ -1,0 +1,114 @@
+ES 53
+
+
+
+         Exam 1
+   Learning Objectives
+        Summary
+                         1
+      Electro-                                                   3) Determine the resting membrane potential of any cell
+
+
+
+     physiology
+                                                                 - Appropriately apply the GHK (membrane potential equation)
+                                                                 equation
+                                                                 - Understand how the membrane potential would change if
+                                                                 permeabilities/conductances changed
+                                                                 - Calculate currents (Ix) for the common ions
+1) Describe the forces governing ions inside and outside         - Calculate the driving voltage (Vx) for each ion
+the cell.
+- Define concentration gradients, selective permeability,
+diffusion, electrostatic force                                   4) Explain what an action potential is and how and why it
+                                                                 occurs
+- Understand how the cell can be bulk net neutral and still
+have a negative resting potential                                - Diagram an action potential as a function of voltage over
+                                                                 time and indicate the resting potential, depolarization,
+- Describe what membrane channels are and what causes            repolarization, hyperpolarization, overshoot, undershoot,
+their selectivity                                                absolute refractory phase and relative refractory phase
+                                                                 - Explain and numerically model the all-or none property of
+                                                                 action potentials
+2) Calculate the Nernst potential (equilibrium potential)
+for the 4 most common ions that affect the membrane
+potential
+                                                                 5) Use the Hodgkin-Huxley model to recreate the action
+- Know the qualitative (high, low) concentrations of the 3 key   potential
+ions inside and outside a typical cell
+                                                                 - Explain the gating of Na+ and K+ channels and how that
+- Understand how the Nernst Potential would change if            affects conductance over time
+concentrations changed
+                                                                 - Model how the conductance of gates and their time
+- Explain how membrane selectivity affects the Nernst            constants affect the action potential shape
+potential
+                                                                 - Explain the difference between membrane changes during
+- Explain why the equilibrium potential is not typically zero    an action potential and during an experiment where the
+                                                                 membrane potential is voltage-clamped
+                                                                                                                         2
+         Muscle
+                                            • Compare and contrast an isometric vs.
+                                              isotonic contraction.
+                                            • Distinguish between concentric, and
+• Delineate the components of muscles.
+                                              eccentric contractions.
+  What is a motor unit? Muscle fiber?
+  Muscle cell? Myofibril? Filament?         • Describe how recruitment increases
+  Sarcomere? What differentiates them?        muscle force.
+  What are their typical length scales?
+                                            • Describe a muscle twitch and how a
+• Describe the steps involved in              muscle responds to increased
+  excitation-contraction coupling from        frequency of stimulation.
+  propagation of an action potential into
+                                            • How is tetany reached? How is tetany
+  a muscle cell to how it causes
+                                              different in the cardiac vs. skeletal
+  contraction.
+                                              muscle?
+• Describe the process of force
+                                            • For the three primary types of muscles:
+  generation following an AP.
+                                              differentiate their locations and
+• Draw the force-velocity curves and          functions.
+  force-length curves for muscle
+                                            • Use Hill’s model to calculate the power
+  contraction. How do these depend on
+                                              generated during work.
+  sarcomere length and muscle length?
+                                                                                3
+                                                          atrium and left ventricle. Correlate the mechanical
+
+          Cardiac
+                                                          pressure and volume cycles with the electrical
+                                                          (ECG) cycle of the heart. You should be able to
+                                                          recall approximate pressures, volumes and the
+                                                          timing. You should be able to read the EDV and
+                                                          ESV, EDP and ESP of the left ventricle.
+• Describe the purpose of all four chambers of the      • Recreate a pressure-volume loop from a Wigger’s
+  heart, the valves within the heart, the pulmonary       diagram and estimate the work done by the left
+  vein, and the aorta; how do defects in these affect     ventricle.
+  flow and circulation?
+                                                        • What is pre-load and what is after-load? How do
+• How do electrical signals move through the heart        changes in them change the stroke work done by
+  and why is the order important?                         the heart, and how do they change the pressure-
+                                                          volume loop of the work done by the heart?
+• Draw an ECG and label the waves. Indicate the
+  electrical and mechanical events that produce         • What might cause increased resistance
+  these waves. Differentiate atrial vs. ventricular       (afterload)? What might cause increased pre-load
+  abnormalities based on an ECG. How do the               (filling)?
+  waves of the ECG change with heart rate and
+  breathing rate?                                       • What is the Frank-Starling Mechanism, and how
+                                                          does it relate to cardiac output and/or stroke
+• What is the primary pacemaker of the heart (SA          volume?
+  node), and where is it located?
+                                                        • Calculate mean arterial pressure (MAP), ejection
+• What is a refractory period and why is it essential     fraction (EF), stroke volume (SV), stroke work
+  to cardiac contraction?                                 (SW), cardiac output (CO), heart rate (HR in units
+                                                          of beats per min (BPM)), pulse pressure (PP),
+• Map the flow of blood throughout the systemic and       total peripheral resistance (TPR).
+  pulmonary vascular systems starting at the left
+  ventricle. How does pressure vary along this          • What are a few biomedical interventions that can
+  path?                                                   alleviate heart dysfunction? In other words, what
+                                                          are some biomedical engineering devices that
+• Re-create a Wigger’s diagram showing the                assist cardiac function (e.g. LVAD, pacemaker),
+  phases of contraction and relaxation in the left        and what do they change about cardiac function?
+                                                                                                        4
+

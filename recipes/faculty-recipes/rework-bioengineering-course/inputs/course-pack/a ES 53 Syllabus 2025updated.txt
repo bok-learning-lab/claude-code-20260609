@@ -1,0 +1,334 @@
+                               Engineering Sciences 53: Fall 2025
+
+                Quantitative Physiology as a Foundation for Bioengineering
+
+Meeting time: Monday, Wednesday, Friday 11:15 am -12:30 pm
+
+Note: This course includes an additional weekly 3 hour lab. See my.harvard for a list of lab section
+times, and your lab placement.
+
+Location:      Class lectures: Room TBD, Allston SEC
+               Labs: Room LL1.241, Allston SEC
+
+Course description: This course is designed as an introduction to thinking as a bio/biomedical
+engineer and is recommended for first years and sophomores but open to all students. Simple
+mathematical models are used to represent key aspects of organ systems function. Core engineering
+concepts are explored through mechanical and electrical examples within the human body. The
+primary focus is on quantitative descriptions of organ systems function and control in terms of physical
+principles and physiologic mechanisms. It includes a foundation in human organ systems physiology,
+including cardiovascular, pulmonary, and renal systems. Emphasis will be given to understanding the
+ways in which dysfunction in these systems gives rise to common human disease processes.
+
+
+Pre-requisite: ES 53 does not have any pre-requisites except some calculus at the high school level.
+
+Co-requisite: We do require physics as a co-requisite. Students must have either taken or be
+concurrently enrolled in one of the following physics courses at Harvard: PS12a/12b, Physics
+15a/15b, AP50a/50b, PS2/PS3. First year students who cannot fit physics into their first semester
+should talk to the Dr. Moyer about their prior physics background if they would like to enroll.
+
+Texts: Required texts:
+       Human Physiology, Fox, 12th, 13th, 14th Edn., or 15th Editions (all are acceptable, but the
+       page numbers only line up for the 13th and 14th editions)
+       Medical Physiology, Boron and Boulpaep, 2017, 3rd Edn. (Available in digital format for free
+       via HOLLIS – no need to buy this textbook unless you’d like a hardcopy)
+
+Head Instructor:      Dr. Linsey Moyer, PhD lmoyer@seas.harvard.edu (SEC LL1.240)
+Guest Instructor:     Prof. Jennifer Lewis, PhD jalewis@seas.harvard.edu
+Teaching Fellow:      Jonathan Rubins
+CAs:
+                      Katie Ho                              Hayden Graham
+                      Armando Patino                        Wafiqah Zubair
+                      Sarah Rose Odutola                    Saron Meressi
+                      Norene Williams
+
+Lab Staff: Avery Normandin: ave@seas.harvard.edu
+           Dr. Melissa Hancock: mhancock@seas.harvard.edu
+
+                                                                                                       1
+Course goals and learning objectives:
+(1) to provide a basic knowledge of physiology which students can draw upon in pursuing their
+own areas of interest in bioengineering, systems biology, or other quantitative biomedical
+sciences
+(2) to provide a quantitative introduction to physical principles that play a key role in
+understanding basic physiology and are particularly important in biomedical engineering
+(3) to give students practical laboratory experience in physiological principles, in which they use
+basic medical and physiologic instrumentation to record real-time data sets of physiologic
+measurements
+(4) to gain fluency in performing basic quantitative visualization and analyses of this data,
+especially through MATLAB. No prior experience with MATLAB is required prior to enrolling in
+this course. It is highly recommended to complete the MATLAB bootcamp offered by FAS or the
+MATLAB onramp.
+(5) to provide an introduction to the breadth of research areas and career pathways from visiting
+faculty and alumni.
+
+
+
+
+                                                                                                  2
+Schedule: (Lecture topics and schedule may change slightly throughout the course. Check
+Canvas for updates.)
+
+ #        Date      Module                     Topic (Updated 8/27)                       Lab Held (Th/F)              What's due
+ 1    W   3-Sep    Overview                           Overview
+ 2    F   5-Sep       EP        Cell membrane biophysics; and chemical gradients          *Lab 0: MATLAB
+ 3    M   8-Sep       EP       Nernst potential, membrane potential, driving voltages
+ 4    W   10-Sep      EP              Action potentials; Hodgkin-Huxley intro
+ 5    F   12-Sep      EP                      Hodgkin-Huxley model                        *Lab 1: EMG part 1           Lab 0
+ 6    M   15-Sep    Muscle            Muscle anatomy and neural innervation                                            PS1
+ 7    W   17-Sep    Muscle                   Muscle contraction, tetany
+ 8    F   19-Sep    Muscle                Force, length, power; Hill’s model              *Lab 2: EMG part 2           Lab1
+ 9    M   22-Sep    Cardiac          Cardiac muscle; Cardiac action potentials                                         PS2
+                               Electrical properties of the heart; contraction, cardiac
+ 10   W   24-Sep    Cardiac
+                                                         cycle                                                         ICQ 1
+ 11   F   26-Sep    Cardiac      Blood Pressure and electromechanical pumping             *Lab 3: ECG and your heart   Lab 2
+ 12   M   29-Sep    Cardiac    Pressure volume dynamics; Wigger’s Diagram (J&J)                                        PS3
+ 13   W   1-Oct     Guest                  Faculty & Alum introductions
+ 14   F   3-Oct     Guest                  Faculty & Alum introductions
+ 15   M   6-Oct      Exam                              Exam                                                            Exam 1
+ 16   W   8-Oct    Vascular           Blood; Vascular anatomy and function
+                                                                                          *Lab 4: Pulse, Blood
+ 17   F   10-Oct   Vascular           Hemodynamics and vascular resistance                                             Lab 3
+                                                                                          pressure, ultrasound
+      M   13-Oct   No Class           NO CLASS – Indigenous People’s Day                                               PS4
+ 18   W   15-Oct   Vascular              Modeling CV system as a circuit
+ 19   F   17-Oct   Vascular       Blood flow problems; cardiovascular diseases                                         Lab 4
+                                 Applications in Quantitative Pediatric Cardiology
+ 20   M   20-Oct                                                                                                       PS5
+                                               (Hoganson/Hammer)
+ 21   W   22-Oct   Vascular       Blood flow problems; cardiovascular diseases                                         ICQ 2
+ 22   F   24-Oct   Pulmonary    Pulmonary anatomy, hemoglobin, partial pressures
+ 23   M   27-Oct   Pulmonary          Gas transport and physics, Henry's Law                                           PS6
+ 24   W   29-Oct    Guest                  Faculty & Alum introductions
+                                                                                          *Lab 5: Lung volumes and
+ 25   F   31-Oct    Guest                  Faculty & Alum introductions
+                                                                                          flow
+ 26   M   3-Nov     Quiz 2                            Exam 2                                                           Exam 2
+ 27   W   5-Nov    Pulmonary              Oxygen consumption modeling
+ 28   F   7-Nov    Pulmonary   Mechanics of ventilation, lung volumes and pressure        *Lab 6: Respiration          Lab 5
+ 29   M   10-Nov   Pulmonary                    Pulmonary diseases                                                     PS7
+ 30   W   12-Nov     Renal                   Renal Anatomy; Filtration
+ 31   F   14-Nov     Renal             Modeling renal function - steady state                                          Lab 6
+ 32   M   17-Nov     Renal                   Modeling renal function II                                                PS8
+ 33   W   19-Nov     Renal                   Modeling renal function III                                               ICQ 3
+ 34   F   21-Nov     Renal                   Renal diseases/conditions                    *Lab 7: Renal filtration
+ 35   M   24-Nov    Guest                  Faculty & Alum introductions                                                PS9
+      W   26-Nov   No Class                     Thanksgiving break
+      F   28-Nov   No Class                     Thanksgiving break
+ 36   M   1-Dec                  3-D Tissue Printing and Vascularization (J. Lewis)                                    Lab 7
+ 37   W   3-Dec     Quiz 3                           Exam 3                                                            Exam 3
+      W   10-Dec    Present                    Presentation (3 hours)                                                  Presentations
+
+
+
+
+                                                                                                                                       3
+Policies and Expectations:
+
+In this class, you will take an active part in the learning process. In some ways, this may make
+the course more challenging; however, we hope this approach will make the course much more
+fun and interesting as well. Because of the interactive nature of this course, we highly
+encourage attendance. Participation will be necessary for you to completely achieve the course
+goals. It is your job to come prepared to class, ask questions, participate, and take notes. If we
+write something on the board you should also write it down. We encourage you to attend office
+hours and meet with the teaching staff and peers to stay on top of your assignments.
+
+We expect that people taking the course have a range of different backgrounds. We want your
+grade to reflect what you get out of the course, not what you brought into it.
+
+The tenets of our approach to the classroom:
+
+   •   Adopt a Humanistic Approach to Science and Engineering
+   •   Recognize that the Culture of Science Is Shifting Toward Collaboration and Inclusion
+   •   Understand that Experiences, Perspectives, Personalities, and Worldviews Vary
+   •   Realize that People Are Imperfect and Make Mistakes
+   •   Take Appropriate Steps to Make Amends If You Make a Mistake
+   •   Adopt a Mindset of Continuous Growth and Improvement
+
+Diversity and Inclusion – We, the instructional team including Dr. Moyer, and the teaching
+assistants would like to create a learning environment for our students that supports a diversity
+of thoughts, perspectives and experiences, and honors your identities (including race, gender,
+class, sexuality, religion, ability, etc.) To help accomplish this:
+
+   •   If you have a name and/or set of pronouns that differ from those that appear in your
+       official Harvard records, please let us know.
+   •   As a participant in course discussions and lab groups you should also strive to honor the
+       diversity of your classmates.
+   •   We (like many people) are still in the process of learning about diverse perspectives and
+       identities. If something was said in class (by anyone) that made you feel uncomfortable,
+       please talk to us about it.
+   •   You can also submit anonymous feedback (which will lead to us making a general
+       announcement to the class, if necessary, to address your concerns). If you prefer to
+       speak with someone outside of the course, the SEAS Committee on Diversity, Inclusion,
+       and Belonging is an excellent resource.
+   •   If you are struggling for any reason in this course, please reach out to us. The
+       instructional team want to be a resource for you.
+
+Faculty and alumni panels - While this course is not an overview of biomedical engineering it
+does provide an introduction to the breadth of research areas and career pathways from our
+guests who visit. Throughout the course we will invite faculty from bioengineering to give short
+overviews of their research. Alumni will be invited to share their experiences along their career
+paths. The students will be in charge of introducing the faculty members or alums. Attendance
+at these meetings will be part of the participation grade. These visits are a valuable feature of
+this course and provide students with introductions to faculty and alumni.
+
+                                                                                                    4
+Problem sets – Problem sets will cover the quantitative aspects of the physiology covered
+during lecture and from the text(s). Students may choose to consult with one another on
+problem sets and share general strategies, but each student's problem set must represent
+his/her/their own work. Copying from one another is not permitted. Please submit your problem
+set by uploading a PDF version to Gradescope by the designated time on its respective due
+date. Each problem set will cover material from the text and the 3-4 lectures preceding.
+
+Laboratory assignments - Students will work in small groups (3 students per group) on
+laboratory exercises and reports. Except for the first lab, one report is submitted per group of
+students, and must be a collaborative effort. All students are expected to attend their lab section
+and work with peers to collect the required data. Each student must contribute to the group's
+laboratory report both in the writing and the MATLAB analysis. Different groups may choose to
+consult with one another, but directly copying from one another is not permitted. Written reports
+should include a thorough presentation & visualization of experimental results. One report
+should be submitted per group of students in PDF format. Please check out the additional lab
+report guide template, and example (see Canvas). Check Canvas for due dates which will be
+one week after the lab is held.
+
+In-class Quizzes (ICQs) – Short (10 minute) comprehension checks will take place as in-class
+quizzes during the first ten minutes of class on Wednesdays. Please be sure to arrive on time.
+Extensions will not be given. There are nine three total quizzes. If you have to miss class you
+will forfeit your score for that quiz.
+
+Exams – Three mid-term exams will cover lecture material, laboratory material, and problems
+similar to those found in your problem sets. To study it is recommended to review 1) handouts
+and learning objectives 2) problem sets, 3) past exams (see Canvas). These exams will be held
+during normal lecture time (75 minutes). You are allowed to bring the following to each of the
+three exams:
+    • One-sided single page of notes allowed. (One equation sheet will already be given to
+        you and will be available on Canvas)
+    • Bring pencils and calculators (and extra batteries or an extra calculator)
+
+Final Project - Throughout ES53, we learn about our familiar but mysterious, intricate but
+simple, delicate but robust body. For the final project students will dig deeper into one specific
+clinical issue of their choosing. You’ll use some engineering and creativity to try to design a new
+medical intervention. For this assignment, you will work in teams of four to:
+   1. Understand the pathophysiology of a particular disease/clinical issue
+   2. Research available treatment options and identify gaps (shortcomings of current medical
+      interventions)
+   3. Propose a medical solution to treat the disease or address complication(s)
+   4. Write up your proposed design with supporting background information
+   5. Pitch your idea to a group of engineers - your classmates!
+The final project presentations will occur in person during the scheduled final exam period. The
+College will set this date and time.
+
+
+                                                                                                   5
+Academic Honesty – All students are expected to maintain an environment of academic
+integrity. Students are expected to collaborate but any and all cheating will result in a zero grade
+for that assignment. Repeated violations of academic integrity may result in dismissal from the
+course or failure of the course. All students must avoid engaging in any activities (e.g using past
+materials from previous years of this course) that would dishonestly improve their results, or
+improve or hurt the results of other learners. To that end students are not permitted to share
+course materials via website, via email, photocopying, or by any other means. Always
+remember that if you need help with any part of the coursework you are always encouraged and
+welcome to talk to the instructors or any of the teaching fellows.
+
+As you're learning, you are free and encouraged to talk with each other, to consult course
+resources, and to study code from other sources. This is how we learn anything. It's how you'll
+learn at every step of your future. We trust you to know the difference between asking a friend
+for help versus copying their answer. No AI is allowed for p-sets except for coding problems. We
+want you to use your own brains to think through quantitative physiology problems.
+
+The principle is that although we encourage you to learn in any way that you prefer, each week
+you must reach the point where you can understand and execute your work independently and
+originally. We trust you. We expect you to act with honor and integrity.
+
+Generative Artificial Intelligence Policy:
+Please note that the A.I. policy for this course reflects our specific goals. We fully understand
+that different courses in the College will have a wide range of policies based on the particular
+goals of those courses, and we hope that you’ll reach out to us if—at any point—you’re unclear
+about what our policy is or why.
+We expect that all work students submit for this course will be their own, or through
+collaborative work with other students. In instances when collaborative work is assigned, we
+expect for the assignment to list all team members who participated.
+    • P-Sets: We specifically forbid the use of ChatGPT or any other generative artificial
+         intelligence (AI) tools for any problem sets unless coding in MATLAB is required. You
+         may use AI only for coding and debugging help.
+    • Coding for Labs: We encourage the use of the MATLAB AI Playground, ChatGPT-Edu
+         and Harvard-based generative AI to help you learn to code and complete the post-lab
+         analysis for all of the labs.
+
+Violations of this policy will be considered academic misconduct.
+
+We want to make sure you have access to as much support as possible and that you are sure
+what that support is, and where to find it. Here are some of the people, places, and other
+resources you can (and should!) reach out to:
+• Us! Our course will have regular office hours, and you should come to those at any stage of
+   completion of your problem sets or labs.
+• Your peers – we encourage collaboration and peer to peer learning.
+• Our Canvas site has many links to MATLAB help as well as a guide created by past TFs!
+• Your textbooks, including the free online Physiology text available via HOLLIS.
+• MATLAB online help: https://www.mathworks.com/help/matlab/
+
+
+                                                                                                    6
+Missed Class Policy - If you have to miss class for any reason (sickness, religious holiday,
+interview, travel, etc) you should do the following:
+        1) Get notes from a peer for any class you miss. (Do this sooner rather than later.)
+        2) Review slides and any handouts from that day. (These are always linked on the front
+        page of canvas.)
+        3) Come to Office Hours to fill in gaps after you've first talked everything through with a
+        peer.
+
+Privacy Policy - Unauthorized recording in the classroom is prohibited. In the interest of
+cultivating an environment most conducive to the free and unencumbered exchange of ideas,
+recordings in the classroom are prohibited without instructor permission. Please note that
+classrooms in the SEC are fitted with automatic lecture capture technology. No videos will be
+posted outside of the course sites without student permission.
+
+Late Work Policy - If P-sets or lab reports are turned in late (past the date set in canvas for P-
+sets and past your specific due date/time for labs) up to 8 hours then 25% of the grade for that
+assignment will be deducted. If the assignment is turned in 8-48 hours late then 60% of the
+grade for that assignment will be deducted. If you turn in an assignment more than 48 hours late
+no points or credit will be given for that assignment. All members will receive a reduction in their
+grade for late lab assignments.
+
+This semester you are allowed one free 48 hour extension for any one P-Set. This is to be used
+in the case of emergencies (illness, unexpected disruption, you need to travel, workload piles
+up, injury, etc.). Please fill out this form to let us know which P-Set you want to apply the
+extension to. Just make sure to fill it out prior to that P-Set’s deadline. You cannot combine this
+with the standard late policy. We highly recommend saving this for as long as possible as you
+never know when something might go awry. You are also allowed one p-set drop, and each one
+is only worth ~2% of your grade, so it’s best to turn in what you have rather than delay.
+
+Copyrights - All rights reserved. No part of this course may be reproduced, distributed, or
+transmitted in any form or by any means, including photocopying, recording, or other electronic
+or mechanical methods, without the prior written permission of the instructor, except in the case
+of brief quotations embodied in certain other noncommercial uses permitted by copyright law.
+For permission requests, write to the instructor. Violations of copyright will be brought to the
+attention of the Harvard AD board and may result in failing the course.
+
+QRD statement: ES 53 is a quantitative physiology course wherein several body systems are
+modeled using math and physics to explain and predict physiological phenomena. Students
+learn computational methods for analyzing and processing real physiological signals from their
+bodies using MATLAB and also compare limitations of both the models and the real data. A
+background in high school calculus is expected but no prior coding experience is required.
+
+
+
+
+                                                                                                      7
+Tentative Grading Breakdown:
+       Problem Set Assignments             18%*
+       Lab Reports                         18%
+       In Class Quizzes (ICQs)              5%
+       Exams                               40% **
+       Final Project Presentation          14%
+       Participation                        5%
+
+       * One p-set may be dropped
+       ** Lowest exam is only 10% of the overall grade
+
+
+
+
+                                                         8
+

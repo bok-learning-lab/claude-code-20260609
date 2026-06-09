@@ -1,0 +1,49 @@
+Pulmonary Physiology: Relationships you need to know (and need to
+know how to use)
+                                                     PaO2 = partial pressure of O2 in alveoli
+                                                     PaCO2 = partial pressure of CO2 in alveoli (40mmHg at rest)
+                                                     PIO2 = partial pressure of O2 in inspired air
+Alveolar Gas Equation:                               PIO2-WET = partial pressure of O2 in wet inspired air --> inside
+                                                     the pharynx & airways air is at 100% humidity at temp=37C.
+PaO2 = PIO2-WET - PaCO2/R                            PH20 = pressure of H2O = 47mmHg (at 37C=body temp)
+PIO2-WET = (PATM - PH20) · (0.21)                    PATM = atmospheric pressure
+Æ PaO2 =(PATM - 47mmHg)(0.21) - PaCO2/R              0.21 = fraction (by volume) of O2 in dry atmospheric air
+                                                     R = respiratory exchange ratio between CO2 & O2 (R=0.8)
+Normal conditions:
+PaO2 =(760mmHg - 47mmHg) · (0.21) – 40mmHg/0.8 = 100mmHg
+
+Fick’s Principle (oxygen balance Æ rate of O2 consumption by (all) tissue = rate of O2 delivery to tissue)
+
+Rate of O2 consumption = O& 2 = Q · (CAO2 - CVO2)                    Q = rate of blood flow = cardiac output
+                                                                     CAO2 = O2 concentration in arterial blood
+                                                                     CVO2 = O2 concentration in venous blood
+Normal conditions:
+O& 2 = (5 L blood/min) · (20ml O2/dL blood - 15ml O2/dL blood) = 250ml O2/min
+
+Note that CAO2 & CVO2 depend on the partial pressure of O2 in               PAO2 = partial pressure of O2 in arterial blood –
+arterial and venous blood, respectively. And the relationship               usually equal to PO2 in alveoli.
+between PAO2 & CAO2 (& between PVO2 & CVO2) is                              SaO2 = hemoglobin saturation (as a fraction)
+determined by the Hb dissociation curve (which gives SaO2 as                Hb = hemoglobin or hemoglobin concentration
+a function of PAO2):                                                        1.34ml O2 /g Hb = O2 carrying capacity of Hb
+CAO2 = SaO2 ·1.34ml O2/g Hb·[Hb] + 0.003ml O2/dL/mmHg · PAO2                0.003ml O2/dL/mmHg for PAO2 = the small
+                                                                            (usually negligible) solubility of O2 in plasma.
+
+Alveolar Ventilation
+                                                     V&A = alveolar ventilation rate
+                                                     VTIDAL = Tidal Volume for a single breath
+V&A = (VTIDAL – VDEAD) · (RR)                        VDEAD = Dead Space Volume (Anatomical + Physiologic)
+                                                     RR = Respiratory rate (breaths/min)
+Normal conditions:
+V&A = (500ml – 150ml) · (12/min) = 4.2 L/min
+
+Resistance to Flow (for blood, air, etc) ∆P = Pressure difference driving the flow.
+                                             R = Resistance to flow.
+                                             L = Length of tube / airway / blood vessel
+Flow = Q = ∆P/R Æ ∆P = Q · R                 r = radius of tube / airway / blood vessel
+For smooth (laminar) flow in a tube:         μ = viscosity of what’s flowing (blood or air)            Conversions:
+R = 8μL/πr4                                                                                            1 mmHg = 133 Pa
+                                                                                                       1 kPa = ~7.5 mmHg
+                                                                                                       1 mL = 1 cm3
+                                                                                                       1 L = 1x10-3 m3
+                                                                                                       1 N*m = 1 Joule
+

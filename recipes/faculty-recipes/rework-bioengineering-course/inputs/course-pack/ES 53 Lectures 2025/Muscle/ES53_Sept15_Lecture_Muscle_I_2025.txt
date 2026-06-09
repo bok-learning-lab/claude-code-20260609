@@ -1,0 +1,358 @@
+ES 53
+2025
+
+
+        Module 2
+         Muscle
+
+        (Sept. 15, 2025)
+
+                           2
+         Learning
+        Objectives                          • Compare and contrast an isometric vs.
+                                              isotonic contraction.
+                                            • Distinguish between concentric, and
+• Delineate the components of muscles.
+                                              eccentric contractions.
+  What is a motor unit? Muscle fiber?
+  Muscle cell? Myofibril? Filament?         • Describe how recruitment increases
+  Sarcomere? What differentiates them?        muscle force.
+  What are their typical length scales?
+                                            • Describe a muscle twitch and how a
+• Describe the steps involved in              muscle responds to increased
+  excitation-contraction coupling from        frequency of stimulation.
+  propagation of an action potential into
+                                            • How is tetany reached? How is tetany
+  a muscle cell to how it causes
+                                              different in the cardiac vs. skeletal
+  contraction.
+                                              muscle?
+• Describe the process of force
+                                            • For the three primary types of muscles:
+  generation following an AP.
+                                              differentiate their locations and
+• Draw the force-velocity curves and          functions.
+  force-length curves for muscle
+                                            • Use Hill’s model to calculate the power
+  contraction. How do these depend on
+                                              generated during work.
+  sarcomere length and muscle length?
+                                                                                3
+A few follow up questions from lab
+#1
+• What were you measuring?
+• What did the measurements tell you about
+  muscle function?
+• Any ideas on how or why this might be
+  important in research or medical devices?
+
+
+
+
+                                              4
+https://www.digitaltrends.com/
+cool-tech/harvard-exosuit-2018-
+customize-to-each-user/
+
+
+
+
+                                  5
+• https://wyss.harvard.edu/news/a-personalized-exosuit-for-real-world-walking/
+                                                                             6
+         A quick thought exercise:
+       Team up and try to fill in the blanks below.
+
+1) There are approximately ___?___ different skeletal muscles in the
+human body.
+2) Skeletal muscle is composed of:
+• Skeletal muscle cells (myocytes).
+• ?
+• ?
+• ?
+3) The primary functions of muscle are:
+• Produce movement.
+• ?
+• ?
+• ?
+• ?
+
+
+                                                                       7
+         A quick thought exercise:
+       Team up and try to fill in the blanks below.
+
+1) There are approximately 700 different skeletal muscles in the human
+body.
+2) Skeletal muscle is composed of:
+• Skeletal muscle cells (myocytes).
+• Blood vessels.
+• Connective tissue.
+• Neural cells.
+3) The primary functions of skeletal muscle are:
+• Produce movement.
+• Maintain posture and body position.
+• Support soft tissues.
+• Guard entrances and exits.
+• Maintain body temperature.
+
+
+                                                                         8
+          Part I:
+Muscle anatomy and neural
+ innervation, excitation-
+  contraction coupling
+
+
+                       9
+Q: What are the three main types of muscle?
+
+   A:   Smooth, Cardiac, & Skeletal
+
+
+
+
+                        Cardiac and skeletal
+                        are striated.
+                                          10
+          Basic anatomy of skeletal muscle
+
+
+
+                      Connects muscles to bone
+
+
+
+
+Supports and protects. Provides paths
+for nerves and blood vessels.
+
+
+
+
+                                           Hundreds to hundreds
+                                           of thousands of muscle
+                                           fibers per muscle
+             Basic anatomy of skeletal muscle
+                            muscle cell = muscle fiber
+
+
+             Connective tissue
+
+Striations
+
+
+  Plasma membrane
+  (called the sarcolemma)
+                                                         Nuclei
+                                                         (muscle cells are
+                                                         multinucleated)
+
+Myofilaments
+                                                         Myofibrils
+                                                         (rod-like unit of
+                                                         muscle cells)
+
+Three types of myofilaments
+1) Thick filaments (mostly made of the protein myosin)
+2) Thin filaments (mostly made of the protein actin)
+3) Elastic filaments (the protein titan)                         From Fox, sec. 12.1
+  Basic anatomy of skeletal muscle
+              muscle cell = muscle fiber
+
+
+ plasma membrane
+
+cytoplasm
+           Basic anatomy of skeletal muscle
+                             muscle cell = muscle fiber
+                                                                               Z-line
+                                             One sarcomere         Nucleus
+Sarcomere = the basic unit
+of force generation/muscle
+contraction                                  I-band
+
+                         Myofibrils
+
+
+
+
+T-tubules, also called
+transverse tubules,
+are highly enriched in                                           Sarcoplasmic Reticulum
+ion channels                                                     (the endoplasmic reticulum)
+                                                 T-tubules
+                                                 (extensions
+Sarcoplasmic Reticulum          Sarcolemma       of the plasma
+is involved in Ca2+
+                                                 membrane)
+storage and regulation
+                                                                                From Fox, sec. 12.2
+            Basic anatomy of skeletal muscle
+             Sarcomere = the basic unit of force generation
+
+                          M-line
+
+
+
+
+Thin filaments
+(mostly made of the protein actin)
+
+
+
+
+                                        One sarcomere
+Thick filaments
+(mostly made of the protein myosin)                           From Fox, sec. 12.2
+Exercise 1 (2 minutes): Look at the
+schematic of a sarcomere. Consider
+scenarios in which very little force is being
+generated and one in which more force is
+being generated. What is different about
+these two scenarios?
+Label the following components:
+   • Actin, thin filaments,
+   • Myosin, thick filaments
+   • A band
+   • I band
+   • Z line
+   Q: Which of these lengths never changes?
+                                         16
+           Basic anatomy of skeletal muscle
+            Sarcomere = the basic unit of force generation
+
+Thin filaments
+(mostly made of the protein actin)
+
+
+Thick filaments
+(mostly made of the protein myosin)
+
+
+
+
+Force and contraction result from the
+relative sliding of actin and myosin        One sarcomere
+Basic anatomy of skeletal muscle
+Sarcomere = the basic unit of force generation
+
+                   Myosin is a molecular motor that uses
+                  energy from ATP hydrolysis to slide actin
+
+
+
+
+            This leads to force production and contraction of sarcomere
+
+
+                                                        http://encyclopedia.lubopit
+  Amount of force production depends on amount
+   of overlap between thin and thick filaments
+
+Thin filaments
+(mostly made of the protein actin)
+
+                                                large overlap = lots of
+                                                engagement of myosin
+                                                and actin
+
+
+
+
+Thick filaments
+(mostly made of the protein myosin)
+                                      Small overlap = little
+                                      engagement of myosin and actin
+Excitation-contraction coupling
+
+      How is contraction initiated?
+A motor unit is a
+single motor
+neuron and all the
+muscle fibers it
+innervates; all the
+muscle fibers in a
+motor unit contract
+at once.
+
+
+
+              21
+Nerves innervate muscle fibers at motor end plates
+
+
+
+
+                                         Synaptic vesicles contain acetylcholine
+                                         that can be released into the synaptic
+                                         cleft
+
+
+
+
+                      Motor end plate = muscle side of the neuromuscular junction
+Excitation-contraction coupling
+Q: What are the steps from an action
+potential arriving to the muscle contracting?
+
+See how many you can write down during the
+              short video.
+ https://www.youtube.com/watch?v=D3JkAe838Zo
+                 Also helpful:
+ https://www.youtube.com/watch?v=IOkn1ldFO60
+Excitation-contraction coupling
+Q: What causes force generation?
+Q: What molecule, released by the
+sarcoplasmic reticulum, is absolutely
+necessary to cause this contraction?
+                         Stimulating a muscle fiber
+                                                    1) Action potential in the neuron causes
+                                                    release of acetylcholine at the neuromuscular
+                                                    junction
+
+                                                    Acetylcholine binds to nicotinic acetylcholine
+                                                    receptors (ligand-gated ion channels), which
+                                                    induces a depolarization. . .
+
+
+                                                    2) . . . voltage gated ion channels in the
+                                                    muscle cell are activated, inducing an action
+                                                    potential. . .
+
+                                                    3) . . . the action potential travels down the
+                                                    t-tubule, which stimulates the opening of
+                                                    voltage-gated Ca2+ channels. . .
+
+
+                                                    4) . . . these channels are coupled to Ca2+
+Low Ca2+, myosin can't      High Ca2+, myosin can   release channels in the sarcoplasmic
+      bind actin                  bind actin        reticulum, which causes Ca2+ to be released
+                                                    to the cytoplasm. . .
+
+                                                    5) . . . Ca2+ binds to troponin, which causes a
+                                                    readjustment of the troponin-tropomyosin
+                                                    complex, which allows myosin to bind to actin
+One action potential produces one muscle “twitch”
+  Ca2+ is released from the        Increase of cytoplasmic Ca2+
+  sarcoplasmic reticulum, so       leads to force production
+  cytoplasmic Ca2+ increases
+  after an action potential
+
+
+
+
+ Ca2+ is taken back up into the
+ sarcoplasmic reticulum, so       Decrease of cytoplasmic Ca2+
+ cytoplasmic Ca2+ decreases       leads the muscle to relax
+
+
+             How do we make prolonged, smooth motions?
+Electrical conduction & muscles
+
+
+
+
+          Q: Is this realistic?
+      Q: What movie is this from?
+

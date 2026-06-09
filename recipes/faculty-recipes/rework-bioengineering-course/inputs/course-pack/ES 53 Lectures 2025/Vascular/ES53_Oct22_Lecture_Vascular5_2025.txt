@@ -1,0 +1,258 @@
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+        (Oct. 22, 2025)
+
+                          1
+          Part V:
+Cardiovascular problems
+and treatments/devices
+
+
+
+                          2
+ Let’s look at a normal vs. abnormal heart. What are the
+ four defects? How do you think these might each
+ interfere with normal function and blood circulation?
+
+
+
+
+Normal                                                 Abnormal
+
+
+
+                                                        3
+Circulatory Shock
+• Occurs when there is inadequate blood flow (or O2) to
+  tissues
+    • CV system undergoes compensatory changes
+    • Sometimes shock becomes irreversible  death
+• Hypovolemic Shock is circulatory shock caused by
+  low blood volume
+• Septic Shock refers to very low blood pressure
+  resulting from sepsis (infection)
+• Other types of circulatory shock:
+  • Severe allergic reaction can cause a rapid fall in BP called
+    anaphylactic shock (due to generalized release of histamine
+    causing vasodilation)
+  • Cardiogenic shock is common following cardiac failure
+    resulting from infarction
+Congestive Heart Failure
+• Occurs when CO is
+  insufficient to maintain
+  blood flow required by body
+• Congestion backs up into
+  the lungs
+• Most commonly treated
+  with drugs, vasodilators,
+  and diuretics
+   • Investigational device
+     instead of drugs….(see
+     IASD)
+Corvia Medical Intra-Artrial Shunt
+Device (IASD)
+Corvia Medical’s InterAtrial Shunt Device (IASD) is an investigational, non-
+surgical medical device designed to provide continuous and dynamic
+decompression of the left atrium, which may reduce symptoms and slow the
+progression of diastolic heart failure.
+
+
+
+
+                                How does this reduce symptoms of heart failure?
+                                What is a potential tradeoff if using this device?
+                                What happens to oxygenated and deoxygenated blood?
+
+http://corviamedical.com/treatment/
+Small group discussion (3 min.)
+
+
+How does this reduce symptoms of heart failure?
+What is a potential tradeoff of using this device?
+What happens to oxygenated and deoxygenated
+blood?
+
+
+
+
+                                                     7
+https://adonamed.com/#technology
+Ischemic Heart Disease
+• Is most commonly due to atherosclerosis in coronary
+  arteries
+• Ischemia occurs when blood supply to tissue is deficient
+• Often accompanied by angina pectoris (chest pain)
+A Myocardial infarction (MI) is a heart attack
+
+   Usually caused by occlusion of a coronary artery
+Atherosclerosis
+• Atherosclerosis is a type
+  of arteriosclerosis.
+• Arteriosclerosis is a general
+  term for the thickening and
+  hardening of arteries.
+• Plaques begin at sites of
+  damage to endothelium
+• Localized plaques
+  (atheromas) reduce flow in
+  an artery
+   • And act as sites for
+     thrombus (blood clots)
+Angiogram and Coronary Artery Bypass
+
+
+
+
+                                 11
+Angiogram and Percutaneous Coronary
+Intervention (PCI)
+
+
+
+
+https://www.youtube.com/watch?v=HKXTZUYTxkA
+https://www.spectrawave.com/product/
+Assessing contraction after MI
+using ultrasound and speckle tracking
+Mapping strain in the heart w/ ultrasound
+
+
+
+
+https://www.usa.philips.com/healthcare/clinical-article/automated-strain-measurements-cardiac-imaging
+Treatment for vascular
+      stenosis
+       Coronary Heart Disease (CHD) and
+    Percutaneous Coronary Intervention (PCI)
+
+
+
+
+Q: What keeps the vessel open after the balloon is
+                  removed??
+
+*Images adapted from New England Journal of Medicine, Vol 356:1059-1060, 2007
+          Stenting prevents elastic recoil.
+
+
+
+
+*
+
+
+    Q: What happens over time to the stent (months-
+                      years)??
+                                 *Images adapted from New England Journal of
+                                 Medicine, Vol 356:1059-1060, 2007
+      A: In-stent restenosis occurs in 18-31% of cases.
+
+
+
+
+                                                    Stent
+                                                    Struts
+
+                                                      Neointimal
+                                                      hyperplasia
+
+
+
+   Q: What modification to stents was made to try to
+      prevent proliferation of cells over the stent?
+1Park and Park, Circ, Cardiovasc Intervent, 2009.
+                                                             *Image adapted from New England Journal of Medicine,
+2Weintraub, Am. J. Cardiology, 2007.
+                                                             Vol 356:1059-1060, 2007
+       A: Drug eluting stents deliver anti-proliferative
+           therapy to locally prevent restenosis.
+
+
+
+
+                                           Thrombosis
+Adapted from NEJM: V 356:1059-1060, 2007
+
+
+  Problem: Increased risk of late thrombosis. Patients
+  are placed on anti-coagulant therapy indefinitely.
+   Q: What modification to stents was made to avoid
+               long term stent struts?
+A: Bioresorbable stents are made of biocompatible
+         materials that degrade over time.
+Hypertension
+• Definition: BP > 140/90 mmHg (either / or)
+• Afflicts about 20% of adults
+• Caused by complex and poorly understood
+  processes
+   • Main Features:
+       • Increase in peripheral resistance is universal
+       • BP and HR are elevated in many
+       • Prolonged high BP causes thickening of arterial
+         walls  arteriosclerosis
+       • Increases workload of the heart leading to
+         ventricular hypertrophy and heart failure
+   Usually treated with drugs (treatments include
+   diuretics to reduce fluid volume, beta-blockers to
+   decrease HR, and others)
+Arrhythmias Detected on ECG
+• Arrhythmias are abnormal heart rhythms
+• In fibrillation, contraction of myocardial cells is
+  uncoordinated and pumping ineffective
+   • Electrical defibrillation resynchronizes heart by
+     depolarizing all cells at same time
+   • How else might you fix an electrical problem in the
+     heart?
+
+
+
+
+ Bradycardia                     Ventricular Tachycardia - flutter
+
+
+
+
+Tachycardia                      Ventricular Fibrillation
+First group problems by location, then by
+mechanical or electrical function* (3 min.)
+                          Mechanical    Electrical
+
+
+
+
+    Cardiac
+    (heart)
+
+
+
+
+         Vascular
+
+
+    (arteries or veins)
+                                         *Note that these are often
+                                       interrelated and a problem in
+                                       one area can cause problems
+                                                 in another.
+What is an example of a bioengineered device that addresses
+at least one problem from each of these three areas of
+cardiovascular dysfunction/disease above? (5 min)
+Cardiac – Mechanical:
+
+
+
+Cardiac – Electrical:
+
+
+
+Vascular – Mechanical:
+
+
+
+
+                                                        25
+

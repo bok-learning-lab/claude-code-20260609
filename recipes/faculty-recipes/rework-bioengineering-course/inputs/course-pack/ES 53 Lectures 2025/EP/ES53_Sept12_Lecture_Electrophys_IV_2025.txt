@@ -1,0 +1,273 @@
+ES 53
+2025
+
+
+        Module 1
+    Electrophysiology
+
+        (Sept. 12, 2025)
+                           1
+       Part IV:
+Hodgkin – Huxley and
+ Modeling the Action
+     Potential
+
+
+                       2
+Be sure to read the handout on
+“Modeling of the Action Potential”
+
+
+
+
+                                     3
+4
+   Na+ channels can enter an inactive state
+
+
+
+
+    Na+ channels can be modeled as having two gates:
+       an activation gate and an inactivation gate
+The activation gate is FAST. The inactivation gate is SLOW.
+
+
+
+
+  K+ channels only have an activation gate, which is slow
+   The absolute refractory period is caused by
+          inactivation of Na+ channels
+
+
+
+
+And can be mathematically modeled by the “h” gate
+            Changes in membrane conductances are caused
+                 by ion channels opening and closing
+                                               Ion channels can be open or closed
+        Transient increase
+       in Na+ conductance
+
+
+
+
+                                            Ions can only pass through open ion channels
+
+                                   𝑁𝑁𝑁𝑁𝑁𝑁     the number of Na+ ion channels
+                                   𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 the conductance of an open Na+ ion channels
+                                   𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 the probability that a Na+ ion channel is open
+                                                 𝑔𝑔𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 𝑁𝑁𝑛𝑛𝑛𝑛 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁
+                                                                            with 𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 𝑁𝑁𝑛𝑛𝑛𝑛 ≡ 𝑔𝑔�𝑁𝑁𝑁𝑁
+Transient increase in the number
+                                                   𝑔𝑔𝑁𝑁𝑁𝑁 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡) = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+    of open Na+ ion channels
+                                                    𝑔𝑔𝐾𝐾 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡) = 𝑔𝑔�𝐾𝐾 𝑝𝑝𝑜𝑜,𝐾𝐾 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+Predicted change in conductances during an action potential:
+                 Hodgkin-Huxley equations
+                                𝑽𝑽𝒎𝒎                              𝑬𝑬𝑵𝑵𝒂𝒂
+
+
+𝑽𝑽𝒎𝒎𝒎𝒎𝒎𝒎 = 𝑽𝑽𝒎𝒎
+
+
+
+                                                                  𝑬𝑬𝑲𝑲
+
+
+
+
+      𝐼𝐼𝑡𝑡𝑡𝑡𝑡𝑡 = 𝑔𝑔𝑁𝑁𝑁𝑁 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝐾𝐾 Too simple for action potentials. . .
+
+
+                                                                                                “Leak”
+                                                                                       A fudge factor
+        capacitance                                                                    𝑔𝑔𝐿𝐿 is assumed not
+                                                                                       to depend on
+                                                                                       voltage
+        𝑑𝑑𝑉𝑉𝑚𝑚    1
+               =     [𝑔𝑔   𝑉𝑉 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝑉𝑉𝑚𝑚 − 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐿𝐿 𝑉𝑉𝑚𝑚 − Δ𝑉𝑉𝐿𝐿 ]
+         𝑑𝑑𝑑𝑑    𝐶𝐶𝑚𝑚 𝑁𝑁𝑁𝑁 𝑚𝑚
+                         Hodgkin-Huxley Model
+
+
+
+Specifically, the potassium conductance is modeled as four independent n-gates
+that can be activated. Potassium current is modeled by only n gates as:
+
+                  𝐼𝐼𝐾𝐾 (𝑡𝑡) = [𝑛𝑛(𝑡𝑡)]4 � 𝑔𝑔𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾 𝑉𝑉𝑚𝑚 − 𝐸𝐸𝐾𝐾
+Where n is the coefficient from 0 to 1. Note that n is taken to the fourth power
+because the kinetics are modeled as four of these gates.
+
+
+The sodium conductance is also modeled as a set of four gates, but is instead
+modeled with three activating m-gates and one inactivating h-gate. Sodium
+current is modeled by n and h gates as:
+
+            𝐼𝐼𝑁𝑁𝑁𝑁 (𝑡𝑡) = 𝑚𝑚 𝑡𝑡   3 � ℎ(𝑡𝑡) � 𝑔𝑔             𝑉𝑉𝑚𝑚 − 𝐸𝐸𝑁𝑁𝑁𝑁
+                                                𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁
+ Where m and h are the coefficients from 0 to 1. Note that m is cubed because
+    the kinetics are modeled as three m gates and an inactivating h gate.
+
+
+                                                                                   9
+                               Hodgkin-Huxley Model
+    Stimulation
+
+
+
+                                                                         Slow opening of K
+  𝑔𝑔𝐾𝐾 ∝ 𝑝𝑝𝑜𝑜,𝐾𝐾 = 𝑛𝑛4                                                    activation gates
+
+
+
+                                                                          Fast opening of Na
+𝑔𝑔𝑁𝑁𝑁𝑁 ∝ 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 = 𝑚𝑚3 ℎ                                                 activation gates
+                                                                          Slow closing of Na
+                                                                          inactivation gates
+
+
+
+
+                                                  These m, n, and h gates each have
+          Gate Probabilities                      different time constants (τm, τn, τh).
+    𝑚𝑚(𝑡𝑡) = 𝑚𝑚∞ −(𝑚𝑚∞ − 𝑚𝑚0)𝑒𝑒
+                                       −𝑡𝑡⁄
+                                           𝜏𝜏𝑚𝑚   They also have initial (a.k.a. resting)
+                                                  values (m0, n0, h0) between 0 and 1
+    ℎ(𝑡𝑡) = ℎ∞ −(ℎ∞ − ℎ0)𝑒𝑒
+                               −𝑡𝑡⁄
+                                   𝜏𝜏ℎ            related to their probability of being open,
+                                                  and activation values (m∞, n∞, h∞)
+                                  −𝑡𝑡⁄            associated with their probability of being
+    𝑛𝑛(𝑡𝑡) = 𝑛𝑛∞ −(𝑛𝑛∞ − 𝑛𝑛0)𝑒𝑒       𝜏𝜏𝑛𝑛
+                                                  open at steady state (∞).
+                                                     Na+ inactivation
+            Na+ activation gate                                                     K+ activation gate
+                                                           gate
+
+
+
+
+                                                                                   𝜏𝜏𝑚𝑚 ≪ 𝜏𝜏ℎ ≈ 𝜏𝜏𝑛𝑛
+Steady-state probability for               Steady-state probability for
+ the activation gate to be                 the inactivation gate to be            Na+ activation gate is FAST
+ open is low at the resting                 open is high at the resting
+                                                                             Na+ inactivation gate and K+ activation
+   membrane potential                         membrane potential
+                                                                                         gates are SLOW
+
+
+
+
+                                                                                                  Parameters depend on
+                                                         activation gate    inactivation gate      membrane potential
+   conductance               open probability
+                                                          𝑑𝑑𝑑𝑑 𝑚𝑚∞ − 𝑚𝑚0      𝑑𝑑𝑑 ℎ∞ − ℎ0            𝑚𝑚∞ = 𝑚𝑚∞ (𝑉𝑉𝑚𝑚 )
+𝑔𝑔𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁     𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 = 𝑚𝑚3 ℎ                =                  =
+                                                           𝑑𝑑𝑑𝑑   𝜏𝜏𝑚𝑚        𝑑𝑑𝑑𝑑     𝜏𝜏ℎ            𝜏𝜏𝑚𝑚 = 𝜏𝜏𝑚𝑚 (𝑉𝑉𝑚𝑚 )
+                                                                                                      ℎ∞ = ℎ∞ (𝑉𝑉𝑚𝑚 )
+                                                                                                       𝜏𝜏ℎ = 𝜏𝜏ℎ (𝑉𝑉𝑚𝑚 )
+                                                           𝑑𝑑𝑑𝑑 𝑛𝑛∞ − 𝑛𝑛0
+ 𝑔𝑔𝐾𝐾 = 𝑔𝑔�𝐾𝐾 𝑝𝑝𝑜𝑜,𝐾𝐾           𝑝𝑝𝑜𝑜,𝐾𝐾 = 𝑛𝑛4                   =                                    𝑛𝑛∞ = 𝑛𝑛∞ (𝑉𝑉𝑚𝑚 )
+                                                           𝑑𝑑𝑑𝑑    𝜏𝜏𝑛𝑛
+                                                                                                      𝜏𝜏𝑛𝑛 = 𝜏𝜏𝑛𝑛 (𝑉𝑉𝑚𝑚 )
+                                                     Na+ inactivation
+            Na+ activation gate                                                           K+ activation gate
+                                                           gate
+
+
+
+
+                                                                                        𝜏𝜏𝑚𝑚 ≪ 𝜏𝜏ℎ ≈ 𝜏𝜏𝑛𝑛
+Steady-state probability for               Steady-state probability for
+ the activation gate to be                 the inactivation gate to be                Na+ activation gate is FAST
+ open is low at the resting                 open is high at the resting
+                                                                              Na+ inactivation gate and K+ activation
+   membrane potential                         membrane potential
+                                                                                          gates are SLOW
+
+
+
+
+                                                                                                      Parameters depend on
+                                                     For a given steady state voltage, the
+                                                                                                       membrane potential
+   conductance               open probability      probabilities of the gates being open are:
+                                                                                        −𝑡𝑡⁄             𝑚𝑚∞ = 𝑚𝑚∞ (𝑉𝑉𝑚𝑚 )
+𝑔𝑔𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁     𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 = 𝑚𝑚3 ℎ     𝑚𝑚(𝑡𝑡) = 𝑚𝑚∞ −(𝑚𝑚∞ − 𝑚𝑚0)𝑒𝑒            𝜏𝜏𝑚𝑚
+                                                                                                          𝜏𝜏𝑚𝑚 = 𝜏𝜏𝑚𝑚 (𝑉𝑉𝑚𝑚 )
+                                                                                 −𝑡𝑡⁄                    ℎ∞ = ℎ∞ (𝑉𝑉𝑚𝑚 )
+                                                     ℎ(𝑡𝑡) = ℎ∞ −(ℎ∞ − ℎ0)𝑒𝑒         𝜏𝜏ℎ
+                                                                                                          𝜏𝜏ℎ = 𝜏𝜏ℎ (𝑉𝑉𝑚𝑚 )
+ 𝑔𝑔𝐾𝐾 = 𝑔𝑔�𝐾𝐾 𝑝𝑝𝑜𝑜,𝐾𝐾           𝑝𝑝𝑜𝑜,𝐾𝐾 = 𝑛𝑛4                                      −𝑡𝑡⁄
+                                                                                                         𝑛𝑛∞ = 𝑛𝑛∞ (𝑉𝑉𝑚𝑚 )
+                                                     𝑛𝑛(𝑡𝑡) = 𝑛𝑛∞ −(𝑛𝑛∞ − 𝑛𝑛0)𝑒𝑒       𝜏𝜏𝑛𝑛
+                                                                                                          𝜏𝜏𝑛𝑛 = 𝜏𝜏𝑛𝑛 (𝑉𝑉𝑚𝑚 )
+Exercise 5: Modeling gates in the Hodgkin Huxley kinetic model
+What do these equations look like if we plot them?
+                              −𝑡𝑡⁄                                    −𝑡𝑡⁄                                              −𝑡𝑡⁄
+𝑚𝑚(𝑡𝑡) = 𝑚𝑚∞ −(𝑚𝑚∞ − 𝑚𝑚0)𝑒𝑒       𝜏𝜏𝑚𝑚      ℎ(𝑡𝑡) = ℎ∞ −(ℎ∞ − ℎ0)𝑒𝑒       𝜏𝜏ℎ             𝑛𝑛(𝑡𝑡) = 𝑛𝑛∞ −(𝑛𝑛∞ − 𝑛𝑛0)𝑒𝑒       𝜏𝜏𝑛𝑛
+
+
+
+
+ m                                         h                                          n
+
+
+
+
+                    t                                         t                                            t
+
+ For n,m,h what happens as t  0? Or as t  ∞?
+
+
+
+          Table 1: Kinetic parameters associated with m, n, and h gates derived from the Hodgkin-
+          Huxley model of sodium and potassium conductances for a voltage clamp from -65 to 23 mV.
+            n gates (K+)                  m gates (Na+)                     h gates (Na+)
+            n0 = 0.3177                   m0 = 0.0529                       h0 = 0.5961
+            n∞ = 0.9494                   m∞ = 0.9953                       h∞ = 0.0009
+            Τn = 1.2028 ms                Τm = 0.1577 ms                    Τh = 1.0022 ms
+                                                                                                               13
+  MATLAB demo
+
+& Example Problems
+
+
+
+
+                     14
+Exercise 6: There have been several neurological disorders linked to
+mutations of voltage-gated sodium channels.
+Below are the kinetic parameters associated with changing the membrane
+potential of a neuron from -65 to 23 mV.
+
+
+          Table 1: Kinetic parameters associated with m, n, and h gates
+             of two neurons for a voltage clamp from -65 to 23 mV.
+                 n gates (K+)     m gates          h gates
+                                  (Na+)            (Na+)
+                 n0 = 0.32        m0 = 0.05        h0 = 0.60
+                 n∞ = 0.95        m∞ = 0.99        h∞ = 0.00
+                 τn = 1.20ms      τm = 0.15 ms     τh = 1.00 ms
+
+  Consider these cells with abnormal Na+ channels in the following scenarios and
+  draw how this would change the Na+ conductance curve and the resulting action
+  potential (if at all).
+
+
+
+                                                                            15
+16
+17
+18
+Exercise 7: Some Mutations in KV1.1(KCNA1)2 are often associated with a
+condition called episodic ataxia (EA), which results from a reduction in K
+conductance.
+
+
+
+
+                                                                      19
+20
+

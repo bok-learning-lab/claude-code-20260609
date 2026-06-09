@@ -1,0 +1,177 @@
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+        (Oct. 15, 2025)
+
+                          1
+Biomedical Engineering in Action
+
+
+
+
+https://www.nytimes.com/paidpost/boston-childrens/cardiac-surgeons-and-engineers-are-revolutionizing-
+pediatric-cardiac-surgery.html?cpv_ap_id=50623769&utm_campaign=other&tbs_nyt=2024-feb-
+partner_other                                                                                        2
+  Biomedical Engineering in Action
+
+
+
+
+R&D Systems Engineer, Boston Scientific         Principal R&D Engineer, Boston Scientific
+Harvard SB in Bioengineering 2023               Harvard SB in Bioengineering 2008
+MBE from Rice University, 2024                  PhD in Bioengineering, UCSF 2014
+
+LinkedIn:                                       LinkedIn:
+https://www.linkedin.com/in/sydneykepler/       https://www.linkedin.com/in/serenascott/
+Ask them about: Boston Scientific, Medtronic,   Ask them about: Boston Scientific, Medical
+HMS Researcher, Regeneron, Global Medical       Device Industry, Summer REU, PhD Programs
+                                                                                     3
+Innovation (GMI) Program @ Rice
+Quick check with a peer
+
+1. What physical law (equation) can we use to model fluid flow in a
+tube/vessel?
+
+Poiseuille's Law:
+    Blood flow = π ∆Pr4         Resistance =      ∆P = 8ηL
+                  8ηL                              Flow  πr4
+2. Under what conditions is this equation valid?
+
+
+
+
+3. How can we determine whether fluid flow is laminar or turbulent?
+
+
+
+                                                                      4
+Exercise 4: Consider the two vessels below.
+
+ Calculate the resistance for each vessel assuming that ΔP
+ across the length is 10 mmHg in each case. What is R in terms
+ of η/π?
+ How would you convert the units so that the answer is in SI
+ units only?
+
+   L = 5 mm, r = 1 mm
+
+                                 A          L = 1 mm, r = 0.5 mm
+
+                                                        B
+
+
+  How long would vessel A have to be to have the same
+  resistance as vessel B?
+6
+     Derivation of Poiseuille flow resources:
+You can watch the video of the derivation:   Or check out the notes of that derivation –
+https://vimeo.com/367080117/88185b3615       linked in the “Vascular” folder on Canvas
+Poiseuille’s flow assumes laminar flow
+Laminar vs. Turbulent Flow
+Flow: Laminar vs. Turbulent
+Blood Flow and Korotkoff Sounds
+
+
+
+
+                                  11
+Indirect, or Auscultatory, Method of
+Blood Pressure Measurement
+
+
+
+
+                                       12
+Flow: Laminar vs. Turbulent
+Reynolds Number
+• For flow in a pipe or tube, the Reynolds
+  number is defined as:
+        ρvD                  ρQD
+   Re =                 Re =
+         µ                    µA
+ D is the diameter of the pipe
+ v is the mean velocity
+ ρ is the fluid density
+ µ is the viscosity
+ Q is the flow rate
+ A is the pipe cross-sectional area
+
+                                Laminar when Re<2300
+                                Transitional when 2300<Re<4000
+                                Turbulent when 4000<Re
+Influence of Turbulent Flow
+• Remember that Pouiseille’s Law assumes
+  laminar flow.
+• We have learned that stenotic lesions can result
+  in turbulent flow, because of the increase in
+  Reynolds number!
+• What is the effect of turbulent flow on the
+  relationship between pressure drop and flow?
+Exercise 5: A person is found to have a Reynold’s number for
+the flow in their aorta of 2400. Their aorta is 2.4 cm in diameter.
+They have a blood pressure of 150mmHg/105mmHg and a
+heart rate of 95 beats/min. Their end diastolic volume (EDV) is
+140 mL. Assume the viscosity (η, also often listed as µ) of the
+blood is 3.25*10-3 Pa·s and the density of blood is 1.06 g/mL.
+
+a) Is this flow turbulent, laminar, or transitional?
+
+b) Does this person have a low, normal, or high blood pressure?
+
+c) What is the flow (Q) through the aorta in mL/s?
+
+d) What is the average velocity of the flow through the aorta in cm/s?
+
+e) What is the total peripheral resistance in units of mmHg·min/L?
+
+
+
+                                                                         16
+17
+Exercise 6: The flow profile through a tube is such that flow
+velocity is maximal at the center and decreases towards the
+edges. For a pipe with radius rtot, cross-sectional area Atot and
+flow Ftot, determine how much of the total flow (F/Ftot) occurs in
+the inner (versus outer) part of the pipe, assuming a laminar
+(smooth), well-developed flow pattern compatible with
+Pouisuelle’s Law. Specifically…
+ a) Based on the velocity profile derived in the handout (or vimeo video) derive an
+ expression for (F/Ftot) as a function of (r/rtot), where r=rtot is at the wall.
+
+
+ b) What fraction of the flow through a pipe occurs in the inner half of the pipe as
+ defined by distance from center (i.e. r = 0 to rtot/2)?
+
+
+ c) What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ from
+ part (b)?
+
+
+                                                                                    18
+a) Based on the velocity profile derived in the handout (or vimeo video) derive an
+expression for (F/Ftot) as a function of (r/rtot), where r=rtot is at the wall.
+
+
+
+
+                                                                               19
+b) What fraction of the flow through a pipe occurs in the inner half of the pipe as
+defined by distance from center (i.e. r = 0 to rtot/2)?
+
+
+
+
+                                                                                 20
+c) What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ from
+part (b)?
+
+
+
+
+                                                                                    21
+https://wyss.harvard.edu/technology/3d-bioprinting/   22
+

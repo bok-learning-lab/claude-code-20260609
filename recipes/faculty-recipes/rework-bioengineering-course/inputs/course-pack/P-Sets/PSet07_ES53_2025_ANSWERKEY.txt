@@ -1,0 +1,211 @@
+ES 53 - Quantitative Physiology                        ANSWER KEY                               Fall 2024
+                                                                                                      2025
+Problem Set 7: Partial Pressures, Oxygen Saturation and Consumption
+Due Tues. Nov. 12th
+               11th                                     (out of 63
+                                                                53 points)
+
+ [If you use MATLAB please include any figures in the body of your p-set and append code to the end.
+ Show all of your work!
+ Be sure to keep all your answers within the boxes provided and be sure to clearly CIRCLE your final
+ answers. If you need more space please add pages to the end and clearly denote in the box.]
+
+
+1. [12 pts] Assuming (i) normal air composition (%O2=21, %N2=79), (ii) an air temperature of 37ºC, and (iii)
+   PaCO2 = 40mmHg, calculate the atmospheric and alveolar PO2 for the following conditions:
+   a) [2] 0% humidity (dry) air at an elevation of 15,000 ft. where atmospheric pressure is only about 60% of
+       that at sea level.
+
+
+
+
+                                                                                           -
+
+
+   b) [2] 100% humidified air at an elevation of 15,000 ft. where atmospheric pressure is only about 60% of
+      that at sea level.
+
+
+
+
+   c) [2] An environment with a gas mixture (sea-level, 100% humidity air) that also contains 40 mmHg CO2
+      (while maintaining an N2:O2 ratio of 79:21).
+
+
+
+
+   d) [2] Why is the atmospheric PO2 you’ve calculated in ‘c’ (where the humidity is high and there is extra CO2
+      in the air) different from the normal alveolar P02 (recall in the alveoli PaCO2 = 40 mmHg)
+
+
+                                                                                                                1
+The atmospheric PO2 in part (c) is different from normal PaO2 because it doesn’t take into account the CO2/O2
+gas exchange.
+
+    e) [2] At an altitude of 15,000 feet, what % O2 would one have to breath in order to normalize the PaO2
+       (partial pressure of oxygen in the alveoli) to what you would expect at sea level?
+
+
+
+
+    f)  [2] If you’re on a plane at normal cruising altitude (40,000 ft) and the cabin suddenly depressurizes, you
+        could lose consciousness in just 15-20sec (FYI, airline pilots refer to this time as the “time of useful
+        consciousness”). Why so soon? [qualitative answer requested]
+When you hold your breath, you prevent your lungs from getting fresh air (i.e. more O2), but your body can still
+use the O2 in your bloodstream and the O2 in your alveoli. If you simply held your breath the alveolar PO2
+would remain high for a couple minutes. When the cabin depressurizes at 40,000 ft, PO2 falls precipitously (PO2
+~ 21%*140mmHg = 29.4 mmHg), and if you continue breathing your alveolar PO2 (PaO2 ~ 21%*(140-47)mmHg –
+40mmHg/0.8 = ~0) will drop accordingly (based on the Alveolar Gas Equation). Remember that PO2 readily
+equilibrates across the alveolar wall so that it’s essentially the same for air in the alveoli and for blood in the
+pulmonary capillaries. Because of this, low PaO2 levels can readily pull O2 out of the bloodstream, so after a
+massive cabin depressurization your body doesn’t get to use the O2 accumulated in the lungs OR bloodstream,
+for the most part.
+
+
+
+
+2. [12 pts] An arterial blood gas analysis reveals a PO2 of 60mmHg and a Hb-O2 sat of 85%. The
+   patient’s [Hb] is 12 g/dL.
+   a) [3] What is the total O2 content of the patient’s blood without including dissolved O2? Assume the
+       total blood volume is 5L and that 75% of blood is venous and 25% arterial, and that (extracellular)
+       tissue PO2 (which fully equilibrates with capillary PO2) is normal at 40 mmHg.
+
+
+
+
+                                                                                                                 2
+b) [3] Repeat without neglecting dissolved O2.
+
+
+
+
+                                                 3
+   c) [4] The patient is treated with 40% supplemental O2 (compared to 21% in regular room air) and
+        several hours later a repeat of the arterial blood gas analysis reveals a partial oxygen pressure of 100
+        mm Hg, with an O2 hemoglobin saturation of 99%. What is the total O2 content now?
+There are two approaches one could take to solve this:
+Option 1: Assume tissue PO2 is constant.
+
+
+
+
+Option 2: Assume oxygen consumption is constant and therefore the change is saturation is constant
+
+
+
+
+                                                                                                                   4
+    d) [2] Why would the total oxygen content of the arterial blood not rise by the same percentage as
+        oxygen in the air used for ventilation?
+The total O2 content doesn’t double even though the PO2 inhaled doubles. This is because the venous
+PO2 doesn’t change. There is only a small change in SaO2 from 60 to 100 mmHg – not a doubling.
+
+
+
+
+3. [12] One complication of alcohol intoxication, especially above a blood alcohol level of 0.25%, is that the
+cough reflex is suppressed and there is increased likelihood of aspiration of vomit (aspiration is the inhalation of
+a non-gas substance such as food, water, etc into the airways of the lungs). Aspiration can lead to pneumonia - a
+lung infection in which there is inflammation of the alveoli that can impair gas exchange in the lungs.
+
+Suppose that a patient has a severe aspiration pneumonia that primarily effects the right lung leading to no gas
+exchange in the right lung. Assume this person has a [Hb] = 15 gHb/dL
+
+a) A compensatory mechanism would lead to uneven blood flow between the two lungs. What
+   mechanism/effect is this?
+   Hypoxic vasconstriction
+
+
+                                                                                                                   5
+3.
+
+
+
+
+     6
+7
+4. [6 pts] Following normal respiration Jung breathes in a maximal inhalation. We want to know how long Jung
+can hold her breath before her tissue PO2 drops to 20 mmHg. Before holding her breath she had been at rest
+with a tissue PO2 of 40 mmHg. Her oxygen consumption remains constant at 250 mLO2/min, and her cardiac
+output remains constant at 5 L/min. You can ignore any dissolved oxygen in tissue and in blood. She has the
+following lung volumes:
+                    Residual volume: 1300ml
+                    Expiratory reserve volume:1200ml
+                    Tidal volume:500ml           Inspiratory reserve volume: 2000ml
+
+   a. What is her vital capacity in milliliters? VC = ERV+TV+IRV = 1200+500+2000 = 3700 mL
+
+   b. How long (in minutes) can Jung hold her breath before her tissue PO2 drops to 20 mmHg?
+
+
+
+
+                                                                                                               7
+                                                                                                               8
+5. [16 pts] Some professional athletes engage in cheating via blood doping, which increases the number of red
+   blood cells. It can be done a variety of ways, but is often done via autologous blood transfusion, meaning
+   that the athletes remove their own blood and harvest and store RBCs from it. Eventually their bodies replace
+   lost RBCs, and then they inject the old, preserved RBCs to get a higher overall count.
+
+     a. [2] In one or two sentences, how would blood doping help an athlete?
+If someone has more RBCs then they have a greater oxygen carrying capacity since they will have more Hb.
+     b. [1] What condition (that we have learned about in class) causes the opposite effect? anemia
+     c. [2] Given the normal saturation curve for Hb-O2,                  100
+
+
+        what does a blood doping athlete’s saturation
+        curve look like? Draw this on the same plot. You                   80
+
+
+        can use the chart to the right or draw your own,
+                                                                           60
+        but please clearly delineate how they differ. No
+                                                               SaO2 (%)
+        change!                                                            40
+
+     d. [1] You are competing against Lance Armstrong in
+        his prime (!!!!) and you are currently tied for the                20
+
+
+        lead in a race. You and Lance are identical
+        (assume that you had the same hemoglobin                                0
+                                                                                    0   20   40   60   80   100   120
+
+        concentration before doping) except for the fact                              PO2 (mmHg)
+
+        that four months earlier he removed 10% of his
+        blood (assume you both have total blood volumes of 5 L and your Hb concentration is 15 gHb/dl),
+        isolated the RBCs in that blood, and stored them all. Then, the night before the race (i.e. his total
+        volume is back to 5 L), he injected the extra RBCs back into his bloodstream. His Kidneys filter the blood
+        such that it has re-equilibrated to 5L total by the morning. What is his new Hb concentration?
+
+
+
+
+    e. [3] How much higher (in percentage) must your cardiac output be compared to Lance for a given oxygen
+       consumption rate? [We are assuming all else is equal so if you are tied in the race, your muscles are
+       demanding the same amount of oxygen per minute. Assume tissue PO2 is 20 mmHg and alveolar lung
+       PO2 is 100 mmHg.]
+
+
+
+
+                                                                                                                        8
+
+
+                                                                                                                            9
+f.   [3] If 3000 ml O2/min is needed to bike at the pace you and Lance are biking, what is your cardiac
+     output? What is Lance's?
+
+
+
+
+g. [4] How much oxygen is in your blood vs. in Lance’s blood? (List your answers in units of mL of O2)
+
+
+
+
+                                                                                                          9
+
+                                                                                                              10
+

@@ -1,0 +1,399 @@
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+         (Oct. 8, 2025)
+
+                          1
+       Quick Review: What would happen to this P-V loop if
+                         1) Pre-load (EDV) increased?
+           2) Arterial pressure (total peripheral resistance)
+                              increased?
+                               3) Contractility increased?
+
+           Increased Preload                  Increased Afterload              Increased Contractility
+
+
+
+
+Pressure                           Pressure                         Pressure
+
+
+
+
+               Volume                              Volume                           Volume
+
+
+                                                                                               2
+       Quick Review: What would happen to this P-V loop if
+                         1) Pre-load (EDV) increased?
+           2) Arterial pressure (total peripheral resistance)
+                              increased?
+                               3) Contractility increased?
+
+           Increased Preload                  Increased Afterload                  Increased Contractility
+
+                         ↑ SV                                 ↑ ESV                                  ↑ EF
+                                                                ↓ SV                                 ↑ SV
+                                                             ↑ Aortic                              ↓ ESV
+
+Pressure                           Pressure                             Pressure
+                                                            pressure
+
+
+
+
+               Volume                              Volume                               Volume
+
+
+                                                                                                   3
+                   End-diastolic volume
+
+                                              What affects EDV?
+                      Venous return
+
+
+
+
+                        Negative
+                      intrathoracic
+                        pressure
+
+    Blood volume                          Venous pressure
+
+                         Breathing
+
+
+
+
+ Urine    Tissue-fluid           Venoconstriction    Skeletal
+volume      volume                                   muscle
+                                                      pump
+
+                                   Sympathetic
+                                 nerve stimulation
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+         (Oct. 8, 2025)
+
+                          5
+Outline for Vascular Physiology
+• Part I: Vascular anatomy
+• Part II: Modeling the cardiovascular system as
+  a circuit
+• Part III: Blood pressure and blood flow;
+  turbulent and laminar flow; Poiseuille flow
+• Part IV: Regulation of blood flow and blood
+  pressure
+• Part V: Cardiovascular problems and
+  treatments/devices
+
+                                                   7
+         Learning                             Generate a corresponding circuit
+                                              diagram that represents the resistive
+
+        Objectives
+                                              network of vessels in a circulatory
+                                              system.
+                                            • What is Reynold’s number, how does it
+                                              compare to laminar flow, and where
+• Map blood pressure throughout the           might you find flow with a high
+  systemic and pulmonary vascular             Reynold’s number within the body?
+  systems starting at the left ventricle.
+  How does pressure vary along this         • Calculate changes in cardiac output
+  path?                                       given changes in the systemic vascular
+                                              network including exercise.
+• How do the vessels change in size,
+  function, and anatomy along the           • How does atherosclerosis affect
+  systemic circulatory system, and how        vessels? How can build up of fatty
+  do you determine the resistance along       plaque in an artery lead to a heart
+  the path?                                   attack?
+• Which vessels are more compliant and • What are a few biomedical
+  why?                                      interventions that can alleviate
+                                            cardiovascular dysfunction? In other
+• How is resistance controlled, and what    words, what are some biomedical
+  are some factors that cause it to         engineering devices that assist cardiac
+  change?                                   function (e.g. LVAD, pacemaker), and
+• Calculate the resistance to blood flow if what do they change about cardiac
+  given vessel size, and a diagram of the   function?
+  interconnectivity of the vessels.                                            8
+     Part I:
+Vascular anatomy
+
+
+
+
+                   9
+Structure of Blood Vessels
+• Innermost layer of all vessels is the endothelium
+• Capillaries are made of only endothelial cells
+• Arteries and veins have 3 layers  Media is mostly smooth muscle
+• Although they have same basic elements, arteries and veins are quite
+  different
+Answer the following questions on arteries vs.
+veins. (Quickly discuss with a peer.)
+  1a. Which are more compliant?
+  • Arteries
+  • Veins
+
+
+  1b. Which play a larger role in determining blood pressure?
+  • Arteries
+  • Veins
+
+
+  1c. Which contain a larger blood volume?
+  • Arteries
+  • Veins
+
+
+                                                                11
+Comparison of Blood Vessels
+Arteries
+• Large arteries are muscular and elastic
+• Small arteries and arterioles are muscular and provide the
+  most resistance in the CV system
+Capillaries
+• Provide extensive surface area for exchange
+• Blood flow through a capillary bed is determined by state
+  of precapillary sphincters of arteriole supplying it.
+Veins
+ Contain majority of blood in
+  circulatory system (70%)
+    Have thin walls and are
+     very compliant, thus they
+     stretch easily to
+     accommodate more
+     blood without (much)
+     increased pressure
+ Contain very low pressure
+  (about 2mm Hg)
+    Insufficient to return
+     blood to heart
+    Blood return depends on
+     valves, muscle, and
+     breathing.
+Distribution of blood at rest
+
+
+
+
+                         Cardiac output is
+                     distributed unequally to
+                     different organs due to
+                   unequal resistance to blood
+                    flow through the organs.
+          Part II:
+Modeling the cardiovascular
+   system as a circuit
+
+
+
+                         17
+Systemic and Pulmonary Circulation
+Exercise 1:
+• What is the pressure driving blood flow? How can we calculate it?
+• What is the average cardiac output (CO) in a person? This is the blood flow
+  (volume/minute) that results from the pressure applied by the heart. How can we
+  calculate it?
+• What creates resistance to blood flow? What is the total peripheral resistance? How
+  can it be calculated?
+
+
+
+
+                                                                               19
+Total Peripheral Resistance
+• Sum of all vascular resistances within the systemic circulation is the total
+  peripheral resistance (TPR); TPR relates to afterload
+    • Sum of all Levels: arteries + arterioles + capillaries + veins
+• Arteries supply tissues and organs in parallel circuits
+    • Changes in resistance in these circuits determines overall & relative
+      blood flow
+
+
+
+
+                                                                              20
+Physical Laws Describing Blood Flow - Resistance
+• Mean arterial pressure (MAP) and vascular
+  resistance (R) are the 2 major factors regulating
+  blood flow
+
+• Flow rate is proportional to the pressure drop (∆P)
+  & inversely proportional to resistance
+
+
+
+
+                                                  21
+Poll: Have you encountered V=IR before?
+
+
+
+
+                                          22
+                   Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+                     Equivalent relationships in electromagnetics and fluid flow:
+                                                         Pressure (ΔP) = flow (Q) * resistance (R)
+ Voltage (V) = current (I) * resistance (R)                             ΔP = Q*R
+                 V = I*R                                     For the whole CV system this is:
+                                                                     MAP = CO*TPR
+
+
+        Relationships for Resistors in Series                Relationships for Resistors in Parallel
+
+Equivalent circuit models:                           Equivalent circuit models:
+             R1
+                                         R1
+    I                           Q                        I
+                                                                                    Q
+        +                    ΔP heart           R2           +                    ΔP heart   R1        R3
+V       _               R2                           V       _
+                                                                                               R2
+             R3                                                   R1    R2   R3
+                                    R3
+
+                  Adding resistances:                                  Adding resistances:
+                  Rtot = R1+ R2 + R3                                   1     1 1       1
+                                                                       Rtot= R1+ R2 + R3
+                                                                                                 23
+                   Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+                     Equivalent relationships in electromagnetics and fluid flow:
+                                                         Pressure (ΔP) = flow (Q) * resistance (R)
+ Voltage (V) = current (I) * resistance (R)                             ΔP = Q*R
+                 V = I*R                                     For the whole CV system this is:
+                                                                     MAP = CO*TPR
+
+
+        Relationships for Resistors in Series                Relationships for Resistors in Parallel
+
+Equivalent circuit models:                           Equivalent circuit models:
+             R1
+                                         R1
+    I                           Q                        I
+                                                                                    Q
+        +                    ΔP heart           R2           +                    ΔP heart   R1        R3
+V       _               R2                           V       _
+                                                                                               R2
+             R3                                                   R1    R2   R3
+                                    R3
+
+                  Adding resistances:                                  Adding resistances:
+                  Rtot = R1+ R2 + R3                                   1     1 1       1
+                                                                       Rtot= R1+ R2 + R3
+                                                                                                 24
+                  Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+
+   Relationships for Resistors in Series
+Equivalent circuit models:
+             R1
+                                         R1
+    I                          Q
+
+V       +              R2   ΔP heart              R2
+        _
+             R3
+                                    R3
+
+
+            Adding resistances in series:
+                  Rtot = R1+ R2 + R3
+
+        Current in series remains the same:
+                  Qtot = Q1= Q2 = Q3
+
+        Pressure across resistors in series:
+              (voltage divider rule)
+                              where n is any
+ ΔPn= ΔPtot*Rn /Rtot          individual resistor in
+                              series
+                                                                               25
+                  Modeling the Cardiovascular System as a Circuit
+             (similarities we draw as engineers when modeling the CV system)
+
+   Relationships for Resistors in Series                 Relationships for Resistors in Parallel
+Equivalent circuit models:                             Equivalent circuit models:
+             R1
+                                         R1
+    I                          Q                           I
+                                                                                          Q
+        +                   ΔP heart              R2           +                        ΔP heart      R1        R3
+V       _              R2                              V       _
+                                                                                                        R2
+             R3                                                        R1    R2   R3
+                                    R3
+
+
+            Adding resistances in series:                             Adding resistances in parallel:
+                                                                                       For only two resistors in
+                  Rtot = R1+ R2 + R3                   1     1 1      1                parallel you can rewrite
+                                                       Rtot= R1+ R2 + R3               this as:         R1*R2
+        Current in series remains the same:                                                      Rtot =
+                                                                                                        R1+R2
+                  Qtot = Q1= Q2 = Q3                           Current in parallel: (current divider rule)
+                                                                                       where n is any individual
+                                                           Qn = Qtot*Rtot /Rn
+        Pressure across resistors in series:                                           resistor in parallel
+              (voltage divider rule)
+                                                                   Pressure across parallel resistors is
+                              where n is any
+ ΔPn= ΔPtot*Rn /Rtot          individual resistor in
+                                                                               constant:
+                              series                                    ΔPtot = ΔP1 = ΔP2 = ΔP3
+                                                                                                           26
+Exercise 2: Take a look at the example of a very simple cardiovascular system.
+What is the equivalent circuit model?
+           RA                                   What is the equivalent circuit model?
+
+
+
+                         RB
+Q=                                        RC
+5 L/min
+
+
+                  RD
+
+ What is the equation for the overall          What is the flow through each branch, A, B,
+ resistance in terms of RA, RB, RC, RD?        C, D in terms of RA, RB, RC, RD and Qtot?
+                                               Assume the total cardiac output (Qtot) is
+                                               5L/min.
+
+
+
+
+                                                                                   27
+Exercise 2: Take a look at the example of a very simple cardiovascular system.
+What is the equivalent circuit model?
+          RA                                   What
+                                             What      is the
+                                                   is the flowequivalent  circuit
+                                                               through each       model?
+                                                                             branch, A, B,
+                                             C, D in terms of RA, RB, RC, RD and Qtot?
+                                             Assume the total cardiac output (Qtot) is
+                                             5L/min.
+                       RB
+Q=                                    RC
+5 L/min
+
+
+                 RD
+
+
+
+
+                                                                                    28
+

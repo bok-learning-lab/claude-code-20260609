@@ -1,0 +1,258 @@
+ES 53 - Quantitative Physiology                                                                  Fall 2024
+Problem Set 2: Hodgkin-Huxley Model, Muscle & Hill’s Model
+Due Tues. Sept. 23rd                                   (out of 50 points)
+
+
+
+ [For the MATLAB components of this homework please include any code as an appendix at the end
+ rather than only publishing your code. Please include your figures in the main body of your answer
+ set.
+ Be sure to keep all of your answers with the boxes provided and be sure to clearly CIRLCLE your
+ final answers.]
+
+
+A few tips for MATLAB:
+
+To plot in other colors besides the standard 7 you’ll need to tell MATLAB exactly what color you want in terms of
+RGB color values that range from 0 to 1. For example, if you wanted a dark blue you could use the following
+syntax:
+>> plot(x,y,'color', [0 0 0.5])
+If you wanted a light blue you could use:
+>> plot(x,y,'color', [0.7 0.7 1])
+Note that the three values correspond to RED, GREEN, and BLUE respectively, and are the amount of that color
+scaled from zero to one. If you had [1 1 1] this would be white, and [0 0 0] would be black.
+
+If you want to make your line thicker you would use the following syntax:
+>> plot(x,y,'color', [0 0 0.5], ‘linewidth’,4)
+Where 4 is the relative thickness. MATLAB defaults to a linewidth of 1 unless you specify it.
+
+
+
+
+                                                                                                                1
+1. [14 pts] Hodgkin and Huxley derived probability functions that closely model the activity of the gates in
+electrically excitable cells. In the previous problems you recreated the conductance graphs for sodium and
+potassium as shown in your Action Potentials handout by modeling the underlying functions in MATLAB.
+In the next problem we’ll be more rigorously following-up on / exploring some of the non-trivial quantitative
+concepts of the Hodgkin-Huxley (HH) model. Some of these concepts involve linear differential equations that
+are complex enough that you’d need a diff eq course to be fully comfortable with them, and the nonlinear HH
+equations are not even solvable analytically. Here we’ll bypass this issue entirely by having MATLAB solve these
+equations for us. Also to remove some tedium and issues with learning the MATLAB syntax for this, we’re
+providing MATLAB m-files that get you started with most of the kinetics problems and that instantiate the HH
+model equations, so you don’t have to figure things out from scratch.
+You have been given m-files (see Canvas) that contain the formulae for Hodgkin & Huxley’s equations for the
+asymptotic values of the gating probabilities n, m, & h. You’ll need to make sure you have both the “hod_hux.m”
+and the “run_hh_model.m” in the same folder in MATLAB. Please find these files on Canvas.
+    a. [5] Stimulate the model neuron with current pulse of 0.1 msec duration and an amplitude of 100 uA/cm2,
+       and then plot (i) membrane potential (subplot #1), (ii) the sodium & potassium conductances (subplot #2),
+       and (iii) the m-gate, hgate, & n-gate open probabilities (subplot #3) all as functions of time. Use a time
+       axis from 0 to 8 ms for all plots. Use MATLAB’s subplot function to stack these three plots vertically on
+       the same figure (e.g. subplot(3,1,n); ). Label all axes and include units. Clearly include this graph in
+       your answers for this P-set. Clearly include your MATLAB code in your appendix.
+
+ Figure:
+                                                                            Caption:
+
+
+
+
+                                                                                                               2
+  b. [3] Now, stimulate the hh_model 101 different times (use a “for” loop!!) with a current pulse of 0.1 msec
+     duration and an amplitude varying from 0 to 100 uA/cm2. Plot all membrane voltage traces, Vmem(t) on
+     the same graph. This graph will look incredibly busy. Clearly include this graph in your answers for
+     this P-set. Clearly include your MATLAB code in your appendix.
+
+Figure:
+                                                                         Caption:
+
+
+
+
+  c. [3] Next, plot the relationship between the stimulating current pulse magnitude and peak (max) membrane
+     voltage for each voltage trace (You should 101 data points here). Specifically plot the stimulating current
+     amplitude (on x-axis) and the peak depolarization of Vmem on the y-axis. Comment on this plot’s shape
+     and how it relates to a threshold phenomenon. What is the threshold current amplitude for producing an
+     AP? Clearly include this graph in your answers for this P-set. Clearly include your MATLAB code
+     in your appendix.
+
+Figure:
+                                                              Caption:
+
+
+
+
+                                                                                                              3
+  d. [3] Plot an individual action potential (Vm(t)) from a barely-suprathreshold current pulse alongside an
+     individual action potential from a 100uA/cm2 pulse (far above threshold), using a pulse width of 0.1ms in
+     both cases. Comment briefly on the shapes of these action potentials and the similarities/differences
+     between them. Clearly include this graph in your answers for this P-set. Clearly include your
+     MATLAB code in your appendix.
+
+
+Figure:
+                                                                     Caption:
+
+
+
+
+                                                                                                             4
+2. [12 pts] Recall the twitch response of a single motor unit. Twitch responses sum. As the rate (frequency) of the
+excitation increases this summation of twitches reaches tetany. Simulate this in MATLAB with both fast and slow
+twitches. We can approximate the shape of a twitch response using MATLAB’s gampdf function. See the
+“tetany.m” file on Canvas or the appendix of this problem set for the code.
+
+
+    a) [4] Alter the code to change the frequency of excitation. What happens to the force profile (sum of all
+       twitches)? At what frequency can you clearly see each individual twitch? At what frequency (in Hz) do
+       you reach tetany? (Note that the units in the graph are in milliseconds.) Paste your two graphs and
+       describe your answers in brief.
+
+
+ Figure:
+
+                                                                     Brief Answers:
+
+
+
+
+   b) [2] Alter the code to change the number of twitches. How does this affect the force profile?
+ Brief description:
+
+
+
+
+    c) [2] Add your own code at the end of the script to test out slower twitches. Use the gampdf(?,3,2) to
+       approximate a slow twitch. Now with this slow twitch, repeat part a and find the frequency at which no
+       twitches overlap and the frequency at which you reach tetany.
+
+ Brief description:
+
+
+
+
+                                                                                                                  5
+  d) [4] Include one figure from MATLAB with both subplots – the upper subplot should contain the summed
+     twitches from “fast” fibers in red, and the lower subplot should contain the summed twitches from the
+     “slow” fibers in blue. Use at least 10 twitches when generating this figure.
+
+Figure:
+                                                                  Caption:
+
+
+
+
+                                                                                                         6
+3. [16 pts] Suppose someone is weightlifting and she is trying to maximize the contraction of the bicep muscle to
+lift the weight as quickly as possible with as much force as possible. [Hint: You’ll need Hill’s equations for some
+parts of this problem.]
+a) [2] Draw the approximate corresponding force-velocity curve on the axes to the right. Let Vmax = 0.3 m/s and
+let T0= 150 N. For this muscle a = 50 N and b = 0.1 m/s.
+b) [2] Draw the corresponding power vs. force curve on the same graph to the right. Label this curve.
+
+                  Force-Length Curve                                                Force-Velocity Curve
+
+
+
+
+                                                                                                                 Power (N·m/s)
+                                                               Velocity (m/s)
+Force (N)
+
+
+
+
+             L0-2 L0-1     L0    L0+1 L0+2
+                         Length (cm)                                                      Force (N)
+
+c) [2] Write an equation for velocity as a function of force T (tension), a, b, and T0.
+
+
+
+
+d) [2] How is the power of the muscle found from Hill’s equation? Write your answer as an equation for power in
+terms of T, T0, b, and a. (velocity should not show up in your final answer)
+
+
+
+
+e) [2] If she wants to lift a 50N weight what will the velocity of shortening be?
+
+
+
+
+                                                                                                                       7
+f) [2] Write an equation for the work done by this muscle in “t” seconds in terms of t, T, T0, b, and a. (Recall
+Power has units of Watts or Joules/s.)
+
+
+
+
+g) [2] If she wants to lift a 50N weight what power is required? Use Hill’s model to rearrange terms and find the
+power required to lift 50 N.
+
+
+
+
+h) [2] How much work is done in 0.5 seconds if she is listing a 50N weight? List your answer in Joules.
+
+
+
+
+4. Exponentials – [8 pts] Exponentials are used in many types of physiological modeling including channel
+gating and kidney function so let’s review some exponentials. In MATLAB graph the following functions and
+then answer the questions. Please include the graphs with your answers. Attach your code as an appendix.
+        a. [2] Graph y= e^-t over a reasonable range. At t=1 place a red asterisk. What does this value
+            represent?
+
+
+
+
+                                                                                                                    8
+b. [2] Graph y=1-e^-t over a reasonable range. At t=1 place a red asterisk. What does this value
+   represent?
+
+
+
+
+c. [2] The equation in part a is known as exponential decay. Another common example is A = A0*e^(-
+   t/tau) where A is a constant which represents the initial starting amplitude, t is the time variable, and
+   tau is the time constant. Try plotting this equation for A0 = 2, and tau = 3 seconds. Make sure that you
+   can see the majority of the decay.
+
+
+
+
+                                                                                                           9
+d. [1] At what time does A = ½ A0?
+       At what time does A = 37% A0?
+
+
+
+
+e. [1] How does increasing tau affect the rate of decay (or rate or reaching asymptotic behavior)?
+   [Please be brief and succinct.]
+
+
+
+
+                                                                                                     10
+Appendices (Only include code that you wrote. Do not include the code you were already given.)
+Code for Q1:
+
+
+
+
+                                                                                                 11
+Code for Q2:
+
+
+
+
+               12
+Code for Q4:
+
+
+
+
+               13
+

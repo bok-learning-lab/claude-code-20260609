@@ -1,0 +1,57 @@
+NAME: ___________________________________________________
+                          ES 53
+                     In-Class Quiz #2
+                      Oct. 22nd, 2025
+
+
+
+
+                                                            1
+1. If cardiac output increases and the total peripheral resistance remains constant what happens to the mean arterial
+pressure? [Circle one answer only.]
+     A. It also stays constant
+     B. It increases
+     C. It decreases
+
+
+2. Below is an example of a person who is experiencing atrial fibrillation. Which effect is most likely to happen? [Circle
+one answer only.]
+
+    A.   Decreased preload
+    B.   Increased preload
+    C.   Decreased afterload
+    D.   Increased afterload
+
+
+
+
+3. Which of the following parameters, if doubled, would cause the largest increase in flow of
+blood through a vessel? [Circle one answer only.]
+    A. Blood pressure
+    B. Vessel length
+    C. Vessel diameter
+    D. Blood viscosity
+
+
+4. In the aorta with a given radius, turbulent flow is more likely when… [Circle all that apply.]
+     A. Pressure in the aorta increases
+     B. Blood flow increases
+     C. Viscosity of the blood increases
+     D. Density of the blood decreases
+     E. Heart rate decreases
+
+
+
+5. How would you calculate the velocity of flow at the very center of a vessel that has a known diameter, with known
+blood viscosity assuming the flow is laminar and the blood flows at a constant rate? [Circle all that apply.]
+    A. 2* flow / area
+    B. flow / (diameter*pi)
+    C. flow / (area* viscosity)
+    D. viscosity / (flow * diameter/2)
+    E. flow *viscosity / area
+
+
+
+
+                                                                                                                             2
+

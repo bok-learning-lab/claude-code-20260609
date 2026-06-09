@@ -1,0 +1,219 @@
+ES 53 - Quantitative Physiology                                                                         Fall 2025
+Problem Set 6: Cardiovascular modeling and devices
+Due Tues. Oct. 28th                                                                       (out of 34 points)
+
+
+ [Be sure to keep all of your answers with the boxes provided and be sure to clearly CIRLCLE your
+ final answers.]
+
+
+
+1. [14 pts] See the renal (kidney) blood flow diagram. Each kidney is supplied by a renal artery and blood
+    leaves via the renal vein. These renal arteries branch off the abdominal aorta and the veins connect back to
+    the inferior vena cava. At the point where the renal arteries branch off the abdominal aorta the pressure is
+    90 mmHg. At the point where the renal veins connect to the inferior vena cava the pressure is 5 mmHg.
+Each artery and vein has some resistance to it. Each kidney has a large vascular network, and the total resistance
+of each kidney can be considered as a single value (RKL and RKR).
+
+
+                                  (IVC) Inferior vena cava       Abdominal aorta (AA)
+
+
+
+                           (RAR) Right renal artery                 Left renal artery (RAL)
+
+
+
+
+                                  (KR) Right kidney               Left kidney (KL) R4
+
+
+                               (RVR) Right renal vein        Left renal vein (RVL) R6
+
+
+
+a) [2] Below, Qin and Qout denote direction of blood flow into and out of the renal system. The red arrows
+indicate the pressures at the beginning and end of the resistive system.
+Draw and resistive network of the six components (R1-R6) from the renal blood flow system that are between
+the abdominal aorta (AA) and the inferior vena cava (IVC). Draw this between the two black dots. Denote each
+resistor.
+                     Qin                                                                       Qout
+
+           from AA                                                                                    to IVC
+
+
+
+                     85 mmHg                                                                  5 mmHg
+
+
+
+
+                                                                                                                    1
+b) [2] What is the resistance of this entire network that you drew? Write an equation for RTot in terms of each of
+the six resistors (R1-6) (you do not need to include pi, length, radius, or viscosity here).
+
+
+
+
+c) [2] If the blood flow into the right kidney (QKr) is 450 mL/min what is the blood flow through the right renal
+artery (QRAr), and what is the blood flow through the right renal vein (QRVr)? Write you answer in terms of
+mL/min.
+
+
+
+
+d) [2] What is the pressure drop across the right kidney? List your answer is units of mmHg.
+Please assume that the resistances of the three components on the right side right are related as follows:
+(RRAr) = 2* RRVr = 1/20*RKr      where RAr = right renal artery (R1)
+i.e R1 = 2*R5 = 1/20*R3                  Kr = right kidney        (R3)
+                                         RVr = right renal vein (R5)
+
+
+
+
+                                                                                                                    2
+e) [2] Renal artery stenosis can occur and eventually leads to hypertension. Hypertension occurs because the
+body increases TPR to maintain a constant pressure drop across the kidneys. Let’s look at how ΔP is affected by
+renal artery stenosis.
+If the stenosis occludes the cross-sectional area of the renal arteries then the resistance of those arteries
+increases. Assume that the radius of each renal artery decreases by 50%. What is the new resistance (Rnew) of
+the right renal artery compared to the resistance without stenosis (Rorig)?
+
+
+
+
+f) [2] For this case, assume that total pressure drop listed above remains the same. Assume the two kidneys are
+identical. The resistances 2* RRVr = 1/20*RKr still equals the original RRAr.
+How does your answer in (e), (i.e. the stenotic resistance) affect the pressure drops across each of the three
+resistances on the right side? Recalculate the pressure drop (in units of mmHg) across each resistor (RRAr, RRVr,
+RKr) now that the renal arteries are stenotic.
+
+
+
+
+g) [2] A pressure drop of 60 mmHg is needed across each kidney in order to properly perfuse the kidneys. Will
+this threshold be reached given the stenosis? Yes, no? Why?
+
+
+
+
+                                                                                                                    3
+2. [6 pts] A new medical device was approved by the FDA about a two years ago.
+   To understand how it works be sure to do the required reading regarding the
+   baroreceptor reflex in your textbooks.
+   As stated on the FDA website: “The BAROSTIM NEO System includes an
+   implantable pulse generator (IPG), a carotid sinus lead kit and a programmer.
+   The IPG delivers electrical signals to the body's pressure sensors
+   (baroreceptors) in patients with advanced heart failure. [You can find out
+   more here if you like: https://www.cvrx.com/healthcare-professionals/ (or
+   way more than you need:
+   https://www.youtube.com/watch?v=1mO9GXEMZ5o)]
+
+   a) [1] What are baroreceptors?
+
+
+
+
+   b) [1] Upon which baroreceptors does this device act?
+
+
+
+
+   c) [1] What is the baroreceptor reflex?
+
+
+
+
+   d) [2] In your own words describe how this device helps patients with heart failure.
+
+
+
+
+   e) [1] What are some of the potential risks of this device?
+
+
+
+
+                                                                                          4
+3. [10 pts] Microbubbles, such as Definity®, are used in cardiology to opacify (make bright and distinguishable)
+   blood in echocardiography (ultrasound of the heart). Microbubbles are tiny air bubbles that are pressure
+   sensitive. (Just FYI: Microbubbles are also under investigation in research for applications such as drug
+   delivery, molecular imaging, and theranostics.) When injected into humans, they are injected through a vein
+   in the arm (the same veins used for blood draws).
+
+a) [2] To which chamber of the heart will the microbubbles arrive first assuming they are injected in a vein in
+   the left arm? Why?
+                                                                                                        1
+
+
+
+
+                                                                                Normalized Number/ml
+                                                                                                       0.8
+                                                                                                       0.6
+                                                                                                       0.4
+                                                                                                       0.2
+                                                                                                        0
+                                                                                                             0          5           10
+                                                                                                                 MB Diameter (µm)
+
+b) [2] Eventually the microbubbles will pass through a capillary network. Which capillary network will they pass
+   through first (pulmonary, systemic, coronary, etc.) and how small is the diameter of one of these capillaries?
+
+
+
+
+c) [1] Microbubbles cannot deform like RBCs. What is the largest microbubble, in terms of diameter, that can
+   pass through the capillary network you described in part B?
+
+
+
+
+d) [1] The microbubbles are not all one diameter. Let’s assume these microbubbles have a size distribution as
+   listed in the figure above. What percent will be able to pass through the entire circulatory system based on
+   their size? Since this is tricky to estimate precisely from the graph, please pick one of the following estimates
+   based on the graph: ~0% 10%, ~50%, ~90%, ~100%.
+
+
+
+
+                                                                                                                                         5
+e) [2] These microbubbles are pressure sensitive and their sensitivity to rupture is based on their diameter.
+   Where in the circulatory system will the microbubbles be subjected to the highest pressure, and what,
+   based on an average human, will that pressure be? Assuming that the threshold for rupture is based on the
+   radius as 15 kPa per µm diameter, will most of the microbubbles be destroyed, or will the majority be able
+   to pass through the circulatory system unscathed? Briefly explain your reasoning.
+
+
+
+
+f)   [2] Based on your answers for D and E, how would you design a microbubble such that it can withstand
+     pressures in the body while also being able to fit through capillaries? Please list your ideal diameter. By what
+     are you most constrained (pressure or vessel size)?
+
+
+
+
+                                                                                                                    6
+4. [4 pts] The Impella device by Abiomed (a Johnson and Johnson
+   Company) can be operated over a range of flow outputs from 1-5
+   L/min. It has an inner diameter of 5 mm, and the length between
+   the inlet and outlet ports is 10 cm.
+
+
+
+
+a) [2] At what flow rate (in L/min or mL/s) would the flow through
+   the Impella device become turbulent? Show your calculations and
+   quantitative reasoning.
+
+
+
+
+b) [2] Why does turbulent flow matter in a physiologic sense? [Keep it brief]
+
+
+
+
+                                                                                7
+

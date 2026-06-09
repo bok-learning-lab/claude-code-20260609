@@ -1,0 +1,203 @@
+ES 53 - Quantitative Physiology                                                                   Fall 2025
+Problem Set 7: Partial Pressures, Oxygen Saturation and Consumption
+Due Tues. Nov. 11th                                      (out of 53 points)
+
+
+ [Make sure you show all of your work and include units throughout your calculations. Be sure to
+ keep all of your answers within the boxes provided. Be sure to clearly CIRLCLE your final answers.]
+
+
+
+1. [12 pts] Assuming (i) normal air composition (%O2=21, %N2=79), (ii) an air temperature of 37ºC, and (iii) PaCO2 =
+   40mmHg, calculate the atmospheric and alveolar PO2 for the following conditions:
+   a) [2] 0% humidity (dry) air at an elevation of 15,000 ft. where atmospheric pressure is only about 60% of
+       that of the pressure at sea level.
+
+
+
+
+    b) [2] 100% humidified air at an elevation of 15,000 ft. where atmospheric pressure is only about 60% of that at
+       sea level.
+
+
+
+
+    c) [2] An environment with a gas mixture (sea-level, 100% humidity air) that also contains 40 mmHg CO2 (while
+       maintaining an N2:O2 ratio of 79:21).
+
+
+
+
+                                                                                                                       1
+d) [2] Why is the atmospheric PO2 you’ve calculated in ‘c’ (where the humidity is high and there is extra CO2 in
+   the air) different from the normal alveolar P02 (recall in the alveoli PaCO2 = 40 mmHg)
+
+
+
+
+e) [2] At an altitude of 15,000 feet, what % O2 would one have to breathe in order to normalize the PaO2 (partial
+   pressure of oxygen in the alveoli) to the same value that you would expect at sea level?
+
+
+
+
+f)   [2] If you’re on a plane at normal cruising altitude (40,000 ft) and the cabin suddenly depressurizes, you could
+     lose consciousness in just 15-20sec (FYI, airline pilots refer to this time as the “time of useful consciousness”).
+     Why so soon? [brief qualitative answer requested]
+
+
+
+
+                                                                                                                      2
+2. [12 pts] Bersabeh is in the hospital. Her arterial blood gas analysis reveals a PO2 of 60mmHg and a Hb-O2
+   sat of 85%. The patient’s [Hb] is 12 g/dL.
+   a) [3] What is the total O2 content of the patient’s blood without including dissolved O2? Assume the total
+       blood volume is 5L and that 75% of blood is venous and 25% arterial, and that (extracellular) tissue PO2
+       (which fully equilibrates with capillary PO2) is normal at 40 mmHg.
+
+
+
+
+   b) [3] Repeat without neglecting dissolved O2.
+
+
+
+
+                                                                                                                  3
+c) [4] The patient is treated with 40% supplemental O2 (compared to 21% in regular room air) and several
+   hours later a repeat of the arterial blood gas analysis reveals a partial oxygen pressure of 100 mm Hg,
+   with an O2 hemoglobin saturation of 99%. What is the total O2 content now?
+
+
+
+
+d) [2] Why would the total oxygen content of the arterial blood not rise by the same percentage as
+   oxygen in the air used for ventilation?
+
+
+
+
+                                                                                                             4
+3. [7 pts] Vjosa, a patient with 4L of blood, [Hb] = 12gHb/dL and a cardiac output of 4L/min has been exposed to
+   carbon monoxide such that the PCO in her blood is at 0.08 mmHg. She is basically at rest and her body is
+   consuming 200 mL O2/min. She has a tissue PO2 of 45 mmHg. She is outside at sea level in a place with zero %
+   humidity. Do not ignore dissolved oxygen for this problem. See saturation curves below.
+
+
+
+
+a) [1] How does this level of PCO exposure shift the SaO2 curve, if at all? Please draw on top of the normal
+   curve shown to the left above.
+
+b) [3] What is her cardiac output after exposure to carbon monoxide if she maintains an oxygen consumption rate
+   of 200 ml of O2/min and tissue PO2 remains constant after the poisoning? Clearly indicate your answers.
+
+
+
+
+                                                                                                                   5
+c) [3] To treat the patient you decide to put her in a hyperbaric chamber. You want to get her arterial blood O2
+   concentration back up to the normal level. What alveolar pressure (in mmHg) would be necessary? What
+   pressure (in atm) does this chamber need to be if you can only supply it with 21% oxygen? Is it feasible to treat
+   this patient at this pressure (why or why not)?
+
+
+
+
+                                                                                                                       6
+4. [6 pts] Following normal respiration Jung breathes in a maximal inhalation. We want to know how long Jung can
+hold her breath before her tissue PO2 drops to 20 mmHg. Before holding her breath she had been at rest with a
+tissue PO2 of 40 mmHg. Her oxygen consumption remains constant at 250 mLO2/min, and her cardiac output
+remains constant at 5 L/min. You can ignore any dissolved oxygen in tissue and in blood. She has the following lung
+volumes:
+                    Residual volume: 1300ml
+                    Expiratory reserve volume:1200ml
+                    Tidal volume:500ml           Inspiratory reserve volume: 2000ml
+
+    a) [1] What is her vital capacity in milliliters?
+
+
+
+
+    b) [5] How long (in minutes) can Jung hold her breath before her tissue PO2 drops to 20 mmHg?
+
+
+
+
+                                                                                                                      7
+5. [16 pts] Some professional athletes engage in cheating via blood doping, which increases the number of red
+   blood cells. It can be done in a variety of ways, but is often done via autologous blood transfusion, meaning that
+   the athletes remove their own blood and harvest and store RBCs from it. Eventually their bodies replace lost
+   RBCs, and then they inject the old, preserved RBCs to get a higher overall count.
+
+    a) [2] In one or two sentences, how would blood doping help an athlete?
+
+
+
+
+    b) [1] What condition (that we have learned about in class) causes the opposite effect?
+
+
+
+
+    c) [2] Given the normal saturation curve for Hb-O2, what                  100
+
+
+       does a blood doping athlete’s saturation curve look
+       like? Draw this on the same plot. You can use the chart                 80
+
+
+       to the right or draw your own, but please clearly
+       delineate how they differ.
+                                                                               60
+
+
+
+
+                                                                   SaO2 (%)    40
+
+
+
+
+    d) [1] You are competing against Lance Armstrong in his                    20
+
+
+       prime (!!!!) and you are currently tied for the lead in a
+       race. You and Lance are identical (assume that you had
+                                                                                    0
+                                                                                        0   20   40   60   80   100   120
+
+       the same hemoglobin concentration before doping)                                   PO2 (mmHg)
+
+
+       except for the fact that four months earlier he
+       removed 10% of his blood (assume you both have total blood volumes of 5 L and your Hb concentration is 15
+       gHb/dL), isolated the RBCs in that blood, and stored them all. Then, the night before the race (i.e. his total
+       volume is back to 5 L), he injected the extra RBCs back into his bloodstream. His Kidneys filter the blood such
+       that it has re-equilibrated to 5L total by the morning. What is his new Hb concentration?
+
+
+
+
+                                                                                                                            8
+e) [3] How much higher (in percentage) must your cardiac output be compared to Lance for a given oxygen
+   consumption rate? [We are assuming all else is equal so if you are tied in the race, your muscles are
+   demanding the same amount of oxygen per minute. Assume tissue PO2 is 20 mmHg and alveolar lung PO2 is
+   100 mmHg.]
+
+
+
+
+f)   [3] If 3000 ml O2/min is needed to bike at the pace you and Lance are biking, what is your cardiac output?
+     What is Lance's?
+
+
+
+
+g) [4] How much oxygen is in your blood vs. in Lance’s blood? (List your answers in units of mL of O2.)
+
+
+
+
+                                                                                                                  9
+

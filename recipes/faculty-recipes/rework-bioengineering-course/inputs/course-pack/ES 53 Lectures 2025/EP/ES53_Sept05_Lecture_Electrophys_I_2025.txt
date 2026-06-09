@@ -1,0 +1,664 @@
+ES 53
+2025
+
+
+        Module 1
+    Electrophysiology
+
+        (Sept. 5, 2025)
+                          1
+             Learning                                            3) Determine the resting membrane potential of any cell
+                                                                 - Appropriately apply the GHK (membrane potential equation)
+
+            Objectives                                           equation
+                                                                 - Understand how the membrane potential would change if
+                                                                 permeabilities/conductances changed
+                                                                 - Calculate currents (Ix) for the common ions
+1) Describe the forces governing ions inside and outside         - Calculate the driving voltage (Vx) for each ion
+the cell.
+- Define concentration gradients, selective permeability,
+diffusion, electrostatic force                                   4) Explain what an action potential is and how and why it
+                                                                 occurs
+- Understand how the cell can be bulk net neutral and still
+have a negative resting potential                                - Diagram an action potential as a function of voltage over
+                                                                 time and indicate the resting potential, depolarization,
+- Describe what membrane channels are and what causes            repolarization, hyperpolarization, overshoot, undershoot,
+their selectivity                                                absolute refractory phase and relative refractory phase
+                                                                 - Explain and numerically model the all-or none property of
+                                                                 action potentials
+2) Calculate the Nernst potential (equilibrium potential)
+for the 4 most common ions that affect the membrane
+potential
+                                                                 5) Use the Hodgkin-Huxley model to recreate the action
+- Know the qualitative (high, low) concentrations of the 3 key   potential
+ions inside and outside a typical cell
+                                                                 - Explain the gating of Na+ and K+ channels and how that
+- Understand how the Nernst Potential would change if            affects conductance over time
+concentrations changed
+                                                                 - Model how the conductance of gates and their time
+- Explain how membrane selectivity affects the Nernst            constants affect the action potential shape
+potential
+                                                                 - Explain the difference between membrane changes during
+- Explain why the equilibrium potential is not typically zero    an action potential and during an experiment where the
+                                                                 membrane potential is voltage-clamped
+                                                                                                                         2
+          Part I:
+Cell membranes; membrane
+ biophysics; and chemical
+        gradients
+
+
+                       3
+Why do we care about cell membranes
+and excitable cells?
+
+
+
+
+                                4
+         How do we excite cells?
+• Light? Electricity?
+
+
+
+
+• Do humans have any optically excitable
+  cells?
+• Why might optically excitable cells be
+  useful in medicine/bioengineering?
+• Optogenetics are being used to study
+  neurons, to create optically controlled
+  prosthetics, and to create cyborg robots…
+ https://www.youtube.com/watch?time_continue=85&v=-D_XrRo0h20   5
+Why do we care about cell membranes
+and excitable cells?
+                                                            +
+
+
+• Each cell acts as a tiny battery with the                 –
+
+
+
+  positive pole outside the plasma membrane                 –
+
+
+
+
+  and the negative pole inside.
+                                                  K+   K+   K+   K+
+
+
+
+
+• The magnitude of this difference in charge,
+  or potential difference, is measured
+  in voltage. Although the voltage of this
+  battery is very small (less than a tenth of a
+  volt), it is of critical importance in such
+  physiological processes as muscle
+  contraction, the regulation of the heartbeat,
+  and the generation of nerve impulses.
+• To understand these processes, we must
+  first examine the electrical properties of
+  cells.
+                                                                      6
+Why are cells electrically charged?
+
+  Two driving forces at play
+  1) Diffusion
+  2) Electrostatic
+
+  Equilibrium is the balance of these two fluxes
+
+
+
+
+                                                   7
+What happens if we have a large amount
+of solute on one side of a permeable
+membrane?
+
+      Higher          Lower        Equal concentrations
+   concentration   concentration
+
+
+
+
+          Net diffusion               No net diffusion
+
+
+• Random motion of molecules leads to diffusion
+  • Net movement is from region of high to low concentration
+                                                          8
+                                                     More dilute   More concentrated
+
+  What happens if we
+  have a large amount
+  of solute on one side
+  of an impermeable
+  membrane?
+                                            Solute
+*Note that in cells the membrane is a
+lipid bilayer and it has a variety of
+channels and pores through which            Water
+different molecules passively or actively
+move from one side to the other.                                            9
+Worksheet exercise #1 – ions and
+membranes.
+
+
+
+
+    inside   outside           10
+Worksheet exercise #1 – ions and
+membranes.
+
+
+
+
+    inside   outside           11
+Worksheet exercise #1 – ions and
+membranes.
+
+
+
+
+    inside   outside           12
+Many molecules in cells and tissues move by diffusion
+Some molecules, such as O2 and CO2, can freely diffuse in and out of cells
+
+
+
+
+ Other molecules cannot freely diffuse in and out of cells
+ which is why the concentration of ions, proteins, nucleic acids, etc. . . can be
+ different inside and outside of cells
+
+
+                     How can we understand this?
+              Cells are surrounded by a membrane
+                   Outside
+
+
+
+
+Plasma
+membrane
+basically a thin
+  sheet of oil
+
+                    Inside
+
+    The plasma membrane acts as a barrier and separates the inside and
+    outside of the cell
+Subcellular organelles
+are also surrounded
+by membranes
+Mitochondria, the nucleolus,
+lysosomes, peroxisomes,
+vesicles, the endoplasmic
+reticulum, etc. . .
+
+
+Membranes acts as
+barriers and separate the
+inside of organelles and
+the rest of the cell
+
+
+
+
+                               from Physical Biology of the Cell, Phillips, et al
+              Cells are surrounded by a membrane
+                    Outside
+
+
+
+
+Plasma
+membrane
+basically a thin
+  sheet of oil
+
+                     Inside
+
+    The plasma membrane acts as a barrier and separates the inside and
+    outside of the cell
+
+                   What determines how easily molecules directly
+                          diffuse through the membrane?
+                     Model by diffusion through a thin sheet of oil. . .
+                 Diffusion through a sheet of oil
+                          as a model for a cell membrane
+                           Outside          Membrane        Inside
+                 𝑐𝑐(𝑥𝑥)
+                              𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜
+
+
+
+                                                               𝑐𝑐𝑖𝑖𝑖𝑖
+
+                                                                             𝑥𝑥
+                                            0          𝐿𝐿
+        𝜅𝜅 > 1                           𝜅𝜅 < 1
+
+
+ oil
+
+                                                                                                𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜
+                                                                        At equilibrium 𝜅𝜅 =
+water                                                                                         𝑐𝑐𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤
+
+  Some molecules are         Some molecules are
+   more soluble in oil      more soluble in water
+                                                             Partition Coefficient
+                               Permeability
+
+ Permeability depends linearly on 𝜅𝜅                        From our simple model
+                                                                              𝜅𝜅𝜅𝜅
+                                                                         𝑃𝑃 =
+          Units: (cm/sec)
+                                                                               𝐿𝐿
+                             More oil soluble                 𝜅𝜅 = 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+      high permeability      molecules can pass              𝐷𝐷 = 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+                             through membranes               𝐿𝐿 = 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡
+  water             10-2
+
+
+   urea
+                    10-4     Membranes are
+glycerol                     impermeable to most            Charged molecules and polar
+                     10-6
+                             charged and polar              molecules strongly prefer
+glucose
+                     10-8    molecules                      water 𝜅𝜅 ≪ 1
+    Cl-              10-10
+                             Strong implications for drug
+    K+                       delivery
+   Na+              10-12
+                                                            Nonpolar, oily molecules
+     low permeability
+                                                            prefer oil 𝜅𝜅 > 1
+                    Quick dimensional analysis check
+
+
+           What are the units of permeability (P)?
+
+                 𝜅𝜅𝜅𝜅
+            𝑃𝑃 =
+                  𝐿𝐿
+ 𝜅𝜅 = 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+𝐷𝐷 = 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+𝐿𝐿 = 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 𝑡𝑡ℎ𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+
+
+
+
+                 How does this affect molar flux (J)?
+
+
+                                                        19
+              Diffusion through a sheet of oil
+                        as a model for a cell membrane
+                         Outside       Membrane     Inside
+               𝑐𝑐(𝑥𝑥)
+                            𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜
+                                        𝜅𝜅 < 1                     𝑐𝑐𝑖𝑖𝑖𝑖 − 𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜
+                                                       𝑐𝑐(𝑥𝑥) = 𝜅𝜅                   𝑥𝑥 + 𝜅𝜅𝜅𝜅𝑜𝑜𝑜𝑜𝑜𝑜
+                                                                          𝐿𝐿
+
+                                                        𝑐𝑐𝑖𝑖𝑖𝑖
+
+                                                     𝑥𝑥
+                                0        𝐿𝐿
+What is the flux of molecules through the membrane at steady-state?
+
+                     𝜕𝜕𝜕𝜕   𝜅𝜅𝜅𝜅
+            𝑗𝑗 = −𝐷𝐷      =      𝑐𝑐 − 𝑐𝑐𝑖𝑖𝑖𝑖 = 𝑃𝑃 𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜 − 𝑐𝑐𝑖𝑖𝑖𝑖
+                     𝜕𝜕𝜕𝜕    𝐿𝐿 𝑜𝑜𝑜𝑜𝑜𝑜
+            Fick’s law                                                   𝜅𝜅𝜅𝜅
+                                       permeability          with   𝑃𝑃 =  𝐿𝐿
+
+
+                                                                      𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙
+                                                                 𝑃𝑃 =
+                                                                        𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡
+              What are the units of flux?
+
+         𝜕𝜕𝜕𝜕   𝜅𝜅𝜅𝜅
+𝑗𝑗 = −𝐷𝐷      =      𝑐𝑐 − 𝑐𝑐𝑖𝑖𝑖𝑖 = 𝑃𝑃 𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜 − 𝑐𝑐𝑖𝑖𝑖𝑖
+         𝜕𝜕𝜕𝜕    𝐿𝐿 𝑜𝑜𝑜𝑜𝑜𝑜
+Fick’s law                                                   𝜅𝜅𝜅𝜅
+                           permeability          with   𝑃𝑃 =  𝐿𝐿
+
+
+                                                          𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙ℎ
+                                                     𝑃𝑃 =
+                                                            𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡
+
+
+
+
+   The greater the permeability, the greater the flux
+
+   Permeability is a measure of how easily something
+   crosses the membrane.
+                      Transport of charged molecules
+     Many molecules of interest are charged, which strongly impacts their movement
+
+                                                                        Ions Channels
+           Ions are nonuniformly distributed
+           Intracellular fluid                 Extracellular fluid
+            concentrations                      concentrations
+
+
+
+
+                 12 mM                  Na+           145 mM
+
+
+                 150 mM                 K+            5 mM
+
+
+                 9 mM                   Cl–           125 mM
+
+                                                                     Ions can pass through
+                 0.0001 mM             Ca2+           2.5 mM
+                                                                       the membrane by
+                                                                        moving through
+                                                                      specialized channels
+The movement of ions play many important
+roles in cell physiology and signaling:                              Different channels are
+Muscle contraction, heart beat, nerve impulses, fertilization,           specialized for
+apoptosis, gene expression, etc. . .                                      different ions
+            Different types of membrane transport
+
+
+
+
+Direct diffusion through
+the membrane                                       Uses energy from ATP
+                                                   hydrolysis to drive
+                                                   molecules across the
+                                                   membrane
+
+
+              Diffusion through a       Simultaneously moves
+              channel in the membrane   different molecules in
+                                        opposite directions
+
+
+      Molecules always move down
+        concentration gradients            Can move molecules up
+                                           concentration gradients
+            Part II:
+Nernst potential, membrane
+ potential, driving voltages
+
+
+
+                          24
+(For reference) Permeability,
+conductance, voltage, current
+• Permeability (P) refers to how easily a substance can
+  cross through the membrane. Units are in cm/sec.
+• Conductance (g) refers to ions and how easily they flow
+  through the membrane. Conductance is also defined as
+  the degree to which the membrane conducts electricity (or
+  ions). Units are in siemens.
+• Resistance (R) is the inverse of conductance. Units are in
+  ohms.
+• Voltage (V), or voltage potential is the difference in charge
+  across some barrier, and in our case the barrier is the cell
+  membrane.
+• Current (I) is the flow of ions.
+• Recall V = I*R or I = V*g
+                                                            25
+Be sure to check out the membrane potential tutorial:
+  https://www.st-andrews.ac.uk/~wjh/neurotut/mempot.html
+
+
+
+
+                                                      26
+  Where do transmembrane
+electrical potentials (voltages)
+          come from?
+
+
+
+
+Let’s consider a very simple
+model of a cell membrane…
+                                   27
+The Nernst equilibrium potential
+
+                                +
+                       −      −    −    − −
+                   −               − −
+                             −
+                − − −− − −− −        −−
+                  − − − − +−− −            When will the
+                       − − − −− −       −
+                  −    −−− −− − − − −      negatively charged
+                                       −
+                   −         −− − −        molecules stop
+                −    −             − −
+                             −             entering the cell?
+The Nernst potential (equilibrium potential) is the intracellular
+electrical voltage that would produce a current that would be
+equal in magnitude but opposite in direction to that produced
+by the process of diffusion.                                 28
+What happens within a cell?
+
+                                        Plasma membrane
+
+                                          What are
+                Fixed anions              these fixed
+                                          anions?
+                        –
+
+                                          What ion is
+                                          most prevalent
+            +   +   +       +   +   +     inside the cell?
+
+                                          Where do the
+                                          positive ions
+                                          want to go?
+                                                    29
+What happens within a cell?
+  +   +   +   Electrical attraction
+                                                          Plasma membrane
+
+Two driving
+forces set up the
+electrochemical                Fixed anions
+potential.                                –
+
+
+
+
+                           +   +      +       +   +   +
+
+
+                                                            Where do the
+                                                            positive ions
+  +   +   +   Concentration gradient                        want to go?
+                                                                     30
+What is the equilibrium potential for K+?
+                              –90 mV
+
+
+                                               Voltmeter
+
+
+              Intracellular                     Extracellular
+                                       +        electrode
+              electrode
+                                                            The K+ equilibrium
+                                       –                    potential (EK) is the
+ K+                                                         electrical potential
+                                Fixed anions                that counters the
+ Charge                              –
+ attraction                                                 diffusion of K+
+(electrical flux)             K+ K+    K+   K+ K+
+                                                           (chemical flux)
+
+                                                           Diffusion         K+
+
+                                                                        31
+At equilibrium, electrically-driven and
+diffusion-driven flows cancel one another
+ Electromotive Free Energy = Chemical Free Energy
+                                              CoX
+                                 zFEX = RT ln
+                                              CiX
+  Solving for EX yields                       RT    CoX
+                                         EX =    ln
+  the Nernst equation:                        zF    CiX
+          EX = Nernst voltage for species x
+          R = the gas constant [ 8.314 J / (mol K) ]
+          T = absolute temperature [K]
+          F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+          zX = valence (charge) of the ionic species x
+          CoX, CiX = outer & inner concentrations of species x
+
+The Potassium Nernst potential (EK) is the K+ equilibrium
+potential that counters the diffusion of K+
+(For reference only) Modeling diffusion of ions
+through an ion channel
+             For a single ion, when the membrane potential is
+                                      𝑘𝑘𝐵𝐵 𝑇𝑇 𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜
+                                Δ𝑉𝑉 =        ln
+                                        𝑞𝑞      𝑐𝑐𝑖𝑖𝑖𝑖
+       electrostatic forces and diffusion balance so there is no net flux
+
+  This charge potential is called the Nernst potential, or the equilibrium
+  potential, and it is different for different ions
+
+         𝑘𝑘𝐵𝐵 𝑇𝑇 𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜    The Nernst potential for ion 𝑥𝑥 with charge 𝑞𝑞𝑥𝑥 , inner
+ Δ𝑉𝑉𝑥𝑥 =        ln
+          𝑞𝑞𝑥𝑥     𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖    concentration 𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖 , and outer concentration 𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜
+
+Often written in “molar” units
+         𝑅𝑅𝑅𝑅 𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜      𝑅𝑅 is the gas constant [ 8.314 J / (mol K) ]
+Δ𝑉𝑉𝑥𝑥 =        ln              𝑇𝑇 is absolute temperature [K]
+        𝑍𝑍𝑥𝑥 𝐹𝐹 𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖      𝐹𝐹 is Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+                               𝑍𝑍𝑥𝑥 is valence (charge) of the ionic species x
+                               𝑘𝑘𝐵𝐵 is Boltzmann’s constant
+ Example for reference: The Nernst potential for
+ potassium
+               𝑅𝑅𝑅𝑅 𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜                    𝑅𝑅 is the gas constant [ 8.314 J / (mol K) ]
+      Δ𝑉𝑉𝑥𝑥 =        ln                            𝑇𝑇 is absolute temperature [K]
+              𝑍𝑍𝑥𝑥 𝐹𝐹 𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖                    𝐹𝐹 is Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+                                                   𝑍𝑍𝑥𝑥 is valence (charge) of the ionic species x
+
+            8.314
+                       𝐽𝐽
+                                 300 𝐾𝐾
+                                                                        For potassium
+                    𝑚𝑚𝑚𝑚𝑚𝑚 𝐾𝐾                      5 𝑚𝑚𝑚𝑚
+  Δ𝑉𝑉𝐾𝐾 =
+                                     𝐽𝐽
+                                             ln                         𝑍𝑍𝑥𝑥 = 1
+            1   9.64 × 104                        150 𝑚𝑚𝑚𝑚
+                                 𝑉𝑉 𝑚𝑚𝑚𝑚𝑚𝑚                              𝑐𝑐𝑥𝑥,𝑖𝑖𝑖𝑖 = 150 mM
+                            1                                           𝑐𝑐𝑥𝑥,𝑜𝑜𝑜𝑜𝑜𝑜 = 5 mM
+  Δ𝑉𝑉𝐾𝐾 = 25.9 𝑚𝑚𝑚𝑚 ln
+                            30
+
+ Δ𝑉𝑉𝐾𝐾 ≈ −90 𝑚𝑚𝑚𝑚       If this was the membrane potential then
+                        potassium ions would exhibit no net flux
+Changing membrane potential requires moving very, very few ions
+across the membrane channels.
+
+Therefore, the movement of ions can result in changes to membrane
+potential without appreciably changing ion concentrations.
+
+So, if potassium was the only ion that could pass across the membrane,
+then the membrane potential would become Δ𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 ≈ −90 𝑚𝑚𝑚𝑚
+The Potassium Nernst Potential
+                       …also called the equilibrium potential
+
+
+       RT    CiX                                   CiX
+EX = -    ln                     EK = - (61) log10
+       zXF CoX                                     CoX
+
+    Example (K+): Co = 4 mM and Ci = 140 mM
+                  EK = -(61/1) log(140/4)
+                  EK = -61mV * log(35)
+                  EK = -94 mV
+
+
+    So, if the membrane were permeable only to K+,
+                 Vmem would be -94 mV
+
+                                                          35
+How do I switch from one form to the other?
+
+        RT    CoX                         CiX
+   EX =    ln           Ex = - (61) log10
+        zF    CiX                         CoX
+                                 zx
+
+
+
+          RT    CiX   First, changing the
+   EX = -    ln
+          zXF CoX     numerator and
+                      denominator just
+                      switches the sign to
+                      negative. This
+How do I switch from one form to the other?
+
+          RT    CiX
+   EX = -    ln
+          zXF CoX
+
+Recall ln(x) = ln(10)*log10(x) =~2.3*log10(x)
+
+
+
+We will use ln to indicate the natural log. We will use log and log10
+interchangeably in discussion and equations, BUT
+MATLAB uses “log” to calculate the natural log and “log10” to
+calculate the log base ten. MATLAB does not recognize “ln”.
+How do I switch from one form to the other?
+
+        RT    CiX                                RT         CiX
+ EX = -    ln                               -2.3      log10
+        zXF CoX                                  z XF       CoX
+
+
+Plug in constants.
+  R = the gas constant [ 8.314 J / (mol K) ]
+  T = absolute temperature [K]; assume body temp in constant = 310 K
+  F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+  zX = valence (charge) of the ionic species x
+
+
+                                    CiX
+                  Ex = - (61) log10
+                                    CoX
+                           zx
+Worksheet exercise #2 – Nernst
+equilibrium potentials
+                                                   1) Which way does
+                                                   diffusion push K+?
+Intracellular fluid          Extracellular fluid
+ concentrations               concentrations
+
+
+
+                                                   2) Which way does
+      12 mM           Na+           145 mM
+                                                   the electrical flux
+      150 mM           K+           5 mM           push K+?
+      9 mM             Cl–          125 mM
+
+
+      0.0001 mM       Ca2+          2.5 mM
+                                                   3) What is the Nernst
+                                                   potential for K+?
+

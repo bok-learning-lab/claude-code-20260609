@@ -4,6 +4,14 @@ Use this as the prompt for an LLM Deep Research tool (Claude Deep Research, Chat
 
 This essay is meant to *complement*, not duplicate, the in-project essay at [essay-phet-tradition.md](essay-phet-tradition.md), which already covers PhET's institutional history, its five-element design grammar, the historical coordination-of-expertise cost, and the cost-collapse argument. The Deep Research piece should go deeper into the **pedagogical and cognitive-science literature** behind interactive learning, and broader into the **adjacent traditions** across disciplines that the existing essay only gestures at.
 
+## Project context
+
+A self-contained bundle for making **PhET-style interactive simulations** — single-file HTML pages a faculty member can build with Claude, double-click to open in Chrome, and share with students without any setup.
+
+**Output contract (hard rules).** Every simulation must be: a single `.html` file that opens by double-click from `file://` in Chrome; **no React, Vue, Vite, Next.js, `npm install`, or any build step**; **no runtime data fetches** — no `fetch`, no `XMLHttpRequest`, no JSON/CSV/image/audio loading at runtime (embed inline or generate in code). External CSS via `<link>` is allowed; external JS via CDN is discouraged but allowed if marked in the file's header comment. No emojis anywhere. Every file's header comment captures the design record: learning goal, target learner, core misconception, manipulables, hidden variables, representations, prompts, limitations, classroom use, date.
+
+**Audience modes.** Faculty making their own interactive may never have touched a code editor — default to plain-English explanations, don't assume CLI/git fluency. If unclear which mode applies, ask one question to disambiguate.
+
 ---
 
 ## Prompt

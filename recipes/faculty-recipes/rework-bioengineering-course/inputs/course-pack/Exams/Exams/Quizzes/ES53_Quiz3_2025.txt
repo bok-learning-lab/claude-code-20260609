@@ -1,0 +1,64 @@
+NAME: ___________________________________________________
+                          ES 53
+                     In-Class Quiz #3
+                    November 19th, 2025
+
+
+
+
+                                                            1
+1. According to Fick’s Principle, oxygen consumption is dependent on several factors EXCEPT for which one:
+
+    A.   Ventilation Rate                                             E. Hemoglobin concentration
+    B.   O2 concentration in arterial blood                           F. The partial pressure of oxygen in the arteries
+    C.   O2 concentration in venous blood                             G. The saturation of heme with oxygen in the veins
+    D.   Cardiac output
+
+
+
+
+2. If a person has a collapsed lung but equal blood flow to both lungs what is their arterial partial pressure (PO2) of
+oxygen? Assume that venous PO2 is 40 mmHg and alveolar PO2 is 100 mmHg.
+     A. This means that about half of the blood is 100% saturated and half is ~70% saturated so the arterial PO2 is
+         ~55mmHg.
+     B. This means that the arterial PO2 is half 100 mmHg and half 40 mmHg which averages to ~70 mmHg for the
+         arterial PO2.
+     C. This means that about half of the blood is 100% saturated and half 40% saturated so the arterial PO2 is ~85
+         mmHg.
+     D. This means that half of the arterial PO2 is at 100 mmHg and half is at 40 mmHg which averages to ~70
+         mmHg.
+
+
+3. Some athletes, such as Lance Armstrong have been
+  in trouble for blood doping. Below is a graph of the
+  relationship between the partial pressure of oxygen
+  and blood saturation with oxygen. Which way, if at
+  all, does this curve shift if a person has undergone
+  blood doping which increases the hematocrit?
+
+    A.   Shift to the left
+    B.   Shift to the right
+    C.   Shift up
+    D.   Shift down
+    E.   No shift
+
+
+
+
+4. Which of the following refers to the volume of blood plasma that is emptied of a substance per unit time?
+    A. Clearance rate
+    B. Excretion rate
+    C. Filtration rate
+    D. Secretion rate
+
+
+
+
+5. If the efferent arterioles dilated, what would happen, if anything, to GFR?
+     A. GFR increases
+     B. GFR decreases
+     C. GFR remains constant
+
+
+                                                                                                                          2
+

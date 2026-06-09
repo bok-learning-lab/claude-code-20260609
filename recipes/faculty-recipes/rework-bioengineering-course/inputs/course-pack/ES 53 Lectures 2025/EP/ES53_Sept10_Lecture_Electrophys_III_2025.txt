@@ -1,0 +1,315 @@
+   Logistics & Announcements
+• MATLAB:
+   • Bootcamp link is now on Canvas.
+   • If glitchy try installing 2024a version
+
+• P-set 1:
+   • Posted to Canvas; Due Tues. 16th 11:59 pm.
+   • Based on EP lectures #1-4
+
+• Labs:
+   • Be sure to wear short sleeves.
+   • You’ll be placed into groups by Jonathan
+• How to Declare:
+   • See Canvas page dedicated to this.
+   • Follow steps and then book an appointment w/ Linsey
+
+                                                           1
+ES 53
+2025
+
+
+        Module 1
+    Electrophysiology
+
+        (Sept. 10, 2025)
+                           2
+Review
+(2 min, check w/ neighbor)
+
+• What is a typical resting membrane potential?
+• Why are the resting membrane potentials of
+  neurons and muscle cells negative?
+• What factors determine the resting membrane
+  potential?
+• How can we calculate the resting membrane
+  potential?
+
+
+
+                                                  3
+     Recall the chord conductance equation
+
+                         𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+𝑉𝑉𝑚𝑚𝑚𝑚𝑚𝑚 = 𝑉𝑉𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 =
+                                 𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶
+
+   When is this a reasonable estimate of the
+   membrane potential (i.e. in what scenarios?)?
+     Part III:
+Action Potentials
+
+
+
+
+                    5
+Changes in
+Membrane Potential
+
+Changes can be recorded
+on an oscilloscope by
+recording the voltage
+difference between the
+inside and the outside of
+the cell.
+
+
+
+
+                            6
+Membrane potential can be altered experimentally
+
+
+                               +
+                      −      −    −    − −
+                  −               − −
+                            −
+               − − −− − −− −        −−
+                 − − − − +−− −
+                      − − − −− −       −
+                 −    −−− −− − − − −
+                                      −
+                  −         −− − −
+               −    −             − −
+                            −
+
+A microscopic electrode can be placed into a cell and positive
+charge can be “injected” into the cell to alter the membrane
+potential.
+                                                           8
+                            Spatial propagation of stimulation
+
+                                                                                Transiently stimulate cell at one
+                                                                                location, measure change in membrane
+                                                                                potential at distance locations
+
+                                X=1     X=2   X=3
+
+
+
+               Non-excitable cells                                                Excitable cells
+ Stimulation spreads and dissipates             Stimulation propagates without decreasing.
+                                                Speed = 0.1 m/s – 120 m/s
+
+
+
+
+     Membrane potential
+                          X=1
+                                                                                                     Action Potentials!
+
+
+
+
+                                                      Membrane potential (mV)
+                                                                                                     Neurons,
+                          X=2
+                                                                                                     muscles, some
+                                                                                                     endocrine cells, .
+                          X=3                                                                        ..
+                                                                                                     Important for
+                          Time (ms)                                                                  signaling and
+                                                                                                     information
+From Biological Physics Philip Nelson
+                                                                                        Time (ms)    processing
+                                                Stimulating a neuron
+                             Hyperpolarizing a neuron                                  Depolarizing a neuron
+
+
+
+
+Membrane potential (mV)                                    Membrane potential (mV)
+                                                                                                          Action Potential
+
+
+
+
+                                                                                     Small Stimuli
+                          Transient hyperpolarization                                Transient depolarization stimulation
+                          stimulation leads to transient                             leads to transient increase in
+                          decrease in membrane potential                             membrane potential
+
+                                                                                     Large Stimuli
+                                                                                     Action Potential!
+Action potentials are all-or-none
+Strength-duration curve for action potential induction
+Very short stimuli won’t produce an
+action potential, no matter how strong
+
+
+
+
+                                         Very weak stimuli won’t
+                                         produce an action
+                                         potential, no matter how
+                                         long
+What could happen if potassium
+levels were too low or too high?
+
+What do you think would happen
+to a cell’s resting membrane
+potential?
+
+
+                                   13
+                  Clinical Case: Hypokalemia
+•   Hypokalemia is caused by abnormally low levels of potassium in the
+    body.
+•   Almost 98% of potassium is found inside the cells. Small changes in
+    the level of potassium that is present outside the cells can have
+    severe effects on the heart, nerves, and muscles.
+•   Potassium is important to maintain muscle contraction.
+•   The kidney is the main organ that controls the balance of potassium
+    by removing excess potassium into the urine.
+                           Intracellular fluid          Extracellular fluid
+                            concentrations               concentrations
+
+
+
+
+                                  12 mM          Na+           145 mM
+
+                                  150 mM         K+            5 mM
+
+                                  9 mM           Cl–           125 mM
+
+                                  0.0001 mM      Ca2+          2.5 mM
+         Exercise 4: Clinical Case: Hypokalemia
+• Hypokalemia is caused by abnormally low levels of
+  potassium in the body.
+• What happens to the resting membrane potential of an
+  excitable cell if the extracellular potassium level drops to
+  from 4 mM to 2 mM?
+• What effect might this have on excitable cells?
+
+      Intracellular fluid          Extracellular fluid
+       concentrations               concentrations
+
+
+
+
+             12 mM          Na+           145 mM
+
+             140 mM         K+            4 mM
+
+             9 mM           Cl–           125 mM
+
+             0.0001 mM      Ca2+          2.5 mM
+     Coding for Stimulus Intensity
+ What do you think is the
+basis of this phenomena?
+
+
+
+
+                                     16
+Neurons exhibit a refractory period that is independent
+of the stimulus that generated the action potential
+Example: The absolute refractory period is 1.0 ms
+and the relative refractory period is 4.0 ms.
+
+
+
+
+                                               18
+19
+                Membrane more
+                conductive to Na+                    During an action potential, the membrane
+                  𝑉𝑉𝑚𝑚 ≈ 𝐸𝐸𝑁𝑁𝑁𝑁                      is transiently more conductive to Na+
+                  ≈ +60𝑚𝑚𝑚𝑚
+Membrane more                     Membrane more
+                                  conductive to K+
+conductive to                                        This change in conductance is initiated by
+K+ 𝑉𝑉 ≈ 𝐸𝐸                          𝑉𝑉𝑚𝑚 ≈ 𝐸𝐸𝐾𝐾      the change in membrane potential caused
+  𝑚𝑚   𝐾𝐾
+ ≈ −90 𝑚𝑚𝑚𝑚                         ≈ −90 𝑚𝑚𝑚𝑚
+                                                     by the stimulus
+
+                                                     Recall, we previously said (simplifying to
+                                                     just Na+ and K+)
+
+                                                      𝐼𝐼 = 𝑔𝑔𝑁𝑁𝑁𝑁 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝐾𝐾
+
+
+                                                     But the conductances depend on
+                                                     membrane potential and time
+
+                                                                𝑔𝑔𝑁𝑁𝑁𝑁 = 𝑔𝑔𝑁𝑁𝑁𝑁 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+                                                                  𝑔𝑔𝐾𝐾 = 𝑔𝑔𝐾𝐾 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+            Changes in membrane conductances are caused
+                 by ion channels opening and closing
+                                               Ion channels can be open or closed
+        Transient increase
+       in Na+ conductance
+
+
+
+
+                                            Ions can only pass through open ion channels
+
+                                   𝑁𝑁𝑁𝑁𝑁𝑁     the number of Na+ ion channels
+                                   𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 the conductance of an open Na+ ion channels
+                                   𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 the probability that a Na+ ion channel is open
+                                                 𝑔𝑔𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 𝑁𝑁𝑛𝑛𝑛𝑛 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁
+                                                                            with 𝑔𝑔�𝑜𝑜,𝑁𝑁𝑁𝑁 𝑁𝑁𝑛𝑛𝑛𝑛 ≡ 𝑔𝑔�𝑁𝑁𝑁𝑁
+Transient increase in the number
+                                                   𝑔𝑔𝑁𝑁𝑁𝑁 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡) = 𝑔𝑔�𝑁𝑁𝑁𝑁 𝑝𝑝𝑜𝑜,𝑁𝑁𝑁𝑁 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+    of open Na+ ion channels
+                                                    𝑔𝑔𝐾𝐾 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡) = 𝑔𝑔�𝐾𝐾 𝑝𝑝𝑜𝑜,𝐾𝐾 (𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 , 𝑡𝑡)
+   Na+ channels can enter an inactive state
+
+
+
+
+    Na+ channels can be modeled as having two gates:
+       an activation gate and an inactivation gate
+The activation gate is FAST. The inactivation gate is SLOW.
+
+
+
+
+  K+ channels only have an activation gate, which is slow
+Ionic currents during an action potential
+       Part IV:
+Hodgkin – Huxley and
+ Modeling the Action
+     Potential
+
+
+                       25
+              Predicted changes in gNa and gK during the
+              propagated action potential as proposed by
+                          Hodgkin and Huxley
+
+                             𝑽𝑽𝒎𝒎𝒆𝒆𝒆𝒆
+
+
+
+𝑽𝑽𝒎𝒎𝒆𝒆𝒆𝒆
+
+ (𝒎𝒎𝒎𝒎)
+
+
+
+
+           𝐼𝐼𝑡𝑡𝑡𝑡𝑡𝑡 = 𝑔𝑔𝑁𝑁𝑁𝑁 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝑉𝑉𝑚𝑚𝑒𝑒𝑒𝑒 − 𝐸𝐸𝐾𝐾 Too simple for action potentials. . .
+
+                                                                                                              26
+Be sure to read the handout on
+“Modeling of the Action Potential”
+
+
+
+
+                                     27
+

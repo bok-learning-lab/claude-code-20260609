@@ -1,0 +1,473 @@
+# ES53_Handout_Vascular_LearningObjectives2025.docx — text digest
+
+_Extracted text from 489 paragraphs. Images, tables, and formatting omitted._
+
+ES 53 - Quantitative Physiology Fall 2025
+
+Module 4:
+
+Vascular Physiology
+
+Outline for Vascular (~4-5 lectures):
+
+Part I: Vascular anatomy 
+
+Part II: Modeling the cardiovascular system as a circuit
+
+Part III: Blood pressure and blood flow; turbulent and laminar flow; Poiseuille flow
+
+Part IV: Regulation of blood flow and blood pressure
+
+Part V: Cardiovascular problems and treatments/devices
+
+Learning Objectives - By the end of this module you should be able to do the following (or answer the following questions). Use the learning objectives to guide your reading & studying for this module. 
+
+Map blood pressure throughout the systemic and pulmonary vascular systems starting at the left ventricle. How does pressure vary along this path? 
+
+How do the vessels change in size, function, and anatomy along the systemic circulatory system, and how do you determine the resistance along the path? 
+
+Which vessels are more compliant and why? 
+
+How is resistance controlled, and what are some factors that cause it to change?
+
+Calculate the resistance to blood flow if given vessel size, and a diagram of the interconnectivity of the vessels. Generate a corresponding circuit diagram that represents the resistive network of vessels in a circulatory system.
+
+What is Reynold’s number, how does it compare to laminar flow, and where might you find flow with a high Reynold’s number within the body? 
+
+Calculate changes in cardiac output given changes in TPR, blood pressure as well as exercise.
+
+How does atherosclerosis affect vessels? How can build up of fatty plaque in an artery lead to a heart attack?
+
+What are a few biomedical interventions that can alleviate cardiovascular dysfunction? In other words, what are some biomedical engineering devices that assist cardiac function (e.g. LVAD, pacemaker), and what do they change about cardiac function?
+
+Required Pre-reading:
+
+Physiology (Fox, 13th Ed.)  
+
+Chapter 13: following sections: 
+
+13.1, 13.6, 
+
+and 13.7 (Atherosclerosis)
+
+Chapter 14: 
+
+14.3 (Physical Laws Decribing Blood Flow)
+
+14.4 (Circulatory changes during exercise only)
+
+14.6
+
+14.7 (Hypertension)
+
+Medical Physiology (Boron and Boulpaep, 3rd Ed. ONLINE in HOLLIS):
+
+Chapter 17: following sections (skip the blue boxes):
+
+“Hemodynamics” (and all subsections)
+
+“How blood flows” (and all subsections)
+
+“Origins of pressure in the circulation” (and all subsections)
+
+“Blood pressure can be measured indirectly by use of a sphygmomanometer”
+
+Chapter 19:
+
+“Arterial Distribution and Venous Collection Systems”
+
+Chapter 22: following sections (skip the blue boxes):
+
+“The cardiac cycle also causes pressure waves in the aorta and peripheral vessels” “
+
+Chapter 23: following sections (skip the blue boxes): 
+
+“Short term regulation of arterial pressure”
+
+“Regulation of cardiac output”
+
+Chapter 25: following sections (skip the blue boxes):
+
+“Response to Exercise”
+
+Be sure you can define/describe the following before this module:
+
+Artery
+
+Vein
+
+Venule
+
+Arteriole
+
+Capillary
+
+Baroreceptor
+
+Reynold’s #
+
+Poiseuille flow
+
+Pressure & pressure units
+
+Resistance
+
+Vasoconstriction
+
+Vasodilation
+
+Laminar flow
+
+The following figures, guidelines and notes are meant only as a guide to refer to during and after lectures. They are not meant to replace note-taking. It is critical that you take notes, complete the pre-reading, and ask questions. No answer keys will be given for these handouts. It is each student’s responsibility to take good notes. Help with learning to take good notes is available at the Bureau of Study Council or by consulting the teaching staff / instructor.
+
+Part I: Vascular anatomy
+
+Arteries
+
+Large arteries are muscular and elastic
+
+Expand during systole and recoil during diastole
+
+Helps maintain smooth blood flow during diastole 
+
+Small arteries and arterioles are muscular 
+
+Provide most resistance in circulatory system
+
+Arterioles lead to the greatest pressure drop
+
+Capillaries
+
+Provide extensive surface area for exchange 
+
+Blood flow through a capillary bed is determined by state of precapillary sphincters of arteriole supplying it.
+
+Veins
+
+Contain majority of blood in circulatory system (70%)
+
+Veins are capacitance vessels – 2/3 of the total blood volume is in veins. They hold more blood than arteries but maintain lower pressure (~2 mmHg). One way venous valves ensure blood moves toward the heart.
+
+Have thin walls and are very compliant, thus they stretch easily to accommodate more blood without (much) increased pressure (=higher compliance). Veins stretch more at a given pressure than arteries (veins have thinner walls). 
+
+Figure 1: Comparison of vessel size, composition and wall thickness. (From Boron and Boulpaep)
+
+Part II: Modeling the cardiovascular system as a circuit
+
+The heart is a pump. Exercise 1:
+
+What is the pressure driving blood flow? How can we calculate it?
+
+What is the average cardiac output (CO) in a person? This is the blood flow (volume/minute) that results from the pressure applied by the heart. How can we calculate it?
+
+What creates resistance to blood flow? What is the total peripheral resistance? How can it be calculated?
+
+How do resistances add in series? How do they add in parallel?
+
+Exercise 2: Take a look at the example of a very simple cardiovascular system.
+
+What is the equivalent circuit model?
+
+What is the equation for the overall resistance in terms of RA, RB, RC, RD?
+
+What is the flow through each branch, A, B, C, D in terms of RA, RB, RC, RD and Qtot? Assume the total cardiac output (Qtot) is 5L/min.
+
+Part III: Blood pressure and blood flow; turbulent and laminar flow; Poiseuille flow
+
+Figure 2: Relationship between blood pressure and cross-sectional area of vessels (From Boron and Boulpaep)
+
+Exercise 3: Answer the following questions with respect to the cardiovascular system.
+
+In which set of vessels of the CV system will you find the greatest cross sectional area?
+
+Where within the CV system will you find the highest velocity?
+
+Where within the CV system will you find the highest pressure?
+
+d. Is there greater resistance in the aorta or in the combination of all of the systemic capillaries combined?
+
+Blood pressure
+
+Affected by blood volume/stroke volume, total peripheral resistance, and cardiac rate
+
+Increase in any of these will increase blood pressure.
+
+Vasoconstriction of arterioles raises blood pressure upstream in the arteries.
+
+MAP = cardiac output  X total peripheral resistance
+
+Total Peripheral Resistance - The sum of all vascular resistance in the systemic circulation.
+
+The blood pressure of blood vessels is related to the total cross-sectional area
+
+Capillary blood pressure is low because of large total cross-sectional area.
+
+Arterial blood pressure is high because of small total cross-sectional area
+
+Physical Laws Describing Blood Flow
+
+Mean arterial pressure (MAP) and vascular resistance (R) are the 2 major factors regulating blood flow out of the heart.
+
+Blood flows from a region of higher pressure to a region of lower pressure.
+
+The rate of blood flow is proportional to the differences in pressure.
+
+The rate of blood flow is also inversely proportional to the resistance to blood flow within the vessel.
+
+ ΔP = pressure difference between the two ends of the tube
+
+Resistance is proportional to:
+
+L = length of the vessel
+
+η = viscosity of the blood
+
+r = radius of the blood vessel
+
+Poiseuille’s Law adds in physical constraints
+
+Vessel length (L) and blood viscosity (η) do not vary normally. 
+
+Mean arterial pressure and vessel radius (r) are therefore the most important factors in blood flow.
+
+Vasoconstriction of arterioles provides the greatest resistance to blood flow and can redirect flow to/from particular organs
+
+Exercise 4: Consider the two vessels below. Calculate the relative resistance for each vessel assuming that ΔP across the length is 10 mmHg in each case. What is R in terms of η/π?
+
+A   B
+
+How would you convert the units so that the answer is in SI units only?
+
+Reynolds Number
+
+The Reynolds number, Re, is a dimensionless number that gives a measure of the ratio of inertial forces to viscous forces, and consequently quantifies the relative importance of these two types of forces for given flow conditions.
+
+For flow in a pipe or tube, the Reynolds number is defined as: 
+
+D is the diameter of the pipe
+
+v is the mean velocity
+
+ρ is the fluid density
+
+µ is the dynamic viscosity
+
+Q is the flow rate
+
+A is the pipe cross-sectional area
+
+A low Reynolds number indicates that viscous forces dominate over inertial forces.  The result is laminar flow.  A high Reynolds number indicates that inertial forces dominate over viscous forces.  The fluid layers are unstable and become turbulent.
+
+In a pipe, flow is:
+
+Laminar when Re<2300
+
+Transitional when 2300<Re<4000
+
+Turbulent when 4000<Re
+
+Regions of stenosis, with increased flow velocity, can cause turbulence, particularly distal to stenosis (Flow = Velocity x Area, therefore Velocity ∝ 1/radius2)
+
+Increased Re increases likelihood of turbulence. Disruption of laminar flow causes turbulence.
+
+Turbulence causes endothelial dysfunction, and increased thrombogenicity.
+
+Remember that Pouiseille’s Law assumes laminar flow.
+
+Where might you find turbulent flow in the body?
+
+What is the effect of turbulent flow on the relationship between pressure drop, and flow?
+
+Figure 3: Pressure-flow relationships in laminar and turbulent flow (from Boron and Boulpaep).
+
+Exercise 5: A person is found to have a Reynold’s number for the flow in their aorta of 2400. Their aorta is 2.4 cm in diameter. They have a blood pressure of 150mmHg/105mmHg and a heart rate of 95 beats/min. Their end diastolic volume (EDV) is 140 mL. Assume the viscosity (η, also often listed as µ) of the blood is 3.25*10-3 Pa·s and the density of blood is 1.06 g/mL.
+
+a) Is this flow turbulent, laminar, or transitional?
+
+b) Does this person have a reduced, normal, or high blood pressure?
+
+c) What is the flow (Q) through the aorta in mL/s?
+
+d) What is the average velocity of the flow through the aorta in cm/s?
+
+e) What is the total peripheral resistance in units of mmHg·min/L?
+
+Exercise 6: The flow profile through a tube is such that flow velocity is maximal at the center and decreases towards the edges. For a pipe with radius rtot, cross-sectional area Atot and flow Ftot, determine how much of the total flow (F/Ftot) occurs in the inner (versus outer) part of the pipe, assuming a laminar (smooth), well-developed flow pattern compatible with Pouisuelle’s Law. Specifically… 
+
+Based on the velocity profile derived in the handout (or vimeo video) derive an expression for (F/Ftot) as a function of (r/rtot), where r=rtot is at the wall.
+
+What fraction of the flow through a pipe occurs in the inner half of the pipe as defined by distance from center (i.e. r = 0 to rtot/2)?
+
+What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ from part (b)?
+
+Write an expression for (F/Ftot) as a function of (A/Atot), where A refers to cross-sectional area (as opposed to radius).
+
+What fraction of the flow through a pipe, occurs in the inner half of the pipe as defined by cross-sectional area?
+
+What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ as found in part (e)?
+
+Part IV: Regulation of blood flow and changes during exercise
+
+Blood Pressure (BP) Regulation
+
+Arterioles play a role in blood distribution and control of BP
+
+Blood flow to capillaries and BP are controlled by the aperture of arterioles 
+
+Capillary BP is low because they are downstream of high resistance arterioles
+
+BP is controlled mainly by peripheral resistance, HR, and SV. An increase in any of these can result in increased BP. Why? (hint V=IR, or ΔP = QR)
+
+Regulation of Blood Flow to Tissue
+
+Primary control: “hypoxic vasodilation”
+
+Tissue is low in oxygen (hypoxia)  blood vessels dilate. Vasodilation increases blood flow which reduces hypoxia. This is the key peripheral mechanism for regulation of blood flow in the circulatory system. 
+
+The opposite (hypoxic vasoconstriction) occurs in the pulmonary circulation.  Why would that be?  Think about the purpose of the pulmonary circulation versus the systemic circulation…
+
+Baroreceptor Reflex (Stretch reflex)
+
+Activated by changes in blood pressure detected by baroreceptors (stretch receptors) in the aortic arch and carotid sinuses
+
+Increased blood pressure stretches these receptors, increasing action potentials to the vasomotor and cardiac control centers in the medulla.
+
+Good for quick beat-by-beat regulation like going from lying down to standing; Most sensitive to drops in blood pressure
+
+The negative-feedback loop is designed so that increased mean arterial pressure causes vasodilation and bradycardia, whereas decreased mean arterial pressure causes vasoconstriction and tachycardia (i.e., increased heart rate).
+
+Exercise 7: This is an example of blood pressure regulation when a person goes from lying down to standing up. Given what you know about the baroreceptor reflex, and the relationships between the cardiac output parameters that we have discussed, try to determine whether an increase or decrease occurs in the red highlighted boxes below.
+
+Circulatory Changes During Dynamic Exercise
+
+Vascular resistance through skeletal and cardiac muscles decreases due to:
+
+Increased cardiac output
+
+Metabolic vasodilation
+
+Diversion of blood away from viscera and skin
+
+Cardiac output can increase 5X due to increased cardiac rate.
+
+Stroke volume can increase due to increased venous return from skeletal muscle pumps and respiratory movements
+
+Ejection fraction increases due to Frank-Starling Law
+
+TABLE 14.7 Cardiovascular Changes During Moderate Exercise
+
+*There can be slight changes in cerebral blood flow (see text), but the extent of these changes is buffered by autoregulation due to myogenic control mechanisms.
+
+Part V: Cardiovascular problems and treatments/devices
+
+Circulatory Shock
+
+Occurs when there is inadequate blood flow to, and/or O2 usage by, tissues 
+
+Hypovolemic Shock is circulatory shock caused by low blood volume 
+
+Characterized by decreased CO and BP
+
+Compensatory responses include baroreceptor reflex
+
+Results in low BP, rapid pulse, cold clammy skin, low urine output
+
+Septic Shock refers to very low blood pressure resulting from sepsis (infection)
+
+Often occurs as a result of endotoxin release from bacteria
+
+Endotoxin induces NO production causing vasodilation and resultant low BP
+
+Effective treatment includes drugs that inhibit production of NO
+
+Other types of circulatory shock:
+
+Severe allergic reaction can cause a rapid fall in BP called anaphylactic shock; Due to generalized release of histamine causing vasodilation
+
+Cardiogenic shock is common following cardiac failure resulting from infarction 
+
+Congestive heart failure
+
+Occurs when CO is insufficient to maintain blood flow required by body
+
+Caused by MI (most common), congenital defects, hypertension, aortic valve stenosis, disturbances in electrolyte levels, viral attack on heart muscle
+
+Most commonly treated with drugs, vasodilators, and diuretics
+
+Biomedical engineers designed an investigational device instead of drugs…Corvia Medical Intra-Arterial Shunt Device (IASD)
+
+What is a potential tradeoff if using this device? What happens to oxygenated and deoxygenated blood?
+
+Ischemic Heart Disease
+
+Is most commonly due to atherosclerosis in coronary arteries
+
+Ischemia occurs when blood supply to tissue is deficient; Often accompanied by angina pectoris (chest pain)
+
+A Myocardial infarction (MI) is a heart attack Usually caused by occlusion of a coronary artery
+
+Atherosclerosis
+
+Atherosclerosis is a type of arteriosclerosis. Arteriosclerosis is a general term for the thickening and hardening of arteries.
+
+Plaques begin at sites of damage to endothelium
+
+E.g. from hypertension, smoking, high cholesterol, or diabetes
+
+Localized plaques (atheromas) reduce flow in an artery; And act as sites for thrombus (blood clots)
+
+Treatments for coronary heart disease (coronary stenosis that leads to ischemic heart disease)
+
+Coronary artery bypass
+
+Percutaneous coronary intervention
+
+Hypertension
+
+Definition: BP > 140/90 mmHg (either / or)
+
+Afflicts about 20% of adults
+
+Caused by complex and poorly understood processes, but main features are:
+
+Increase in peripheral resistance is universal
+
+CO and HR are elevated in many
+
+Sustained high stress and high salt intake act synergistically in development of hypertension
+
+Prolonged high BP causes thickening of arterial walls  arteriosclerosis
+
+Kidney dysfunction (unable to properly excrete Na+ and H2O)
+
+Hypertension is especially dangerous because patients are often asymptomatic until substantial vascular damage occurs (it is called the “silent killer”) 
+
+Increases workload of the heart leading to ventricular hypertrophy and heart failure
+
+Often damages cerebral blood vessels leading to stroke
+
+Treatment often includes lifestyle changes (such as cessation of smoking, moderation in alcohol intake, weight reduction, exercise, reduced Na+ intake, increased K+ intake)
+
+Usually treated with drugs (treatments include diuretics to reduce fluid volume, beta-blockers to decrease HR, and others)
+
+Arrhythmias -  are abnormal heart rhythms
+
+Clinically, Heart rate <60/min is defined as bradycardia; >100/min is tachycardia
+
+In flutter, contraction rates can be 200-300 beats/min
+
+In fibrillation, contraction of myocardial cells is uncoordinated and pumping ineffective
+
+Ventricular fibrillation is immediately life-threatening – why?
+
+Electrical defibrillation resynchronizes heart by depolarizing all cells at same time
+
+Exercise 8: Let’s think about the broad array of cardiovascular problems. Let’s first group problems by location in the body, then by mechanical or electrical function*. List at least one dysfunction or disease in each of these areas. Share with a partner to see if you can come up with more than one per box.
+
+What is an example of a bioengineered device that addresses at least one problem from each of these three areas of cardiovascular dysfunction/disease above?
+
+Cardiac – Mechanical:
+
+Cardiac – Electrical:
+
+Vascular – Mechanical:

@@ -8,4 +8,4 @@ My day-to-day work involves managing course materials (syllabi, reading lists, a
 
 ## Preferences
 
-- Each response must include a limerick at the end that summarizes the main point.
+

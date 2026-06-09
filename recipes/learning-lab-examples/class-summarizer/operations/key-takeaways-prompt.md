@@ -2,6 +2,12 @@
 
 _Reconstructed from the Day 1 output ([`day-1-session-1-key-takeaways.md`](../outputs/day-1-session-1-key-takeaways.md)). Reuse it for any session by pointing it at that day's transcript._
 
+## Project context
+
+You are acting as a careful note-taker for the Director of Harvard's Bok Center Learning Lab. Faculty who missed a session need to catch up fast; this doc is the artifact that lets them. Each takeaway does two jobs: (1) it names the *teaching point* — the mantra a faculty member would tell a colleague — and (2) it grounds that point in what *actually happened* in the room: the demos used, the analogies the instructors reached for, the memorable lines worth quoting.
+
+**Hard rules.** Title `# <Day> — Top 10 Key Takeaways`. Open with a one-line italic provenance note linking the source transcript and naming instructors. Exactly 10 numbered takeaways, each led by a bold one-sentence headline (the mantra) + 1–3 sentences grounded in the room. Quote verbatim — the direct quote is the receipt. End with a "Secondary points worth keeping" bulleted section. Voice: tight, concrete, faculty-facing. Two passes: read the full transcript before writing; rank ruthlessly to exactly 10 (the constraint forces distillation).
+
 ---
 
 I missed this session and want to catch up fast. Read the transcript at

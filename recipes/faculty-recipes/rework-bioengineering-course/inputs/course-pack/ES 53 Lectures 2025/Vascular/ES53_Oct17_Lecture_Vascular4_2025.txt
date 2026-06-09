@@ -1,0 +1,188 @@
+ES 53
+2025
+
+
+        Module 4
+   Vascular Physiology
+
+        (Oct. 17, 2025)
+
+                          1
+Biomedical Engineering in Action
+
+
+
+
+https://www.nytimes.com/paidpost/boston-childrens/cardiac-surgeons-and-engineers-are-revolutionizing-
+pediatric-cardiac-surgery.html?cpv_ap_id=50623769&utm_campaign=other&tbs_nyt=2024-feb-
+partner_other                                                                                        2
+  Biomedical Engineering in Action
+
+
+
+
+Sydney Kepler                                   Serena Scott
+R&D Systems Engineer, Boston Scientific         Principal R&D Engineer, Boston Scientific
+Harvard SB in Bioengineering 2023               Harvard SB in Bioengineering 2008
+MBE from Rice University, 2024                  PhD in Bioengineering, UCSF 2014
+
+LinkedIn:                                       LinkedIn:
+https://www.linkedin.com/in/sydneykepler/       https://www.linkedin.com/in/serenascott/
+Ask them about: Boston Scientific, Medtronic,   Ask them about: Boston Scientific, Medical
+HMS Researcher, Regeneron, Global Medical       Device Industry, Summer REU, PhD Programs
+Innovation (GMI) Program @ Rice                                                     3
+Exercise 6: The flow profile through a tube is such that flow
+velocity is maximal at the center and decreases towards the
+edges. For a pipe with radius rtot, cross-sectional area Atot and
+flow Ftot, determine how much of the total flow (F/Ftot) occurs in
+the inner (versus outer) part of the pipe, assuming a laminar
+(smooth), well-developed flow pattern compatible with
+Pouisuelle’s Law. Specifically…
+ a) Based on the velocity profile derived in the handout (or vimeo video) derive an
+ expression for (F/Ftot) as a function of (r/rtot), where r=rtot is at the wall.
+
+
+ b) What fraction of the flow through a pipe occurs in the inner half of the pipe as
+ defined by distance from center (i.e. r = 0 to rtot/2)?
+
+
+ c) What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ from
+ part (b)?
+
+
+                                                                                     4
+a) Based on the velocity profile derived in the handout (or vimeo video) derive an
+expression for (F/Ftot) as a function of (r/rtot), where r=rtot is at the wall.
+
+
+
+
+                                                                               5
+b) What fraction of the flow through a pipe occurs in the inner half of the pipe as
+defined by distance from center (i.e. r = 0 to rtot/2)?
+
+
+
+
+                                                                                  6
+c) What’s the average velocity in this inner ‘half’ relative to the outer ‘half’ from
+part (b)?
+
+
+
+
+                                                                                        7
+          Part IV:
+Regulation of blood flow
+and blood pressure
+
+
+
+                           8
+Quick review with a peer
+
+1. What affects venous return (blood from veins into RA)?
+
+
+
+
+2. What happens to flow downstream if arterioles constrict?
+
+
+
+
+3. How does blood flow change with exercise?
+
+
+                                                              9
+Venous Return
+Blood Pressure (BP) Regulation
+• Arterioles play role in blood
+  distribution and control of BP
+• Blood flow to capillaries and
+  BP are controlled by aperture
+  of arterioles
+
+
+ BP is controlled mainly by
+ peripheral resistance, HR, and
+ SV.
+   An increase in any of these
+    can result in increased BP
+   Why? (hint V=IR, or ΔP = QR)
+Regulation of Blood Flow To Tissue
+ • Two words: “Hypoxic vasodilation”
+    • Tissue is low in oxygen (hypoxia)  blood vessels
+      dilate
+    • Vasodilation increases blood flow which reduces
+      hypoxia.
+       • This is the key peripheral mechanism for
+         regulation of blood flow in the circulatory
+         system.
+    • The opposite (Hypoxic vasoconstriction) occurs in
+      the Pulmonary circulation. Why would that be?
+       • Think about the purpose of the pulmonary
+         circulation versus the systemic circulation…
+Baroreceptor Reflex (Stretch reflex)
+ • Is activated by changes in BP
+   • Which is detected by
+     baroreceptors (stretch
+     receptors) located in aortic arch
+     and carotid sinuses
+
+
+
+    Increase in BP causes walls of these regions
+     to stretch
+    Baroreceptors send APs to cardiac control
+     centers in medulla
+Is most sensitive to decrease in BP & and sudden
+ changes in BP
+Exercise: (~3 min.)
+This is an example of blood
+pressure regulation when a
+person goes from lying down
+to standing up. Given what
+you know about the
+baroreceptor reflex, and the     Neural controls
+
+relationships between the
+cardiac output parameters
+that we have discussed, try to
+determine whether an
+increase or decrease occurs
+in the red highlighted boxes
+below.
+Baroreceptor
+Reflex
+
+The negative-feedback loop is
+designed so that increased mean
+arterial pressure causes vasodilation
+and bradycardia, whereas decreased
+mean arterial pressure causes
+vasoconstriction and tachycardia (i.e.,
+increased heart rate).
+Effect of Blood Pressure on the Baroreceptor
+Response
+Changes in Skeletal Muscle Blood Flow
+Under Rest and Exercise
+TABLE 14.5 | Changes in Skeletal Muscle Blood Flow Under Conditions
+of Rest and Exercise
+
+
+
+        Condition                 Blood Flow (ml/min)
+
+
+        Rest                      1,000
+
+
+        Beginning exercise
+                                  Increased
+
+
+        Heavy exercise            20,000
+Regulation of Blood Flow during Exercise vs at Rest
+Regulation of Blood Flow during Exercise vs at Rest
+

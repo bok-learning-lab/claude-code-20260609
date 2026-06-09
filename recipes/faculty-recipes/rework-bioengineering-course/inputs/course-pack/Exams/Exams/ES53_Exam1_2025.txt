@@ -1,0 +1,289 @@
+Name:__________________________________________________
+
+
+
+                               ES 53: Quantitative Physiology
+  Quiz 1 – Cellular Electrophysiology, Muscle Contraction, and Cardiac Electrophysiology
+                                         Fall 2025
+
+
+Instructions:
+  Initial each page.
+  Show all work.
+  You may use a calculator (no phones or devices that connect to the internet) and may use one,
+one-sided sheet of pre-written/typed notes.
+  You may write on the blank pages, but clearly label which questions you are answering and
+circle your final answers. Please attach your note sheet after the exam is over.
+  You will have 75 minutes to complete the exam.
+
+
+Nernst Eq
+-61 mV *(log(Cin/Cout))/z                                                       Summary:
+Where      R = the gas constant [ 8.314 J / (mol K) ]                      Q1                 /14
+T = absolute temperature [K]; assume body temp in constant = 310 K
+F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+z = valence (charge) of the ionic species                                  Q2                 /2
+
+Chord Conductance Eq                                                       Q3                 /10
+              𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+𝑉𝑉𝑐𝑐ℎ𝑜𝑜𝑜𝑜𝑜𝑜 =
+                      𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶                               Q4                 /10
+
+GHK Eq                                                                     Q5                 /6
+
+                                                                           Bonus:
+                                                                           Total              /42
+
+
+                                                                         Normal Values:
+Acronyms:
+Left Ventricle End Diastolic Volume (EDV)                                ~130 mL
+Left Ventricle End Systolic Volume (ESV)                                 ~50 mL
+Left Ventricle End Diastolic Pressure (EDP)                              ~5-10 mmHg
+Left Ventricle End Systolic Pressure (ESP)                               ~95 mmHg
+Blood Pressure (BP) including systolic and diastolic pressure            ~120 mmHg / 80 mHg
+
+
+Cardiac parameters                   Typical units:                      Normal Values:
+Mean Arterial Pressure (MAP) Units: mmHg, or N/m2, or Pa                     ~93 mmHg
+Stroke Volume (SV)           Units:mL                                        ~70-100 mL
+Cardiac Output (CO)          Units:L/min                                     ~5 L/min
+Heart Rate (HR)              Units:beats per minute (bpm)                    ~60-70 bpm
+Work                         Units: Joules (N∙m)
+
+1 Watt = 1 Joule/second = 1N*m/s                          1N = kg*m/s2
+1 mmHg = 133 Pa
+1. [14 pts] A few years ago it was reported in the news that a 54 year old Massachusetts man died after
+eating a bag and a half of black licorice every day for a few weeks. Glycyrrhetic acid is a component of
+black licorice which can impact extracellular sodium levels and extracellular potassium levels.
+Consider a cell in a patient whose ion levels are shown below, before and after they have eaten an
+excessive amount of black licorice.
+
+
+
+
+  a) [4] What are the Nernst potentials for both sodium and potassium before and after the patient has eaten
+  excessive amounts of black licorice?
+
+
+
+
+  b) [4] What is the resting membrane potential for this cell before and after the patient has eaten excessive
+  amounts of black licorice? For the purposes of answering this question, ignore the impact of Ca+2, Cl-, and
+  other ions, and assume the relative conductance of potassium to sodium is: gK = 5gNa
+
+
+
+
+Initials:___                                                                                              2
+  c) [2] Answer the following about what happens after eating the licorice (compared to before).
+
+     What happens to Vmem? Circle one: increase, decrease, no change
+
+     What happens to gK? Circle one: increase, decrease, no change
+
+
+  d) [2] For this patient, eating excessive amounts of black licorice impacted the extracellular
+  concentrations of both sodium and potassium. Which do you think is more detrimental to the patient, the
+  change in sodium levels or the change in potassium levels? Briefly, why?
+
+
+
+
+  e) [2] Suppose you exposed a typical, excitable cell to a drug that blocks potassium channels.
+
+     What happens to Vmem? Circle one: increase, decrease, no change
+
+     What happens to gK? Circle one: increase, decrease, no change
+
+
+
+
+2. [2 pts] Please answer the following questions:
+
+
+    a) [1] In healthy individuals, in what order do the chambers of the heart contract? (circle only one)
+
+            i.   Aorta  atria  ventricles
+           ii.   Ventricles  atria
+          iii.   Atria  aorta  ventricles
+          iv.    Atria  ventricles
+           v.    Atria  ventricles  aorta
+
+
+    b) [1] The y-axis and magnitude on an ECG is equivalent to: (circle all that apply)
+           i.  the amplitude of the action potentials of cardiomyocytes
+          ii.  the summed wave of depolarization travelling toward the positive electrode
+         iii.  the electrical potential difference between the two arms during a cardiac cycle
+         iv.   the number of cardiomyocytes in the left ventricle
+
+
+
+
+Initials:___                                                                                                3
+3. [10 pts] Shown is the Force-Velocity curve for a given muscle. You are trying to build a device to mimic the
+work done this muscle and the power generated by this muscle.
+
+                     For this muscle it was                                 5
+                     experimentally determined that:
+                             a = 11.25 N
+                             b = 0.50 m/s                                   4
+
+
+
+
+                                                           Velocity (m/s)                                         Power (Watts)
+                                                                            3
+                     a) [1] Based on Hill’s model of
+                     muscle contraction, which of the
+                     tensions (T) listed below would                        2
+                     result in the greatest power
+                     achieved?                                              1
+                            i.   T = 0.0 N
+                           ii.   T = 22.5 N
+                          iii.   T = 45.0 N                                                                  90
+                                                                                30          60
+                          iv.    T = 67.5 N
+                           v.    T = 90.0 N
+
+b) [2] What power is achieved at this chosen tension? Show your calculation. Be sure to use appropriate units.
+
+
+
+
+c) [2] Draw the approximate power curve on the same axes and denote your calculated power on the new y
+axis to the right. [Just looking for the right trend. It doesn’t have to be perfect.]
+
+
+d) [3] You’re trying to determine if this muscle can perform at least 100 Joules of work in 4 seconds. Show your
+calculations to determine if this is i) possible OR ii) NOT possible. Be sure to use appropriate units.
+
+
+
+
+e) [2] Which of the following statements are true about both skeletal and cardiac muscle? Circle all that apply.
+
+            i.    force increases as velocity of shortening increases
+           ii.    there is an optimal muscle length for force generation
+           iii.   action potentials initiate contraction
+           iv.    both muscle types can generate sustained contractions
+Initials:___                                                                                             4
+4. [10 pts] Below is an ECG trace from someone with an arrhythmia. Each large square represents 0.25
+seconds.
+
+
+
+
+           a) [2] Briefly, what, if anything, is abnormal about this ECG? Which type of arrhythmia is it?
+
+
+
+
+           b) [2] Based on the ECG signal where in the heart do you expect the electrical abnormality to be located
+              (which chamber(s) or which parts of the conductive path)?
+
+
+
+
+           c) [2] Given what you know about the ECG, how do you expect this electrical activity to affect end diastolic
+              volume (EDV), and stroke volume (SV) if at all? Indicate if you expect each factor to increase, decrease,
+              or remain the same compared to a similar person with a normal ECG?
+
+
+                            EDV           increase          ~same           decrease
+
+                            SV             increase         ~same           decrease
+
+
+           d) [4] Given the patient’s corresponding Wigger’s diagram what is the person’s blood pressure, mean
+              arterial pressure, stroke volume and stroke work?
+                                                                           BP =
+                  150
+
+
+
+
+Pressure (mmHg)
+                  120
+                  90
+                  60                                                               MAP =
+                  30
+                   0                                                Aorta
+                  130                                               LV
+
+
+
+Volume (mL)
+                  100                                                              SV =
+                  70
+                  40
+
+                        0   0.2   0.4    0.6   0.8    1.0    1.2
+                                    Time (s)
+
+
+
+Initials:___                                                                                                    5
+    5. [6 pts] Below you are given a healthy average person’s pressure-volume loop.
+
+    a) [3] How would you expect the PV loop to change, if at all, for a person who suddenly gets a large saline
+       infusion into their blood? Please draw it on the graph below. Specifically denote any changes to the
+       ESPVR and EDPVR lines. Be sure to draw all four sides of the loop.
+
+
+
+
+    b) [3] The drug used in Epi-Pens (epinephrine) has an inotropic effect on the myocardium leading to an
+       increase in contractility. How would you expect the PV loop to change, if at all, for a person who
+       suddenly gets an injection of epinephrine? Please draw any changes below. Specifically denote any
+       changes to the ESPVR and EDPVR lines. Be sure to draw all four sides of the loop.
+
+
+
+
+Initials:___                                                                                            6
+OPTIONAL BONUS questions:
+Which alum joined via zoom to speak about their intersection path through science, engineering, biotech and
+business?
+
+    •   Calvin Marambo                                        •    Reggie Obuobi
+    •   Kelcee St. Loius                                      •    Taciana Sullivan
+    •   Alex Pereira                                          •    Julianna Yang
+    •   Edward Ntshinga
+
+
+
+
+What are two things that Sohaib Rehman (from the Prighozin Lab) discussed in his research talk?
+
+    •   Artificial intelligence                               •    Immune engineering
+    •   Assisted walking                                      •    Liposomes
+    •   Bionic ears                                           •    Medical device innovation
+    •   Cathodoluminescence                                   •    Motion capture
+    •   CRISPR gene editing                                   •    Neural prosthetics
+    •   Exosuits                                              •    Optogenetics
+    •   Electron Microscopy                                   •    Sensors for visually impaired
+    •   Human computer interfaces                             •    Vaccines
+    •   Human-centered design
+
+
+
+
+What are two things that Prof. Richardson discussed in his talk?
+
+    •   Artificial intelligence                               •    Immune engineering
+    •   Assisted walking                                      •    Liposomes
+    •   Bionic ears                                           •    Medical device innovation
+    •   Cathodoluminescence                                   •    Motion capture
+    •   CRISPR gene editing                                   •    Neural prosthetics
+    •   Exosuits                                              •    Optogenetics
+    •   Electron Microscopy                                   •    Sensors for visually impaired
+    •   Human computer interfaces                             •    Vaccines
+    •   Human-centered design
+
+
+
+
+Initials:___                                                                                          7
+This page was left intentionally blank.
+

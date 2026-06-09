@@ -1,0 +1,400 @@
+     Name:__________________________________________________
+
+
+
+                                    ES 53: Quantitative Physiology
+       Quiz 1 – Cellular Electrophysiology, Muscle Contraction, and Cardiac Electrophysiology
+                                              Fall 2023
+
+
+     Instructions:
+       Initial each page.
+       Show all work.
+       You may use a calculator (no phones or devices that connect to the internet) and may use one,
+     one-sided sheet of pre-written/typed notes.
+       You may write on the blank pages, but clearly label which questions you are answering and
+     your final answers. You may keep your note sheet after the exam is over.
+       You will have 75 minutes to complete the exam.
+
+
+     Nernst Eq
+     -61 mV *(log(Cin/Cout))/z                                                                 Summary:
+     Where        R = the gas constant [ 8.314 J / (mol K) ]                              Q1                 /12
+     T = absolute temperature [K]; assume body temp in constant = 310 K
+     F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+     z = valence (charge) of the ionic species                                            Q2                  /8
+
+     Chord Conductance Eq                                                                 Q3                 /12
+                   𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+     𝑉𝑉𝑐𝑐ℎ𝑜𝑜𝑜𝑜𝑜𝑜 =
+                           𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶                                         Q4                 /6
+
+     GHK Eq                                                                               Q5                 /12
+
+
+                                                                                               Total         /50
+
+
+                                                                                        Normal Values:
+     Acronyms:                                                                          ~130 mL
+     Left Ventricle End Diastolic Volume (EDV)                                          ~50 mL
+     Left Ventricle End Systolic Volume (ESV)                                           ~5-10 mmHg
+     Left Ventricle End Diastolic Pressure (EDP)                                        ~95 mmHg
+     Left Ventricle End Systolic Pressure (ESP)                                         ~120 mmHg / 80 mHg
+     Blood Pressure (BP) including systolic and diastolic pressure
+
+
+     Cardiac parameters                                          Typical units:             Normal Values:
+     Mean Arterial Pressure (MAP)                        Units: mmHg, or N/m2, or Pa        ~93 mmHg
+     Stroke Volume (SV)                                  Units:mL                           ~70-100 mL
+     Cardiac Output (CO)                                 Units:L/min                        ~5 L/min
+     Heart Rate (HR)                                     Units:beats per minute (bpm)       ~60-70 bpm
+     Work                                                Units: Joules (N∙m)
+
+1 Watt = 1 Joule/second = 1N*m/s                         1N = kg*m/s2
+1 mmHg = 133 Pa
+            1. [12 pts] Mutations in KV1.1(KCNA1)2 are often associated with a condition called episodic ataxia (EA), which
+            results from a reduction in K conductance.
+            On the graph below show how reduced K conductance would affect conductance and the action potential, if at
+            all.
+                           a) [2 pts] conductance curves                                    b) [2 pts] action potential
+                       50                                                             100
+                                                               gNa
+                                                               gK
+                       40
+
+
+
+
+Conductance (mS/cm2)
+                                                                          Vmem (mV)
+                       30
+                                                                                        0
+                       20
+
+
+                       10
+
+                       0                                                         -100
+                            0      2       4        6      8         10                     0        2        4         6   8    10
+                                          time (ms)
+                                                                                                              Time (ms)
+
+            c. [1 pt] How do you predict this reduced K conductance will affect cell excitability? (in other words, how “easy”
+            it is to induce an action potential in that cell)
+                           a) Decrease cell excitability
+                           b) Increase cell excitability
+                           c) No change to excitability
+
+
+            d. [3 pts] How do you predict this would affect the following voltage potentials:
+                           a) The K equilibrium potential will (select one): increase, decrease, stay the same
+                           b) The membrane potential will (select one): increase, decrease, stay the same
+                           c) The K driving voltage will (select one): increase, decrease, stay the same
+
+
+            e. [1] Which of the following kinetic parameters to the right are factors in the
+                                                                                                                            n0   m0   h0
+            reduction in K conductance? (Circle all that apply)
+                                                                                                                            n∞   m∞   h∞
+                                                                                                                            τn   τm   τh
+
+            f. [2] Write an equation for the K conductance as a function of time including any of the applicable kinetic
+            parameters from above.
+
+
+
+
+            g. [1] At the peak of a normal neuronal action potential, the membrane potential is:
+               i.   exactly at the Na+ equilibrium potential
+              ii.   close to but more positive than the Na+ equilibrium potential
+             iii.   close to but less positive than the Na+ equilibrium potential
+             iv.    exactly at 0 mV
+              v.    the same as the resting membrane potential
+
+            Initials:___                                                                                                                   2
+2. [8 pts] There have been several neurological disorders linked to mutations of voltage-gated sodium
+channels. Below are the kinetic parameters associated with changing the membrane potential of a neuron.
+                                         Table 1: Kinetic parameters associated with m, n, and h gates
+                                            of two neurons for a voltage clamp from -65 to 23 mV.
+                                                   n gates (K+)   m gates (Na+)                        h gates (Na+)
+                                                   n0 = 0.32      m0 = 0.05                            h0 = 0.60
+                                                   n∞ = 0.95      m∞ = 0.99                            h∞ = 0.00
+                                                   τn = 1.20ms    τm = 0.15 ms                         τh = 1.00 ms
+Consider these cells with abnormal Na+ channels in the following scenarios and draw how this would change
+the conductance curves and the resulting action potential (if at all).
+
+                       40                                                        100
+
+
+
+
+Conductance (mS/cm2)
+                       30
+
+
+
+                                                                     Vmem (mV)
+                       20                                                          0
+
+
+                       10
+
+
+                       0                                                    -100
+                           0     2        4         6        8                         0                      2            4         6      8        10
+                                       time (ms)
+                                                                                                                           Time (ms)
+
+
+a. [3 pts] τm is 3 times slower. Which of the following are true? Select all that apply.
+
+                          i.   The red curve shifts right and downward                                            iv.      The green curve shifts right and upward
+                         ii.   The red curve shifts right and upward                                               v.      The black peak shifts right and downward
+                        iii.   The green curve shift right and downward                                           vi.      The black peak shifts right and upward
+
+
+b. [1 pt] What is the new τm if it is 3 times slower?
+
+
+c. [2 pts] m∞ = 0.50 instead of 0.99                                                       d. [2 pts] h0 and h∞ are equivalent to m0 and m∞
+                                                                                           (Assume τm = 0.15 ms and is normal in this
+Below draw how this would change the Na+
+                                                                                           scenario)
+conductance curve, if at all.
+                                                                                           Below draw how this would change the Na+
+                       40                                                                  conductance curve, if at all.
+
+
+
+
+Conductance (mS/cm2)
+                       30                                                                                         40
+
+
+
+
+                                                                                           Conductance (mS/cm2)
+                       20                                                                                         30
+
+
+                       10                                                                                         20
+
+
+                       0                                                                                          10
+                           0      2       4         6        8
+                                       time (ms)
+                                                                                                                   0
+                                                                                                                       0         2          4             6   8
+                                                                                                                                         time (ms)
+
+
+
+
+Initials:___                                                                                                                                                      3
+3. [12 pts] You’re planning to develop a wearable exosuit device to help assist stroke
+patients with walking. To understand the power that your device needs to provide you first
+conduct some experiments to determine the muscle contraction parameters a, b, and max
+isometric tension for the soleus muscle in the healthy limb.
+Experimentally it was found that
+              •      Maximum isometric tension = 100 N
+              •      Muscle shortening velocity (b) = 2 m/s
+              •      Hill's constant (a) = 5 N
+a) [1 pt] What experimental technique could you use to determine the timing and relative
+intensity of co-contraction of muscles in the lower limb? (Please list only a phrase or short
+answer.)
+
+
+
+
+              b) [2 pts] Sketch the force-velocity relationship for this muscle below. Be sure to label axes and use
+                 correct numeric values on your axes. Label your curve as “velocity.”
+
+                            Force-Velocity Curve
+                                                                           c)   [1 pts] Sketch the power-force relationship for this
+                                                                           muscle on the same axes above. Label your curve as
+                                                                           “power.”
+
+
+                                                           Power (N·m/s)
+ Velocity (m/s)
+                                                                           d)    [2 pts] If you want to mimic this F-V relationship for
+                                                                           your device what velocity should be generated with no
+                                                                           load? Quantitatively show your answer and work.
+
+
+
+
+                                 Force (N)
+
+
+
+
+              e) [2 pts] If you want to mimic this F-P relationship for your device what power should be generated when
+                 the load is 50N? Quantitatively derive your answer. Specifically, calculate the power of contraction (in
+                 watts) exerted by the muscle starting from Hill's equation:
+
+
+
+
+Initials:___                                                                                                                    4
+    f)   [2 pts] How much work (in Joules) is done by this muscle in 1 second assuming the load stays constant
+         at 50N during that time?
+
+
+
+
+    g) [2 pt] Which of the following increases muscle tension in a body (not in an experimental set up)? Circle
+       all that apply. Also indicate which is most responsible for the largest amount of force production.
+           i.   Increased frequency of stimulation
+          ii.   Increased amplitude (voltage) of stimulation
+         iii.   Increased Nernst potentials
+         iv.    Increased muscle recruitment
+          v.    Tetany
+
+
+
+
+4. [6 pts] Below are two ECG traces.
+
+                                                             a)    [1 pt] Which is representative of flutter?
+                                                             Circle one of the two traces.
+
+                                                             b)  [1 pt] For the trace that you circled, in which
+                                                             chamber(s) do you think the flutter is occurring?
+
+
+
+
+                                                             c)     [1 pt] How do you expect flutter to affect the
+                                                             stroke volume, if at all?
+                                                             Circle one: Increase, decrease, no change
+
+
+
+
+    d) [1 pt] Compared to normal rhythm, how do you expect flutter (assuming the flutter is in the chambers
+       you selected in b) to affect cardiac output? Select one: increase, decrease, no change
+
+    e) [2 pts] Which of the following statements about skeletal and cardiac muscle are true? Circle all that
+       apply.
+           i.  force increases as velocity of shortening increases
+          ii.  there is an optimal muscle length for force generation
+         iii.  nerve impulses activate contraction
+         iv.   both muscle types can generate sustained contractions
+
+
+Initials:___                                                                                               5
+5. [12 pts] Patients with congestive heart failure (CHF) have a reduced
+ability to pump blood which can be due to an enlarged left ventricle with a
+thin wall.
+
+
+
+
+Below are two pressure-volume loops corresponding to the left ventricular
+cardiac function of two different patients. One normal, and one with CHF.
+
+
+    a. [2 pts] Denote the following on “Patient Y’s” P-V loops below (2nd of the 2 graphs).
+       i.      Isovolumetric contraction
+       ii.     Opening of the aortic valve
+       iii.    Systolic pressure
+       iv.     Diastole
+
+    150    Patient X (heart rate = 75 bpm)
+
+   120
+
+
+    90
+
+    60
+
+    30
+
+      0
+
+                     50             100          150       200      250          300
+                                             Volume (mL)
+
+
+
+
+                                                                                              Denote
+                                                                                              items in part
+                                                                                              ‘a’ on this
+                                                                                              graph
+
+
+
+
+Initials:___                                                                                       6
+    b. [6] For each P-V loop above, calculate the stroke volume (SV), the ejection fraction (EF), mean arterial
+       pressure (MAP), and the cardiac output (CO). Use reasonable units.
+
+
+SV =                                                         SV =
+
+EF =                                                         EF =
+
+
+MAP =                                                        MAP =
+
+
+CO =                                                         CO =
+
+
+
+
+    c. [4] Calculate the stroke work (SW) in Joules for each of these patients. Which heart is doing more work
+       per minute?
+
+
+
+
+    d.   [2] One patient is relatively “normal” and the other has congestive heart failure (CHF). Based on the P-
+         V loops, and your calculations above which is likely the abnormal patient and (in a single sentence)
+         why?
+
+
+
+
+Initials:___                                                                                              7
+BONUS questions:
+
+
+What are two things that Dr. Jhanke discussed on Wednesday’s research talk?
+
+    •   Artificial intelligence
+    •   Bionic ears
+    •   CRISPR gene editing
+    •   Exosuits
+    •   Human computer interfaces
+    •   Liposomes
+    •   Optogenetics
+    •   Vaccines
+
+
+What are two things that Dr. Christina Lee discussed on Wednesday’s research talk?
+
+    •   Artificial intelligence
+    •   Bionic ears
+    •   CRISPR gene editing
+    •   Exosuits
+    •   Human computer interfaces
+    •   Liposomes
+    •   Motion capture
+    •   Tissue engineering
+
+
+
+
+Initials:___                                                                         8
+               This page was left intentionally blank.
+
+
+
+
+Initials:___                                             9
+

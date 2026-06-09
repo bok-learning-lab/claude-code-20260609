@@ -1,0 +1,185 @@
+ ES 53 - Quantitative Physiology                                                            Fall 2025
+                                           Module 3:
+                                       Cardiac Physiology
+
+
+Outline for Cardiac Module (~4 lectures):
+   • Part I: Cardiac anatomy, electrical properties of the heart, and ECG
+   • Part II: Cardiac mechanics, cardiac cycle
+   • Part III: Pressure volume dynamics
+
+
+Learning Objectives - By the end of this module you should be able to do the following (or answer
+the following questions). Use the learning objectives to guide your reading & studying for this module.
+
+   1) Describe the purpose of all four chambers of the heart, the valves within the heart, the
+       pulmonary vein, and the aorta; how do defects in these affect flow and circulation?
+   2) Map the flow of blood throughout the systemic and pulmonary vascular systems starting at the
+       left ventricle. How does pressure vary along this path?
+   3) How do electrical signals move through the heart and why is the order important?
+   4) Draw an ECG and label the waves. Indicate the electrical and mechanical events that produce
+       these waves. Differentiate atrial vs. ventricular abnormalities based on an ECG. How do the
+       waves of the ECG change with heart rate and breathing rate?
+   5) What is the primary pacemaker of the heart (SA node), and where is it located?
+   6) What is a refractory period and why is it essential to cardiac contraction?
+   7) Re-create a Wigger’s diagram showing the phases of contraction and relaxation in the left
+       atrium and left ventricle. Correlate the mechanical pressure and volume cycles with the
+       electrical (ECG) cycle of the heart. You should be able to recall approximate pressures,
+       volumes and the timing. You should be able to read the EDV and ESV, EDP and ESP of the left
+       ventricle.
+   8) Recreate a pressure-volume loop from a Wigger’s diagram and estimate the work done by the
+       left ventricle.
+   9) What is pre-load and what is after-load? How do changes in them change the stroke work done
+       by the heart, and how do they change the pressure-volume loop of the work done by the heart?
+   10) What might cause increased resistance (afterload)? What might cause increased pre-load
+       (filling)?
+   11) What is the Frank-Starling Mechanism, and how does it relate to cardiac output and/or stroke
+       volume?
+   12) Calculate mean arterial pressure (MAP), ejection fraction (EF), stroke volume (SV), stroke work
+       (SW), cardiac output (CO), heart rate (HR in units of beats per min (BPM)), pulse pressure (PP),
+       total peripheral resistance (TPR).
+   13) What are a few biomedical interventions that can alleviate heart dysfunction? In other words,
+       what are some biomedical engineering devices that assist cardiac function (e.g. LVAD,
+       pacemaker), and what do they change about cardiac function?
+
+
+
+
+                                                                                                          1
+Required Pre-reading:
+• Physiology (Fox, 13th Ed.) Chapter
+      o Read “Cardiac Muscle” subsection within chapter 12.6 (~pg 391-393)
+      o Read Chapter 13 sections 13.3, 13.4, 13.5, (~pg. 418-430)
+      o Read “Arrhythmias detected by the ECG” subsection within chapter 13.7 (~pg 440- 442)
+• Medical Physiology (Boron and Boulpaep, 3rd Ed. ONLINE in HOLLIS):
+   Chapter 17: following sections (skip the blue boxes):
+      o “The heart is a dual pump that drives the blood in two serial circuits: the systemic and the
+         pulmonary circulations”
+      Chapter 21: following sections (skip the blue boxes):
+      o “Cardiac Electrophysiology and the Electrocardiogram”
+      o “The cardiac action potential starts in specialized muscle cells of the sinoatrial node and
+         then propagates in an orderly fashion throughout the heart”
+      o “Different cardiac tissues uniquely combine ionic currents to produce distinctive action
+         potentials”
+      o “An ECG generally includes five waves”
+      o “A pair of ECG electrodes defines a lead”
+      o “Cardiac Arrhythmias”
+      o “Conduction abnormalities are a major cause of arrhythmias”
+   Chapter 22: following sections (skip the blue boxes):
+      o “The closing and opening of the cardiac valves define four phases of the cardiac cycle”
+      o “Changes in ventricular volume, pressure, and flow accompany the four phases of the
+         cardiac cycle”
+      o “The cardiac cycle also causes pressure waves in the aorta and peripheral vessels”
+      o “Distortion of pressure waves is the result of their propagation along the arterial tree”
+      o “Cardiac Dynamics”
+      o “Measurements of ventricular volumes, pressures, and flows allow clinicians to judge cardiac
+         performance”
+      o “The pressure-volume loop of a ventricle illustrates the ejection work of the ventricle”
+      o “Starling's law states that a greater fiber length (i.e., greater ventricular volume) causes the
+         heart to deliver more mechanical energy”
+      o “The velocity of cardiac muscle shortening falls when the contraction occurs against a
+         greater opposing force (or pressure) or at a shorter muscle length (or lower volume)”
+
+
+
+                    Be sure you can define/describe the following before this module:
+
+    •    ECG                                      •   Mitral valve                              •   Pre-load
+    •    Atria                                    •   Tricuspid valve                           •   After-load
+    •    Ventricle                                •   Systole                                   •   Stroke volume
+    •    AV node/SA node                          •   Diastole                                  •   Arrhythmia
+
+
+
+The following figures, guidelines and notes are meant only as a guide to refer to during and after lectures. They are not meant
+to replace note-taking. It is critical that you take notes, complete the pre-reading, and ask questions. No answer keys will be
+given for these handouts. It is each student’s responsibility to take good notes. Help with learning to take good notes is
+available at the Bureau of Study Council or by consulting the teaching staff / instructor.
+                                                                                                                              2
+ ES 53 - Quantitative Physiology                                                            Fall 2025
+                                          Module 4:
+                                      Vascular Physiology
+
+
+Outline for Vascular (~4-5 lectures):
+   • Part I: Vascular anatomy
+   • Part II: Modeling the cardiovascular system as a circuit
+   • Part III: Blood pressure and blood flow; turbulent and laminar flow; Poiseuille flow
+   • Part IV: Regulation of blood flow and blood pressure
+   • Part V: Cardiovascular problems and treatments/devices
+
+
+Learning Objectives - By the end of this module you should be able to do the following (or answer
+the following questions). Use the learning objectives to guide your reading & studying for this module.
+
+   1) Map blood pressure throughout the systemic and pulmonary vascular systems starting at the left
+      ventricle. How does pressure vary along this path?
+   2) How do the vessels change in size, function, and anatomy along the systemic circulatory
+      system, and how do you determine the resistance along the path?
+   3) Which vessels are more compliant and why?
+   4) How is resistance controlled, and what are some factors that cause it to change?
+   5) Calculate the resistance to blood flow if given vessel size, and a diagram of the interconnectivity
+      of the vessels. Generate a corresponding circuit diagram that represents the resistive network of
+      vessels in a circulatory system.
+   6) What is Reynold’s number, how does it compare to laminar flow, and where might you find flow
+      with a high Reynold’s number within the body?
+   7) Calculate changes in cardiac output given changes in TPR, blood pressure as well as exercise.
+   8) How does atherosclerosis affect vessels? How can build up of fatty plaque in an artery lead to a
+      heart attack?
+   9) What are a few biomedical interventions that can alleviate cardiovascular dysfunction? In
+      other words, what are some biomedical engineering devices that assist cardiac function (e.g.
+      LVAD, pacemaker), and what do they change about cardiac function?
+
+
+
+
+                                                                                                          1
+Required Pre-reading:
+• Physiology (Fox, 13th Ed.)
+   Chapter 13: following sections:
+      o 13.1, 13.6,
+      o and 13.7 (Atherosclerosis)
+   Chapter 14:
+      o 14.3 (Physical Laws Decribing Blood Flow)
+      o 14.4 (Circulatory changes during exercise only)
+      o 14.6
+      o 14.7 (Hypertension)
+
+•   Medical Physiology (Boron and Boulpaep, 3rd Ed. ONLINE in HOLLIS):
+    Chapter 17: following sections (skip the blue boxes):
+       o “Hemodynamics” (and all subsections)
+       o “How blood flows” (and all subsections)
+       o “Origins of pressure in the circulation” (and all subsections)
+       o “Blood pressure can be measured indirectly by use of a sphygmomanometer”
+    Chapter 19:
+       o “Arterial Distribution and Venous Collection Systems”
+    Chapter 22: following sections (skip the blue boxes):
+       o “The cardiac cycle also causes pressure waves in the aorta and peripheral vessels” “
+    Chapter 23: following sections (skip the blue boxes):
+       o “Short term regulation of arterial pressure”
+       o “Regulation of cardiac output”
+    Chapter 25: following sections (skip the blue boxes):
+       o “Response to Exercise”
+
+
+
+
+                    Be sure you can define/describe the following before this module:
+
+    •   Artery                               •   Baroreceptor                             •    Resistance
+    •   Vein                                 •   Reynold’s #                              •    Vasoconstriction
+    •   Venule                               •   Poiseuille flow                          •    Vasodilation
+    •   Arteriole                            •   Pressure & pressure                      •    Laminar flow
+    •   Capillary                                units
+
+
+
+
+The following figures, guidelines and notes are meant only as a guide to refer to during and after lectures. They are
+not meant to replace note-taking. It is critical that you take notes, complete the pre-reading, and ask questions. No
+answer keys will be given for these handouts. It is each student’s responsibility to take good notes. Help with
+learning to take good notes is available at the Bureau of Study Council or by consulting the teaching staff / instructor.
+
+
+                                                                                                                       2
+

@@ -1,0 +1,269 @@
+                      Action Potentials and the Hodgkin-Huxley Model
+
+
+What is an action potential?
+        An action potential is an all or nothing response of electrically excitable cells that consists of a
+rapid depolarization followed by slow repolarization.
+
+
+
+
+Figure 1: Action potentials. A) The membrane depolarization that occurs during an action potential can be measured
+with a very small microelectrode inserted through the cell’s membrane. A stimulus current is required to depolarize the
+cell and evoke the action potential. Once initiated the action potential occurs and includes the depolarizing phase, peak,
+repolarizing phase, hyperpolarization, and return to resting potential. The green and yellow lines indicate two different
+action potentials, which represent the variety of membrane depolarization sequences observed in different types of
+excitable cells. B) Shown in the pink boxes on are the right are examples of four different action potentials each from a
+different type of excitable cell. [Figure from Boron and Boulpaep, Medical Physiology, 3rd Ed.]
+
+
+
+         The shape of the action potential in a given cell reflects the specialized functions of that cell. For
+example, the brief action potentials of a nerve axon permit rapid signaling, whereas the prolonged,
+repetitive action potentials of cardiac and certain types of smooth-muscle cells mediate the slower,
+rhythmic contractions of these tissues.
+
+
+
+                                                                                                                             1
+         The membrane potential of a cell can be measured (as a function of time) experimentally with a
+very small microelectrode. A small stimulus (current) is required to bring the membrane potential up to
+the threshold, called the threshold voltage or threshold potential. Once this threshold is reached an action
+potential occurs in that cell. It should be noted that every cell has a membrane potential, but action
+potentials do not occur in every type of cell in the body. They only occur in electrically excitable cells
+such as nerve and muscle cells. It should also be noted that the stimulus current is used experimentally
+when studying excitable cells in vitro. In the body cells are stimulated in a slightly more complex way
+from neurons via neurotransmitters. A typical resting membrane potential of a neuron is about -70 mV
+and it will depolarize to about 35 mV during the peak of an action potential. The specific resting
+membrane potentials and peak depolarizations vary across cell type and location in the body.
+         The threshold, amplitude, shape, and duration of the action potential are primarily dependent on
+the following factors:
+
+        The gating (opening and closing) and permeability properties of ion channels—these properties
+         are dependent on both Vm (membrane potential) and time.
+        The intracellular and extracellular concentrations of the ions that pass through these channels,
+         such as Na+, K+, Ca2+, and Cl−.
+To a lesser degree they are also dependent on membrane properties such as capacitance, resistance, and
+the geometry of the cell, but for simplicity we will focus on the above two factors.
+
+
+
+
+Figure 2: Graded response to stimulating current. The top row shows four levels of a hyperpoloarizing current and the
+corresponding membrane voltage that occurs as a result (keep in mind that this is all done experimentally with a
+microelectrode). [Figure from Boron and Boulpaep, Medical Physiology, 3 rd Ed.]
+
+Not all electrical activity in nerve or muscle cells is characterized by an all-or-none response. When we
+apply a small square pulse of hyperpolarizing stimulus current to a cell membrane, Vm gradually
+
+
+                                                                                                                        2
+becomes more negative and then stabilizes. As seen in figure 2, the (experimentally controlled)
+hyperpolarizing stimuli make the membrane potential even more negative. The depolarizing stimulus only
+evokes an action potential when sufficient current is applied (in this case the green or red levels). The area
+under the curve (see Fig. 3A) of the stimulating current determines whether it is sufficiently high to evoke
+an action potential. In other words, the amplitude and duration of the stimulus will determine whether or
+not the threshold is reached. Additionally, there is a refractory period (see figure 3) during which another
+action potential cannot be fired.
+
+
+
+
+Figure 3: Determinants of nerve and muscle excitability (ability to evoke an action potential). The curve in A represents
+the combination of the minimum stimulus intensity and duration that is required to reach threshold and to evoke an
+action potential. B shows a typical action potential with corresponding refractory periods. [Figure from Boron and
+Boulpaep, Medical Physiology, 3rd Ed.]
+
+Why do we see this non-linear response in excitable cells? Hodgkin and Huxley wondered the same thing.
+As it turns out, ion channels, or “gates” in the cell membrane affect the permeability of those ions to flow
+through the membrane. These voltage gated channels change the “conductance” to ions. The changes in
+conductance to sodium and potassium (more than any other ions) underlie the action potential.
+
+
+
+Hodgkin and Huxley conducted experiments in the giant squid axon to derive the model of action
+potential kinetics.
+Alan Hodgkin and Andrew Huxley’s goal was to account for the action potential by molecular
+mechanisms. they tried to develop an empirical kinetic description which would allow them to calculate
+the electrical responses and which would correctly predict the shape and time course of the action
+potential. They used voltage- and time-dependent parameters to to explain the ionic fluxes and
+conductance changes observed during an action potential. Today this model is referred to as the Hodgkin-
+Huxley or HH model.
+We now understand that the nerve action potential is a phenomenon involving voltage-dependent currents
+of Na+ and K+ that flow through distinct molecular pathways called Na+ channels and K+ channels. In
+1963, Alan L. Hodgkin and Andrew F. Huxley shared the Nobel Prize in Physiology or Medicine for their
+
+
+
+                                                                                                                            3
+quantitative description of these ionic
+currents in the squid giant axon in studies
+involving two-electrode voltage-clamp
+recordings.
+The time course of the action potential can
+be dissected into an initial, transient
+increase in Na+ conductance (and thus
+permeability), followed by a similar but
+delayed increase in K+ conductance. An
+increase in permeability or conductance
+allows more diffusion to occur. As one
+predicts from the GHK equation (refer to
+previous lecture or Fox Physiology
+textbook), a transient increase in Na+
+conductance (gNa) shifts Vm toward the
+positive Na+ equilibrium potential (ENa).
+The subsequent increase in K+ conductance
+(gK) shifts Vm back toward the K+
+equilibrium potential (EK), thereby
+restoring the original negative resting
+potential. Thus, the depolarizing and
+repolarizing phases of the action potential
+reflect a transient reversal of the ratio of
+K+/Na+ conductances.
+Figure 4: Membrane potential (top) as a function
+of time during an action potential. Sodium and
+potassium conductance (bottom) as a function of
+time during an action potential. [Figure from Fox,
+Physiology, 15th Ed.]
+
+
+
+
+Figure 5: Changes in sodium conductance (gNa) and potassium conductance (gK) during the propagated action potential
+as calculated by Hodgkin and Huxley (Data from Hodgkin AL, Huxley AF: A quantitative description of membrane
+current and its application to conduction and excitation in nerve. J Physiol 117:500–544, 1952.) [Figure from Boron and
+Boulpaep, Medical Physiology, 3rd Ed.]
+
+                                                                                                                      4
+The flow of sodium or potassium ions into or out of the cell causes small currents, INa or IK respectively.
+These currents are a result of the changing conductances (gNa or gK) and are dependent on voltage and
+time.
+The time-dependent current for either ion, x, is written as:
+                                             𝐼𝑥 (𝑡) = 𝑔𝑥 (𝑡) ∙ (𝑉𝑚 − 𝐸𝑥 )
+Where gx is the conductance for ion x, Vm is the membrane potential, and Ex is the equilibrium potential
+for ion x. Note that the inverse of conductance is resistance (R). This means that the above equation could
+also be written as I = 1/R·(V-E) or (V-E) = IR – which is Ohm’s Law (V=IR).
+
+
+Now as you recall, gx is dependent on voltage and time. H&H defined the Na+ and K+ currents in terms
+of their maximum possible conductances (gNa-max or gK-max) multiplied by coefficients that varied between
+0 and 1. The overall conductance of each ion then varies from 0 to 1. All of the kinetic properties of the
+conductances are embedded in the characteristics of these coefficients. [Hodgkin and Huxley determined
+these through a detailed series of experiments which you can read about in more detail in their original
+manuscript or most Neurobiology textbooks.]
+As previously mentioned, the conductances of the sodium and potassium ions (gNa or gK) change due to
+changes in voltage-gated channels in the cell membrane. The kinetic properties of these changes are
+embedded in the coefficients and modeled mathematically as a set of four “gates” for each ion. This
+approach allowed them to sufficiently model the kinetics of the channels. In reality there aren’t actually
+four distinct gates, but rather many many channels in each cell membrane. These channels are modeled
+mathematically as the combined probability of the four “gates” – which in turn gives us the coefficient for
+a single ion conductance.
+
+
+
+
+Figure 6: Sodium and potassium voltage-dependent conductance parameters at infinite time (steady state) during a
+voltage-clamp experiment. The n parameter describes the probability that each of the four gates is in the proper
+configuration for K+ channel opening. The m parameter describes the probability that each of the three gates is in the
+proper configuration for Na+ channel opening, and the h parameter describes the probability that the gate is in the
+configuration to keep the Na+ channel closed (inactivation). [Figure from Boron and Boulpaep, Medical Physiology, 3 rd
+Ed.]
+
+
+
+
+                                                                                                                         5
+Specifically, the potassium conductance is modeled as four independent n-gates that can be activated.
+Potassium current is modeled by only n gates as:
+                                  𝐼𝐾 (𝑡) = [𝑛(𝑡)]4 ∙ 𝑔𝐾𝑚𝑎𝑥 (𝑉𝑚 − 𝐸𝐾 )
+Where n is the coefficient from 0 to 1. Note that n is taken to the fourth power because the kinetics are
+modeled as four of these gates.
+The sodium conductance is also modeled as a set of four gates, but is instead modeled with three
+activating m-gates and one inactivating h-gate. Sodium current is modeled by n and h gates as:
+
+                               𝐼𝑁𝑎 (𝑡) = [𝑚(𝑡)]3 ∙ ℎ(𝑡) ∙ 𝑔𝑁𝑎𝑚𝑎𝑥 (𝑉𝑚 − 𝐸𝑁𝑎 )
+Where m and h are the coefficients from 0 to 1. Note that m is cubed because the kinetics are modeled as
+                               three m gates and an inactivating h gate.
+In total there are three types of gates, m, n, and h. For both sodium and potassium the kinetics are
+modeled by four “gates”. These m, n, and h gates each have different time constants (τm, τn, τh). They also
+have initial (a.k.a. resting) values (m0, n0, h0) between 0 and 1 related to their probability of being open,
+and activation values (m∞, n∞, h∞) associated with their probability of being open at steady state (∞). To
+measure these values Hodgkin and Huxley performed voltage clamp experiments that involved changing
+the membrane potential essentially instantaneously from the resting potential (~-65 mV) to some other set
+potential and clamping it there until it reaches steady state. When doing so the initial values (m0, n0, h0) of
+m, n, and h relax to new values m∞, n∞, h∞ at this clamped voltage. These values were all determined
+experimentally and are summarized in Table 1.
+           Table 1: Kinetic parameters associated with m, n, and h gates derived from the Hodgkin-
+           Huxley model of sodium and potassium conductances for a voltage clamp from -65 to 23 mV.
+              n gates (K+)                 m gates (Na+)                   h gates (Na+)
+              n0 = 0.3177                  m0 = 0.0529                     h0 = 0.5961
+              n∞ = 0.9494                  m∞ = 0.9953                     h∞ = 0.0009
+              Τn = 1.2028 ms               Τm = 0.1577 ms                  Τh = 1.0022 ms
+
+
+The probability of the gates as a function of time can be written as:
+                                                                          𝑡
+                                                                    −(      )
+                                       𝑛(𝑡) = 𝑛∞ − (𝑛∞ − 𝑛0 )𝑒           𝜏𝑛
+                                                                        𝑡
+                                                                     −( )
+                                     𝑚(𝑡) = 𝑚∞ − (𝑚∞ − 𝑚0 )𝑒           𝜏𝑚
+                                                                       𝑡
+                                                                    −( )
+                                       ℎ(𝑡) = ℎ∞ − (ℎ∞ − ℎ0 )𝑒        𝜏ℎ
+
+
+which then makes the conductances a function of time as denoted below:
+
+                                           𝑔𝐾 (𝑡) = [𝑛(𝑡)]4 ∙ 𝑔𝐾𝑚𝑎𝑥
+                                      𝑔𝑁𝑎 (𝑡) = [𝑚(𝑡)]3 ∙ ℎ(𝑡) ∙ 𝑔𝑁𝑎𝑚𝑎𝑥
+
+
+The maximum conductances of K+ and Na+ were experimentally determined to be 36 ms/cm2 for K+ and
+120 ms/cm2 for Na+ during a voltage clamp experiment from -65 to 23 mV. [You can plot these
+conductance functions using MATLAB and see how they match those shown in Figure 5 (hello p-set #1).]
+
+
+                                                                                                              6
+Hodgkin and Huxley used the
+data from their experiments and
+their model of voltage and time
+dependent conductance to
+compute the time course of an
+action potential in the squid giant
+axon. You can see from Figure 6
+that they were quite close in
+recreating the action potential
+using their model compared to
+the action potential which they
+measured.
+
+
+Figure 6: Predicted (C) action
+potential as modeled by Hodgkin and
+Huxley, and the corresponding
+measured (D) action potential in a
+giant squid axon. [Figure from Boron
+and Boulpaep, Medical Physiology, 3rd
+Ed.]
+
+
+
+
+  Bioengineering Application: Optogenetics may lead to control of neurons.
+  An exciting new(ish) area of Bioengineering aims to control excitable cells via optogenetics. This
+  optical excitation technique involves the use of membrane proteins called channelrhodopsins (ChRs).
+  ChR is homologous to the rhodopsin protein of mammalian photoreceptor cells except that it
+  functions as a light-activated ion channel (as opposed to voltage activated). Expression of engineered
+  ChR in mammalian neurons allows the Vm (membrane potential) of the transfected neurons to be
+  stimulated by illumination with light of an appropriate wavelength. Thus, ChR and related light-gated
+  channels can be used as optical switches to turn on or off the electrical activity of specific cells in
+  various tissues such as the brain. This method has initiated the field of optogenetics which enables the
+  function of individual cells in the nervous system to be studied by observing the physiological
+  response to light activation in living transgenic animals. Someday it may be possible to control
+  arrhythmia in a diseased heart with light or to restore visual perception to a defective retina with the
+  use of such approaches.
+
+
+                                                                                                             7
+

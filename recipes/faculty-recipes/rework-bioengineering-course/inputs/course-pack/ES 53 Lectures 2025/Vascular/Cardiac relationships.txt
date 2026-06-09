@@ -1,0 +1,44 @@
+                  Cardiovascular Physiology Relationships
+                                    Conversions:
+                                    1 mmHg = 133 Pa
+                                    1 kPa = ~7.5 mmHg
+                                    1 mL = 1 cm3
+                                    1 L = 1x10-3 m3
+                                    1 N*m = 1 Joule
+                                    1 mmHg*mL = 1.333x10-4 N*m
+                                    1 mm3 = 10-9 m3
+                                    1 mm3 = 10-3cm3
+
+
+
+
+Acronyms:                                                                   Normal Values:
+Left Ventricle End Diastolic Volume (EDV)                                   ~130 mL
+Left Ventricle End Systolic Volume (ESV)                                    ~50 mL
+Left Ventricle End Diastolic Pressure (EDP)                                 ~ 5-10 mmHg
+Left Ventricle End Systolic Pressure (ESP)                                  ~ 95 mmHg
+Blood Pressure (BP) including systolic and diastolic pressure               ~120 mmHg (sys) 80 mmHg (dia)
+
+You should be able to calculate the following
+without being given the equation:                                           Normal Values:
+Mean Arterial Pressure (MAP)            Units: mmHg, or N/m2, or Pa         ~93 mmHg
+Stroke Volume (SV)                      Units:mL                            ~70-100 mL
+Stroke Work (SW)                        Units:Joules or N*m                 ~ 1 Joule
+Cardiac Output (CO)                     Units:L/min                         ~ 5 L/min
+Heart Rate (HR)                         Units:beats per minute (bpm)        ~ 60-70 bpm
+Total Peripheral Resistance (TPR)       Units: Pa*s/m3                      ~ 1*105 kPa*s/m3
+
+Other calculations you should be able to compute
+Poiseuille’s law Q = πPr4/(8ηL)                                        where Q = flow
+Resistance to flow in a single tube: R = 8ηL/(πr4)                           η = viscosity (3.25 x10-3 Pa·s)
+Reynold’s #: Re = ρQD/(ηA) or ρvD/η                                          ρ = density (1.06 g/cm3)
+        Laminar when Re<2300                                                 L = length of the tube
+        Transitional when 2300<Re<4000                                       r = tube radius
+        Turbulent when 4000<Re                                               D = diameter
+                                                                             A = area
+Sum of resistances in series and in parallel                                 P = pressure
+       In parallel resistances add as 1/Rtot = 1/R1 + 1/R2 + 1/R3….          v = velocity
+       In series add as Rtot = R1 + R2 + R3….                                 ηblood = 3.25 x10-3 Pa·s
+       Voltage divider rule: Vn = Vtot*(Rn/Rtot)                              ρblood = 1.06 g/cm3
+Pressure, resistance and flow relationship: ΔP = Q*R
+

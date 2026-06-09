@@ -1,0 +1,367 @@
+ES 53
+2025
+
+
+       Module 5
+  Pulmonary Physiology
+
+        (Nov. 5, 2025)
+
+                         1
+Announcements
+• Be sure to add your interests to the Final
+  Project google tracking sheet by tonight! – We
+  will use these to sort on Friday.
+• Now is the time to start looking for summer
+  opportunities  See canvas page on research
+• Lab 6 on Thurs/Fri – wear thin shirts
+• Lab 5 due on Fri/Sat
+• P-Set 7 available
+• Peer collaboration form
+
+
+
+                                                   2
+Part II con’t: Gas exchange, gas
+transport, and O2 consumption
+
+
+
+
+                                   3
+Quick recall with a peer:
+
+What is the typical partial pressure of oxygen in
+• the ambient air at sea level?
+• the conducting zone of your lungs?
+• the alveoli?
+• the blood leaving the lungs?
+• the blood leaving the LV?
+
+
+
+
+                                              4
+Definition of water vapor pressure
+ Partial Pressures for Gas Exchange in the Lungs
+and the Alveolar Gas Equation:
+• Gas exchange is driven by differences in the partial pressures of
+  gases between alveoli and capillaries
+     The “alveolar gas equation” approximates PaO2:
+      PaO2 = (PATM - PH20)  FIO2 – PaCO2 / R
+
+
+
+
+    • Partial pressures of
+      gases in inspired air
+      and alveolar air at
+      sea level
+Partial pressures
+of gases in blood
+through the
+pulmonary and
+systemic
+circulations.
+ So we’ve discussed the oxygen
+ levels as air travels through the
+      lungs into the alveoli.
+
+ Henry’s law allows us to estimate
+the dissolved oxygen in the blood.
+
+
+                                     8
+                          Henry’s Law
+    The amount of dissolved gas in a liquid is proportional to its partial
+    pressure above the liquid
+                                                     The partial pressure of the gas
+
+    For dilute gasses, this becomes                 𝐴𝐴 = 𝛼𝛼𝐴𝐴 𝑃𝑃𝐴𝐴
+
+                     The concentration of the gas              The solubility of the gas
+                     dissolved in the liquid                   dissolved in the liquid
+
+The basis for understanding gas exchange between air and fluids (including blood)
+
+The solubility depends on many factors, including temperature, solvent, gas, etc. . .
+                Solubility in water at 37 C
+                                                                   deciliters
+                                                                     𝑑𝑑𝑑𝑑 = 100 𝑚𝑚𝑚𝑚 = 0.1𝐿𝐿
+  Gas exchange between air and
+      blood occur at alveoli
+
+
+
+
+• Capillaries surround alveoli
+• Gasses passively diffuse across the alveolar membrane
+Layers of the alveolar/blood interface
+O2 delivered to tissue (O2 offloaded from
+blood) & CO2 is off-loaded from tissue
+
+
+
+
+                              Henry’s Law
+                                𝐴𝐴 = 𝛼𝛼𝐴𝐴 𝑃𝑃𝐴𝐴
+                                 𝐴𝐴
+                                     = 𝑃𝑃𝐴𝐴
+                                𝛼𝛼𝐴𝐴
+     Transport of Oxygen in Blood
+
+• There are only minor amounts of dissolved
+  oxygen in blood
+
+
+
+• The vast majority of oxygen in blood is bound to
+  hemoglobin in red blood cells
+                            Exercise 5
+ RECALL        Solubility in water at 37 C                        deciliters
+                                                              𝑑𝑑𝑑𝑑 = 100 𝑚𝑚𝑚𝑚 = 0.1𝐿𝐿
+
+                                                               Henry’s Law
+
+                                                                 𝐴𝐴 = 𝛼𝛼𝐴𝐴 𝑃𝑃𝐴𝐴
+
+
+
+  For well oxygenated blood, the partial pressure of oxygen is PO2 = 100 mm Hg
+
+1) What is the concentration of dissolved oxygen in well oxygenated blood (in
+mL of oxygen/dL blood)?
+
+2) The normal, resting oxygen consumption rate of a person is 250 mL
+oxygen/min. If all of this was supplied by dissolved oxygen in the blood, what
+would the rate of blood flow need to be?
+                           Exercise 5
+
+
+
+
+1) What is the concentration of dissolved oxygen in well oxygenated blood (in
+mL of oxygen/dL blood)?
+
+2) The normal, resting oxygen consumption rate of a person is 250 mL
+oxygen/min. If all of this was supplied by dissolved oxygen in the blood, what
+would the rate of blood flow need to be?
+     Transport of Oxygen in Blood
+
+• There are only minor amounts of dissolved
+  oxygen in blood
+  • Solubility of oxygen (0.003 ml O2/dl blood) / mmHg
+      • Normal blood (PO2=100 mmHg)  0.3 ml O2 / dl blood
+  • Normal resting oxygen consumption 250 ml O2/min
+  • Would require 83 L/min blood flow! This is why hemoglobin (and
+    red blood cells) are important
+
+
+• The vast majority of oxygen in blood is bound to
+  hemoglobin (Hb) in red blood cells
+  • >97% O2 transported by Hb: O2 + Hb        HbO2
+  • O2 Carrying capacity: 1.34 ml O2 / g Hb
+  • Normal [Hb]: ~12-15 g Hb/dl blood  16-20 ml O2 /dl blood
+Transport of Carbon Dioxide
+• The CO2 in blood is mostly dissolved.
+  • solubility in plasma is about 20X that of oxygen
+  • venous blood: 2.7 ml/100 ml blood
+  • arterial blood: 2.4 ml/100 ml blood
+  • transported : 0.3 ml/100 ml blood
+  • Also transported as carbonic acid
+Putting it all
+together
+
+
+Partial pressures
+of gases in blood
+through the
+pulmonary and
+systemic
+circulations.
+The partial pressure of O2
+dissolved in blood
+
+
+
+
+Most oxygen in the blood is
+bound to hemoglobin in red
+blood cells
+
+
+Therefore, to understand
+oxygen transport in blood,
+we need to understand
+oxygen binding to
+hemoglobin
+                   Oxygen carrying (content) curve for
+                           hemoglobin (Hb)
+                                                                    • Normal blood hemoglobin content:
+                                                                         15g Hb / dL blood
+
+
+
+
+mL O2 / dL blood
+                                                                    • Oxygen carrying capacity of Hb:
+                                                                         • 1.34 ml oxygen / g Hb
+                                                                         • This is the amount of oxygen carried on Hb
+                                                                         at 100% saturation.
+                                                                    • Oxygen carrying capacity of blood (100% sat):
+                                                                         15g Hb / dL blood*1.34 ml oxygen / g Hb
+                                                                         = 20 ml O2 / dL blood
+
+
+
+
+                   O2 Saturation - fraction Hb that has O2 bound to it (note: no units)
+                   O2 Content - absolute quantity of bound O2 (per unit blood) [ml O2/dl blood]
+Hemoglobin Dissociation Curve
+
+
+
+
+                         Assuming15g/dl
+                            for [Hb]
+                     Hemoglobin Dissociation Curve
+                               (…that you should use!)
+           100
+
+
+
+
+            80
+
+
+
+
+            60
+
+
+
+
+SaO2 (%)    40
+
+
+
+
+            20
+
+
+
+
+                 0
+                     0    20        40         60     80   100   120
+
+                                         PO2 (mmHg)
+                                                                   22
+Exercise 6: How much oxygen is in the
+blood for an “average female” at rest?
+
+
+
+
+                                   23
+24
+Respiration & Oxygen Consumption
+• Respiration is comprised of 3 related functions: ventilation, gas
+  exchange, and O2 utilization (cellular respiration)
+   • Ventilation moves air in and out of lungs for gas exchange
+     with blood (external respiration)
+   • Gas exchange between blood and tissues occurs via
+     passive diffusion which rely on spatial concentration
+     gradients.
+   • O2 is consumed (and CO2 created) by aerobic metabolism in
+     tissues throughout the body - this is called internal respiration
+                              ·
+  Rate of O2 consumption = O2 = Q * (CAO2 - CVO2)
+                                   Q = rate of blood flow = cardiac output
+                         Where     CAO2 = O2 concentration in arterial blood
+                                   CVO2 = O2 concentration in venous blood
+              Quick check exercise
+
+
+
+
+Consider a person with oxygen content in veins and arteries
+described by the plot above. If the person’s blood flow rate is 5
+L/min, what is their rate of oxygen consumption?
+Exercise 7: A woman (with typical
+hemoglobin/Ht levels) is exercising
+and as such her tissue PO2 falls to 20
+mmHg instead of the normal 40
+mmHg. She has a cardiac output of
+10L/min.
+What are the concentrations of O2 in
+the arterial and venous sides of the
+blood system and what is the oxygen
+consumption?
+                                     27
+28
+           100
+
+
+
+
+            80
+
+
+
+
+            60
+
+
+
+
+SaO2 (%)    40
+
+
+
+
+            20
+                                                                    oxygen
+
+                                                                                                     What is the primary
+                 0
+                     0          20         40                60            80         100      120
+
+
+
+                                                                                                     difference between
+                                                       PO2 (mmHg)
+
+
+
+
+                                                                                                     these relationships?
+           100
+
+
+
+
+            80
+
+
+
+
+            60
+
+
+
+
+SaCO (%)
+
+                                                                      carbon
+            40
+
+
+
+
+            20
+                                                                    monoxide
+                 0
+                     0   0.05        0.1        0.15         0.2    0.25        0.3     0.35   0.4
+                                                                                                                    29
+                                                       PCO (mmHg)
+

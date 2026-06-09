@@ -1,0 +1,262 @@
+    Welcome to ES 53:
+Quantitative Physiology as a
+ Basis for Bioengineering
+          • Staff introductions
+          • Why is quantitative physiology a
+            basis for bioengineering?
+Today’s   • Course logistics and
+            expectations
+plan:     • MATLAB information
+          • Q&A
+          • Intro to Electrophysiology
+Dr. Linsey Moyer, PhD (She/Her)
+You can call me Dr. Moyer or Linsey
+                Co-Director of Undergraduate Studies
+                in Biomedical Engineering
+Head Instructor: Dr. Linsey Moyer, PhD
+Guest Instructor: Prof. Jennifer Lewis, PhD
+Teaching Fellows: Jonathan Rubins
+CAs: Hayden Graham Wafiqah Zubair           Saron Meressi
+        Katie Ho           Norene Williams  Armando Patino
+        Sarah Rose Odutola
+Lab & Computational Staff/Engineers:
+   Avery Normandin: ave@seas.harvard.edu
+   Dr. Melissa Hancock: mhancock@seas.harvard.edu
+Math        Biomedical
+Physics     Engineering
+Biology
+Chemistry
+Design      Focused
+Building    ultrasound
+Art
+                      Ph.D. Biomedical
+B.S. Bioengineering     Engineering
+                                                                  •Taught portion of a   •Develop courses
+                                                                  course                 •Teach several
+•Tutor                 •Teaching Assistant                        •Mentored students     courses
+•Math & Statics        •TPT program                                                      •Advise/mentor
+Workshop Leader                              •DIB & pedogogy
+                                                                                         students
+•Teaching Assistant                          training
+                                                                                         •Curriculum &
+                                             •Mentored students
+                                                                                         Administration
+                                             •Developed courses
+What is Biomedical Engineering?
+
+
+
+ We integrate fundamental engineering disciplines with the physical and life
+   sciences while drawing on mathematics and computational methods.
+
+This convergence allows us to understand the operation of living systems and to
+      design novel solutions to critical problems in medicine and biology.
+Biomedical engineering is consistently ranked one of the
+most valuable majors based on pay, growth in salary, and
+   wealth of job opportunities, and impact on others.
+                     What do they do?
+Design engineering solutions to
+biological/medical problems.
+   •Tissue engineering and regenerative
+   medicine
+   •Genetically programming cells to correct
+   dysfunction
+   •Physiological systems biology
+   •Medical devices such as:
+        •surgical robots;
+        •heart pumps;
+        •Implantable gels and devices;
+        •prosthetics;
+        •nano-drugs
+   •Biosensors
+   •Biomaterials
+   Alums are defining the future of BME
+
+
+
+
+Julianna               Reggie St.             Taciana                Alex
+Sullivan               Louis                  Pereira                Yang
+
+Analyst at ClearView   Bioprinting Account    Chief Scientific       Founder of ClearCut
+Healthcare Partners;   Manager at CELLINK     Officer at Allevi      Surgical; MD/MBA
+Regeneron Intern       *Now back in school                           student at HMS/HBS
+
+AB in Biomedical       SB in Bioengineering   SB in Bioengineering   SB in Bioengineering
+Engineering 2020       2018                   2017                   2017
+                       Secondary in African
+                       American Studies
+Why is bioengineering /
+biomedical engineering
+       needed?
+2021
+How big of a problem is CVD in the US?
+What percent of people in the US are affected by
+CVD? (30 seconds, guess with partner)
+       Cardiovascular Companies
+   Devices/Tech       &       Drugs
+• Abbot (Abbot vascular)         • Amgen
+• Abiomed                        • Astra Zeneca
+• Boston Scientific              • Glaxo-Smith-Kline
+• Cook Medical                   • Merck
+• Edwards Life Sciences          • Novartis
+• Google Verily                  • Pfizer
+• Medtronic                      • Sanofi
+• St. Jude Medical               • Vertex
+Tens of billions of dollars in revenue each year!
+These companies need Bio/Biomedical Engineers!
+How much of a financial burden does CVD
+put on the healthcare system in the U.S.?
+(30 seconds, guess $$$ with partner)
+Why is quantitative
+physiology helpful?
+Spatial Scales of the Heart
+
+  Heart:         10 cm diameter
+
+
+
+  Cell:          100 µm length
+
+
+
+  Ion Channel:   1 nm pore size
+Temporal Scales of the Heart
+
+ Lethal Arrhythmia:       Several sec
+
+
+
+ Heart Beat:              1 sec
+
+
+
+ Cell Action Potential:   250 msec
+
+
+
+ Ion Channel kinetics:    1 nsec
+Example: Hypertension
+Hypertension
+
+• Definition: BP > 140/90 mmHg
+  (either / or)
+• Afflicts about 20% of adults
+• Caused by complex and poorly
+  understood processes
+    • Main Features:
+        • Increase in peripheral
+          resistance is universal
+        • Increases workload of the
+          heart leading to ventricular
+          hypertrophy and heart failure
+Physical Laws Describing Blood Flow - Resistance
+
+
+Example – Which vessel has the highest resistance?
+Physical Laws Describing Blood Flow - Resistance
+• Flow rate is proportional to the pressure drop (∆P) & inversely
+  proportional to resistance
+
+   • Flow = ∆P / R  R = ∆P / Flow
+   • Resistance is directly proportional to length of vessel (L) and
+     viscosity of blood (η)
+       • Inversely proportional to 4th power of radius (r4)
+           • So diameter of vessel is very important for resistance
+
+• Poiseuille's Law describes factors affecting blood flow:
+   • Resistance = ∆P = 8ηL
+                     Flow      πr4
+   • Vasodilation dramatically decreases resistance, increases
+     blood flow
+   • Vasoconstriction does opposite
+Physical Laws Describing Blood Flow - Resistance
+
+
+Example – Which vessel has the highest resistance?
+You need quantitative physiology as a
+              foundation
+for engineering the next generation of
+    medical and bio - technologies.
+ES 53 Logistics
+Course Overview – See Canvas
+& Syllabus
+• We’ll cover electrophysiology, muscles,
+  cardiovascular, pulmonary and renal systems
+• Labs are team based and involve collecting
+  real data from your own bodies. You’ll gain
+  valuable MATLAB skills from the post-lab
+  analysis.
+• Faculty and alums will visit to talk about
+  research, careers, and grad school
+• Final project instead of final exam. Design a
+  device based on your interests.
+• Syllabus – Please find it on Canvas.
+ES 53 Course expectations
+Course expectations: Generative
+AI policy
+• See full policy in the syllabus (PDF)
+• Generative AI cannot be used to:
+    assist with problem sets but we will point you to
+   resources that will be more helpful and specific.
+• Generative AI is encouraged to:
+    assist with coding for post-lab analysis of data.
+   We will also point you to MATLAB resources.
+Course expectations: What to
+expect for the course
+• We hope to interact and engage with you and want
+  you to do the same with us and your peers. A small
+  part of the course grade is based on participation, of
+  which attendance is a component.
+
+• We will work in small groups during “lecture” time,
+  office hours, and in your lab groups. We hope you get
+  to know many of your peers in this class.
+Course expectations: What to
+expect for the course
+• P Sets will be released a week in advance and due on
+  Tuesdays (11:59pm). They will typically cover the three
+  preceding lectures and readings.
+• Students may consult with one another on problem sets
+  and share general strategies. This is encouraged but each
+  student's problem set must represent his/her/their own
+  work. Copying from one another is not permitted.
+• Please try to be as inclusive as possible. Not everyone
+  already knows someone in this class. We encourage you
+  to get to know as many others as you can.
+• You should also strive to honor the diversity of your
+  classmates.
+Course expectations: What to
+expect for the course
+• If you need to get in touch with the TFs or Dr. Moyer
+  please email us or come to office hours.
+• Please also check your email at least once a day for
+  important announcements and/or emails from the
+  course staff.
+Labs
+• Labs are 2.75 hours in length and will be offered:
+   • Thurs. 9-11:45 am
+   • Thurs. 12:45-3:30 pm
+   • Thurs. 3:45-6:30 pm
+   • Fri. 12:45-3:30 pm
+
+• These are held in the SEC LL1.241 and start Sept. 4th!
+• Let us know right away if you expect to have a conflict
+  or want to switch sections  use the google form on
+  Canvas to request a change.
+• You’ll find lab protocols on Canvas. These will be
+  posted for each lab a few days before that lab is held.
+• You’ll see that labs often start before the material is
+  covered in lecture.
+• Some labs require specific clothing/footwear. Be sure to
+  check canvas for announcements.
+MATLAB Training
+• Check out the MATLAB page on our Canvas site.
+• Download MATLAB onto your computers.
+• If your computer can’t support MATLAB please let
+  us know. HUIT/SEAS may be able to loan you one
+  for the semester or you can use the computer lab
+  on the first floor.
+• Find the ES 53 MATLAB guide written by past TFs!
+Questions?
+

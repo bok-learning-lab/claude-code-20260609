@@ -1,0 +1,273 @@
+Name:_________ANSWERKEY_________________________________________
+
+
+
+                                             ES 53: Quantitative Physiology
+                         Quiz 1 – Cellular Electrophysiology, Muscle Contraction, and Cardiac
+                                                   Electrophysiology
+
+
+Instructions:
+  Initial each page.
+  Show all work.
+  You may use a calculator (no phones or devices that connect to the internet) and may use one, one-sided
+sheet of pre-written/typed notes.
+  You may write on the blank pages, but clearly label which questions you are answering and your final
+answers. You may keep your note sheet after the exam is over.
+  You will have 75 minutes to complete the exam.
+
+
+Nernst Eq
+-61 mV *(log(Cin/Cout))/z
+Where        R = the gas constant [ 8.314 J / (mol K) ]
+T = absolute temperature [K]; assume body temp in constant = 310 K
+F = Faraday’s constant [ 9.64 x104 J / (V mol) ] or [C/mol]
+z = valence (charge) of the ionic species
+
+Chord Conductance Eq
+              𝑔𝑔𝑁𝑁𝑁𝑁 𝐸𝐸𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 𝐸𝐸𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶 𝐸𝐸𝐶𝐶𝐶𝐶
+𝑉𝑉𝑐𝑐ℎ𝑜𝑜𝑜𝑜𝑜𝑜 =
+                      𝑔𝑔𝑁𝑁𝑁𝑁 + 𝑔𝑔𝐾𝐾 + 𝑔𝑔𝐶𝐶𝐶𝐶
+
+GHK Eq
+
+
+
+
+                                                                                   Normal Values:
+Acronyms:                                                                          ~130 mL
+Left Ventricle End Diastolic Volume (EDV)                                          ~50 mL
+Left Ventricle End Systolic Volume (ESV)                                           ~5-10 mmHg
+Left Ventricle End Diastolic Pressure (EDP)                                        ~95 mmHg
+Left Ventricle End Systolic Pressure (ESP)                                         ~120 mmHg / 80 mHg
+Blood Pressure (BP) including systolic and diastolic pressure
+
+
+Cardiac parameters                                          Typical units:             Normal Values:
+Mean Arterial Pressure (MAP)                        Units: mmHg, or N/m2, or Pa        ~93 mmHg
+Stroke Volume (SV)                                  Units:mL                           ~70-100 mL
+Cardiac Output (CO)                                 Units:L/min                        ~5 L/min
+Heart Rate (HR)                                     Units:beats per minute (bpm)       ~60-70 bpm
+Work                                                Units: Joules (N∙m)
+1. [9 pts] A cell has the following conditions (ignore Ca+2):
+
+
+[Na+]o = 150 mM                [Na+]i = 12 mM
+[K+]o = 4 mM                   [K+]i = 150 mM
+[Cl-]o = 125 mM                [Cl-]i = 9 mM
+
+The relative conductances of the ions are as follows: gK = 5 gNa and gNa = 0.4 gCl
+
+a) What is the Vmem (membrane potential) of this cell (list your answer in mV)?
+Ex = -61 mV *(log(Cin/Cout))/z (plug in values)
+ENa = 66.9 mV
+EK = -96.0 mV
+ECl = -69.7 mV
+
+
+Using the Chord conductance equation
+             𝑔𝑔 𝐸𝐸 +𝑔𝑔 𝐸𝐸 +𝑔𝑔 𝐸𝐸 +𝑔𝑔 𝐸𝐸
+𝑉𝑉𝑐𝑐ℎ𝑜𝑜𝑜𝑜𝑜𝑜 = 𝑁𝑁𝑁𝑁 𝑁𝑁𝑁𝑁 𝐾𝐾 𝐾𝐾 𝐶𝐶𝐶𝐶 𝐶𝐶𝐶𝐶 𝐶𝐶𝐶𝐶 𝐶𝐶𝐶𝐶 (It’s ok if gCa wasn’t included since it doesn’t play a significant role.)
+                      𝑔𝑔 +𝑔𝑔 +𝑔𝑔 +𝑔𝑔
+                   𝑁𝑁𝑁𝑁   𝐾𝐾    𝐶𝐶𝐶𝐶   𝐶𝐶𝐶𝐶
+
+
+Vmem = -69.1 mV
+b) [4] If a shot of potassium chloride was delivered such that the extracellular concentrations of both potassium and
+chloride increased by 40mM what would happen to the membrane potential? Quantitatively show your reasoning.
+Would this make it (circle one) easier / harder / no change for the cell to reach the threshold potential for an action
+potential?
+The concentrations outside would both equally increase by 40mM for both ions. While the net charge on the outside is
+unchanged the Nernst potentials would be different and this would lead to a new, higher, resting potential.
+The new Vmem would be: -33.9 mV (show your work)
+This voltage level is potentially high enough to be above the threshold for initiating an action potential.
+If it’s above the threshold then it would likely interfere with the ability of the voltage sensitive channels to reset.
+Therefore either a) further action potentials couldn’t be initiated, or b) the cell would be repeatedly firing action potentials
+as fast as possible.
+
+c) In the case above for part (b) what happens to the driving voltage for IK? Does it increase, decrease or stay the same?
+The new Nernst potential for K is: -32.5 mV and the new Vmem is -33.9 mV so the new driving voltage becomes ~ -1.4
+mV which means that there is very little driving potential. This means that there is very little K current.
+
+
+
+
+Initials:___                                                                                                                   2
+2. [ pts] Myotonia is the inability to relax (a) skeletal muscle(s) after a voluntary contraction. These were initially
+described in medical literature in the early 1900s. Some types of myotonia are now known to be caused by mutations of
+voltage-gated ion channels. One specific type of myotonia is caused by “gain-of-function” changes to the voltage-
+dependent gating of NaV1.4 sodium channels in skeletal muscles.
+a) On the graph to the left below show how the sodium conductance curve would change, if at all, if the sodium activation
+gates had both i) a greater resting probability of being open due to the mutation and ii) a faster activation rate. [Assume
+this is for a similar experiment where the membrane potential is forced to increase to ~+23mV).
+See graph. The peak should be higher. The rise should start sooner. The peak should be slightly wider.
+
+b) On the graph to the right below draw how the resulting action potential would differ with this sodium channel mutation,
+if at all. Then briefly describe any differences in a few words.
+See graph. The peak should be higher. The rise should start sooner. The AP should be wider. The resting Vmem should be
+higher.
+                       50                                                                       100
+                                                                       gNa
+                                                    Mutant                                                                                 Mutant
+                                                                       gK
+                       40
+
+
+
+
+Conductance (mS/cm2)
+                                                                                    Vmem (mV)
+                       30
+                                                                                                  0
+                       20
+
+
+                       10
+
+                        0                                                                  -100
+                            0          2         4        6        8           10
+                                                time (ms)                                             0   2                 4         6    8        10
+                                                                                                                            Time (ms)
+
+c) Which of the following kinetic parameters to the right influence the activation of the
+                                                                                                                                          n0   m0        h0
+sodium channels? (Circle all that apply)
+                                                                                                                                          n∞   m∞        h∞
+                                                                                                                                          τn   τm        τh
+
+d) Write an equation for the sodium conductance as a function of time including any of the applicable kinetic parameters
+from above.
+                       𝑔𝑔𝑁𝑁𝑁𝑁 (𝑡𝑡) = [𝑚𝑚(𝑡𝑡)]3 ∙ ℎ(𝑡𝑡) ∙ 𝑔𝑔𝑁𝑁𝑁𝑁𝑚𝑚𝑚𝑚𝑚𝑚 Where:
+                                                                                                                   𝑡𝑡
+                                                                                                               −( )
+                                                                             𝑚𝑚(𝑡𝑡) = 𝑚𝑚∞ − (𝑚𝑚∞ − 𝑚𝑚0 )𝑒𝑒       𝜏𝜏𝑚𝑚
+                                                                                                                   𝑡𝑡
+                                                                                                              −(        )
+                                               ℎ(𝑡𝑡) = ℎ∞ − (ℎ∞ − ℎ0 )𝑒𝑒 𝜏𝜏ℎ
+e) Another mechanism behind some myotonias is a reduction of the resting chloride conductance. What, if anything, is
+different about the resting membrane potential of these myotonic muscle cells if the chloride conductance was 10x
+smaller than normal muscle cells? (Circle all that apply)
+                                  i.       the membrane potential increases
+                                 ii.       the membrane potential is no longer at rest
+                                iii.       the membrane potential decreases
+                                iv.        the membrane potential stays the same  b/c chloride doesn’t affect the Vmem much and ECl is very
+                                           close to Vmem anyway
+                                 v.        the chloride Nernst potential increases
+                                vi.        the chloride Nernst potential decreases
+
+Initials:___                                                                                                                                                  3
+3. [14 pts] You’re running an experiment with two muscles both of which have                                       Muscle 1            Muscle 2
+nearly the same length-tension relationship as shown below to the left. One muscle                            a    20 N                80N
+is composed of primarily fast twitch fibers and one is composed of mostly slow                                b    0.2 m/s             0.4 m/s
+twitch fibers. A thermodynamic experiment like that run by A.V. Hill was used to                              Vmax 0.4 m/s             0.2 m/s
+collect a, b, and Vmax for each muscle. Given the length-tension curves for these
+muscles and the constants answer the following:
+
+                        Length-Tension Curve                                                                Tension-Velocity Curve
+                                                                                      0.5
+
+
+
+
+      Tension (N)
+                                                                                      0.4
+
+
+
+
+                                                                                                                                               Power (N·m/s)
+                                                                     Velocity (m/s)
+                                                                                      0.3
+
+
+
+
+10 20 30 40 50 60
+                                                                                                Fast
+                                                                                      0.2
+
+
+                                                                                      0.1       Slow
+
+
+                                                                                                                             *
+                                                                                       0
+
+                    3     4        5      6    7                                            0          10     20       30        40   50
+                              Length (cm)                                                                          Tension (N)
+
+       a) [1] If you want to maximize the tension generated in each muscle, at what length (in cm) should each start?
+          Both at 5cm.
+
+       b) [1] Based on the table, which muscle is the slow twitch and which is the fast twitch muscle?
+          Muscle 1 is (circle one) FAST SLOW                        Muscle 2 is (circle one) FAST SLOW
+
+       c) [1] Shown on the left graph are the active length-tension relationships for these two muscles. Given that these are
+          skeletal muscles, draw the passive length-tension relationship for the dark blue muscle on the same left axes.
+          See graph
+
+       d) [4] On the graph on the right draw the tension-velocity curves for the two muscles (assume a starting length of 5
+          cm) and clearly delineate which is which. Clearly include accurate values for the axes. Denote the values of To and
+          Vmax for each.
+          Need to calc T0 for each  T0 = Vmax *(a/b)                         Mus 1 T0 = 0.4 m/s *(20N/0.2m/s) = 40 N
+          See graph                                                           Mus 2 T0 = 0.2 m/s *(80N/0.4m/s) = 40 N
+       e) [1] Place a star on your the tension-velocity graph wherever isometric contraction occurs.
+          See graph
+       f) [4] Consider Hill’s model of the force-velocity relationship for a muscle fiber and how it relates to muscle power.
+          Calculate the power of the fast twitch muscle under a load of 20N. (Recall Power has units of Watts or Joules/s.)
+
+                                                       fast muscle 1:v = 0.2 ms *(40N – 20N) / (20N+20N) = 0.1 m/s
+
+                                                       Power = v*T = 0.1 m/s * 20N = 2 N·m/s = 2 Joules/s = 2 Watts
+
+       g) [2] How much work is done by this muscle in 1 second? [Feel free to use the last page if you need more space.]
+          Work is F*d or W/t  W(1 sec) = 2 J/s * 1s = 2 Joules
+
+
+
+
+Initials:___                                                                                                                               4
+4. (10 pts) Mitral valve stenosis lends to non-optimal cardiac function. Consider two people, one
+   of                                        h have a heart rate of 60 bpm and are otherwise the
+same.
+which has mitrnl stenosis. Assume they bot
+a)
+[Do not [I] Where
+        assume   anyislong
+                       the mitral valve
+                           tern, remodeling.]
+located? In other words, between which
+two parts of the cardiovascular system is
+the mitral valve located?
+
+    -\ we " +h \ f t o\-11 uM
+       \ I t1 vef t, ·1e,\ e..
+b)      [I] Below you are given a
+"nonnal" PV loop. Indicate on the left
+graph below how the PV loop would differ
+for someone with mitral valve stenosis, if
+at all.
+    1' re._s\5 ian (Q, fr-nm LA � U/
+   ,t, �1\tl\_5                                                              50         100               ISO
+   - no cna n9e. ·,n a++e,loet J                                              Volumc(mL)
+c) r41 How would you expect it to affect the following, if at all: (increase/decrease/no change)
+ End Diastolic Volume
+                                            Io wer / deue_"-.s,e
+ End Systolic Volume
+                                             no    Cf\Cl."Cj e
+ Preload
+                                             cle u--e.c,.�
+ Afterload
+                                             Y\O    cY'iQJJ�
+                                                             f
+
+d) [4] Based on this disease/disorder how to you expect the following to differ from normal, if at all? Show your
+quantitative reasoning. �ferJ, o" f\l loor ctbove                          sv  .t,,
+
+Stroke work:     Increase        <Qecrea;)         No change             SW= '51/ • MAP
+
+Stroke Power: Increase
+                               (9                  No change              sf: 6W • \HY�o
+Ejection fraction: Increase                        No change              E-f: sv /fJ:N
+                               �
+

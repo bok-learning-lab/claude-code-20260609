@@ -1,0 +1,600 @@
+ ES 53 - Quantitative Physiology                                                             Fall 2025
+                                           Module 4:
+                                        Renal Physiology
+
+
+
+Outline for Renal (~4 lectures):
+   • Part I: Renal anatomy and basic function
+   • Part II: Filtration, reabsorption, and blood flow
+   • Part III: Renal regulation and renal diseases/conditions
+
+
+
+
+Learning Objectives - By the end of this module you should be able to do the following (or answer
+the following questions). Use the learning objectives to guide your reading & studying for this module.
+
+   1) Trace the flow of blood through the kidney, from abdominal aorta through to inferior vena cava.
+       What vessels does the blood pass through, and in what order? What is unique about the renal
+       circulation compared to all other circulations we have discussed?
+   2) Define the purpose of the components of the functional unit of the kidney: the nephron.
+   3) Show how the four pressures involved in Bowman’s space and the capillaries lead to the driving
+       pressure of filtration.
+   4) Sketch a graph of renal blood flow and glomerular filtration rate as a function of afferent arteriole
+       (AA) resistance and of efferent arteriole (EA) resistance. Explain similarities and differences in
+       the effects of AA and EA resistance on renal blood flow.
+   5) What does glomerular filtration rate (GFR) mean and what are its units? What does clearance
+       mean? What is renal plasma flow (RPF)? Calculate GFR, clearance, and renal plasma flow for
+       given substances such as inulin, PAH, and creatinine.
+   6) Explain differences in filtration, reabsorption, secretion, excretion, and endogenous production.
+       Differentiate the aforementioned states for inulin, creatinine, glucose, PAH, urea, and albumin.
+   7) What are the classic examples of substances that are fully cleared and that are only filtered in
+       the glomerulus? And which represents a good approximation of GFR, which represents a good
+       approximation of RPF?
+   8) What is the relationship between clearance [L/min], plasma concentration [g/L] or [mmol/L], and
+       excretion rate [g/min]?
+   9) Derive an equation for the transient (non-steady state) amount of creatinine or inulin in the blood
+       over time and determine the exponential solutions that model renal filtration over time. You
+       should be able to find the time required to reach a given % reduction in blood concentration of a
+       substance.
+   10) Explain how decreased mean arterial pressure (MAP) causes increased fluid retention in heart
+       failure patients.
+   11) Explain how diuretics/anti-diuretics change kidney function to increase or decrease urine output,
+       and thereby influence blood volume.
+
+
+
+
+                                                                                                          1
+Required Pre-reading:
+• Physiology (Fox, 13th Ed.)
+   Chapter 17: following sections:
+   17.1, 17.2, 17.3, 17.4, 17.6
+
+•   Medical Physiology (Boron and Boulpaep, 3rd Ed. ONLINE in HOLLIS):
+    Chapter 33: following sections (skip the blue boxes):
+       o “Functional Anatomy of the Kidney”
+       o “Main elements of renal function”
+       o “Measuring renal clearance and transport”
+    Chapter 34: following sections (skip the blue boxes):
+       o “Glomerular filtration”
+       o “Renal blood flow”
+    Chapter 38: following sections (skip the blue boxes):
+       o “Urine concentration and dilution”
+
+
+
+
+                  Be sure you can define/describe the following before this module:
+
+    •   Glomerular filtration rate                •   Clearance                          •    Urea
+    •   Filtration                                •   Endogenous                         •    Nephron
+    •   Reabsorption                              •   Inulin                             •    Glomerulus
+    •   Secretion                                 •   Creatinine                         •    Diuretic
+    •   Excretion                                 •   Albumin                            •    Hemodialysis
+
+
+
+
+The following figures, guidelines and notes are meant only as a guide to refer to during and after lectures. They are
+not meant to replace note-taking. It is critical that you take notes, complete the pre-reading, and ask questions in
+office hours. No answer keys will be given for these handouts. It is each student’s responsibility to take good notes.
+
+                                                                                                                         2
+Help with learning to take good notes is available at the Bureau of Study Council or by consulting the teaching staff /
+instructor.
+Preliminary questions:
+
+    1) Why study the renal and urinary system? How many people are affected by kidney issues?
+
+
+    2) What is the primary purpose of the renal system? (i.e. what does it maintain?)
+
+
+Part I: Renal anatomy and basic function
+
+
+
+
+                                                                                                                      3
+Figure 1: Macroscopic and microscopic renal anatomy. [from Fox]
+Kidneys regulate the concentration of water and soluble substances like salts by filtering the blood,
+reabsorbing what is needed and excreting the rest as urine.
+
+Macroscopic structure of the kidney
+  • Cortex contains many capillaries and outer parts of nephrons
+  • Medulla consists of renal pyramids
+         • Pyramid contains minor calyces which unite to form a major calyx
+         • The loop of Henle is loops into the medulla
+
+The Nephron is the functional unit of kidney; responsible for forming urine
+      >1 million nephrons/kidney
+A nephron eliminates wastes, regulates blood volume and pressure, controls levels of electrolytes and
+metabolites, and regulates blood pH.
+
+Renal blood vessels
+   • Arteries give rise to afferent arterioles which supply glomeruli
+   • Glomeruli are mass of capillaries inside the glomerular capsule that gives rise to filtrate that
+       enters nephron tubule
+   • Efferent arteriole drains glomerulus and delivers that blood to peritubular capillaries (vasa recta)
+
+
+
+
+Figure 2: Nephron structure, associated blood vessels, and interface with the two capillary vascular
+networks (glomerulus and peritubular capillaries). [from Fox]
+
+
+                                                                                                        4
+Figure 3: Glomerulus and Bowman’s capsule. [from Boron and Boulpaep]
+
+Exercise for after class: Draw your own nephron and the functional components of the nephron. Check
+it against your textbook or the figures from the corresponding lecture.
+Label:
+     • glomerulus,
+     • proximal convoluted tubule (PCT),
+     • distal convoluted tubule (DCT),
+     • Bowman’s capsule,
+     • afferent and efferent arterioles,
+     • loop of Henle
+             o including ascending
+             o and descending limbs,
+     • collecting tubule (CT),
+             o denote the part in the cortex,
+             o denote the part in the medulla
+
+
+
+
+                                                                                                  5
+Part II: Filtration, reabsorption, and blood flow
+
+Glomerular Filtration
+Bowman’s capsule surrounds glomerulus Together they form renal corpuscle  where glomerular
+filtration occurs
+Filtrate passes into proximal collecting tubule
+      • To enter tubule filtrate must pass through narrow slit diaphragms of glomerulus
+      • Glomerular capillaries and Bowman's capsule form a filter for blood
+      • Glomerular Caps are fenestrated--have large pores between its endothelial cells
+      • Big enough to allow most plasma molecules to pass
+      • 100-400 times more permeable than other Caps
+      • Plasma proteins are mostly excluded from the filtrate because of large size and negative
+          charge
+             • The slit diaphragms are lined with negative charges which repel negatively-charged
+                 proteins
+             • Some protein (especially albumin) normally enters the filtrate but most is reabsorbed
+                 by receptor-mediated endocytosis
+                     • In some diseases, a lot of protein appears in the urine (=proteinuria)
+
+
+Glomerular filtration and driving pressures
+
+Glomerular capillary hydrostatic pressure =
+
+Osmotic (oncotic) pressure in capillary =
+
+Bowman’s capsule hydrostatic pressure =
+
+Osmotic (oncotic) pressure in Bowman’s space =
+
+Total GF driving pressure =
+
+
+
+Q: What happens to glomerular filtration rate (GFR) as hydrostatic pressure increases?
+
+
+
+Q: What happens to the driving pressure and the filtration rate as the diameters of the afferent and
+efferent arterioles constrict or dilate? Use up and down arrows to delineate your answers.
+
+                                   Constrict/Dilate Diameter          Filtration
+                   Afferent        Dilate
+
+                   Afferent        Constrict
+
+                   Efferent        Dilate
+
+                   Efferent        Constrict
+
+
+                                                                                                       6
+Regulation of GFR
+   • Is controlled by extrinsic and intrinsic (autoregulation) mechanisms
+   • Vasoconstriction or dilation of afferent arterioles affects rate of blood flow to glomeruli and thus
+      GFR Constriction/dilation affects net filtration pressure
+
+
+Q: What is glomerular filtration rate (GFR) in your own words? What are its units?
+
+
+
+
+Q: What is the average glomerular filtration rate of plasma? Calculate this based on the average
+cardiac output going to the kidneys, average plasma content of blood, and the fact that normally
+~20% of plasma is filtered into Bowman’s capsules.
+
+
+
+
+Renal Clearance
+
+Q: What is renal plasma flow (RPF), and how is it defined?
+
+
+
+
+Q: What is renal plasma clearance (RPC)? How is it defined? How is it calculated? How is it estimated
+from clinical tests?
+
+
+
+
+Q: What is a good molecular marker of glomerular filtration rate GFR? Why?
+
+
+Q: What is a good molecular model for measuring renal plasma flow (RPF)? Why?
+
+
+
+                                                                                                       7
+Example questions:
+
+1. In a certain person the average glomerular capillary pressure is 50 mm Hg, plasma oncotic pressure is 22 mm
+Hg, the hydrostatic pressure within Bowman’s space is 20 mm Hg, and the ultrafiltrate oncotic pressure is 0
+mm Hg. It has been experimentally determined that the filtration coefficient, Kf, is 10 mL/(min*mmHg).
+
+   a) What is the GFR?
+
+
+
+
+   b) The efferent arterioles all constrict. Does the net driving pressure increase, decrease, or stay the
+      same? And why? Specifically which component(s) of the driving pressure change(s), if any?
+
+
+
+
+   c) What is the corresponding GFR in this case of constricted efferent arteries assuming a 20% change was
+      induced in each pressure you listed in part b?
+
+
+
+
+                                                                                                             8
+                                             2. Below are five substances that were discussed
+                                             with respect to renal physiology. For each
+                                             substance, write “Y” for yes, and “N” for no if the
+                                             substance listed is filtered in the glomerulus,
+                                             reabsorbed, secreted, excreted, and produced
+                                             endogenously (i.e. naturally produced by the human
+                                             body) in a healthy, “normal” adult.
+
+
+
+
+                   Filtered                                                       Produced
+ Substance      in glomerulus   Reabsorbed    Secreted          Excreted          Endogenously
+inulin
+
+creatinine
+
+glucose
+PAH (P-amino-
+hippurate)
+urea
+
+albumin
+
+
+
+
+                                                                                              9
+3. [18 pts] A drug company is trying to determine the clearance characteristics of a new drug they have
+designed, called “EScure-53.” They have begun initial human testing and have acquired the blood and urine
+test results in a human subject as listed below. The person has a hematocrit of 0.40. The following test results
+were obtained over a 24-hour period:
+
+  urine volume = 1.2 L                      blood volume = 5 L
+  urine [inulin] = 2 mg/mL                  blood [inulin] = 0.012 mg/mL
+  urine [urea] = 220 mmol/L                 blood [urea] = 3 mmol/L
+  urine [PAH] = 60 mg/mL                    blood [PAH] = 0.09 mg/mL
+  urine [drug] = 10 mg/mL                   blood [drug] = 0.042 mg/mL
+
+Calculate:
+
+    a) Renal plasma flow (RPF) and the renal blood flow (RBF) in mL/min
+
+
+
+
+    b) Glomerular filtration rate (GFR) in mL/min
+
+
+
+
+    c) The rate of filtration of the drug in mg/min
+
+
+
+
+    d) The rate of excretion of the drug in mg/min
+
+
+
+
+    e) What is the clearance rate of this drug from the blood in mL/min?
+
+
+
+
+    f)   Based on the test results, is the new drug fully excreted, partially excreted, or not excreted at all? How
+         do you know? Is there any net secretion or reabsorption of the drug? How do you know?
+
+
+                                                                                                                 10
+4. [24 pts] A marathon runner has 6 liters of blood, a hematocrit of 0.5, and the following physiological states as
+listed below when he is at rest vs. during exercise. Assume this marathon runner is practicing indoors on a
+treadmill. He has been running for a couple hours and is then injected with 100 mg of inulin. After the inulin
+concentration in his blood has declined by 50% he stops running.
+
+                                             Rest               Exercise
+Heart rate (beats per minute):               60                 120
+Cardiac output:                              6 L/min            30 L/min
+Percent of blood going to the kidneys:       20%                4%
+Percent of blood going to muscles:           20%                80%
+Percent of blood going to brain:             15%                4%
+
+    a) What is the runner’s stroke volume at rest and during exercise?
+
+
+
+
+    b) What is the blood flow to the kidneys (RBF) in mL/min at rest and during exercise?
+
+
+
+
+    c) If 25% percent of the renal plasma flow (RPF) is filtered in the kidney through the glomeruli at rest and
+       during exercise, what are the glomerular filtration rates (GFR) at rest and during exercise?
+
+
+
+
+    d) Draw a time vs. concentration graph of inulin concentration in the blood. The injection time has been
+       denoted. Be sure to include the correct max and min concentrations, and label the units for both axes.
+         )
+
+
+
+
+         Concentration (units:
+
+
+
+
+                                                       Time (units:        )     ?
+                                   Inulin                                        Stop
+                                 injection                                     running
+
+
+
+                                                                                                                 11
+e) Write an equation that describes the blood inulin concentration over time before the injection, but
+   during exercise.
+
+
+
+
+f)   Write an equation that describes the blood inulin concentration over time starting immediately after the
+     injection, and during exercise. Additionally, clearly denote what is the time constant for the rate of inulin
+     reduction in this scenario.
+
+
+
+
+g) How long after the inulin injection does the runner stop running given that we know he stops running
+   when the inulin concentration drops by 50%?
+
+
+
+
+h) Write a new equation for the inulin concentration over time after the runner stops running. Assume he
+   immediately switches back to “rest” levels.
+
+
+
+
+                                                                                                               12
+Part III: Renal regulation and renal diseases/conditions
+
+Renal Regulation
+
+Regulation of GFR
+   1. Vasoconstriction or dilation of afferent arterioles changes filtration rate.
+          a. Extrinsic regulation via sympathetic nervous system
+          b. Intrinsic regulation via signals from the kidneys; called renal autoregulation
+   2. Sympathetic Nerve Effects
+          a. In a fight/flight reaction, there is vasoconstriction of the afferent arterioles.
+          b. Helps divert blood to heart and muscles
+          c. Urine formation decreases to compensate for the drop in blood pressure
+   3. Renal Autoregulation
+          a. GFR is maintained at a constant level even when blood pressure (BP) fluctuates greatly.
+                  1) Afferent arterioles dilate if BP < 70.
+                  2) Afferent arterioles constrict if BP > normal.
+          b. Myogenic constriction: Smooth muscles in arterioles sense an increase in blood
+              pressure.
+          c. Tubuloglomerular feedback: Cells in the ascending limb of the loop of Henle called
+              macula densa (part of juxtaglomerular apparatus) sense a rise in water and sodium as
+              occurs with increased blood pressure (and filtration rate). They send a chemical signal
+              (ATP) to constrict the afferent arterioles
+                  • If afferent arterioles constrict what happens to GFR?
+                  • If afferent arterioles constrict what happens to urine production?
+
+Collecting Duct and ADH
+    1. Last stop in urine formation
+    2. Impermeable to NaCl but permeable to water
+            a. Also influenced by hypertonicity of interstitial space – water will leave via osmosis if able
+                 to
+            b. Permeability to water depends on the number of aquaporin channels in the cells of the
+                 collecting duct
+            c. Availability of aquaporins determined by ADH (antidiuretic hormone; arginine
+                 vasopressin)
+    3. ADH binds to receptors on collecting duct cells 
+        cAMP  Protein kinase  Vesicles with aquaporin channels fuse to plasma membrane.
+            a) Water channels are removed without ADH.
+    4. ADH is produced by neurons in the hypothalamus but stored and released from the posterior
+        pituitary gland
+            a) Release stimulated by an increase in blood osmolality
+
+
+Electrolyte Balance
+   • Kidneys regulate levels of Na+, K+, H+, HCO3-, Cl-, and PO4-3 by matching excretion to ingestion
+   • Control of plasma Na+ is important in regulation of blood volume and pressure
+   • Control of plasma of K+ is important in proper function of cardiac and skeletal muscles
+
+
+
+
+                                                                                                          13
+Juxtaglomerular Apparatus
+   1. Located where the afferent arteriole comes into contact with the distal tubule
+   2. A decrease in plasma Na+ results in a fall in blood volume.
+          a. Sensed by juxtaglomerular apparatus
+          b. Granular cells secrete renin into the afferent arteriole.
+          c. This converts angiotensinogen into angiotensin I.
+          d. Angiotensin-converting enzyme (ACE) converts this into angiotensin II.
+   3. Stimulates adrenal cortex to make aldosterone
+          a. Promotes the reabsorption of Na+ from cortical collecting duct
+          b. Promotes secretion of K+
+          c. Increases blood volume and raises blood pressure
+   4. Regulation of Renin Secretion
+          a. Low salt levels result in lower blood volume due to inhibition of ADH secretion.
+                   • Less water is reabsorbed in collecting ducts and more is excreted in urine.
+          b. Reduced blood volume is detected by granular cells that act as baroreceptors. They
+              then secrete renin.
+                   • Granular cells are also stimulated by sympathetic innervation from the
+                       baroreceptor reflex.
+   5. Macula Densa
+          a. Part of the distal tubule that forms the juxtaglomerular apparatus
+          b. Sensor for tubuloglomerular feedback needed for regulation of glomerular filtration rate
+                   • When there is more Na+ and H2O in the filtrate, a signal is sent to the afferent
+                       arteriole to constrict limiting filtration rate.
+                   • Controlled via negative feedback
+          c. When there is more Na+ and H2O in the filtrate, a signal is sent to the afferent arteriole to
+          inhibit the production of renin.
+                   • This results in less reabsorption of Na+, allowing more to be excreted.
+                   • This helps lower Na+ levels in the blood.
+
+Atrial Natriuretic Peptide
+    1. Increases in blood volume also increase the release of atrial natriuretic peptide hormone from
+        the atria of the heart when atrial walls are stretched.
+    2. Stimulates kidneys to excrete more salt and therefore more water
+    3. Decreases blood volume and blood pressure
+    4. In addition to atrial natriuretic peptide (ANP), scientists have discovered a natriuretic hormone
+        released by the heart’s ventricles called B-type natriuretic peptide (BNP).
+    5. BNP is secreted in response to increased volume and pressure within the ventricles, and it acts
+        like ANP to promote diuresis.
+    6. The secretion of BNP increases in congestive heart failure (CHF) so measurements of the blood
+        level of BNP are used clinically to help diagnose CHF.
+
+Diuretics
+   1. Used clinically to control blood pressure and relieve edema (fluid accumulation)
+          a. Diuretics increase urine volume, decreasing blood volume and interstitial fluid volume.
+          b. Many types act on different portions of the nephron.
+   2. Types of Diuretics
+          a. Loop diuretics: most powerful; inhibit salt transport out of ascending loop of Henle
+                 • Example: Lasix
+                 • Can inhibit up to 25% of water reabsorption
+
+                                                                                                        14
+           b. Thiazide diuretics: inhibit salt transport in distal tubule
+                  • Can inhibit up to 8% of water reabsorption
+           c. Carbonic anhydrase inhibitors: much weaker; inhibit water reabsorption when
+              bicarbonate is reabsorbed
+                  • Also promote excretion of bicarbonate
+
+Renal Function Tests
+   1. PAH and inulin clearance
+          a. Can diagnose nephritis or renal insufficiency
+   2. Urinary albumin excretion rate: detects above-normal albumin excretion
+          a. Called microalbuminuria
+          b. Signifies renal damage due to hypertension or diabetes
+   3. Proteinuria: overexcretion of proteins; signifies nephrotic syndrome
+
+
+
+
+Renal Diseases/Conditions
+See: https://www.niddk.nih.gov/health-information/health-statistics/kidney-disease
+
+Chronic kidney disease (CKD): any condition that causes reduced kidney function over a period of time.
+CKD is present when a patient’s glomerular filtration rate remains below 60 milliliters per minute for
+more than 3 months or when a patient’s urine albumin-to-creatinine ratio is over 30 milligrams (mg) of
+albumin for each gram (g) of creatinine (30 mg/g).
+
+End-stage renal disease (ESRD): total and permanent kidney failure. When the kidneys fail, the body
+retains fluid. Harmful wastes build up. A person with ESRD needs treatment to replace the work of the
+failed kidneys.
+
+Acute kidney injury (AKI): sudden, temporary, and sometimes fatal loss of kidney function incidence:
+
+Acute Renal Failure
+   1. Ability of kidneys to regulate blood volume, pH, and solute concentrations deteriorates in a
+       matter of hours/days.
+   2. Usually due to decreased blood flow through kidneys due to:
+          a. Atherosclerosis of renal arteries
+          b. Inflammation of renal tubules
+          c. Use of certain drugs (NSAIDs)
+
+Glomerulonephritis
+   1. Inflammation of the glomerulus
+   2. Autoimmune disease with antibodies produced in response to streptococcus infection
+   3. Many glomeruli are destroyed, and others are more permeable to proteins.
+   4. Loss of proteins from blood reduces blood osmotic pressure and leads to edema.
+
+Renal Insufficiency
+   1. Any reduction in renal activity
+   2. Can be caused by glomerulonephritis, diabetes, atherosclerosis, or blockage by kidney stones
+   3. Can lead to high blood pressure, high blood K+ and H+, and uremia = urea in the blood.
+   4. Patients with uremia are placed on a dialysis machine to clear blood of these solutes.
+                                                                                                       15
+Polycystic Kidney Disease
+   1. PKD is a congenital disorder in which the kidneys are enlarged by hundreds to thousands of
+       fluid-filled cysts that form in all segments of the nephron and eventually separate from the
+       tubules.
+   2. Autosomal dominant polycystic kidney disease accounts for most cases and affects almost 1 in
+       1,000 people.
+   3. The gene responsible for 85% of ADPKD is located on chromosome 16 and codes for a protein
+       called polycystin-1,whereas a gene located on chromosome 4 that codes for polycystin-2 is
+       responsible for the other cases.
+   4. There is no cure presently available, only treatments for the complications of this disease.
+
+Diabetes Insipidus (not the same as Type I or II diabetes)
+   1. Diabetes insipidus is characterized by polyuria (a large urine volume), thirst, and polydipsia
+       (drinking a lot of fluids). The urine is dilute, with a hypotonic concentration of less than 300
+       mOsm.
+   2. There are two major types of diabetes insipidus:
+           a. Central diabetes insipidus-inadequate secretion of ADH
+           b. Nephrogenic diabetes insipidus- inability of the kidneys to respond to ADH.
+   3. Nephrogenic diabetes insipidus may be caused by genetic defects in either the aquaporin
+       channels or the ADH receptors. usually has a genetic cause that permanently alters the kidneys'
+       ability to concentrate the urine
+   4. It can be acquired as a response to drug therapy (e.g from lithium given to treat bipolar disorder)
+       or other causes.
+   5. People with central diabetes insipidus can take desmopressin when needed, and those with
+       nephrogenic diabetes insipidus must drink a lot of water to prevent dehydration.
+
+Dialysis
+    1. “Artificial” kidney
+    2. Hemodialysis – blood cleansed of wastes as it passes through dialysis fluid
+    3. CAPD – continuous ambulatory peritoneal dialysis – dialysis fluid introduced to the abdominal
+        cavity where wastes can pass out of abdominal blood vessels; fluid is then pumped out of the
+        abdominal cavity
+
+
+
+
+                                                                                                       16
+

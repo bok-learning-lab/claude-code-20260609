@@ -1,0 +1,254 @@
+ES 53
+2025
+
+
+       Module 5
+    Renal Physiology
+
+        (Nov. 14, 2025)
+
+                          1
+https://www.youtube.com/watch?v=yw_nqzVfxFQ
+                                              2
+https://www.nytimes.com/2022/11/10/business/home-dialysis-tablo-outset.html 3
+                                                                    4
+https://www.nytimes.com/2022/10/25/us/hurricane-ian-dialysis.html
+Part I: Renal anatomy and basic
+function
+
+
+
+
+                                  5
+Gross anatomy of the urinary tract
+Nephron
+
+
+
+
+• Is functional unit
+  of kidney;
+  responsible for
+  forming urine
+• >1 million
+  nephrons/kidney
+Renal Blood Vessels
+• Arteries give rise to afferent arterioles which supply glomeruli
+• Glomeruli are mass of capillaries inside glomerular capsule that gives rise to
+  filtrate that enters nephron tubule
+• Efferent arteriole drains glomerulus and delivers that blood to peritubular
+  capillaries (vasa recta)
+ Q: What happens to the driving pressure and the
+ filtration rate as the diameters of the afferent and
+ efferent arterioles constrict or dilate? Use up and
+ down arrows to delineate your answers.
+             Constrict/Dilate   Diameter   Filtration
+Afferent     Dilate
+
+Afferent     Constrict
+
+Efferent     Dilate
+
+Efferent     Constrict
+
+
+
+Q: What is glomerular filtration rate (GFR) in your
+own words? What are its units?
+                                                        10
+Recall blood flow and oxygen delivery
+
+
+
+
+               Brain
+
+
+
+                       Muscles
+Glomerular Filtration and Bowman’s Capsule
+• Bowman’s capsule surrounds glomerulus  Is where glomerular filtration
+  occurs
+• Glomerular capillaries are fenestrated--have large pores between its
+  endothelial cells
+        • Big enough to allow most plasma molecule to pass
+        • 100-400 times more permeable than other capillaries
+Glomerular Filtration
+                                                 14
+https://www.sciencephoto.com/media/310514/view
+                                                  15
+https://www.sciencephoto.com/media/1152334/view
+                                                                                                  16
+https://www.sciencephoto.com/media/1152336/view/medullary-rays-in-renal-cortex-light-micrograph
+                                                  17
+https://www.sciencephoto.com/media/1152337/view
+                                                  18
+https://www.sciencephoto.com/media/1141122/view
+                                          19
+https://apchute.com/urinary/nephron.htm
+                                                          20
+https://www.microscopyu.com/gallery-images/mousekidney2
+                                                  21
+https://www.sciencephoto.com/media/1183893/view
+Part II: Filtration, reabsorption and
+blood flow
+
+
+
+
+                                   22
+Glomerular Ultrafiltrate
+• Is fluid that enters glomerular capsule, whose filtration
+  is driven by blood pressure (hydrostatic pressure)
+
+
+• Plasma proteins
+  are mostly
+  excluded from
+  the filtrate
+  because of large
+  size and
+  negative charge
+Pressures in the glomerular capillary
+Calculation of GFR using Starling equation
+It is possible to calculate glomerular filtration rate
+(GFR) using the Starling equation:
+    GFR = Kf([Pc − Pi] − [πc − πi])
+The equation is used both in a general sense for all capillary flow, and in a specific sense for
+the glomerulus:
+Note that ([Pc − Pi] − [πc − πi]) is the net driving pressure, and therefore the net filtration is
+proportional to the net driving pressure.
+
+
+               General      Glomerular
+                                             Meaning of variable           Typical Value
+              denotation    denotation
+
+                  Pc            Pc       Capillary hydrostatic pressure ~ 60 mmHg
+
+                                         Interstitial hydrostatic
+                  Pi            Pbs      pressure
+                                                                         ~ 20 mmHg
+
+
+                 πc             πc       Capillary oncotic pressure      ~ 30 mmHg
+
+                  πi            πbs      Interstitial oncotic pressure   ~ 0 mmHg
+
+                  Kf            Kf       Filtration coefficient
+
+                  Jv           GFR       net filtration                  120 mL/min
+Calculation of GFR using Starling equation
+It is possible to calculate glomerular filtration rate
+(GFR) using the Starling equation:
+    GFR = Kf([Pc − Pi] − [πc − πi])
+
+Q: What happens to GFR as capillary hydrostatic
+pressure increases?
+        General     Glomerular
+                                     Meaning of variable           Typical Value
+       denotation   denotation
+
+          Pc           Pc        Capillary hydrostatic pressure ~ 60 mmHg
+
+                                 Interstitial hydrostatic
+           Pi          Pbs       pressure
+                                                                 ~ 20 mmHg
+
+
+          πc           πc        Capillary oncotic pressure      ~ 30 mmHg
+
+          πi           πbs       Interstitial oncotic pressure   ~ 0 mmHg
+
+          Kf            Kf       Filtration coefficient
+
+          Jv          GFR        net filtration                  120 mL/min
+ Q: What happens to the driving pressure and the
+ filtration rate as the diameters of the afferent and
+ efferent arterioles constrict or dilate? Use up and
+ down arrows to delineate your answers.
+             Constrict/Dilate   Diameter   Filtration
+Afferent     Dilate
+
+Afferent     Constrict
+
+Efferent     Dilate
+
+Efferent     Constrict
+
+
+
+Q: What is glomerular filtration rate (GFR) in your
+own words? What are its units?
+                                                        27
+Glomerular Filtration Rate (GFR)
+• Is volume of filtrate produced by both
+  kidneys/min
+  • Averages 115 ml/min in “females”; 125 ml/min in
+    “males”
+  • ~20% of plasma passes through the glomerulus
+  • Totals about 180L/day (~45 gallons)
+    • So most filtered water must be reabsorbed or death
+      would ensue from water lost through urination
+Reabsorption of Salt and H2O
+
+• PCT returns most molecules and H2O from
+  filtrate back to peritubular capillaries
+  • About 180 L/day of ultrafiltrate produced; only
+    1–2 L of urine excreted/24 hours
+  • Urine volume varies according to needs of
+    body
+  • Minimum of 400 ml/day urine necessary to
+    excrete metabolic wastes (obligatory water
+    loss)
+Reabsorption of Salt and H2O continued
+
+• Return of filtered
+  molecules is called
+  reabsorption
+• Water is never
+  transported
+• Other molecules are
+  transported and water
+  follows by osmosis
+1)What is the difference between
+  • Filtration
+  • Reabsorption
+  • Secretion
+  • Excretion
+
+2)What is glomerular filtration rate? What
+  are its units. What is the average
+  (typical) glomerular filtration rate of
+  plasma?
+
+3)What is renal plasma clearance?
+                                             32
+Excretion
+
+• Excretion rate =
+      (filtration rate + secretion rate) - reabsorption rate
+Glomerular Filtration Rate (GFR)
+• Is volume of filtrate produced by both
+  kidneys/min
+  • Averages 115 ml/min in women; 125 ml/min in
+    men
+  • ~ 20% of plasma passing through the
+    glomerulus
+  • Totals about 180L/day (~45 gallons)
+    • So most filtered water must be reabsorbed or death
+      would ensue from water lost through urination
+To review before next class:
+What are the units for each of the following?
+
+Px
+U
+.x
+V
+Excretion rate
+Secretion rate
+Reabsorbtion rate
+Filtration rate
+Glomerular filtration rate
+Renal plasma clearance rate
+

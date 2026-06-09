@@ -1,0 +1,45 @@
+Instructor Evaluation Rubric for Final Presentations
+ES 53, Fall 2025
+                                                                                                                                          Points:___/ 70 pts
+In addition to following the guidelines for the final presentation please review these guidelines. This rubric will be used for grading your
+presentations.
+ Component                               Description                       Excellent     Accomplished     Developing/Needs   Incomplete/Poor   Comments
+                                                                                                           Improvement
+                                                                          (0.75 to 1x)   (0.5 to 0.75x)     (0.25 to 0.5x)     (0 to 0.25x)
+                       Was the background pathophysiology clearly
+ Description of        and succinctly described to motivate the need
+ medical need and      for a solution to a medical problem?
+ pathophysiology       What are the causes of this disease and what
+                       demographic is primarily affected?
+ 15 pts                How does this disease impact one or more of the
+                       physiological systems? You can use graphs,
+                       diagrams, and/or equations.
+
+                       Were the most common treatments listed with
+ Background            the pros and cons of each?
+ research of prior     What are the available treatment options?
+ solutions/treatment   How can the current treatment methods be
+                       improved? What problems remain unaddressed?
+ 15 pts
+
+                       Were all questions addressed fully?
+ Design of new         Did the design take into account appropriate
+ solution.             physical constraints and multiple organ
+                       systems?
+ 25 pts                Did the group explain both the advantages and
+                       disadvantages of their proposed solution?
+                       Did the group answer questions from other
+                       students sufficiently?
+
+                       Were the presentation and slides (verbal and
+ Clarity of            visual communication) clear?
+ presentation:         Slides are clear and easy to see. Consistent
+                       formatting throughout headings, labels, etc. All
+ 15 pts                grammar and spelling is correct. All figures,
+                       graphs, and tables are correctly
+                       graphed/displayed and labeled. Speakers
+                       clearly and succinctly communicated.
+                       References are cited scientifically.
+
+General comments:
+

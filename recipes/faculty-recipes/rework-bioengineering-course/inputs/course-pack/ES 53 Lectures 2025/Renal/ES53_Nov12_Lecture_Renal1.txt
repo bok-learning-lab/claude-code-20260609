@@ -1,0 +1,289 @@
+ES 53
+2025
+
+
+       Module 5
+    Renal Physiology
+
+        (Nov. 12, 2025)
+
+                          1
+For Final Projects
+
+  1. Recall best practices for working in
+     groups
+  2. Refer to example materials on Canvas
+  3. Deadline for optional feedback is Nov. 24
+     (if you want feedback, please submit to
+     canvas by then)
+Outline for Renal Physiology
+• Part I: Renal anatomy and basic function
+• Part II: Filtration, reabsorption, and blood flow
+• Part III: Renal regulation and renal
+  problems/diseases
+
+
+
+
+                                                      3
+           Learning
+                                                               Differentiate the aforementioned states for inulin,
+                                                               creatinine, glucose, PAH, urea, and albumin.
+
+
+          Objectives
+                                                             • What are the classic examples of substances that
+                                                               are fully cleared and that are only filtered in the
+                                                               glomerulus? And which represents a good
+                                                               approximation of GFR, which represents a good
+• Trace the flow of blood through the kidney, from             approximation of RPF?
+  abdominal aorta through to inferior vena cava.
+  What vessels does the blood pass through, and in           • What is the relationship between clearance [L/min],
+  what order? What is unique about the renal                   plasma concentration [g/L] or [mmol/L], and
+  circulation compared to all other circulations we            excretion rate [g/min]?
+  have discussed?                                            • Derive an equation for the transient (non-steady
+• Define the purpose of the components of the                  state) amount of creatinine or inulin in the blood
+  functional unit of the kidney: the nephron.                  over time and determine the exponential solutions
+                                                               that model renal filtration over time. You should be
+• Show how the four pressures involved in                      able to find the time required to reach a given %
+  Bowman’s space and the capillaries lead to the               reduction in blood concentration of a substance.
+  driving pressure of filtration.
+                                                             • Explain how decreased mean arterial pressure
+• Sketch a graph of renal blood flow and glomerular            (MAP) causes increased fluid retention in heart
+  filtration rate as a function of afferent arteriole (AA)     failure patients.
+  resistance and of efferent arteriole (EA) resistance.
+  Explain similarities and differences in the effects of     • Explain how diuretics/anti-diuretics change kidney
+  AA and EA resistance on renal blood flow.                    function to increase or decrease urine output, and
+                                                               thereby influence blood volume.
+• What does glomerular filtration rate (GFR) mean
+  and what are its units? What does clearance
+  mean? What is renal plasma flow? Calculate GFR,
+  clearance, and renal plasma flow for given
+  substances such as inulin, PAH, and creatinine.
+• Explain differences in filtration, reabsorption,
+  secretion, excretion, and endogenous production.                                                          4
+1)Why study the renal and urinary
+  system? How many people are affected
+  by kidney issues?
+
+
+
+
+2)What is the primary purpose of the renal
+  system? (i.e. what does it maintain?)
+
+
+                                             5
+                                                                                                                               6
+Source: Centers for Disease Control and Prevention (2019) https://www.cdc.gov/kidneydisease/prevention-risk/CKD-common-serious-costly.html
+                                                            7
+Source: Centers for Disease Control and Prevention (2019)
+                                                            8
+Source: Centers for Disease Control and Prevention (2019)
+https://www.youtube.com/watch?v=yw_nqzVfxFQ
+                                              9
+Part I: Renal anatomy and basic
+function
+
+
+
+
+                                  10
+Gross anatomy of the urinary tract
+Nephron
+
+
+
+
+• Is functional unit
+  of kidney;
+  responsible for
+  forming urine
+• >1 million
+  nephrons/kidney
+Renal Blood Vessels
+• Arteries give rise to afferent arterioles which supply glomeruli
+• Glomeruli are mass of capillaries inside glomerular capsule that gives rise to
+  filtrate that enters nephron tubule
+• Efferent arteriole drains glomerulus and delivers that blood to peritubular
+  capillaries (vasa recta)
+Part II: Filtration, reabsorption and
+blood flow
+
+
+
+
+                                   15
+Recall blood flow and oxygen delivery
+
+
+
+
+               Brain
+
+
+
+                       Muscles
+Glomerular Filtration and Bowman’s Capsule
+• Bowman’s capsule surrounds glomerulus  Is where glomerular filtration
+  occurs
+• Glomerular capillaries are fenestrated--have large pores between its
+  endothelial cells
+        • Big enough to allow most plasma molecule to pass
+        • 100-400 times more permeable than other capillaries
+Glomerular Filtration
+Glomerular Ultrafiltrate
+• Is fluid that enters glomerular capsule, whose filtration
+  is driven by blood pressure (hydrostatic pressure)
+
+
+• Plasma proteins
+  are mostly
+  excluded from
+  the filtrate
+  because of large
+  size and
+  negative charge
+Pressures in the glomerular capillary
+Calculation of GFR using Starling equation
+It is possible to calculate glomerular filtration rate
+(GFR) using the Starling equation:
+    GFR = Kf([Pc − Pi] − [πc − πi])
+The equation is used both in a general sense for all capillary flow, and in a specific sense for
+the glomerulus:
+Note that ([Pc − Pi] − [πc − πi]) is the net driving pressure, and therefore the net filtration is
+proportional to the net driving pressure.
+
+
+               General      Glomerular
+                                             Meaning of variable           Typical Value
+              denotation    denotation
+
+                  Pc            Pc       Capillary hydrostatic pressure ~ 60 mmHg
+
+                                         Interstitial hydrostatic
+                  Pi            Pbs      pressure
+                                                                         ~ 20 mmHg
+
+
+                 πc             πc       Capillary oncotic pressure      ~ 30 mmHg
+
+                  πi            πbs      Interstitial oncotic pressure   ~ 0 mmHg
+
+                  Kf            Kf       Filtration coefficient
+
+                  Jv           GFR       net filtration                  120 mL/min
+Calculation of GFR using Starling equation
+It is possible to calculate glomerular filtration rate
+(GFR) using the Starling equation:
+    GFR = Kf([Pc − Pi] − [πc − πi])
+
+Q: What happens to GFR as capillary hydrostatic
+pressure increases?
+        General     Glomerular
+                                     Meaning of variable           Typical Value
+       denotation   denotation
+
+          Pc           Pc        Capillary hydrostatic pressure ~ 60 mmHg
+
+                                 Interstitial hydrostatic
+           Pi          Pbs       pressure
+                                                                 ~ 20 mmHg
+
+
+          πc           πc        Capillary oncotic pressure      ~ 30 mmHg
+
+          πi           πbs       Interstitial oncotic pressure   ~ 0 mmHg
+
+          Kf            Kf       Filtration coefficient
+
+          Jv          GFR        net filtration                  120 mL/min
+ Q: What happens to the driving pressure and the
+ filtration rate as the diameters of the afferent and
+ efferent arterioles constrict or dilate? Use up and
+ down arrows to delineate your answers.
+             Constrict/Dilate   Diameter   Filtration
+Afferent     Dilate
+
+Afferent     Constrict
+
+Efferent     Dilate
+
+Efferent     Constrict
+
+
+
+Q: What is glomerular filtration rate (GFR) in your
+own words? What are its units?
+                                                        23
+Glomerular Filtration Rate (GFR)
+• Is volume of filtrate produced by both
+  kidneys/min
+  • Averages 115 ml/min in “females”; 125 ml/min in
+    “males”
+  • ~20% of plasma passes through the glomerulus
+  • Totals about 180L/day (~45 gallons)
+    • So most filtered water must be reabsorbed or death
+      would ensue from water lost through urination
+Reabsorption of Salt and H2O
+
+• PCT returns most molecules and H2O from
+  filtrate back to peritubular capillaries
+  • About 180 L/day of ultrafiltrate produced; only
+    1–2 L of urine excreted/24 hours
+  • Urine volume varies according to needs of
+    body
+  • Minimum of 400 ml/day urine necessary to
+    excrete metabolic wastes (obligatory water
+    loss)
+Reabsorption of Salt and H2O continued
+
+• Return of filtered
+  molecules is called
+  reabsorption
+• Water is never
+  transported
+• Other molecules are
+  transported and water
+  follows by osmosis
+1)What is the difference between
+  • Filtration
+  • Reabsorption
+  • Secretion
+  • Excretion
+
+2)What is glomerular filtration rate? What
+  are its units. What is the average
+  (typical) glomerular filtration rate of
+  plasma?
+
+3)What is renal plasma clearance?
+                                             28
+Excretion
+
+• Excretion rate =
+      (filtration rate + secretion rate) - reabsorption rate
+Glomerular Filtration Rate (GFR)
+• Is volume of filtrate produced by both
+  kidneys/min
+  • Averages 115 ml/min in women; 125 ml/min in
+    men
+  • ~ 20% of plasma passing through the
+    glomerulus
+  • Totals about 180L/day (~45 gallons)
+    • So most filtered water must be reabsorbed or death
+      would ensue from water lost through urination
+To review before next class:
+What are the units for each of the following?
+
+Px
+U
+.x
+V
+Excretion rate
+Secretion rate
+Reabsorbtion rate
+Filtration rate
+Glomerular filtration rate
+Renal plasma clearance rate
+

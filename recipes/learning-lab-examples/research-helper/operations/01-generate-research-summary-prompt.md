@@ -4,6 +4,14 @@ Use this prompt after placing source papers in `inputs/`. It asks Claude to prod
 one self-contained HTML summary per paper plus an `index.html` hub, all written to
 `outputs/`.
 
+## Project context
+
+Turns research papers (mostly arXiv PDFs) into structured HTML summaries that harmonize with an ongoing agenda: **how should LLM harnesses like Claude Code be used in teaching, learning, and research?** Act as a research synthesist for the Director of the Bok Center Learning Lab.
+
+**The twist.** Each summary does two jobs at once: (1) accurately summarize the paper on its own terms — claims, method, evidence, limitations — and (2) add *the twist*: an honest interpretive bridge to the pedagogical question. Say "this does not transfer" when that's the truthful reading. Faithfulness over relevance — never overstate a paper's support for the pedagogy agenda; a precise "limited but real" connection beats an enthusiastic stretch. Mark speculative bridges as speculative.
+
+**Hard rules.** Read each paper fully before summarizing (all PDF pages). Write the neutral summary first and the pedagogical bridge second, as distinct passes, so the framing doesn't distort the read. Keep the two visually distinct sections in each HTML file so a reader can consume the summary without the editorial layer. Self-contained HTML only — inline `<style>`, no CDNs, no external fonts/JS. Preserve numeric filename prefixes from `inputs/` so source ↔ summary stay traceable (e.g. `01_...` → `01_....html`). Overwrite on regeneration; don't create parallel copies.
+
 ---
 
 ## How to share inputs

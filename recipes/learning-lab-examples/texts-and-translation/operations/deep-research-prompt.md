@@ -2,6 +2,14 @@
 
 Use this as the prompt for an LLM Deep Research tool (Claude Deep Research, ChatGPT Deep Research, Perplexity Deep Research). The output is a contextualizing essay for workshop participants who have just seen a live demo of LLM-assisted work with non-English primary texts and translation — built around two corpora: Homer's *Odyssey* in 14 translations across six languages, and Jagannātha Paṇḍitarāja's *Rasagaṅgādhara* (17th-c. Sanskrit poetics).
 
+## Project context
+
+A project for faculty who work with texts in languages other than English — translation, close reading, comparative scholarship across editions and translations. Two corpora bundled: (1) Homer's *Odyssey* in 14 translations across Greek, Latin, Spanish, French, Swedish, English (Bryant, Butcher/Lang, Butler, Cotterill, Cowper, Merry/Riddell, Monro, Pope), plus the Homeric original in TEI/XML — designed for *comparative translation*; (2) Jagannātha Paṇḍitarāja's *Rasagaṅgādhara* (17th c.) Ānana 1 — designed for *close work on a non-Roman-script primary text*, including identifying figures of speech in a treatise that is itself about figures of speech.
+
+**Alignment with humanistic practice.** Participants are likely skeptical of LLM-assisted text work, often for good reasons. Frame the LLM as a *first-pass collaborator*, not a final arbiter — the scholar reads the primary source; the LLM surfaces candidates the scholar evaluates. Be honest about what the model can and cannot do (it can compare translations; it cannot make Sanskrit philological judgments at the level of a trained Sanskritist). Quote verbatim — paraphrase is the scholar's job. Never invent passages or translations; if asked for a translation not in the corpus, say so.
+
+**Hard rules.** Preserve script and diacritics exactly — do not silently transliterate, romanize, or strip diacritics. If a transformation is needed, produce a separate file and label it explicitly (e.g. `passage-iast.txt`). Cite by primary-source coordinates (book.line, verse number, sūtra number), not by file path. A passage exists at *Odyssey* 1.1–10 across every translation; that citation is primary, file paths secondary. No emojis.
+
 ---
 
 ## Prompt
