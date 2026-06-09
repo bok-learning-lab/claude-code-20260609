@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amorces FR30 — Boucar Diouf</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, serif;
+      background: #f9f6f1;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      color: #444;
+    }
+
+    header p {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.4rem;
+      font-style: italic;
+    }
+
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .controls button {
+      padding: 0.45rem 1rem;
+      font-size: 0.8rem;
+      font-family: Georgia, serif;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: #444;
+      border-radius: 2rem;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+
+    .controls button:hover,
+    .controls button.active {
+      background: #1a1a1a;
+      color: #fff;
+      border-color: #1a1a1a;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e0dbd3;
+      border-radius: 6px;
+      padding: 2rem 2.5rem;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+
+    .grammar-tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 1.25rem;
+    }
+
+    .insight {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #333;
+      margin-bottom: 1.75rem;
+    }
+
+    .amorce {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: #1a1a1a;
+      border-left: 3px solid #1a1a1a;
+      padding-left: 1rem;
+      line-height: 1.5;
+    }
+
+    .next-btn {
+      display: block;
+      margin: 2rem auto 0;
+      padding: 0.65rem 2rem;
+      font-size: 0.9rem;
+      font-family: Georgia, serif;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      letter-spacing: 0.03em;
+      transition: opacity 0.15s;
+    }
+
+    .next-btn:hover { opacity: 0.75; }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: 0.75rem;
+      color: #bbb;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amorces FR30</h1>
+  <p>D'après <em>Déconnecter</em> de Boucar Diouf</p>
+</header>
+
+<div class="controls">
+  <button class="active" data-grammar="all">Toutes</button>
+  <button data-grammar="subjonctif">Subjonctif présent</button>
+  <button data-grammar="passe">Imparfait / passé composé</button>
+  <button data-grammar="discours_indirect">Discours indirect</button>
+  <button data-grammar="plus_que_parfait">Plus-que-parfait</button>
+</div>
+
+<div class="card">
+  <div class="grammar-tag" id="grammar-tag"></div>
+  <p class="insight" id="insight"></p>
+  <p class="amorce" id="amorce"></p>
+</div>
+
+<button class="next-btn" id="next-btn">Nouvelle amorce →</button>
+
+<footer>Appuie sur « Nouvelle amorce » pour une autre invitation à écrire.</footer>
+
+<script>
+const AMORCES = [
+  // ── Subjonctif présent ────────────────────────────────────────────────
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "Diouf compare l'humanité connectée à un superorganisme d'insectes sociaux — chaque individu uni aux autres par un réseau invisible mais puissant.",
+    amorce: "Il est essentiel que nous..."
+  },
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "Selon Diouf, les grandes entreprises technologiques savent depuis longtemps que notre cerveau cherche des récompenses sans effort — et elles en profitent.",
+    amorce: "C'est dommage que les jeunes..."
+  },
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "Diouf rappelle que même une simple balade dans un parc peut apporter des bienfaits réels à notre santé mentale — la nature reste une pharmacopée accessible.",
+    amorce: "Il faut que la société..."
+  },
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "Pour Diouf, les médias sociaux peuvent être des espaces de solidarité et d'apprentissage — mais leur côté obscur prend trop de place.",
+    amorce: "Bien que les réseaux sociaux soient utiles,..."
+  },
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "Diouf cite sa mère : « Tends la main et ouvre ton cœur, car l'humain reste le meilleur remède pour son prochain. »",
+    amorce: "Je doute que l'intelligence artificielle puisse..."
+  },
+  {
+    grammar: "subjonctif",
+    label: "Subjonctif présent",
+    insight: "L'auteur avertit que l'ère du « grand repos neuronal » approche à mesure que l'IA prend en charge chacune de nos activités.",
+    amorce: "Il est urgent que les enseignants..."
+  },
+  // ── Imparfait / passé composé ─────────────────────────────────────────
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "Diouf rappelle qu'autrefois, « c'étaient les pieds qui traçaient le chemin de la parenté et de l'amitié » — on se déplaçait pour rejoindre ceux qu'on aimait.",
+    amorce: "Avant les réseaux sociaux, les gens..."
+  },
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "Au début de la télévision, il fallait se lever pour changer de chaîne. Puis la télécommande est arrivée — première étape vers l'économie d'effort total.",
+    amorce: "Quand j'étais plus jeune, je passais mon temps à..."
+  },
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "Diouf décrit comment la technologie a évolué du téléphone fixe au cellulaire : à chaque étape, on nous a épargné un effort de plus.",
+    amorce: "La première fois que j'ai utilisé un réseau social, j'ai remarqué que..."
+  },
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "La sœur de Diouf, 70 ans, était si absorbée par les vidéos en ligne lors d'un rassemblement familial qu'elle en oubliait les gens autour d'elle.",
+    amorce: "Pendant le cours, l'étudiant(e) a d'abord..., puis il/elle..."
+  },
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "Diouf souligne que l'humanité a passé plus de 99 % de son existence en interaction étroite avec la nature — un lien qu'on a presque perdu.",
+    amorce: "À cette époque-là, la communauté..."
+  },
+  {
+    grammar: "passe",
+    label: "Imparfait / passé composé",
+    insight: "Selon Diouf, nous marchons sur le chemin de l'économie d'effort depuis bien avant le boom du numérique — c'est un trait profondément humain.",
+    amorce: "Quand Internet est arrivé dans les foyers, tout a changé parce que..."
+  },
+  // ── Discours indirect ─────────────────────────────────────────────────
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "Diouf s'appuie sur les sciences de la nature pour aborder les réseaux sociaux — une approche originale qui touche le cœur autant qu'elle stimule la réflexion.",
+    amorce: "Dans son introduction, Diouf explique que..."
+  },
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "Le neuroscientifique Sébastien Bohler compare l'humanité à un superorganisme comme une colonie de fourmis — une image que Diouf reprend à son compte.",
+    amorce: "Selon l'auteur, les médias sociaux..."
+  },
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "Diouf cite la sagesse de sa mère sénégalaise pour nous rappeler que la présence humaine reste irremplaçable, même à l'ère de l'IA.",
+    amorce: "La mère de Diouf lui a appris que..."
+  },
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "Sartre écrivait : « L'enfer, c'est les autres. » Diouf le contredit : c'est justement grâce aux autres que se construit le bien-être durable.",
+    amorce: "Diouf affirme que Sartre avait partiellement tort quand il disait que..."
+  },
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "L'auteur avertit que les prédateurs numériques sont difficiles à éviter car, contrairement à la nature, les médias sociaux n'offrent aucune cachette.",
+    amorce: "Dans le texte, on apprend que les jeunes victimes d'intimidation..."
+  },
+  {
+    grammar: "discours_indirect",
+    label: "Discours indirect",
+    insight: "Diouf reconnaît ne pas être un expert, mais un observateur curieux et inquiet qui emprunte à la biologie pour mieux comprendre notre rapport aux écrans.",
+    amorce: "L'auteur nous rappelle que la solution proposée consiste à..."
+  },
+  // ── Plus-que-parfait ──────────────────────────────────────────────────
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "Avant l'arrivée du cellulaire, les gens avaient déjà commencé à perdre l'habitude de se déplacer pour voir leurs proches — le téléphone fixe avait ouvert la voie.",
+    amorce: "Avant que les smartphones n'arrivent, l'humanité avait déjà..."
+  },
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "Diouf montre que le capitalisme numérique avait étudié le cerveau humain en profondeur avant de lui proposer ses plateformes addictives.",
+    amorce: "Les entreprises technologiques avaient compris que..."
+  },
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "Selon Diouf, l'humanité n'avait jamais imaginé qu'un moustique en Afrique pourrait faire réagir instantanément un internaute à Montréal.",
+    amorce: "On n'avait jamais imaginé qu'un jour..."
+  },
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "Quand Diouf a écrit ce livre, les recherches sur les effets des écrans chez les jeunes avaient déjà alerté de nombreux professionnels de santé.",
+    amorce: "Quand ce livre a été publié, les scientifiques avaient déjà démontré que..."
+  },
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "Diouf souligne que certains pays avaient eu le courage de légiférer sur l'usage des écrans chez les jeunes — mais les entreprises n'avaient pas suivi.",
+    amorce: "Les gouvernements avaient tenté de..., mais..."
+  },
+  {
+    grammar: "plus_que_parfait",
+    label: "Plus-que-parfait",
+    insight: "L'auteur rappelle que les liens sociaux concrets avaient toujours soutenu la santé mentale — bien avant que la psychologie moderne ne le prouve.",
+    amorce: "Avant même que les chercheurs ne le confirment, les anciens avaient su que..."
+  },
+];
+
+let currentGrammar = "all";
+let lastIndex = -1;
+
+function getPool() {
+  return currentGrammar === "all"
+    ? AMORCES
+    : AMORCES.filter(a => a.grammar === currentGrammar);
+}
+
+function pick() {
+  const pool = getPool();
+  let idx;
+  do { idx = Math.floor(Math.random() * pool.length); }
+  while (pool.length > 1 && idx === lastIndex);
+  lastIndex = idx;
+  return pool[idx];
+}
+
+function render() {
+  const entry = pick();
+  document.getElementById("grammar-tag").textContent = entry.label;
+  document.getElementById("insight").textContent = entry.insight;
+  document.getElementById("amorce").textContent = entry.amorce;
+}
+
+// filter buttons
+document.querySelectorAll(".controls button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".controls button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentGrammar = btn.dataset.grammar;
+    lastIndex = -1;
+    render();
+  });
+});
+
+document.getElementById("next-btn").addEventListener("click", render);
+
+render();
+</script>
+</body>
+</html>
