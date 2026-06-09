@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+\definecolor{mymagenta1}{rgb}{0.858, 0.188, 0.478}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Modeling Activity}}\\
+%\large Epidemiological models  \vspace{0.1in}
+\end{center}
+
+
+%\noindent In this modeling activity you and your group will %develop the simplified SIR differential equations from Kermack and McKendrick's paper.  \\
+
+\begin{enumerate}
+\item Consider a uniform material with constant attenuation coefficient $\mu$.  Suppose light with intensity $I_0$ enters the material at $x = 0$.  We'd like to get some intuition for the size of the output intensity $I$ at $x = \Delta x$ relative to the input intensity $I_0$.
+\begin{enumerate}
+\item  In general, do you expect $I$ to be greater than, less than, or equal to $I_0$? 
+\vspace{1in}
+\item  Is it possible for $I = I_0$?  When?
+\vspace{1in}
+\item Is it possible for $I = 0$?  When?
+\vspace{1in}
+\end{enumerate}
+\item Suppose it is observed that the rate of change of light intensity with respect to material thickness is proportional to the light intensity with the attenuation coefficient of the material as the proportionality constant.  Write down a differential equation that reflects this observation.  Solve the differential equation.  Is the solution to the initial value problem (differential equation together with the initial condition at $x= 0$) consistent with your intuition?
+\vspace{1in}
+\item Finally, suppose the material is nonuniform so that $\mu$ is no longer constant.  In particular, suppose $\mu = \mu(x)$.  Brainstorm with your group on how you might try to deal with this more realistic situation.
+\end{enumerate}
+
+
+
+\end{document}
+
+

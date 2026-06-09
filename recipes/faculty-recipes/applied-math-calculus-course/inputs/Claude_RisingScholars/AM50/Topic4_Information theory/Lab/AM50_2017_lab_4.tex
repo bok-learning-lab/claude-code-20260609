@@ -1,0 +1,188 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+%\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+\usepackage{pxfonts}
+\usepackage{enumerate,verbatim,cite}
+\usepackage[margin=1in]{geometry}
+%\usepackage{../../tex/pythonhighlight} %https://github.com/olivierverdier/python-latex-highlighting
+\usepackage[framed]{mcode}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\addtolength{\headheight}{\baselineskip}
+\addtolength{\footskip}{\baselineskip}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{}
+\fancyfoot[L]{\textit{Last Modified: \today}}
+\fancyfoot[C]{\thepage}
+
+
+\usepackage[pdftex,bookmarks,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pdfstartview=FitH]{hyperref}
+
+
+%\usepackage{epsf}
+% \topmargin -0.5in \setlength{\textwidth}{6.in}
+% \setlength{\textheight}{8.5in}
+%\setlength{\evensidemargin}{0.25in}
+% \setlength{\oddsidemargin}{0.25in}
+\renewcommand{\r}{{\bf r}}
+\newcommand{\dery}{\frac{dx}{dt}}
+\renewcommand{\k}{{\bf k}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{hyperref}
+
+
+\title{Applied Math 50 Lab 4: Information Theory
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+In today's computer lab, we will:
+\begin{enumerate}
+	\item Learn to count the frequency distribution of words in a a passage of text.
+	\item Compare the word frequency distributions in a few (famous and not-so-famous) texts, and compare the measurements to Zipf's law.
+	\item Use this the frequency information to measure \textit{Shannon's entropy} for these texts.
+\end{enumerate}
+
+\section{Shannon's Entropy and the Main Point of Lab}
+%\subsection{Unbiased random walkers}
+
+\noindent Our paper this unit is Shannon's Mathematical Theory of Information, in which Shannon discovers how to measure the information content of, for example, an English text.  The heart of Shannon's idea is that we should think of a text as emanating from an information source, which \textit{probabilistically} emits letters or words at  predetermined frequencies.\\
+
+\noindent Namely, when you write a term paper for a class, Shannon envisions you as having some set of words at your disposal, and your brain chooses words from this distribution and puts them on the page.  To the extent that you are choosing your words in a not-random fashion, the particular order of the words in your brain is the information content of the document.\\
+
+\noindent Shannon measures the information through the \textit{entropy} of the text.  Suppose that your brain contains $M$ different words, and that the $i$th word has a frequency $f_i$.  Then the entropy is given by
+
+\begin{equation}\label{entropy}
+H = - \sum_{i = 1}^M f_i \log_2 (f_i).
+\end{equation}
+
+\noindent Note that the logarithm here is base 2.\footnote{This, and today's entire lab, is a simplification of the real calculation.  In reality, the statistical structure of a language does not just depend on the word frequencies but on the relationship of different words to each other.  So for example, a sentence beginning with the word "So" is more likely to have a second word "for" than "example."  We are neglecting this effect in today's lab.  If you are interested you could turn a more precise analysis into a final project!  }\\
+
+\noindent As Shannon argues, if you then consider writing a document of $N$ words, the number of possible combinations of words you can choose is
+ 
+ \[
+\# \textrm{of Words} = 2^{H N}.
+\]
+Thus the particular combination of words that you have chosen for your essay is one out of  $2^{HN}$ possibilities.  Note that the higher the entropy, $H$, the more possible documents your brain can put together --- and the more unique each particular one is!  Shannon defines $H$ with respect to the base 2 logarithm because this way you can imagine coding all of the words in a binary counter, that is, with a series of zeroes and ones, like a computer.  \textit{Then the entropy $H$ measures the number of binary digits required to code a word of the language.}\\
+
+\noindent So the question is:  What is $H$?  What is your personal $H$?  What is the $H$ for the English language?  Are they all the same?  Or do better (or worse) writers have a higher value for $H$?  The goal of today's lab is to make some simple measurements to begin to answer these questions.
+
+\section{Counting Word Frequency Distributions}
+
+\noindent Our goal is to give you the needed tools to compute the entropy of a text.  Once you can do this you will measure the entropy of a few representative texts that we give you.  In your homework you will measure the entropy of your own writing.\\
+
+\noindent To count the word frequencies, you should use the Matlab program, \verb+wordcount.m+, posted on the course website.   The program was written by a contributor to Matlab's public code repository.  It takes a filename as input and then outputs the word frequency distribution.  We have modified the program a little so that it allows you to plot the outputted data. \\
+
+\noindent The program contains several concepts that are beyond the level of this class and it is not necessary that you understand it in detail.  However, we will illustrate how a few of the commands work so that you get the idea.  Please work read the points below and try the commands in a script or in the command window.\\
+
+\begin{enumerate}
+\item First it opens the file.  The file \textbf{must} be a \verb+.txt+ file -- it cannot read in Microsoft Word or other such files.  You can easily make a \verb+.txt+ file by copying the bit of text, and then saving it as a \verb+.txt+ file within Microsoft Word.  Better yet, use Notepad (Windows) or TextEdit (Mac).  On the course website we have given you a \verb+.txt+ file of the Gettysburg Address, called \verb+gettysburg.txt+.  Read this into Matlab by typing  
+\verb+fid = fopen(`gettysburg.txt');+
+This command opens the file and assigns it to the variable \verb+fid+ (short for file identifier).\\
+\item Now it converts the file into what is called a \textit{cell array}.  This is a data structure that allows Matlab to easily count and manipulate the text in the file.    To see what this is, type:
+\verb+words = textscan(fid, `%s')+;
+The variable \verb+words+ is now a cell array, containing the words of the text.  If you type
+\verb+words{1}+
+then Matlab will spit out all of the individual words of the text file.  If you type
+\verb+size(words{1})+
+you will discover that this array has 278 elements -- this is the total number of words in the Gettysburg address.  The great advantage of cell arrays is that Matlab has many built-in functions that can operate on them, and this makes the rest of the program for counting word frequency distributions relatively easy.\\
+\item For example, to count the number of unique words int he Gettysburg address, you need can use the built-in Matlab function \verb+unique+.  See the Matlab documentation.  %How many unique words are in the Gettysburg address?\\
+%%\verb+unique_words = unique(words{1})+;
+%%This lists the number of unique words in the Gettysburg address, using the wonderful Matlab command \verb+unique+.  See \verb+unique+ in the Matlab documentation.
+%\item 
+The actual program has a few more complicated steps, such as eliminating all symbol strings that are not words, and then counting them, but hopefully you can now see how the computer can possibly count word frequency distributions.\\
+\end{enumerate}
+
+\noindent Type
+\verb+[results, freq] = wordcount(`gettysburg.txt', 100)+;
+The number 100 tells the program that you want the top 100 words in the word frequency count.
+
+
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 1}\vspace{1mm} \\
+Use wordcount.m to compute the frequency distribution of words in the Gettysburg Address.  Plot the distribution on a log-log plot, with the points as green dots.
+ }}}
+\end{center}
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 2}\vspace{1mm} \\
+We have put two text files of news articles on the course website, both of which discuss the non-government shut down that happened a few years ago.  The first article is from the Huffington Post, and the second is from Fox News.  They have completely different slants, as you would expect.  Measure the word frequency distribution of each article and plot these distributions on the same figure that you made for the Gettysburg Address, but plot the points in a different color or shape.  Add axes labels and a legend.
+ }}}
+\end{center}
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 3}\vspace{1mm} \\
+Now make a text file of some article or document of interest to you, that you can find on the web.  Make your document into a .txt file.  Measure the word frequency distribution of the document and plot it on your figure.  You should see that that the word frequency distributions of all four documents have a surprising similarity.  Compare the top few ranked words in the documents --- are they the same or different?  Look further down the list.  When does the difference arise?
+ }}}
+\end{center}
+\bigskip
+
+\noindent There is a famous law that governs the frequency distribution of words --- called Zipf's law.  See \url{https://en.wikipedia.org/wiki/Zipf%27s_law}.  The law says that the frequency distribution of words in a document obeys
+\[
+f_k = \frac{C}{k},
+\]
+where $f_k$ is the frequency of occurrence of the $k$th word and $C$ is a constant.
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 4}\vspace{1mm} \\
+Do you agree with Zipf's law?  Why or why not?}}}
+\end{center}
+
+\section{Calculating Shannon's Entropy}
+
+\noindent Finally, Shannon defined the entropy according to Equation (\ref{entropy}) above.
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 5}\vspace{1mm} \\
+Write a function to compute the entropy of a set of word frequencies.  The function should take in a list "freq" that is output by the wordcounts.m program, and compute the entropy in Equation (1).   Make sure when you compute your entropy you use the base 2 logarithm.  }}}
+\end{center}
+
+\bigskip
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 6}\vspace{1mm} \\
+Use your function to measure the entropy of each of the texts.  Is there more information content in either the Fox News article or the Huffington Post article?  }}}
+\end{center}
+
+%
+%\lstinputlisting{random_walkers.m}
+
+
+
+
+
+
+
+\end{document}

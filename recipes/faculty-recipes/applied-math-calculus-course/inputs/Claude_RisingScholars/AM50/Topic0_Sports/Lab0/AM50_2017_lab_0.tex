@@ -1,0 +1,202 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+%\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+\usepackage{pxfonts}
+\usepackage{enumerate,verbatim,cite}
+\usepackage[margin=1in]{geometry}
+%\usepackage{../../tex/pythonhighlight} %https://github.com/olivierverdier/python-latex-highlighting
+\usepackage[framed]{mcode}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\addtolength{\headheight}{\baselineskip}
+\addtolength{\footskip}{\baselineskip}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{}
+\fancyfoot[L]{\textit{Last Modified: \today}}
+\fancyfoot[C]{\thepage}
+
+
+\usepackage[pdftex,bookmarks,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pdfstartview=FitH]{hyperref}
+
+
+%\usepackage{epsf}
+% \topmargin -0.5in \setlength{\textwidth}{6.in}
+% \setlength{\textheight}{8.5in}
+%\setlength{\evensidemargin}{0.25in}
+% \setlength{\oddsidemargin}{0.25in}
+\renewcommand{\r}{{\bf r}}
+\newcommand{\dery}{\frac{dx}{dt}}
+\renewcommand{\k}{{\bf k}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{hyperref}
+
+
+\title{Applied Math 50 Lab 0: Simulating Mosteller's Model }
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\noindent The goal of this lab is twofold:
+\begin{enumerate}
+	\item To help you become comfortable running Matlab. 
+	\item To carry out a simulation of the world series using Mosteller's model and one variant of the model that you invent yourself. 
+\end{enumerate}
+
+
+\section{Simulating Mosteller's Model}
+
+\noindent In this lab you will simulate Mosteller's model of the world series.
+The idea is as follows. Mosteller claims that a baseball game can be modelled by
+assuming that the better team has a probability $p > 0.5$ of winning.
+Thus to simulate a game we simply will draw a random number, which is uniformly distributed between
+$[0,1]$, and then check if the number is less than $p$. If it is, then the better team wins; if not then it loses.  We can do this seven times and count the number of times in the series that the better team wins -- this
+is then a simulation of a world series. \\
+
+\noindent The Matlab code needed to simulate a single world series is written below.  The green text to the right of the \% sign are comments for humans; the computer ignores them.
+%%%%%%http://www.howtotex.com/tips-tricks/how-to-include-matlab-code-in-latex-documents/
+%\begin{lstlisting}
+%a = 1;    % MATLAB comment
+%b = 2;
+%c = a^2 + b^2;
+%\end{lstlisting}
+
+\lstinputlisting{worldseries1.m}
+\vskip .5cm
+
+\noindent We have written the world series as a Matlab \emph{function}. At the top left corner of your Matlab window, click on New and selection Function.  Rename \verb+output_args+ as \verb+win+ and \verb+input_args+ as \verb+p,N+.  \, Save the file in your directory as \verb+worldseries1.m+.  Then type the rest of the code into the file and save it.  This function doesn't do anything on its own; it must be \emph{called}.  If you type \verb+worldseries(0.6, 7)+ into the command window, the computer will play a world series!  For example, 
+%%%%%%http://www.howtotex.com/tips-tricks/how-to-include-matlab-code-in-latex-documents/
+%\begin{lstlisting}
+%>> worldseries(0.6, 7)
+%
+%ans  = 
+%
+%	  2
+%	  
+%>>	  
+%\end{lstlisting}
+%You can call the function in the command window, for example, by typing ``worldseries(0.6,7)'', after the >>
+\begin{lstlisting}
+>> worldseries1(0.6,7)
+
+ans =
+
+	  2
+
+>> 
+\end{lstlisting}
+In this case the best team lost -- it only won two games in the seven game world series.  
+
+\vskip .5cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 1}\vspace{1mm} \\
+Write a comment next to each line of the world series function code to explain to another human (and to yourself!) what that line does.  
+}}}
+\end{center}
+
+\vskip .5cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 2}\vspace{1mm} \\
+Run the world series program 44 times using $p=0.65$ (Mosteller's number).
+Count the number of times the losing team wins 0, 1, 2, 3 games. Compare with the results of his paper.
+}}}
+\end{center}
+
+
+
+\vskip .5 cm
+\noindent To carry out this exercise, we need an easy way to count the number of games in a series that the losing team wins.  We can do this using the following code:
+\lstinputlisting{runworldseries.m}
+\noindent This code is a \emph{script}.  Open a new script file, type in the above code, and save the script file as \verb+filename_of_your_choice.m+.   %This Matlab script uses a number of ideas. In the loop we play $M = 44$ games --- in each game the variable \verb+team1+ is the number of times that team one wins  while \verb+team2+ is the number of times team two wins. The number of games that the  losing
+%team wins is the minimum of the two, which we are saving in the array \verb+lose+.\\
+
+\vskip .5cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 3}\vspace{1mm} \\
+Write a comment next to each line of code in the loop in the script, explaining what each line does.}}}
+\end{center}
+\vskip .5cm
+
+\noindent In \verb+filename_of_your_choice.m+, the command with the word \verb+histogram+ then counts the distribution of the number of times the losing team wins. No need to understand how -- this is just what \verb+histogram+ does. You can check that it got it right by
+typing \verb+lose+ and showing the results of your series and then checking that \verb+distribution+ gives the right numbers. Not only does the  function \verb+histogram+  compute the distribution we want, it also plots a histogram of the number of times the losing team won. 
+  
+\vskip .5cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 4}\vspace{1mm} \\
+Run the 44 game world series and plot the distribution of times that the losing team wins. Now do the same thing and run it 4400 times. Does the fraction of games that the losing team won change significantly by changing the number of Series played? Were Mosteller's measurements for the first fifty years of the twentieth century  lucky?}}}
+\end{center}
+\vskip .5cm
+
+\noindent In the paper, Mosteller also discussed a model in which $p$ changed from game to game. Let's see if this makes much of a difference. A simple way to do this is to add a small random number to $p$ so that it changes from game to game.  This can be done by writing a new function, \verb+worldseries2.m+ by modifying \verb+worldseries1.m+:
+
+\lstinputlisting{worldseries2.m}
+%%\begin{verbatim}
+%%function win=worldseries(p,N)
+%%
+%%% p is the probability that the best team wins 
+%%% N is the number of games in the world series--in reality N=7
+%%win=0; % this is a counter that counts the number of times the best team wins
+%%
+%%p_real=p+0.05*rand(1,1);  % add a small random number of maximum size 0.05 to p
+%%for i=1:N   
+%%if rand(1,1) < p_real   % check to see if a random number is < p
+%%win=win+1;   % if it is, increase counter by one.
+%%p_real=p+0.05*rand(1,1);
+%%end
+%%end
+%%\end{verbatim}
+%%
+\vskip 1cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 5}\vspace{1mm} \\
+Write a comment next to each line of this new world series function, explaining what each line does.
+
+}}}
+\end{center}
+
+\vskip 1cm
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 6}\vspace{1mm} \\
+Redo exercise 2 with this new world series function. Run both 44 games and 4400 games. Do
+the results change much?
+}}}
+\end{center}
+\vskip 1cm
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 7}\vspace{1mm} \\
+Identify some reason that you are angry at Mosteller's model. Think about how you would
+change the model to assuage your anger and discuss this with your classmates and the teaching staff.  Then try to implement the change in your model by modifying your code appropriately.
+}}}
+\end{center}
+
+
+%\vskip 1cm
+\end{document}

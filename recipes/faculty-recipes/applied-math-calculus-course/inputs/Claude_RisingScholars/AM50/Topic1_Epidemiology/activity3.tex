@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+\definecolor{mymagenta1}{rgb}{0.858, 0.188, 0.478}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Modeling Activity}}\\
+%\large Epidemiological models  \vspace{0.1in}
+\end{center}
+
+
+\noindent In this modeling activity you and your group will develop the simplified SIR differential equations from Kermack and McKendrick's paper.  \\
+
+\noindent Let $S(t)$ be the number of individuals in a population \underline{\textbf{s}}usceptible to the flu at time $t$, $I(t)$ be the number of \underline{\textbf{i}}nfected individuals at time $t$, and $R(t)$ be the number of \textbf{\underline{r}}ecovered individuals.  Let $N$ be the total number of individuals in the population.  Assume that the individuals in the recovered population are immune to the flu so that a recovered individual cannot become reinfected.  
+\begin{enumerate}
+\item Assume that the total population $N$ is constant.  What assumption(s) must you make in order to reasonably justify a constant total population?
+\vspace{1in}
+\item How do you think $S(t), I(t),$ and $R(t)$  should vary with time?  Sketch a graph of how you think each of these populations should vary with time.
+\vspace{2in}
+\end{enumerate}
+\newpage
+ Let's now develop equations for the rates of change of each of these populations.  
+ \begin{enumerate}[resume]
+%\begin{enumerate}
+\item \textit{Rate of change of susceptibles $S(t)$}\\
+\noindent No one is added to the susceptible group and the only way an individual leaves the susceptible group is by becoming infected with the flu.  Assume that $d S/d t$ depends on the number of individuals susceptible, the number of individuals already infected, and the amount of contact between these two populations.  Suppose each infected individual has a fixed number $\alpha$ of contacts per day that are sufficient to spread the disease.  Then we have
+\begin{equation}\label{Seqn}
+\frac{d S}{d t} = -\frac{\alpha}{N} S(t) I(t).
+\end{equation}
+\begin{enumerate}
+\item Why does this equation includes a factor of $1/N$?
+\vspace{1.2in}
+\item Where does the negative sign come from?
+\vspace{1.2in}
+\item Introduce a new parameter $\beta$ so that the above differential equation becomes the equation from the paper.
+\vspace{1in}
+\end{enumerate}  
+
+%Then, by setting $\beta = b/N$, we have
+%\begin{equation}\label{Seqn}
+%\frac{d S}{d t} = -\beta S(t) I(t).
+%\end{equation}
+%as in the paper.
+\item \textit{Rate of change of recovereds $R(t)$}\\
+\noindent  A fixed fraction  $\gamma$ of the infected population will recover during any given day.  Then we have
+\begin{equation}\label{Reqn}
+\frac{d R}{d t} = \gamma I(t).
+\end{equation}
+Explain why this equation does not include a factor of $1/N$.
+%\end{enumerate}
+\newpage 
+\item \textit{Rate of change of infecteds $I(t)$}\\
+\smallskip
+\noindent We also have
+\[
+\frac{d S}{d t} + \frac{d I }{d t} + \frac{d R}{d t} = 0
+\]
+\begin{enumerate}
+\item Where does this equation come from?  That is, what assumption about the model does this equation reflect?  
+\vspace{2in}
+\item Solve this equation for $dI/dt$ and replace $dS/dt$ and $dR/dt$ by the right hand sides of (\ref{Seqn}) and (\ref{Reqn}) above.  
+\vspace{2in}
+\end{enumerate}
+
+\noindent The three differential equations from parts 3c, 4, and 5 are the model equations in Kermack and McKendrick's paper!
+%\item When $S(t), I(t), R(t) \ne 0$, what are the signs of $dS/dt$, $dI/dt$, and $dR/dt$?  When, if at all, do these derivatives change sign?  Are the signs of $dS/dt$, $dI/dt$, and $dR/dt$ consistent with your intuitive sketches in part (b)?
+
+
+%\item In Matlab, solve the system of differential equations.  For fixed values of $\beta, \gamma, N$:
+%\begin{enumerate}
+%\item On one figure, plot $S(t), I(t),$ and $R(t)$ with initial populations chosen so that $dS/dt$ and $dI/dt$  initially have the same sign.
+%\item On second figure, plot $S(t), I(t),$ and $R(t)$ with initial populations chosen so that $dS/dt$ and $dI/dt$ initially have different signs.
+%\item Which of the two plots above is possibly indicative of an epidemic?  Why?  Play around with the parameters and initial conditions and see how severe you can make the epidemic.  
+%\end{enumerate}
+%\item  Finally, we'll analyze this system using the method from problem 5a, where we approximated the behavior of a nonlinear system near a critical point by analyzing the corresponding linearized system. 
+%  Although this is a system of three differential equations, we only need to analyze two of the differential equations equations.  For the purpose of our analysis, explain why we only need to examine the differential equations for $dS/dt$ and $dI/dt$.
+%\begin{enumerate}
+%\item Show that there are two equilibrium solutions $(S^*, I^*, R^*)$.  What are they?  Interpret the meaning of these equilibrium solutions in the context of the spread of the flu.
+%\item Linearize the system (the two differential equations for $S(t)$ and $I(t)$) about each equilibrium solution.  
+%\item Determine the stability of each equilibrium solution by examining the sign of the nonzero eigenvalue. %What does the stability of the equilibrium tell you about the potential outbreak of the epidemic?
+%\item In Matlab, by solving the system with a few different sets of parameters and plotting $S(t), I(t)$, and $R(t)$ versus $t$, verify your conclusions about the stability of the equilibrium solutions.  In particular, interpret the meaning of the stability of the equilibrium solutions in the context of flu, and write down a condition for the outbreak of an epidemic.
+%\item \textit{Extra credit: Your results from parts i - iii should agree with your numerical work in part iv, but there is one problem with the entire analysis, related to the presence of a zero eigenvalue.  In a sentence or two, can you explain why the zero eigenvalue is problematic?}  
+%\end{enumerate}
+%
+
+
+\end{enumerate}
+
+\end{document}
+
+

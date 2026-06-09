@@ -1,0 +1,166 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Problem Set 4}} \vspace{0.2in}\\
+{\large Due on Friday, April 7, by 5pm\\}
+\end{center}
+
+\subsection*{Collaboration policy}
+Collaboration on homework and labs is
+encouraged, but each student must write solutions in their own words, and not
+copy them from anyone else.  Please write the name(s) of your collaborator(s) at the top of the homework.
+
+\subsection*{Submission guidelines} Please upload your homework as a single Word or pdf document.   \textbf{For this homework, you should submit all of your code as well as the output from your code.}%and but you should include all output (such as figures/plots) from your code.  
+\subsection*{Announcements} 
+Please make sure to schedule a time to meet with me to discuss your project.   You must do this by 5pm on April 6.
+
+\subsection*{Problems}
+\begin{enumerate}
+
+\item Write a half page description of your project proposal, based on the conversation you had with me.  Your proposal should include:
+\begin{enumerate}
+\item A specific question that your project will attempt to answer.
+\item An outline of steps you plan to take to answer the question.  It would be good you to list a few benchmarks that you plan to  meet on your way to answering the main question.  
+\item To be clear, the project you turn in on May 3 may not fully answer the question (a) that you set out to address.  This is fine and normal and you try not to be discouraged.  We are much more interested your \textit{modeling process}, ie, how you defined the problem and formulated it mathematically/computationally, and your thoughtful discussion and critique of your model assumptions and results.  You will primarily be graded on your attempt at this process, irrespective of the results.  See the grading rubric in the class 12 slides.
+\end{enumerate}
+  \item \textbf{Channel entropy.} Consider a channel where information is sent as
+    three-digit decimal numbers of the form 000, 001, 002, \ldots, 148, 149.
+    Assume that each of the 150 numbers is equally probable. The entropy of a
+    number is therefore \smash{$H_N=-150 (\frac{1}{150} \log_2 \frac{1}{150})
+    =\log_2 150$}.
+    \begin{enumerate}
+      \item Calculate the Shannon entropy of the first digit, second digit, and
+	third digit.
+      \item Calculate the sum of the entropies of the three digits.  In words, explain why you think the
+	sum is not equal to $H_N$.
+      \item Suppose that the second digit of a number is 3. What are entropies
+	of the first and third digits? Are the entropies the same as in part
+	(a)?
+    \end{enumerate}
+     \item \textbf{Digram analysis of different languages.} In his paper, Shannon
+    considers the digram structure of English, where he looks at the
+    probabilities of two-letter combinations. It turns out that digrams
+    represent a simple but surprisingly powerful way to differentiate between
+    languages. To illustrate this, we have downloaded out-of-copyright books in
+    five different European languages from
+    \href{http://www.gutenberg.org/}{Project Gutenberg}:
+    \begin{enumerate}
+      \item[0.] English: \textit{The Voyage Out} by Virginia Woolf (1915)
+      \item[1.] French: \textit{L'Atlantide} by Pierre Beno\^it (1920)
+      \item[2.] German: \textit{Siddartha} by Hermann Hesse (1922)
+      \item[3.] Italian: \textit{Dal Cellulare a Finalborgo} by Paolo Valera (1899)
+      \item[4.] Spanish: \textit{La Voz de la Conseja} edited by Emilio Carr\`ere (1920)
+    \end{enumerate}
+    These books are posted in the information theory homework folder on the course website. They have been
+    pre-processed to remove any special characters and accented characters.
+    A program \texttt{digram.m} is supplied, which scans each book and calculates
+    the probability distribution of the digrams. It removes punctuation, converts
+    everything to lower case, and then searches for occurrences of every possible digram. In the analysis, it
+    considers 27 characters, with  $1=\textsf{a}$,
+    \ldots, $25=\textsf{y}$,  $26=\textsf{z}$, and $127$ corresponding to a space. 
+    % For a word such as
+%    \textsf{toast}, the program considers it with a space at both ends as
+%    \begin{equation}
+%      \textsf{\_toast\_} \label{eq:word_setup}
+%    \end{equation}
+%    and then counts digrams \textsf{\_t}, \textsf{to}, \textsf{oa},
+%    \textsf{as}, \textsf{st}, and \textsf{t\_}. 
+After the program has run,
+    it will have assembled probabilities \smash{$p^k_{i,j}$} of the occurrence
+    of digram $(i,j)$ in language $k$.
+%     To simplify things, the program
+%    creates a tiny fictitious probability in any digram that was not seen when
+%    scanning the books (such as \textsf{qx}). Hence \smash{$p_{i,j}^k>0$} for
+%    all combinations $i$, $j$, and $k$ and you do not have to worry about
+%    taking the logarithm of zero in subsequent computations.
+    \begin{enumerate}
+      \item Run the program \texttt{digram.m}. It will build the digram
+	probabilities and then output a 2D matrix for the English digrams. What
+	do you notice about the row for the letter \textsf{q}? Comment on a few other
+	features of the matrix.
+      \item %There are a few lines at the end of the program that can be
+	%modified to plot the difference between two languages. 
+	Modify the program
+	 to plot the difference between the Italian and Spanish digram matrices.  You may (or may not) want to write a function to do this.
+	Comment on some key differences between the two languages.
+      \item Add lines to the program to calculate the entropy of selecting a
+	random digram for each of the five languages. What language has the
+	most entropy? What language has the least? Compare the entropies
+	against a hypothetical language in which all $26\times 26$ digrams are
+	equally probable. \textit{You will need to be careful when calculating the entropy since some of the entries in the digram matrix are  0.}
+      \item Add lines to the program to calculate a measure of the difference between
+	two languages, 
+	\[
+	D(k,l) = \sqrt{\sum_{i=1}^{26} \sum_{j=1}^{26} \left(p^k_{i,j} - p^l_{i,j}\right)^2}.
+	\]
+	Again, you may want to write a function to do this.  What pair of languages are the most similar? What pair of languages are the
+	most different?
+    \end{enumerate}
+%     \item \textbf{Automatic language detection.} Digrams can be used to differentiate between
+%    languages. Suppose that a given message consists of a sequence of digrams $(i_\alpha,j_\alpha)$
+%    for $\alpha=1,\ldots,N$.
+%    Then for language $k$, the likelihood of observing the message is
+%    \[
+%    L(k) = \prod_{\alpha=1}^{N} p^k_{i_\alpha,j_\alpha}.
+%    \]
+%    The above formula is unwieldy to use computationally, since it involves
+%    multiplying many tiny numbers together. Taking the logarithm of both sides
+%    yields the log-likelihood formula
+%    \begin{equation}
+%      \log_2 L(k) = \sum_{\alpha=0}^{N-1} \log_2 (p^k_{i_\alpha,j_\alpha}),\label{eq:ll}
+%    \end{equation}
+%    which is easier to deal with. Write a Matlab program to take a string of
+%    text and evaluate the log-likelihood as in Eq.~\ref{eq:ll}. For each word
+%    in the string, consider it as in (\ref{eq:word_setup}) above. It may be
+%    useful to look at how the \texttt{create\_table} function in
+%    \texttt{digram.py} works, since each word can be processed in a very
+%    similar way.
+%
+%    For each of the following strings, use your program to calculate the
+%    log-likelihood for each of the five languages, and determine which language
+%    the string is most likely to be written in.
+%    \begin{enumerate}
+%      \item ``Tom Hanks'', ``Penelope Cruz'', ``Juliette Binoche'', and three other names.
+%      \item ``New York'', ``Colorado'', ``Vermont'', ``Alberta'', and three other states/provinces.
+%      \item ``Los Angeles'', ``Anaheim'', ``Cincinnati'', ``Portland'', and three other cities.
+%      \item ``hello'', ``bonjour'', ``hola'', ``hi'', and three other greetings.
+%      \item ``oui'', ``auf'', ``uno'', and three other small words.
+%      \item ``Words are, in my not-so-humble opinion, our most inexhaustible source of magic.''
+%      \item ``En art comme en amour, l'instinct suffit.''
+%    \end{enumerate}
+%    Finally, find an example that does not match your expectation, and briefly
+%    discuss a strategy that might make the program more accurate to handle this
+%    case.
+
+
+
+\end{enumerate}
+
+\end{document}
+
+

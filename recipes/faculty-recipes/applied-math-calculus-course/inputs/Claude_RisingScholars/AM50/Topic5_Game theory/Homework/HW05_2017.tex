@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Problem Set 5}} \vspace{0.2in}\\
+{\large Due on Friday, April 21, by 5pm\\}
+\end{center}
+
+\subsection*{Collaboration policy}
+Collaboration on homework and labs is
+encouraged, but each student must write solutions in their own words, and not
+copy them from anyone else.  Please write the name(s) of your collaborator(s) at the top of the homework.
+
+\subsection*{Submission guidelines} Please upload your homework as a single Word or pdf document.   \textbf{For this homework, you should submit all of your code as well as the output from your code.}%and but you should include all output (such as figures/plots) from your code.  
+\subsection*{Final project workshops} 
+Classes this week will be final project workshops.  Please come prepared to discuss your project and what you have done on it so far.  See comments on your homework 4 Canvas submission for ideas on how to  prepare for these workshops.
+
+\subsection*{Problems}
+\begin{enumerate}
+ \item \textbf{Unique number strategy.} Submit your Matlab function for the unique
+    number competition, following the instructions and information from the
+    lab. Your routine should be called \texttt{firstname\_lastname.m} and
+    should be uploaded as a separate file to Canvas.
+  \item \textbf{Rock-paper-scissors.} In this
+    \href{http://en.wikipedia.org/wiki/Rock-paper-scissors}{well-known game},
+    two players simultaneously choose between the options of rock, paper, or
+    scissors. The winner is then decided by using the following conditions:
+    rock beats scissors, scissors beats paper, and paper beats rock.
+    \begin{enumerate}
+      \item Suppose all that matters is the total number of wins, so that the
+	payoff matrix for the first player is
+	\begin{equation}
+	  A=\left(
+	  \begin{array}{ccc}
+	    0 & 0 & 1 \\
+	    1 & 0 & 0 \\
+	    0 & 1 & 0
+	  \end{array}	  
+	  \right).
+	  \label{eq:rps1}
+	\end{equation}
+	Consider playing a mixed strategy where rock, paper, and scissors are
+	chosen with probabilities $p_0$, $p_1$, and $p_2$ respectively. Calculate
+	the expected payoff for playing either rock, paper, or scissors. Use
+	these to determine a set of three differential equations for $p_0$, $p_1$,
+	and $p_2$ for replicator dynamics following the procedure described in
+	the lab. Starting from $(p_0,p_1,p_2)=(0.8,0.1,0.1)$, solve the system
+	of differential equations numerically to find equilibrium values of
+	$p_0$, $p_1$, and $p_2$.
+      \item Now suppose that a win scores one point, and a loss loses one
+	point, so that the payoff matrix for the first player is
+	\begin{equation}
+	  A=\left(
+	  \begin{array}{ccc}
+	    0 & -1 & 1 \\
+	    1 & 0 & -1 \\
+	    -1 & 1 & 0
+	  \end{array}
+	  \right).
+	  \label{eq:rps2}
+	\end{equation}
+	Modify your program from part (a) to solve the replicator dynamics for
+	this payoff matrix. Try the following two initial conditions: (i) your
+	equilibrium solution from part (a), and (ii)
+	$(p_0,p_1,p_2)=(0.8,0.1,0.1)$. Comment on the results.
+      \item \textbf{Extra credit.} Examine the case where a win scores one point and
+	a loss loses two points.
+    \end{enumerate}
+%  \item \textbf{Rock-paper-scissors against a general opponent.} Suppose that you
+%    play rock-paper-scissors against an opponent who chooses the three options
+%    with probability $q_0$, $q_1$, and $q_2$. Assume that these probabilities
+%    may not represent an optimal strategy, and could take any values, provided
+%    that $q_0+q_1+q_2=1$.
+%    \begin{enumerate}
+%      \item Suppose that you play a mixed strategy where you choose the three
+%	options with probabilities $p_0$, $p_1$, and $p_2$ where
+%	$p_0+p_1+p_2=1$. Write down the expected payoff $P_a(p_0,p_1,p_2)$
+%	corresponding to the payoff matrix given in question 2(a). What values
+%	of $p_0$, $p_1$, and $p_2$ will maximize $P_a$?
+%      \item Suppose that you are interested in maximizing the payoff $P_b$
+%	corresponding to the matrix in question 2(b). What values of $p_0$,
+%	$p_1$, and $p_2$ will maximize $P_b$?
+%      \item Construct an example set of values for $q_0$, $q_1$, and $q_2$
+%	where the optimal strategies in parts (a) and (b) will differ.
+%    \end{enumerate}
+  \item \textbf{Replication dynamics for a small unique number game.}
+    Consider a unique number game where three players A, B, and C choose from
+    the numbers 0, 1, and 2.
+    \begin{enumerate}
+      \item Suppose that A chooses 0. What are the possible choices of the
+	other two players that will lead to A winning? Repeat this for
+	when A chooses 1, and when A chooses 2.
+      \item Suppose that the three players are employing a mixed strategy in
+	which the numbers 0, 1, and 2 are chosen with probabilities $p$, $q$, and
+	$r$ respectively. Suppose that winning a round scores one, and that all
+	other outcomes score zero. By making use of your results from part (a),
+	calculate the expected payoff of choosing 0, 1, or 2.
+      \item Use your results from part (b) to set up a replicator dynamics
+	system of three differential equations for $p$, $q$, and $r$ following
+	the procedure described in the lab. Solve the system and determine
+	an equilibrium solution, making sure that you simulate the system over
+	a long enough time interval to obtain three digits of precision in the
+	equilibrium probabilities.
+      \item \textbf{Extra credit.} Repeat the analysis in steps (a), (b), and (c) for the following extensions to the above scenario:
+	\begin{enumerate}
+	  \item Four players choosing from 0, 1, and 2.
+	  \item Three players choosing from 0, 1, 2, and 3.
+	  \item Three players choosing from 0, 1, and 2, where a player scores
+	   $ \frac{1}{3}$ when no unique number is chosen.
+	\end{enumerate}
+      \item \textbf{Extra credit.} Suppose that you are playing many repeated games,
+	and your objective is to win more games than your opponents. What is a
+	better strategy: your answer from (c) or your answer from (d)(iii)?
+    \end{enumerate}
+
+\end{enumerate}
+\end{document}
+
+

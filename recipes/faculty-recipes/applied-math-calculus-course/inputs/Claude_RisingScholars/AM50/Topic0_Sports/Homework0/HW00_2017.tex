@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Problem Set 0}} \vspace{0.2in}\\
+{\large Due on Friday, February 3, by 5pm\\}
+\end{center}
+
+\noindent Please upload all of your .m files to the homework 0 dropbox on the Canvas site.\\
+
+\noindent To get started on this homework, first download Matlab from \url{http://downloads.fas.harvard.edu/download}.  Play around with some of the demos posted on the Canvas site (in Files under Topic 0, lecture 2).  You may also want to complete sections 2, 3, 7, 8, 12, and 13 of the Matlab on-ramp at  \url{http://www.mathworks.com/academia/student_center/tutorials/mltutorial_launchpad.html}.
+
+\subsection*{Problems}
+\begin{enumerate}
+%\item \textit{Creating arrays in Matlab}
+%Coin flipping
+\item \textit{Arrays, array arithmetic, plotting curves}\\
+In this problem you'll learn to create arrays, perform arithmetic operations on arrays, and plot curves in Matlab.  You'll do this by reproducing the figure in  lecture slide seven of class 2.  Recall that this figure is a plot of the success probability of the better team as a function of $p$,  showing that the success probability of the better team is amplified as the number of the games in a series increases.  \\
+
+Your code below should be saved in and run from a script file.
+\begin{enumerate}
+\item Create an array in Matlab for the variable $p$, called \verb+p+.   The first entry of the array, \verb+p(1)+, should have a value of 0.5, and the last entry should have a value of 1.  Please create \verb+p+ such that the entries of \verb+p+ are evenly spaced in increments of 0.01.
+\item Using the \verb+p+ array from part (a), create arrays in Matlab for $S(p,1)$ and $S(p,3)$  Call these arrays  \verb+S1+ and  \verb+S3+, respectively.
+\item In the upper left corner of your Matlab window, search the documentation for  \verb+plot+.  Click on the first search result, about 2-d line plots.  Read through a few of the examples.  Then modify these examples to plot  $S(p,1)$ and $S(p,3)$ versus $p$.  
+\item Label the axes of the figure in part (c) -- find an example in the \verb+plot+ to modify accordingly.
+\item Figure out how to add a legend to the bottom right corner of the figure -- again, search the documentation.
+\end{enumerate}
+\item \textit{Functions}\\
+In this problem you'll start to learn to write functions in Matlab.  Your goal is to plot the binomial distribution,
+%Consider tossing a fair coin $N$ times, where $m \le N$ of the tosses land as heads.  As we discussed in class, the probability of getting exactly $m$ heads is given by the binomial distribution,
+\begin{equation}\label{binom}
+P(N, m) = \frac{N!}{(N - m)! m!} p^m (1 - p)^{N - m},
+\end{equation}
+as a function of $m$, for the set values $p = 1/2$ and $N = 100$.  \\
+%
+%where in this case $p = 1/2$ since the coin is fair.  In this problem you will write Matlab program to plot the binomial distribution as a function of $m$.  
+\begin{enumerate}
+\item Write a function  \verb+fact+ that takes in a non-negative integer $n$ and returns $n!$  Check that your function is correct by using it to calculate $n!$ for $n = 0, 1, 2, 3, 4$.  Use your function to calculate $10!$.  Now use Matlab's built-in factorial function, \verb+factorial+, to compute 10!  Make sure your results for 10! agree.
+\item Write a function \verb+binom+ that takes in $p, N$, and $m$ in (\ref{binom}) and outputs $P(N, m)$.  Your function \verb+binom+ should make use of the function \verb+fact+ that you wrote in part (a).
+\item Finally, write a script \verb+plotbinom+ that plots the binomial distribution $P(N,m)$ as a function of the number of successes $m$.
+\item As you might expect, Matlab has its own built-in function to do parts (b) and (c).  Using built-in Matlab function(s), reproduce your plot from part (c).
+\end{enumerate}
+\item In a Matlab comment at the beginning of problem1.m, let us know how long it took you to complete this homework.  
+\end{enumerate}
+
+\end{document}
+
+

@@ -1,0 +1,113 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Problem Set 3}} \vspace{0.2in}\\
+{\large Due on Friday, March 24, by 5pm\\}
+\end{center}
+
+\subsection*{Collaboration policy}
+Collaboration on homework and labs is
+encouraged, but each student must write solutions in their own words, and not
+copy them from anyone else.  Please write the name(s) of your collaborator(s) at the top of the homework.
+
+\subsection*{Submission guidelines} Please upload your homework as a single Word or pdf document.   Unless stated otherwise, you do not need to include your code in your submission, but you should include all output (such as figures/plots) from your code.  
+\subsection*{Announcements} 
+If you haven't already done so, please email me to schedule a half hour meeting with me to discuss your final project.  Good days are: March 27, 28, 29, 30, 31, and April 3.  See details on slides 5 and 6 of class 12.
+
+\subsection*{Problems}
+\begin{enumerate}
+\item Consider a walker starting at $x = 0$ and flip a fair coin to let the walker move either \textit{two} units to the right or \textit{two} units to the left.  Modify the Matlab program from lab to simulate this type of random walk.  Iterate the walk 200 times for 100 different walkers.  Plot the width of the distribution as a function of time on a log-log scale and estimate the value of the diffusion constant $D$.  Compare this to the theoretical value of $D$.  \textbf{Your submission for this problem should include a plot of the width of the distribution as a function of time as well, an estimate of $D$, and a comparison of the estimate to the theoretical value of $D$.}
+
+\item  \textit{Two-dimensional random walk}\\
+In this problem you'll redo the random walk simulation from the lab, but for {\sl two dimensional} random walkers.  In this case the walkers can take steps to the right or to the left, or up or down.
+\begin{enumerate}
+\item Modify the code from the lab to make it work for two-dimensional unbiased random walkers. This requires several steps:
+\begin{enumerate}
+\item Each walker has an \verb+x+ and a \verb+y+ coordinate.  Initialize 500 walkers in your code so that all the walkers start at $x = y = 0$.
+\item Flip a coin to decide if a walker will move to the right or to the left, or up or down.  Modify your code to do this.  In each timestep, you should therefore flip \textit{two} coins -- and move the $x$ or $y$ coordinate of the walker accordingly.
+\item Instead of plotting a histogram of the distribution of particles, plot the coordinates of all of your walkers.
+  If you replace the histogram in your lab code by a plot command, you should get a movie of the two dimensional spreading of the walkers.  \textbf{For your homework submission, please turn in a figure with the last frame of your movie, with the axes and title appropriately labeled.  Please also calculate and take note of the coordinates the location of the walker furthest from the origin at the last timestep}. %You might also want to set the axes of the plots so that they are initially large and fixed.
+\end{enumerate}
+%\item \textcolor{red}{ Now use the code to calculate the width of the distribution of the spreading of the two dimensional walkers. This is defined as $\sum_{j=1}^N\sqrt{x_j^2+y_j^2}$, where $N$ is the number of particles and $(x_j,y_j)$ is the coordinates of the $j$th walker.  Plot.}
+\item What happens if one of the coordinates obeys a biased walk?  \textbf{For your homework submission, describe in words how the distribution of walkers is different from the unbiased case.}
+\end{enumerate}
+
+\item \textit{Do stock prices follow a random walk?}\\
+\noindent In lab you began to analyze the S\&P 500 data.  You read in the S\&P 500 data and showed in lab exercise 6 that over time, the data roughly follows an exponentially growing trend.  We now consider whether the data can be well-modeled by a random walk.  Recall the two principal properties of the random walk, discussed in class 11: 
+\begin{enumerate}
+\item[-]
+The distribution of a variable that follows a random walk should have a width obeying $L(t) = \sqrt{D t}$.
+\item[-] The probability  of moving a distance $x$ after time $t$ is given by the normal (or Gaussian) distribution
+\[
+p(x,t) \sim \frac{1}{\sqrt{D t}} \exp \left\{-\frac{x^2}{4 D t} \right\}
+\]
+\end{enumerate}
+\noindent In both of the properties above, $D$ is the diffusion constant.  Below we will test whether the stock prices show any trace of these properties.  We saw one obvious difference in lab:  \textit{the stock prices increase exponentially in time, but the position of the random walkers do not increase exponentially in time.}   Thus we have a problem with the model.  But perhaps is is possible that the stock prices obey random walks on a shorter time scale, and that the exponential growth is over longer times.  Let's compare and contrast two possibilities:
+\begin{enumerate}
+\item[-] Stock prices obey random walks.  If this were the case then we'd expect both of the laws above to apply directly to the stock prices.
+\item[-] The rate at which stock prices grow obeys random walks.  If we consider the exponential growth equation
+\[
+\frac{d S}{d t} = r(t) S
+\]
+then this is tantamount to saying that the percentage change in stock price changes according to a random walk in time.
+\end{enumerate}
+
+\noindent To test these possibilities, you will modify your program in lab exercise 6.  Please refer to that program for the questions below.   \textbf{For your submission, please include all plots, code, and responses to the questions below. }
+
+\begin{enumerate}
+\item You should have the S\&P opening price data in an array $S_1, S_2, \ldots, S_{n}$ where $S_1$ is the earliest data point (in 1950) and $S_{n}$ is the most recent data point (in 2010).  Calculate the \textit{jump} in opening stock price from day to day, the difference
+\[
+d_i = S_{i+1} - S_i
+\]
+for $i=1, 2, \ldots, n -1$.  Matlab has a built-in function, \verb+diff+, that will do this for you.  Make a histogram to show the distribution of the $d_i$.  
+\item Calculate the \textit{ rate} at which stock prices grow, defined as
+\[
+r_i = \frac{S_{i + 1} - S_i}{S_i}.
+\]
+Make a histogram to show the distribution of the $r_i$.
+%percentage jump in the stock prices from day to day.  Make a histogram ...
+\end{enumerate}
+\noindent Let's see if either the jump or the rate data are well fit by a Gaussian, that is, the data are well fit by  
+\begin{equation}\label{eqn}
+p(x) = C \exp \left\{ - k x^2\right\}
+\end{equation}
+for some constants $C$ and $k$.  
+\begin{enumerate}
+\item[(c)] Take the logarithm of each side of (\ref{eqn}).  If the data are well fit by a Gaussian, what should the data look like on a semilog plot?
+\item[(d)] Modify your histograms from parts (a) and (b) to use a log scale on the appropriate axis.  See  \verb+Axes Properties+ in the documentation.  Is a Gaussian a good fit for either data set? 
+\item[(e)] In addition to analyzing the difference between two successive opening days (step size $k =1$ day), the data can be analyzed over larger steps.  Modify your program to plot histograms of the $r_i$ for one week ($k = 5$ days) and one month ($k = 20$ days) step sizes.  Calculate the width of each of these distributions.  Then calculate the width for $k = 1, 2, \ldots, 100$ days, and plot the width as a function of days (steps).  Does the width increase in a manner consistent with our random walks?  How do you know?  Estimate the diffusion constant $D$.
+\end{enumerate}
+
+
+
+
+\end{enumerate}
+
+\end{document}
+
+

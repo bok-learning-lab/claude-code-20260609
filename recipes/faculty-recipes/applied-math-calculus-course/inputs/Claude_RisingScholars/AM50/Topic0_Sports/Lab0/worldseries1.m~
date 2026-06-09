@@ -1,0 +1,14 @@
+function [win] = worldseries1(p, N)
+% Text to the right of the percentage sign are comments for humans; the
+% computer ignores 
+
+win = 0;
+for i = 1:N
+    if rand(1,1) < p
+        win = win + 1;
+    end
+end
+
+end
+
+

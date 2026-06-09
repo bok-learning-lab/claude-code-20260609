@@ -1,0 +1,219 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+%\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+\usepackage{pxfonts}
+\usepackage{enumerate,verbatim,cite}
+\usepackage[margin=1in]{geometry}
+%\usepackage{../../tex/pythonhighlight} %https://github.com/olivierverdier/python-latex-highlighting
+\usepackage[framed]{mcode}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\addtolength{\headheight}{\baselineskip}
+\addtolength{\footskip}{\baselineskip}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{}
+\fancyfoot[L]{\textit{Last Modified: \today}}
+\fancyfoot[C]{\thepage}
+
+
+\usepackage[pdftex,bookmarks,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pdfstartview=FitH]{hyperref}
+
+
+%\usepackage{epsf}
+% \topmargin -0.5in \setlength{\textwidth}{6.in}
+% \setlength{\textheight}{8.5in}
+%\setlength{\evensidemargin}{0.25in}
+% \setlength{\oddsidemargin}{0.25in}
+\renewcommand{\r}{{\bf r}}
+\newcommand{\dery}{\frac{dx}{dt}}
+\renewcommand{\k}{{\bf k}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{hyperref}
+
+
+\title{Applied Math 50 Lab 1: Epidemiology\\
+SIR model and Google Flu Data}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Today's computer lab has four aims:
+\begin{enumerate}
+	\item To become more comfortable with  functions in Matlab.
+	\item To run simulations of the SIR (Susceptible-Infected-Recovered) model introduced in class, and explore aspects of this model.
+	\item To download Google Flu data and compare it to the predictions of the SIR model.
+	\item To consider a variation of the SIR model for diseases that do not confer long-term immunity, such as the common cold.
+\end{enumerate}
+
+\section{Revisiting lab 0 and homework 0: what is a function?}
+
+\noindent In the first two weeks of class you were introduced to some key programming ideas: if statements, loops, and functions.  Before continuing with today's lab, let's revisit functions.  You saw that Matlab has it's own built-in functions which you can use to do some basic calculations.  For example, if you have a list of numbers, you can use \verb+sum+ to calculate the sum of all of the numbers in the list.  You can also write your own functions to do more involved calculations.  In this lab you will learn to solve differential equations in Matlab. You will use Matlab's built-in function \verb+ode45+ to numerically solve a differential equation which you define in a second function that you write yourself.   Confusing?  Likely.  Don't worry though.  Much of the semester will be spent becoming comfortable with functions -- from experience we know that it takes awhile to develop confidence calling and writing functions.   \\
+
+\noindent Before we solve differential equations in Matlab, let's first recall that we can solve some differential equations on our own by hand.\\
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 1}\vspace{1mm} \\
+Solve the differential equation
+\[
+\frac{dy}{d t} = \cos t
+\]
+subject to the initial condition $y(0) = 2$.  
+}}}
+\end{center}
+\vspace{.1in}
+\noindent Now that you've found the analytical solution, let's compare it to the solution obtained using \verb+ode45+.  To do this, we first need to define the differential equation using the function file below.  Save this file as \verb+myode.m+.
+\newpage
+
+\lstinputlisting{myode.m}
+
+
+\noindent This function takes input variables \verb+t+ and \verb+y+ and calculates a quantity called \verb+dydt+ which it then outputs.  What is \verb+dydt+?   \\
+
+\noindent Now that the differential equation is defined via \verb+myode.m+, we then use a script that calls \verb+ode45+ to solve the differential equation from \verb+myode.m+.  Save the code below as \verb+myode_driver.m+.
+
+
+\lstinputlisting{myode_driver.m}
+\vspace{.1in}
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 2}\vspace{1mm} \\
+In the script, plot the solution you found in Exercise 1 on the same figure as the Matlab's numerical solution.  Plot your solution as red circles and add a legend.  On a new figure, plot the absolute value of the difference between Matlab's solution and your solution as dots.  How large is this difference?
+}}}
+\end{center}
+
+\newpage
+\noindent Let's do another example:
+\vspace{.1in}
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 3}\vspace{1mm} \\
+By hand, solve the differential equation
+\[
+\frac{dy}{d t} = y
+\]
+subject to the initial condition $y(0) = 2$.  Then use Matlab to solve the differential equation by modifying the code from exercise 1/2 appropriately.  Does your analytical solution match Matlab's numerical solution?  
+}}}
+\end{center}
+\vspace{.1in}
+
+\noindent Hopefully these two examples have convinced you that Matlab's \verb+ode45+ produces accurate solutions to differential equations!  With this in mind, let's move on to the SIR model.
+
+
+
+
+\section{Solving the SIR Model}
+
+\noindent In the SIR model we discussed last week in class, there are three populations: the susceptibles $S(t)$, the infecteds $I(t)$, and the recovered $R(t)$.  The dynamics are given by the system of ordinary differential equations,
+\begin{eqnarray}
+\frac{d S}{d t} &=& - \beta S I \nonumber \\
+\frac{d I}{d t} &=&  \beta S I - \gamma I \nonumber \\
+\frac{d R}{d t} &=& \gamma I, \nonumber
+\end{eqnarray}
+where $\beta$ is the constant rate at which an infected person infects a susceptible person, and $\gamma$ is the constant recovery rate of infected people.  \\
+
+
+\noindent Two Matlab codes are needed to solve these equations.  One is a function file that defines the differential equations and the second is script file that calls Matlab's \verb+ode45+ to numerically solve the equations defined in the first function file.  Below is the Matlab function that defines the differential equation.  Save this code as \verb+sir_model.m+.%The Matlab code needed to solve these equations is provided below, which makes use of the \verb+ode45+ function to do the numerical integration.  Save this code as \verb+sir_driver+.
+
+\lstinputlisting{sir_model.m}
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 4}\vspace{1mm} \\
+Comment each line of above code.  How is this function different from the functions you examined earlier that define a single differential equation?  How is this function similar?
+}}}
+\end{center}
+\vspace{.1in}
+
+\noindent Now save the script file below as \verb+sir_driver.m+.
+\vspace{.1in}
+\lstinputlisting{sir_driver.m}
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 5}\vspace{1mm} \\
+Run the script to make sure there are no errors.   Comment the code.  Then add a plot command to the script to plot $S(t), I(t)$, and $R(t)$ on a single figure (with a legend) and rerun the script.  For this set of parameters,  find the initial value of $S(0)$ such that the flu epidemic does not grow.  Compare this to the threshold value discussed in paper and in class.
+}}}
+\end{center}
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 6}\vspace{1mm} \\
+Rewrite the program so that instead of measuring time in hours, time is measured in weeks.  This requires rewriting your rate constants so that they are expressed in units of weeks$^{-1}$ instead of hour$^{-1}$.  Remember to modify your axes labels!
+}}}
+\end{center}
+
+\section{Fun with Google Flu data}
+
+\noindent We now want to read in data from Google Flu and examine it.  A version of the Google Flu data (googleflu.csv) is available on the course website. It is aggregated on a weekly basis.  The matrix has 53 columns listed by state, with columns corresponding to Date, United States, Alabama, Alaska, Arizona, Arkansas, California, \ldots, West Virginia, Wisconsin, Wyoming.  Hence the first column of the matrix is the Date, the second column is United States -- Massachusetts is column 24.  Take a look at the data file in Excel  \footnote{If you open this or other csv files in Excel and it gets saved, it may get corrupted.  If you have problems, redownload the file and try again} before moving on. \\
+
+\noindent To read the data file into Matlab, save it in your working directory, and then type \\
+
+\verb+M = csvread(`googleflu.csv', 1, 1, [1, 1, 310, 52]);+ \\
+
+\noindent in \verb+sir_driver.m+.  This command reads in the file, starting at row 1 and column 1, and reads up to row 310 and column 52. \\
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 7}\vspace{1mm} \\
+In your script file, make a new figure that plots the one year of the data for the United States as red dots.  On the same figure, plot $I(t)$ for one year.  Try to find parameters of the SIR model such that the model fits the data well.  Play around with it until you find something that works.  Are the parameters reasonable given what you know about the flu?
+}}}
+\end{center}
+\vspace{.1in}
+
+\noindent Finding a good fit is hard.  Focus on trying to fit a few aspects of the graph:
+\begin{enumerate}
+\item The maximum number of infected people.  This happens when $dI/dt = 0$ or $S = \gamma/\beta$.
+\item The timescale for getting to this maximum.
+\item The timescale for recovery.
+\end{enumerate}
+
+
+\noindent Think about these and discuss it with your neighbors.
+
+
+\section{Modification of SIR: common cold}
+
+\noindent Unfortunately some infections such as the common cold do not result in long-lasting immunity, so that individuals may be reinfected.  The system of differential equations,
+\begin{eqnarray}
+\frac{d S}{d t} &=& - \beta S I + \gamma I \nonumber \\
+\frac{d I}{d t} &=&  \beta S I - \gamma I \nonumber 
+\end{eqnarray}
+is a model for such an infection.\\
+
+\begin{center}
+\colorbox{Goldenrod}{\parbox{15cm}{
+{
+\textbf{\large Exercise 8} \\
+\begin{enumerate}
+\item Discuss the similarities and differences between this model and the SIR model.  Do the modifications make sense?  Why or why not?
+\item Assuming an initial populations with 100 susceptible and 1 infected individuals, modify your code from Exercise XX to  solve this system of equations.  Plot $S(t)$ and $I(t)$ for two different sets of values of $\beta$ and $\gamma$.
+\item You will observe that both the susceptible and infected populations plateau to a constant value.  Explain from the equations why this happens, and what determines the steady state values of $S(t)$ and $I(t)$.
+\end{enumerate}
+}}}
+\end{center}
+
+
+\end{document}

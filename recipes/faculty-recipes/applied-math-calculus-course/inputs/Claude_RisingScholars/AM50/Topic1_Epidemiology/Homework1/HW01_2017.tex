@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb, color}
+\usepackage[cmex10]{amsmath}
+\usepackage{xcolor,graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\usepackage[pdftex,bookmarks,letterpaper,hyperfigures,colorlinks
+						,urlcolor=blue
+						,citecolor=blue
+						,linkcolor=blue
+						,pagecolor=blue
+						,pdfstartview=FitH]{hyperref}
+\providecommand{\hreff}[1]{\href{http://#1}{http://#1}}
+\providecommand{\email}[1]{\href{mailto:#1}{\textcolor{black}{#1}}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% Setup style for fancyheader
+\pagestyle{fancyplain} % or fancyplain, plain
+
+\lfoot{\textit{Last Modified: \today}}
+\cfoot{}
+\rfoot{\thepage}
+
+\begin{document}
+\begin{center}{\Large \bf{APMTH 50 Problem Set 1}} \vspace{0.2in}\\
+{\large Due on Friday, February 17, by 5pm\\}
+\end{center}
+
+\subsection*{Collaboration policy}
+Collaboration on homework and labs is
+encouraged, but each student must write solutions in their own words, and not
+copy them from anyone else.  Please write the name(s) of your collaborator(s) at the top of the homework.
+
+\subsection*{Submission guidelines} Please upload your homework as a single Word or pdf document.  You do not need to include any code but you do include the relevant figures.  For example your solution to problem 2 should include three separate figures, one figure for each of the cases in part b. 
+
+%\noindent To get started on this homework, first download Matlab from \url{http://downloads.fas.harvard.edu/download}.  Play around with some of the demos posted on the Canvas site (in Files under Topic 0, lecture 2).  You may also want to complete sections 2, 3, 7, 8, 12, and 13 of the Matlab on-ramp at  \url{http://www.mathworks.com/academia/student_center/tutorials/mltutorial_launchpad.html}.
+
+\subsection*{Problems}
+\begin{enumerate}
+\item \textbf{Competition: Predator--Prey}\\ The following is a simple model to
+    describe the interactions between predator and prey populations:
+    \begin{align*}
+      \frac{d R}{d t} &= \alpha R - \beta R F, \\
+      \frac{d F}{d t} &= - \gamma F + \delta R F, 
+    \end{align*}
+    where $R(t) \ge 0$ and $F(t) \ge 0$ denote the rabbit (prey) and fox
+    (predator) populations, and $\alpha, \beta, \gamma,$ and $\delta$ are
+    positive parameters.  
+    \begin{enumerate}
+      \item What are the units of the parameters $\alpha, \beta, \gamma,$ and
+	$\delta$? Discuss the biological interpretations of these parameters.
+      \item Set $\alpha = 1.5, \beta = 0.5, \gamma = 0.4, \delta = 0.8$. Modify
+	your code from lab and solve the system for initial populations of
+      \begin{enumerate}
+	\item 5 foxes and 0 rabbits,
+	\item 5 foxes and 10 rabbits,
+	\item 0 foxes and 10 rabbits.
+      \end{enumerate}
+      Plot the rabbit and fox populations for each of these cases, and
+      interpret the results.
+    \end{enumerate}
+    \item \textbf{Review of the original SIR Kermack--McKendrick paper}\\ The
+    original SIR paper by Kermack and McKendrick that was discussed in class is
+    available on the course website. Please download the paper and answer the
+    following questions. Note that we do not expect you to understand the paper
+    in its entirety---one of the aims of this class is to glean the main points
+    of a paper even if some of the details remain opaque.
+    \begin{enumerate}
+      \item The paper makes a model of a flu epidemic in which the population
+	is divided into three groups: the susceptible, the infected and the
+	recovered. Explain what each of these groups are.
+      \item A few years ago there was a global fear about a bird flu pandemic.
+	Imagine there was a single person in Boston who had bird flu and nobody
+	else was exposed to the disease. Explain what the infected,
+	susceptible, and recovered populations would be in this case.
+      \item The paper makes several assumptions about how a flu epidemic
+	progresses through a population. List two of these assumptions.
+      \item Explain what is plotted in the figure on page 714.
+      \item The central result of the paper is that it proposes a formula for a
+	threshold population density above which a flu epidemic will spread and
+	potentially become large. What does this threshold population density
+	depend upon? \textit{[Hint: See the discussion on page 715. You can ignore
+	or skim the dense mathematics that occurs in the pages before
+	this---the main point is on this page.]}
+    \end{enumerate}
+     \item \textbf{Seasonal forcing}\\ Exercise 8 of the lab assignment described a
+    model of the common cold, whereby infected people are immediately returned
+    to the susceptible category. Now consider a further generalization, whereby
+    infected people first recover and receive temporary immunity, but over a
+    longer time period that immunity is removed. This could be a reasonable
+    model for flu, which slowly mutates, so the immunity gained from being
+    infected will lose effectiveness over time. A suitable modification to the
+    SIR equations is
+    \begin{align*}
+      \frac{dS}{dt} &= -\beta S I + \alpha R, \\
+      \frac{dI}{dt} &= \beta S I - \gamma I, \\
+      \frac{dR}{dt} &= \gamma I - \alpha R,
+    \end{align*}
+    where the $\alpha R$ terms move people from the recovered category back to
+    being susceptible.
+    \begin{enumerate}
+      \item For the common cold example in lab Exercise 8, the populations of
+	$S$ and $I$ equilibrated at constant values that could be determined
+	analytically. By doing a similar analysis here, find the equilibrium
+	values of $S$, $I$, and $R$.
+      \item Suppose that $\alpha$ is very large. What will the approximate
+	equilibrium values of $S$, $I$, and $R$ be? Discuss how this relates to
+	your answers from lab Exercise 8.
+      \item Numerically solve the equation for $S=90$, $I=10$, $R=0$,
+	$\beta=0.02$, $\gamma=1$, and $\alpha=0.1$. Check that the steady-state
+	values of $S$, $I$, and $R$ match your solution from part (a).
+      \item \textbf{(Extra credit.)} Now consider a simple model of seasonal
+	forcing, whereby $\beta$ is no longer constant but oscillates according
+	to the weather so that \smash{$\beta(t)=\beta_*(1+0.2\cos \frac{2\pi
+	t}{52})$}, where $t$ is measured in weeks. Let $S=99$, $I=1$, $R=0$
+	initially, and set $\gamma=1$ and $\alpha=0.04$. Solve the system
+	numerically for three values of $\beta_*=0.01,0.0115,0.013$ over the
+	range $0\le t \le 500$ and comment on the results.  
+    \end{enumerate}
+ 
+      \item \textbf{High risk and low-risk populations}
+          \begin{enumerate}
+ \item First, consider the
+	standard SIR model,
+	\begin{align*}
+	  \frac{dS}{dt} &= -\beta S I, \\
+	  \frac{dI}{dt} &= \beta S I - \gamma I, \\
+	  \frac{dR}{dt} &= \gamma I.
+	\end{align*}
+	Suppose that $\beta=0.1$, and $\gamma=20$, and consider a population of
+	one hundred people where initially $S=90$, $I=10$, and $R=0$. Calculate
+	the basic reproduction rate $R_0$. Solve the differential equation
+	system numerically for $0\le t \le 1.2$, and by looking at the final
+	steady-state value of $R$, estimate the total number of people who
+	become sick.
+      \item Now suppose that the population in part (a) also comes into contact
+	with a second, high-risk population. Let the number of susceptible,
+	infected, and recovered people in this population be $S_H(t)$,
+	$I_H(t)$, and $R_H(t)$ respectively. A combined model for this is given
+	by the system of differential equations
+	\begin{align*}
+	  \frac{dS}{dt} &= -S(\beta I + \beta_2 I_H), \\
+	  \frac{dI}{dt} &= S(\beta I + \beta_2 I_H) - \gamma I, \\
+	  \frac{dR}{dt} &= \gamma I, \\
+	  \frac{dS_H}{dt} &= -S_H(\beta_2 I + \beta_3 I_H), \\
+	  \frac{dI_H}{dt} &= S_H(\beta_2 I + \beta_3 I_H) - \gamma I_H, \\
+	  \frac{dR_H}{dt} &= \gamma I_H.
+        \end{align*}
+	If $\beta_2=0$, then this system represents two independent SIR
+	populations. However, if $\beta_2>0$ the two populations are coupled,
+	and infected people in the high-risk population can infect people in
+	the original population, and vice versa. Solve the model numerically
+	for the parameter values of $S=90$, $I=10$, $R=0$, $S_H=100$, $I_H=0$,
+	$R_H=0$, $\beta=0.1$, $\beta_2=0.05$, $\beta_3=0.5$, and $\gamma=20$
+	over the the time interval $0 \le t \le 1.2$. Using the results,
+	estimate the total number of people who become sick in both the
+	original and high-risk populations.
+      \item Describe a real-life example where the situation considered in part
+	(b) would be a good model. For your example, discuss how the model may
+	influence public policy decisions, such as vaccination strategies.
+  \end{enumerate}
+\item \textbf{(Extra credit.) A more realistic predator--prey model.} Consider
+  again the predator--prey model from Exercise 1. In the absence of foxes, the
+  model predicts that the rabbit population will grow without limit. In reality,
+  one expects that the rabbit population will eventually plateau due to finite
+  food resources available.
+
+  Consider a population of rabbits and foxes on an isolated island. Design a
+  system of differential equations for the rabbit population $R(t)$, fox
+  population $F(t)$, and also the total grass $G(t)$ on the island. Justify the
+  terms in your equations. Solve the system numerically for two different
+  initial conditions and comment on the results.
+
+\item Estimate the number of hours it took  to complete the homework, excluding the time spent on the extra credit portions.
+\end{enumerate}
+
+\end{document}
+
+
