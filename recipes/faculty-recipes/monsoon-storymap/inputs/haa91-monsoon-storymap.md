@@ -1,6 +1,6 @@
-# HAA91 Art of Mausoleum Asia: Interactive StoryMap
+# HAA91 Art of Monsoon Asia: Interactive StoryMap
 
-_Transcribed from the handwritten "Project as Recipe" card ([`haa91-mausoleum-storymap.jpg`](haa91-mausoleum-storymap.jpg)), Summer of Claude faculty workshop, Day 1 (2026-06-08)._
+_Transcribed from the handwritten "Project as Recipe" card ([`haa91-monsoon-storymap.jpg`](haa91-monsoon-storymap.jpg)), Summer of Claude faculty workshop, Day 1 (2026-06-08)._
 
 ## Ingredients — your inputs
 
