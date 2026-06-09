@@ -1,0 +1,46 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Worksheet 2: Eigenvalues, Eigenvectors, and Diagonalization}
+\date{}
+\begin{document}
+\maketitle
+
+\textbf{Warm-up.} Let $A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$. Verify that $v = \begin{pmatrix}1\\0\end{pmatrix}$ is an eigenvector. What is the corresponding eigenvalue?
+
+\bigskip
+
+\textbf{Exercise 1.} For each matrix, find all eigenvalues and a basis for each eigenspace.
+\[
+(a)\; \begin{pmatrix}4&-2\\1&1\end{pmatrix}
+\qquad
+(b)\; \begin{pmatrix}2&1&0\\0&2&0\\0&0&3\end{pmatrix}
+\]
+
+\bigskip
+
+\textbf{Exercise 2.} Determine whether each matrix in Exercise 1 is diagonalizable. If so, write $A = PDP^{-1}$ explicitly.
+
+\bigskip
+
+\textbf{Exercise 3.} Use diagonalization to compute $A^{10}$ for
+\[
+A = \begin{pmatrix}1&2\\0&3\end{pmatrix}.
+\]
+
+\bigskip
+
+\textbf{Exercise 4 (Application --- Population Dynamics).} A population of rabbits and foxes evolves each year according to $x_{t+1} = Ax_t$ where
+\[
+A = \begin{pmatrix}1.2 & -0.1\\0.05 & 0.9\end{pmatrix}.
+\]
+Starting from $x_0 = \begin{pmatrix}100\\20\end{pmatrix}$:
+\begin{enumerate}
+    \item[(a)] Find the eigenvalues. Do both populations grow, shrink, or have mixed behavior?
+    \item[(b)] Find the long-run trajectory.
+\end{enumerate}
+
+\bigskip
+
+\textbf{Reflection.} Why might a matrix have complex eigenvalues even though all its entries are real? What does this mean geometrically?
+
+\end{document}

@@ -1,0 +1,43 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Problem Set 3}
+\subtitle{Fourier Series, Abstract Vector Spaces, and Applications}
+\date{Due: Week 11}
+\begin{document}
+\maketitle
+
+\textbf{Instructions:} Write up solutions neatly. Justify all claims.
+
+\bigskip
+
+\textbf{1.} (Fourier series) Compute the full Fourier series of $f(t) = |\sin t|$ on $[-\pi, \pi]$.
+
+\bigskip
+
+\textbf{2.} (Parseval's identity) Use your answer to Problem 1 (or the Fourier series of $f(t) = t^2$) to evaluate
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^4}.
+\]
+
+\bigskip
+
+\textbf{3.} (Abstract vector spaces) Let $P_3$ denote the space of polynomials of degree $\leq 3$.
+\begin{enumerate}
+    \item[(a)] Show that $\{1, t, t^2, t^3\}$ is a basis.
+    \item[(b)] Find the matrix of the differentiation operator $D: P_3 \to P_3$, $Dp = p'$, with respect to this basis.
+    \item[(c)] Find the eigenvalues of $D$. Are there any real eigenvectors?
+\end{enumerate}
+
+\bigskip
+
+\textbf{4.} (Application --- Heat equation) The temperature $u(x,t)$ in a rod satisfies
+\[
+\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad u(0,t) = u(\pi,t) = 0, \quad u(x,0) = \sin x + \tfrac{1}{3}\sin 3x.
+\]
+Using the fact that $u_n(x,t) = e^{-n^2 t}\sin(nx)$ is a solution for each $n$, write down the solution $u(x,t)$. What happens as $t \to \infty$?
+
+\bigskip
+
+\textbf{5.} (Challenge) Let $V$ be an inner product space and $W$ a finite-dimensional subspace. Prove that every $v \in V$ can be written uniquely as $v = w + w^\perp$ where $w \in W$ and $w^\perp \in W^\perp$.
+
+\end{document}

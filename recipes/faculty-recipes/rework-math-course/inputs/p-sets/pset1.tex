@@ -1,0 +1,49 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Problem Set 1}
+\subtitle{Linear Systems, Matrices, and Linear Transformations}
+\date{Due: Week 3}
+\begin{document}
+\maketitle
+
+\textbf{Instructions:} Write up solutions neatly. Justify all claims. Collaboration is permitted, but write your own solutions.
+
+\bigskip
+
+\textbf{1.} (Row reduction) For each of the following systems, find all solutions or determine there are none.
+\begin{enumerate}
+    \item[(a)] $x_1 - x_2 + 2x_3 = 3$, $\;2x_1 + x_2 - x_3 = 1$, $\;x_1 + 3x_2 - 5x_3 = -4$.
+    \item[(b)] $x_1 + 2x_2 - x_3 + x_4 = 2$, $\;2x_1 + 5x_2 + x_3 - x_4 = 1$, $\;3x_1 + 7x_2 + 0x_3 = 3$.
+\end{enumerate}
+
+\bigskip
+
+\textbf{2.} (Matrix algebra) Let $A = \begin{pmatrix}2&1\\-1&3\end{pmatrix}$ and $B = \begin{pmatrix}1&0\\2&-1\end{pmatrix}$.
+\begin{enumerate}
+    \item[(a)] Compute $A^2 - 2A + I$.
+    \item[(b)] Find $(AB)^{-1}$ two ways: directly and using $(AB)^{-1} = B^{-1}A^{-1}$.
+    \item[(c)] Determine all matrices $C$ such that $AC = CA$.
+\end{enumerate}
+
+\bigskip
+
+\textbf{3.} (Linear transformations) Define $T: \mathbb{R}^3 \to \mathbb{R}^2$ by $T(x_1, x_2, x_3) = (x_1 - x_2,\; 2x_2 + x_3)$.
+\begin{enumerate}
+    \item[(a)] Show $T$ is linear and find its standard matrix.
+    \item[(b)] Find $\ker(T)$ and $\text{Im}(T)$.
+    \item[(c)] Is $T$ injective? Surjective? Explain.
+\end{enumerate}
+
+\bigskip
+
+\textbf{4.} (Subspaces) Let $W = \{(x_1,x_2,x_3) \in \mathbb{R}^3 : x_1 + x_2 = x_3\}$.
+\begin{enumerate}
+    \item[(a)] Show $W$ is a subspace of $\mathbb{R}^3$.
+    \item[(b)] Find a basis for $W$ and state $\dim W$.
+\end{enumerate}
+
+\bigskip
+
+\textbf{5.} (Challenge) Prove that if $A$ is an $m \times n$ matrix with $m < n$, then $Ax = 0$ has a nontrivial solution.
+
+\end{document}
