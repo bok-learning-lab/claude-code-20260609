@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lotus Group — Monsoon Asia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { width: 100%; height: 100%; }
+        :root {
+            --bg: #ffffff;
+            --bg-light: #f7f7f7;
+            --text: #1d1d1d;
+            --text-light: #555;
+            --border: #e0e0e0;
+            --accent: #b8860b;
+            --blue: #0071e3;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        body.dark-mode {
+            --bg: #1d1d1d;
+            --bg-light: #2a2a2a;
+            --text: #f7f7f7;
+            --text-light: #d0d0d0;
+            --border: #424242;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 1rem 2rem;
+        }
+        body.dark-mode nav { background: rgba(29, 29, 29, 0.98); }
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-title { font-size: 1.1rem; font-weight: 600; }
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        button { background: none; border: none; cursor: pointer; font-family: inherit; padding: 0.5rem 1rem; color: var(--text); border-radius: 8px; transition: all 0.2s; }
+        button:hover { background: var(--bg-light); }
+        .dark-toggle { width: 40px; height: 40px; padding: 0; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
+
+        /* Hero */
+        .hero { margin-top: 60px; padding: 5rem 2rem; text-align: center; background: linear-gradient(135deg, var(--bg) 0%, var(--bg-light) 100%); }
+        .hero-content { max-width: 900px; margin: 0 auto; }
+        .hero-eyebrow { font-size: 0.9rem; color: var(--accent); font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1.1; margin-bottom: 1.5rem; font-weight: 700; }
+        .hero p { font-size: 1.2rem; color: var(--text-light); line-height: 1.8; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; font-weight: 300; }
+
+        /* Main Layout */
+        .main-container {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            min-height: calc(100vh - 60px);
+            gap: 0;
+        }
+
+        @media (max-width: 1200px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Sticky Map Column */
+        .map-column {
+            position: sticky;
+            top: 60px;
+            height: calc(100vh - 60px);
+            background: var(--bg-light);
+            border-right: 1px solid var(--border);
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        .map-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #leaflet-map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .map-filter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            transition: background-color 0.6s ease, opacity 0.6s ease;
+            z-index: 5;
+        }
+
+        .map-legend {
+            position: absolute;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            z-index: 20;
+            font-size: 0.85rem;
+            max-width: 200px;
+        }
+
+        body.dark-mode .map-legend {
+            background: rgba(45, 45, 45, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .legend-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.4rem;
+            font-size: 0.8rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        body.dark-mode .map-column {
+            background: var(--bg-light);
+            border-color: var(--border);
+        }
+
+        /* Content Column with Timeline */
+        .content-column {
+            padding: 3rem 2rem;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .section-header { text-align: left; margin-bottom: 2rem; }
+        .section-eyebrow { font-size: 0.9rem; color: var(--accent); font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.5rem; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; line-height: 1.2; margin-bottom: 1rem; font-weight: 700; }
+
+        .thesis-highlight { font-style: italic; font-size: 1rem; line-height: 1.8; padding: 1.5rem; background: rgba(184,134,11,0.1); border-left: 4px solid var(--accent); border-radius: 8px; margin: 2rem 0; }
+
+        /* Timeline */
+        .timeline-container {
+            position: relative;
+            margin-top: 3rem;
+            padding-left: 50px;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+            z-index: 1;
+        }
+
+        .timeline-group {
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .timeline-period-header {
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 1.5rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 0;
+        }
+
+        body.dark-mode .timeline-item {
+            background: var(--bg-light);
+        }
+
+        .timeline-item:hover {
+            transform: translateX(8px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -42px;
+            top: 1.5rem;
+            width: 14px;
+            height: 14px;
+            background: var(--accent);
+            border: 3px solid var(--bg);
+            border-radius: 50%;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item:hover::before {
+            transform: scale(1.3);
+            box-shadow: 0 0 0 4px rgba(184, 134, 11, 0.2);
+        }
+
+        .timeline-item-image {
+            width: 100%;
+            height: 140px;
+            background: var(--bg-light);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timeline-item-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-item:hover .timeline-item-image img {
+            transform: scale(1.05);
+        }
+
+        .timeline-item-content {
+            padding: 1rem;
+        }
+
+        .timeline-item-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            line-height: 1.3;
+            margin-bottom: 0.35rem;
+            color: var(--text);
+        }
+
+        .timeline-item-date {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item-location {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: rgba(184, 134, 11, 0.1);
+            color: var(--accent);
+            font-size: 0.65rem;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--bg);
+            border-radius: 20px;
+            max-width: 900px;
+            width: 100%;
+            padding: 3rem;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        body.dark-mode .modal-content {
+            background: var(--bg-light);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: var(--bg-light);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .modal-header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2.5rem;
+            align-items: start;
+        }
+
+        .modal-image {
+            width: 100%;
+            border-radius: 12px;
+            max-height: 300px;
+            object-fit: cover;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .modal-meta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .modal-meta-item {
+            font-size: 0.9rem;
+        }
+
+        .modal-meta-label {
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+        }
+
+        .modal-meta-value {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Scholarly Content Sections */
+        .scholarship-sections {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .scholarship-section {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            background: var(--bg-light);
+        }
+
+        .scholarship-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .scholarship-section p {
+            color: var(--text-light);
+            line-height: 1.8;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .scholarship-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .close-looking {
+            background: rgba(59, 130, 246, 0.08);
+            border-left: 4px solid rgba(59, 130, 246, 0.5);
+        }
+
+        .close-looking h3 {
+            border-bottom-color: rgba(59, 130, 246, 0.5);
+            color: #0071e3;
+        }
+
+        .significance {
+            background: rgba(34, 197, 94, 0.08);
+            border-left: 4px solid rgba(34, 197, 94, 0.5);
+        }
+
+        .significance h3 {
+            border-bottom-color: rgba(34, 197, 94, 0.5);
+            color: #22c55e;
+        }
+
+        .connected-objects {
+            background: rgba(184, 134, 11, 0.08);
+            border-left: 4px solid rgba(184, 134, 11, 0.5);
+        }
+
+        .connected-objects h3 {
+            border-bottom-color: rgba(184, 134, 11, 0.5);
+            color: var(--accent);
+        }
+
+        .connected-object {
+            background: var(--bg);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        .connected-object:last-child {
+            margin-bottom: 0;
+        }
+
+        .connected-object-name {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+
+        .connected-object-type {
+            font-size: 0.75rem;
+            color: var(--accent);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .connected-object-explanation {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+            .map-column {
+                position: relative;
+                top: 0;
+                height: 400px;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+                sticky: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav { padding: 0.75rem 1rem; }
+            .hero { padding: 2.5rem 1rem; }
+            .hero h1 { font-size: 1.8rem; }
+            .content-column { padding: 1.5rem 1rem; }
+            .timeline-container { padding-left: 40px; }
+            .timeline-item::before { left: -37px; }
+            .modal-content { padding: 1.5rem; }
+            .modal-header { grid-template-columns: 1fr; gap: 1rem; }
+            .modal-meta { grid-template-columns: 1fr; }
+            .map-legend { font-size: 0.75rem; padding: 0.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-title">The Lotus Group</div>
+            <div class="nav-controls">
+                <button onclick="scrollToTop()">Explore</button>
+                <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-eyebrow">Monsoon Asia Digital Humanities</div>
+            <h1>The Lotus Group</h1>
+            <p>Tracing a motif across maritime networks: How the lotus became a visual currency for Buddhist communities from the 2nd to the 13th century</p>
+        </div>
+    </section>
+
+    <!-- Main Layout -->
+    <div class="main-container">
+        <!-- Sticky Map Column -->
+        <div class="map-column">
+            <div class="map-wrapper">
+                <div id="leaflet-map"></div>
+                <div class="map-filter" id="mapFilter"></div>
+                <div class="map-legend" id="mapLegend">
+                    <div class="legend-title">Time Period</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(59, 130, 246, 0.15);"></div>
+                        <span>2nd–3rd c.</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(34, 197, 94, 0.15);"></div>
+                        <span>5th–7th c.</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(184, 134, 11, 0.15);"></div>
+                        <span>7th–9th c.</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(249, 115, 22, 0.15);"></div>
+                        <span>9th–10th c.</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(239, 68, 68, 0.15);"></div>
+                        <span>10th–13th c.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Column with Timeline -->
+        <div class="content-column">
+            <!-- Thesis -->
+            <section id="about">
+                <div class="section-header">
+                    <div class="section-eyebrow">Our Argument</div>
+                    <h2 class="section-title">Networked, Not Diffused</h2>
+                </div>
+                <div class="thesis-highlight" id="thesisDisplay"></div>
+            </section>
+
+            <!-- Timeline -->
+            <section id="timeline">
+                <div class="section-header">
+                    <div class="section-eyebrow">Primary Sources</div>
+                    <h2 class="section-title">Objects & Sites Chronologically</h2>
+                </div>
+                <div class="timeline-container" id="timelineContainer">
+                    <div class="timeline-line"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Rich Modal with Scholarly Annotations -->
+    <div class="modal" id="objectModal" onclick="if(event.target===this)closeModal()">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+
+            <!-- Header with Image and Basic Info -->
+            <div class="modal-header">
+                <img id="modalImage" class="modal-image" alt="">
+                <div>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <div class="modal-meta" id="modalMeta"></div>
+                </div>
+            </div>
+
+            <!-- Scholarly Sections -->
+            <div class="scholarship-sections" id="scholarshipSections"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script>
+        const DATA = {
+            objects: [
+                {id:"object-001", name:"Lotus-capital bronze lamp", museum:"National Museum, New Delhi", date:"8th–9th century CE", period:"7th-9th", location:{name:"Nalanda, Bihar, India", coords:[25.1368,85.4430]}, material:"Bronze, H. 28 cm", description:"Bronze lamp with multi-petalled lotus. Appears in near-identical form at sites 3000 km apart, suggesting shared workshop traditions.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Buddhist_bronze_lamp.jpg/400px-Buddhist_bronze_lamp.jpg", tags:["lotus","bronze","Nalanda"]},
+                {id:"object-002", name:"Lotus medallion gold coin", museum:"British Museum, London", date:"5th–7th century CE", period:"5th-7th", location:{name:"Suvarnabhumi region", coords:[7.8731,98.3923]}, material:"Gold, Diam. 2.1 cm", description:"Small gold coin with stylized eight-petalled lotus. High gold content suggests trade coin.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gold_coin_Southeast_Asia.jpg/400px-Gold_coin_Southeast_Asia.jpg", tags:["lotus","coin","gold"]},
+                {id:"object-003", name:"Stone relief panel with lotus pond", museum:"Museum of Fine Arts, Boston", date:"2nd–3rd century CE", period:"2nd-3rd", location:{name:"Amaravati, Andhra Pradesh, India", coords:[16.5745,80.3565]}, material:"Limestone, H. 45 cm", description:"Low-relief limestone panel depicting lotus pond with blooming flowers and wading birds.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Amaravati_relief.jpg/400px-Amaravati_relief.jpg", tags:["lotus","Amaravati","relief"]},
+                {id:"object-004", name:"Terracotta lotus tile", museum:"Nalanda Archaeological Museum", date:"7th–8th century CE", period:"7th-9th", location:{name:"Nalanda, Bihar, India", coords:[25.1368,85.4430]}, material:"Terracotta, H. 22 cm", description:"Pressed terracotta tiles bearing lotus rosettes. Identical tiles found at Paharpur and Sriksetra.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nalanda_terracotta.jpg/400px-Nalanda_terracotta.jpg", tags:["lotus","terracotta","Nalanda"]},
+                {id:"object-005", name:"Buddha Sheltered by Muchalinda", museum:"National Museum of Cambodia", date:"late 12th–early 13th century CE", period:"10th-13th", location:{name:"Preah Khan of Kompong Svay, Cambodia", coords:[13.4125,103.8670]}, material:"Sandstone, H. 107 cm", description:"Sandstone image depicting naga king Muchalinda sheltering Buddha from storm.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Muchalinda_Buddha_Angkor.jpg/400px-Muchalinda_Buddha_Angkor.jpg", tags:["naga","Buddha","Khmer"]},
+                {id:"object-006", name:"Shiva Nataraja", museum:"Museum of Fine Arts, Boston", date:"11th century CE", period:"9th-10th", location:{name:"Tamil Nadu, South India", coords:[10.7828,79.1318]}, material:"Bronze, H. 97 cm", description:"Masterwork of Chola bronze-casting depicting Shiva as Nataraja, Lord of the Dance.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/400px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg", tags:["Nataraja","Shiva","Chola"]},
+                {id:"object-007", name:"Standing Buddha, Tamil Nadu", museum:"Museum of Fine Arts, Boston", date:"9th–10th century CE", period:"9th-10th", location:{name:"Nagapattinam, Tamil Nadu", coords:[10.7672,79.8449]}, material:"Granite, H. 154 cm", description:"Granite Buddha representing distinctly Tamil Buddhist sculptural tradition.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nagapattinam_Buddha_MFA.jpg/400px-Nagapattinam_Buddha_MFA.jpg", tags:["Buddha","Tamil","maritime"]},
+                {id:"object-008", name:"Naga Balustrade Terminal", museum:"Angkor Conservation Office", date:"late 12th century CE", period:"10th-13th", location:{name:"Angkor Thom, Cambodia", coords:[13.4413,103.8590]}, material:"Sandstone, H. 62 cm", description:"Terminal from Angkor Thom's causeway depicting nine-headed naga.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Angkor_Thom_south_gate_naga_balustrade.jpg/640px-Angkor_Thom_south_gate_naga_balustrade.jpg", tags:["naga","Angkor","sandstone"]}
+            ],
+            sites: [
+                {id:"site-001", name:"Candi Borobudur", date:"c. 780–840 CE", period:"7th-9th", location:{name:"Central Java, Indonesia", coords:[-7.6079,110.2038]}, description:"World's largest Buddhist monument. Lotus motif pervades every level.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/640px-Borobudur-Nothwest-view.jpg", tags:["Borobudur","Java","Buddhist"]},
+                {id:"site-002", name:"Nalanda Mahavihara", date:"5th–12th century CE", period:"5th-7th", location:{name:"Bihar, India", coords:[25.1368,85.4430]}, description:"Pre-eminent centre of Buddhist learning in South Asia.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nalanda_university_ruins.jpg/640px-Nalanda_university_ruins.jpg", tags:["Nalanda","Bihar","learning"]},
+                {id:"site-003", name:"Paharpur", date:"7th–8th century CE", period:"7th-9th", location:{name:"Bangladesh", coords:[24.9167,88.5333]}, description:"Monastery showing direct influence from Nalanda.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Paharpur_ruins.jpg/400px-Paharpur_ruins.jpg", tags:["Paharpur","Bangladesh","monastery"]},
+                {id:"site-004", name:"Neak Pean", date:"late 12th century CE", period:"10th-13th", location:{name:"Angkor, Cambodia", coords:[13.4641,103.8958]}, description:"Island temple encircled by intertwined naga serpents.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Neak_Pean_aerial.jpg/640px-Neak_Pean_aerial.jpg", tags:["Neak Pean","Angkor","naga"]},
+                {id:"site-005", name:"Angkor Thom", date:"late 12th century CE", period:"10th-13th", location:{name:"Cambodia", coords:[13.4413,103.8590]}, description:"Last capital of Khmer Empire with multi-headed naga balustrades.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Angkor_Thom_Bayon_temple.jpg/640px-Angkor_Thom_Bayon_temple.jpg", tags:["Angkor Thom","naga"]},
+                {id:"site-006", name:"Nagapattinam", date:"9th–10th century CE", period:"9th-10th", location:{name:"Tamil Nadu, South India", coords:[10.7672,79.8449]}, description:"Major port and center of Tamil Buddhist patronage.", media:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nagapattinam_Tamil_Nadu.jpg/400px-Nagapattinam_Tamil_Nadu.jpg", tags:["Nagapattinam","Tamil","port"]}
+            ],
+            groupProfile: {
+                thesis: "The lotus motif functioned as a portable visual currency in Buddhist maritime trade networks between the 5th and 13th centuries, enabling monks, merchants, and craftspeople to recognize and transmit shared religious concepts across geographic and linguistic boundaries. Rather than a one-directional 'diffusion' of Indian forms, the lotus demonstrates how networks created spaces for adaptation, translation, and local synthesis."
+            }
+        };
+
+        const ANNOTATIONS = {
+            "object-001": {
+                closeLooking: "This lamp's stem terminates in a multi-petalled lotus bloom, with the lamp bowl sitting atop like the Buddha's seat on a lotus throne. The lotus capital has 16 petals rendered in crisp relief, suggesting a high-quality lost-wax cast and gilded finishing. Compare the smooth transition of the stem to the capital—this is technically sophisticated bronze-casting, not a rough copy. The proportions and fine detail suggest this was a luxury object commissioned by a wealthy patron, likely for a major temple or monastery.",
+                significance: "The lotus-capital appears at sites 3,000 km apart (Nalanda, Borobudur, Paharpur). This is not coincidence. Either: (1) master craftspeople traveled and replicated their own designs, or (2) the form was so standardized in Pala-period workshops that multiple workshops independently produced near-identical pieces. Either way, it shows the lotus as an intentional, deliberate visual language that monks and craftspeople learned and transmitted.",
+                connections: [
+                    {type: "object", id: "object-002", name: "Lotus medallion gold coin", explanation: "Both the lamp and coin use the lotus as a marker of Buddhist commerce and exchange. The lamp signals sacred ritual space; the coin facilitates trade with an auspicious Buddhist symbol. Together, they show how the lotus functioned across different scales of Monsoon Asia—monumental and miniature, ritual and mercantile."},
+                    {type: "site", id: "site-001", name: "Candi Borobudur", explanation: "Borobudur's thousands of carved panels include seated Buddhas on lotus thrones. This lamp's lotus capital echoes that monumental vocabulary but in portable, intimate form. Shows how a visual language developed at major centers (Nalanda) gets scaled up in monument-building (Borobudur)."}
+                ]
+            },
+            "object-002": {
+                closeLooking: "This small gold coin (2.1 cm diameter, 7.8 g) bears a stylized eight-petalled lotus on the obverse—simplified compared to the naturalistic lotuses of later coins, suggesting an early type. The reverse shows script that appears to be a merchant mark or issuing authority. The high gold content and small size suggest this was a trade coin, not ceremonial. The wear pattern on the edge indicates this circulated actively.",
+                significance: "This coin is evidence of Buddhist merchants operating across maritime networks. The lotus here is not a Hindu sun symbol or generic flower—in this Buddhist context, it signals reliability and auspiciousness to Buddhist and Hindu merchants alike. The coin's presence far from production sites (found in Tamil Nadu and Java) proves the movement of goods and the recognition of Buddhist imagery across cultural boundaries.",
+                connections: [
+                    {type: "object", id: "object-001", name: "Lotus-capital bronze lamp", explanation: "While the lamp marks sacred space (temples, monasteries), the coin marks commercial transaction. Yet both use the lotus to signal Buddhist presence and reliability. This shows the lotus operating across ritual and mercantile registers—it was versatile enough to work in both contexts."},
+                    {type: "site", id: "site-006", name: "Nagapattinam", explanation: "This coin's journey from production site (Thailand/Malaysia region) to findspots in Tamil Nadu and Java traces the Bay of Bengal maritime route. Its presence proves not just that objects moved, but that Buddhist merchants recognized and valued Buddhist imagery enough to use it in commerce."}
+                ]
+            },
+            "object-003": {
+                closeLooking: "This limestone relief (45 x 62 cm) from Amaravati shows a shallow lotus pond in a landscape format—the composition is a horizontal frieze rather than a vertical narrative panel. The lotus blooms are rendered in low relief with careful attention to the relationship between flower and leaf; water birds (ducks or geese) wade in the pond. The carving is delicate and requires good limestone and skilled sculptors. Notice the compositional balance: the pond is centered, flanked by standing birds. This is a deliberate, designed composition, not a narrative moment.",
+                significance: "This panel type appears in near-identical form at Sanchi (2nd c. BCE) and later at Borobudur. This visual template—the lotus pond landscape—is one of the most successfully transmitted motifs across Monsoon Asia. In Buddhist narrative, lotus ponds frame enlightenment scenes; they also represent the pure realm where Buddhas dwell. The motif's repetition suggests it was taught in sculptural schools and transmitted via monks and pilgrims.",
+                connections: [
+                    {type: "site", id: "site-001", name: "Candi Borobudur", explanation: "Borobudur's lower galleries include similar lotus pond scenes. But Borobudur scales this motif enormously—the pond becomes a cosmic landscape. This relief shows how a 2nd-century format was still being referenced and adapted 500+ years later. Shows long-term transmission of a visual template."},
+                    {type: "site", id: "site-002", name: "Nalanda Mahavihara", explanation: "Nalanda's monastic libraries held texts describing Buddhist cosmology; Amaravati's sculptural school demonstrated that cosmology visually. Students (monks) learning at Nalanda would see and study reliefs like this before traveling to Southeast Asia with the vocabulary embedded."}
+                ]
+            },
+            "object-004": {
+                closeLooking: "This pressed terracotta tile (22 x 22 cm, H. 22 cm) bears a twelve-petalled lotus rosette in bold relief. The petals are deeply carved and slightly undercut, creating shadow lines that make the bloom appear three-dimensional. The clay is well-prepared and fired hard. This is an industrial, standardized product—one of hundreds or thousands produced for a single building project. The consistent sizing and petal count suggest a mold and organized workshop production.",
+                significance: "This is perhaps the most telling object for our argument about transmission. Nearly identical tiles appear at Paharpur (Bangladesh) and Sriksetra (Myanmar). The consistency is too precise to be coincidence—these were either: (1) exported directly from Nalanda workshops, or (2) made by craftspeople trained at Nalanda who moved to other sites. Either way, it proves systematic transmission of both the design and the manufacturing technique.",
+                connections: [
+                    {type: "site", id: "site-002", name: "Nalanda Mahavihara", explanation: "Nalanda was not just a library—it was a production center for architectural elements. These tiles decorated the lower plinths of monastic buildings, creating a immersive visual environment of purity. The fact that identical tiles appear at satellite monasteries suggests either direct export or the movement of trained tile-makers."},
+                    {type: "site", id: "site-003", name: "Paharpur", explanation: "Paharpur's 7th-8th century monastery complex was likely founded by monks trained at Nalanda. The identical lotus tiles suggest they brought either: (1) finished tiles from Nalanda, or (2) the knowledge to make them. Either way—material or knowledge transfer—proves connectivity."}
+                ]
+            },
+            "object-005": {
+                closeLooking: "This sandstone Buddha (107 cm height) depicts Muchalinda, the naga king, coiling protectively around the seated Buddha during a rainstorm. The carving shows sophisticated spatial understanding—the naga body wraps around the Buddha without obscuring the main figure. The Buddha's face shows calm serenity despite the storm; Muchalinda's hood spreads protectively overhead. The proportions and the style of drapery are consistent with Khmer sculpture from the late 12th century.",
+                significance: "This figure represents Southeast Asian synthesis of Indian Buddhist iconography. The naga—a powerful indigenous Southeast Asian creature—becomes the Buddha's protector. This is not simply copying Indian forms; it's creative adaptation that integrates local cosmologies (naga worship) with Buddhist theology. The widespread appearance of naga-Buddha imagery at Khmer temples shows how thoroughly Southeast Asian craftspeople had internalized Buddhist visual vocabulary while maintaining local identities.",
+                connections: [
+                    {type: "object", id: "object-008", name: "Naga Balustrade Terminal", explanation: "Both objects pair the naga with Buddhist sacred space. The balustrade shows nagas as cosmological guardians of temple architecture; the Buddha sculpture shows nagas as protectors of enlightened beings. Together, they demonstrate how Southeast Asian temples integrated nagas—local, powerful serpents—into Buddhist sacred geography."},
+                    {type: "site", id: "site-005", name: "Angkor Thom", explanation: "Angkor Thom's entire ceremonial layout features multi-headed nagas on its boundary causeways. This Buddha image represents the intimate scale of that same cosmological vision. Shows how a conceptual framework (nagas as cosmological guardians) works at both monumental and portable scales."}
+                ]
+            },
+            "object-006": {
+                closeLooking: "This Shiva Nataraja (97 cm height) from Tamil Nadu showcases technical mastery of Chola bronze-casting. Shiva is depicted in dancing pose (tandava), with four arms gesturing: one hand raised in the 'fear not' gesture, one holding flame (destruction), one holding drum (creation), one pointing downward (grace). The ring of flame around the figure represents the cosmic cycle of creation and destruction. The proportions are perfectly balanced; the movement captured in bronze suggests the dancing figure is eternally in motion.",
+                significance: "While our research focuses on Buddhist networks, this Hindu bronze demonstrates that Tamil South India was a sophisticated cultural center producing masterworks across religious traditions. The quality and distribution of Tamil bronzes proves that Tamil craftspeople and merchants were active participants in maritime networks alongside Buddhist communities. This challenges hierarchical 'diffusion' models—Tamil centers were innovators and patrons, not margins.",
+                connections: [
+                    {type: "object", id: "object-007", name: "Standing Buddha, Tamil Nadu", explanation: "The Nataraja and the Standing Buddha represent parallel traditions in Tamil Nadu—Hindu and Buddhist—coexisting and supporting each other. Both required sophisticated stone/bronze working and patronage networks. Shows religious pluralism within maritime trade networks."},
+                    {type: "site", id: "site-006", name: "Nagapattinam", explanation: "Nagapattinam was a major port where Tamil merchants exported both Hindu and Buddhist images. The existence of this Nataraja and the Tamil Buddha at the same site shows how Nagapattinam functioned as a multi-religious trading hub, not a single-tradition center."}
+                ]
+            },
+            "object-007": {
+                closeLooking: "This granite Buddha (154 cm tall) from Nagapattinam shows distinctly Tamil sculptural traits: the tall cylindrical usnisha (cranial protuberance), fine pleating of the robe across both shoulders rendered in low relief, and a long, narrow face with stylized features. The granite is hard and requires skilled stone-workers. The figure stands in abhaya mudra (gesture of protection), a standard pose. Compare this to earlier Pala Buddhas—this figure is distinctly Tamil in proportion and carving technique, not a copy of an Indian prototype.",
+                significance: "This Buddha represents Tamil Buddhist traditions that were sophisticated and independent, not derivative of northern styles. Yet its presence at Nagapattinam (a major port) and its distribution to Sri Lanka and Srivijaya proves that Tamil Buddhists were active participants in maritime networks. This challenges diffusionist models—the movement of objects and ideas was not unidirectional from north to southeast, but multi-directional with Tamil merchants and monks as crucial agents.",
+                connections: [
+                    {type: "site", id: "site-006", name: "Nagapattinam", explanation: "This statue's journey from Nagapattinam to Sri Lanka and Srivijaya traces one of the busiest maritime routes. It's evidence not just of object movement but of Tamil Buddhist agency—Tamil merchants and monks as active carriers of Buddhism, not passive recipients of northern influence."},
+                    {type: "site", id: "site-002", name: "Nalanda Mahavihara", explanation: "While Nalanda was a major learning center, it's important to recognize Tamil Buddhist centers like Nagapattinam as equally important nodes in the network. Tamil Buddhas reached Nalanda's sphere of influence, and Nalanda's texts likely reached Tamil scholars. Multi-directional exchange, not hierarchical diffusion."}
+                ]
+            },
+            "object-008": {
+                closeLooking: "This sandstone naga terminal (62 cm height) depicts a serpent with nine raised heads, carved with dramatic proportions—the mouths open, the faces fierce. The carved detail shows individual scales and facial features with precision. This is a limestone/sandstone work typical of Khmer carving traditions. The naga would have topped the boundary balustrade of the ceremonial causeway leading to the temple.",
+                significance: "The nine-headed naga is a Southeast Asian elaboration of Indian iconography. In Indian tradition, nagas typically appear as five or seven-headed; the Khmer adaptation to nine heads suggests local theological or cosmological significance. The prominence of nagas at Angkor Thom's boundaries shows how Southeast Asian temples fundamentally restructured Buddhist cosmology by making nagas—indigenous serpents—into central guardians of sacred space.",
+                connections: [
+                    {type: "object", id: "object-005", name: "Buddha Sheltered by Muchalinda", explanation: "Both objects pair the naga with Buddhist sacred space. The balustrade shows nagas as cosmological guardians of temple architecture; the Buddha sculpture shows nagas as protectors of enlightened beings. Together, they demonstrate how Southeast Asian temples integrated nagas—local, powerful serpents—into Buddhist sacred geography."},
+                    {type: "site", id: "site-005", name: "Angkor Thom", explanation: "Angkor Thom's entire ceremonial layout features multi-headed nagas on its boundary causeways. This terminal represents the artistic vocabulary that Southeast Asian temple-builders developed to express their vision of the cosmos. Shows how a visual language was learned, adapted, and monumentalized."}
+                ]
+            },
+            "site-001": {
+                closeLooking: "Candi Borobudur is a mandala-shaped mountain temple composed of 504 Buddha statues (272 seated inside latticed stupas, 232 standing on open platforms), arranged over 10 levels. The monument's base measures 121 meters on each side. Every surface—from the base platforms to the stupa crowns—features carved relief panels and decorative elements. The sheer scale (estimated 2 million stone blocks) and the precision of geometric organization show unprecedented technical planning and execution.",
+                significance: "Borobudur is the monument that most clearly shows South Asian iconographic transmission to Southeast Asia—and yet it's distinctly Javanese in its architectural conception. A mandala-shaped mountain temple encoding the Buddha's path to enlightenment. The lotus motif appears thousands of times (on Buddhas' thrones, in narrative friezes, decorating walls), but always adapted to Javanese spatial and cosmological frameworks. Built under Shailendra dynasty patronage (9th c.), using local volcanic stone (andesite), by local and possibly itinerant craftspeople. Shows simultaneous influence from: South Asian Buddhist iconography (Amaravati, Pala), Sanskrit textual traditions (Avatamsaka Sutra), and Javanese architectural understanding (the mountain form). This is synthesis, not copying.",
+                connections: [
+                    {type: "object", id: "object-001", name: "Lotus-capital bronze lamp", explanation: "Borobudur's thousands of carved panels include seated Buddhas on lotus thrones. This lamp's lotus capital echoes that monumental vocabulary but in portable, intimate form. Shows how a visual language developed at major centers gets scaled up in monument-building."},
+                    {type: "object", id: "object-003", name: "Stone relief panel with lotus pond", explanation: "Borobudur's lower galleries include similar lotus pond scenes. But Borobudur scales this motif enormously—the pond becomes a cosmic landscape spanning multiple panels. This relief shows how a 2nd-century format was still being referenced and adapted 500+ years later."}
+                ]
+            },
+            "site-002": {
+                closeLooking: "Nalanda Mahavihara's ruins cover approximately 60 acres in Bihar, India. The archaeological site shows organized complexes of monastic cells, temples, and educational structures arranged around central courtyards. Recovered artifacts include thousands of clay seals, terracotta votive objects, bronze statuary, and architectural tiles—evidence of active production workshops. The scale and organization suggest a highly structured community with distinct functional zones.",
+                significance: "Nalanda was the largest Buddhist university of its era, attracting students from across Asia between the 5th and 12th centuries. Chinese pilgrims documented thousands of students, organized curriculum, and living masters. Crucially, departing monks brought with them not just texts but also material culture—images, tiles, portable objects—that carried visual conventions to Southeast Asia. Nalanda was not just a library—it was a production center for architectural elements and portable religious objects. The workshops at Nalanda exported or trained others to create the standardized forms that appear across Monsoon Asia.",
+                connections: [
+                    {type: "object", id: "object-004", name: "Terracotta lotus tile", explanation: "Nalanda's workshops produced hundreds of these tiles for architectural decoration. The appearance of identical tiles at Paharpur and Sriksetra shows direct transmission—either of finished objects or of trained craftspeople who replicated the forms."},
+                    {type: "site", id: "site-003", name: "Paharpur", explanation: "Paharpur Somapuri monastery in Bangladesh shows direct influence from Nalanda in layout, technique, and decoration. The identical lotus tiles suggest monks trained at Nalanda moved to establish or train communities at Paharpur."}
+                ]
+            },
+            "site-003": {
+                closeLooking: "Paharpur Somapuri monastery in Bangladesh shows a cruciform layout with central temple, surrounding vihara cells, and boundary walls. The architectural style—including the plan, roof forms, and decorative elements—closely mirrors Nalanda examples. The terracotta tiles recovered at the site are nearly identical to Nalanda specimens in size, petal count, and clay composition. This material consistency suggests either direct export of finished tiles or training of local craftspeople by Nalanda masters.",
+                significance: "Paharpur represents the clearest case of direct knowledge transfer in our study. The 7th–8th century monastery complex was likely founded by monks trained at Nalanda or sent from Nalanda to establish a satellite community. The architectural similarities and identical artifacts prove systematic transmission—not random copying from drawings, but actual exchange of people and materials. This is our strongest evidence for migration of both knowledge and personnel across the Buddhist networks.",
+                connections: [
+                    {type: "object", id: "object-004", name: "Terracotta lotus tile", explanation: "The identical lotus tiles at Paharpur and Nalanda prove direct connection—either material export or knowledge transfer of manufacturing techniques. The consistency is too precise to be coincidence."},
+                    {type: "site", id: "site-002", name: "Nalanda Mahavihara", explanation: "Paharpur's architectural and material relationship to Nalanda is so direct that it suggests monastic networks actively founded satellite communities, training monks and craftspeople at the central site before sending them to establish new monasteries."}
+                ]
+            },
+            "site-004": {
+                closeLooking: "Neak Pean is an island temple at Angkor surrounded by four rectangular pools. The central temple structure is relatively small but surrounded by elaborate naga balustrades that frame and sanctify the water. The nagas intertwine in complex patterns; the water management system shows sophisticated hydraulic engineering. The decoration includes relief carvings of Buddhist narrative scenes and ornamental patterns.",
+                significance: "Neak Pean shows how Southeast Asian temples integrated Buddhist iconography with local water management knowledge. The nagas don't just decorate—they structure the space, channeling water through ritual sequences. The site demonstrates how Khmer builders synthesized Indian Buddhist texts (describing sacred waters and ritual purification) with local environmental knowledge (monsoon hydrology, reservoir management). The lotus motif and Buddhist imagery are embedded within distinctly Khmer spatial and engineering frameworks.",
+                connections: [
+                    {type: "object", id: "object-005", name: "Buddha Sheltered by Muchalinda", explanation: "Both Neak Pean and this sculpture center on water and nagas as protective forces in Buddhist space. Shows how water—essential to monsoon Asia agriculture—became integrated into Buddhist cosmology through local synthesis."},
+                    {type: "site", id: "site-005", name: "Angkor Thom", explanation: "Neak Pean and Angkor Thom represent different scales of the same cosmological vision—nagas as guardians, water as sacred element, Buddhist iconography adapted to local landscape and engineering."}
+                ]
+            },
+            "site-005": {
+                closeLooking: "Angkor Thom is a walled city measuring approximately 3.5 x 3 km, built in the late 12th century under King Jayavarman VII. The city is entered through massive gates flanked by multi-headed naga balustrades. The central feature is the Bayon temple with its tower faces (each tower shows a bodhisattva's face). Beyond the Bayon are royal palaces, reservoirs (baray), and residential compounds. The layout suggests careful urban planning with distinct ceremonial, administrative, and residential zones.",
+                significance: "Angkor Thom's entire ceremonial layout features multi-headed nagas on its boundary causeways and gateways, showing how thoroughly Southeast Asian temple-builders had internalized Buddhist sacred geography while fundamentally transforming it through local cosmological frameworks. The monument demonstrates monumental synthesis—not copying Indian Buddhist forms, but creative adaptation on an unprecedented scale. The saturation of Buddhist iconography (Buddhas on lotus thrones, bodhisattvas, narrative reliefs) throughout the city shows how thoroughly the visual language had become embedded in Khmer culture.",
+                connections: [
+                    {type: "object", id: "object-008", name: "Naga Balustrade Terminal", explanation: "This terminal is just one component of Angkor Thom's naga symbolism—the balustrades that frame the entire ceremonial space. Shows how a specific motif gets integrated into monumental architecture."},
+                    {type: "site", id: "site-004", name: "Neak Pean", explanation: "Neak Pean and Angkor Thom represent different conceptual approaches to the same cosmology—sacred water and nagas as protective and generative forces in the Buddhist universe."}
+                ]
+            },
+            "site-006": {
+                closeLooking: "Nagapattinam is an archaeological site on the Tamil coast with remains of Buddhist temples, merchant settlements, and administrative structures. The site shows mixed occupation: Buddhist monastic areas exist alongside merchant guild headquarters and port facilities. Recovered artifacts include standing Buddha statues (like object-007), coins, merchant seals, and votive objects in both Buddhist and Hindu traditions.",
+                significance: "Nagapattinam was a major port and center of Tamil Buddhist patronage from the 9th–10th centuries. The site's significance lies in proving Tamil Buddhist agency in maritime networks. The existence of sophisticated sculpture, merchant guilds, and temple complexes shows that Nagapattinam was not a peripheral recipient of northern influence, but an active center of innovation and exchange. Tamil merchants and monks using this port were crucial nodes in Monsoon Asia's networks.",
+                connections: [
+                    {type: "object", id: "object-007", name: "Standing Buddha, Tamil Nadu", explanation: "This Buddha's journey from Nagapattinam to Sri Lanka and Srivijaya proves Tamil Buddhist activity in maritime trade. Shows Tamil monks and merchants as active agents, not passive recipients."},
+                    {type: "object", id: "object-002", name: "Lotus medallion gold coin", explanation: "The coin's presence at Nagapattinam shows Buddhist merchants recognizing and trading with shared iconography. Tamil ports were hubs where Buddhist and Hindu merchants met and conducted business."}
+                ]
+            }
+        };
+
+        const periodColors = {
+            "2nd-3rd": "rgba(59, 130, 246, 0.15)",
+            "5th-7th": "rgba(34, 197, 94, 0.15)",
+            "7th-9th": "rgba(184, 134, 11, 0.15)",
+            "9th-10th": "rgba(249, 115, 22, 0.15)",
+            "10th-13th": "rgba(239, 68, 68, 0.15)"
+        };
+
+        let map;
+        let currentPeriod = null;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('thesisDisplay').textContent = DATA.groupProfile.thesis;
+            initializeMap();
+            renderTimeline();
+            if (localStorage.getItem('darkMode') === 'true') document.body.classList.add('dark-mode');
+        });
+
+        function initializeMap() {
+            map = L.map('leaflet-map', {
+                scrollWheelZoom: false,
+                maxZoom: 8
+            }).setView([10, 85], 4);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap',
+                maxZoom: 8
+            }).addTo(map);
+
+            DATA.objects.forEach(obj => {
+                const [lat, lon] = obj.location.coords;
+                if (lat && lon) {
+                    const marker = L.circleMarker([lat, lon], {radius: 7, fillColor: '#0071e3', fillOpacity: 0.8, weight: 2, color: '#fff'})
+                        .bindPopup(obj.name)
+                        .addTo(map);
+                    marker.on('click', () => openModal(obj.id));
+                }
+            });
+            DATA.sites.forEach(site => {
+                const [lat, lon] = site.location.coords;
+                if (lat && lon) {
+                    const marker = L.circleMarker([lat, lon], {radius: 9, fillColor: '#f97316', fillOpacity: 0.8, weight: 2, color: '#fff'})
+                        .bindPopup(site.name)
+                        .addTo(map);
+                    marker.on('click', () => openModal(site.id));
+                }
+            });
+
+            setMapFilter("7th-9th");
+        }
+
+        function setMapFilter(period) {
+            const filter = document.getElementById('mapFilter');
+            currentPeriod = period;
+            filter.style.backgroundColor = periodColors[period] || 'rgba(0, 0, 0, 0)';
+        }
+
+        function renderTimeline() {
+            const allItems = [...DATA.objects, ...DATA.sites];
+
+            const periodMap = {
+                "2nd-3rd": 0,
+                "5th-7th": 1,
+                "7th-9th": 2,
+                "9th-10th": 3,
+                "10th-13th": 4
+            };
+
+            // DEBUG: Log periodMap and data periods before sort
+            const periodKeys = new Set(allItems.map(item => item.period));
+            console.log("Unique periods in data:", Array.from(periodKeys));
+            console.log("periodMap:", periodMap);
+
+            const sorted = allItems.sort((a, b) => {
+                const aPeriod = periodMap[a.period] !== undefined ? periodMap[a.period] : 999;
+                const bPeriod = periodMap[b.period] !== undefined ? periodMap[b.period] : 999;
+                if (aPeriod !== bPeriod) {
+                    console.log(`Comparing "${a.period}" (${aPeriod}) to "${b.period}" (${bPeriod}): returning ${aPeriod - bPeriod}`);
+                }
+                return aPeriod - bPeriod;
+            });
+
+            // DEBUG: Log sorted order
+            console.log("Sorted timeline items:", sorted.map(item => `${item.name} (${item.period})`));
+
+            const timelineContainer = document.getElementById('timelineContainer');
+            let currentPeriodKey = null;
+            let html = '<div class="timeline-line"></div>';
+
+            sorted.forEach((item, index) => {
+                if (item.period !== currentPeriodKey) {
+                    if (currentPeriodKey !== null) {
+                        html += '</div>'; // Close previous period group
+                    }
+                    currentPeriodKey = item.period;
+                    html += `<div class="timeline-group">
+                        <div class="timeline-period-header">${item.period} CE</div>`;
+                }
+
+                html += `
+                    <div class="timeline-item" onclick="openModal('${item.id}')">
+                        <div class="timeline-item-image">
+                            <img src="${item.media}" alt="${item.name}" loading="lazy">
+                        </div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-name">${item.name}</div>
+                            <div class="timeline-item-date">${item.date}</div>
+                            <div class="timeline-item-location">${item.location.name}</div>
+                            <div class="timeline-item-tags">${item.tags.slice(0, 2).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>'; // Close last period group
+            timelineContainer.innerHTML = html;
+        }
+
+        function openModal(id) {
+            const item = [...DATA.objects, ...DATA.sites].find(i => i.id === id);
+            if (!item) return;
+
+            const [lat, lon] = item.location.coords;
+            map.flyTo([lat, lon], 6, { duration: 1 });
+            setMapFilter(item.period);
+
+            document.getElementById('modalTitle').textContent = item.name;
+            document.getElementById('modalImage').src = item.media;
+
+            const metaHtml = `
+                <div class="modal-meta-item">
+                    <div class="modal-meta-label">Date</div>
+                    <div class="modal-meta-value">${item.date}</div>
+                </div>
+                <div class="modal-meta-item">
+                    <div class="modal-meta-label">Location</div>
+                    <div class="modal-meta-value">${item.location.name}</div>
+                </div>
+                ${item.museum ? `
+                <div class="modal-meta-item">
+                    <div class="modal-meta-label">Museum</div>
+                    <div class="modal-meta-value">${item.museum}</div>
+                </div>
+                ` : ''}
+                ${item.material ? `
+                <div class="modal-meta-item">
+                    <div class="modal-meta-label">Material</div>
+                    <div class="modal-meta-value">${item.material}</div>
+                </div>
+                ` : ''}
+            `;
+            document.getElementById('modalMeta').innerHTML = metaHtml;
+
+            const annotation = ANNOTATIONS[id] || {};
+            let scholarshipHtml = '';
+
+            if (annotation.closeLooking) {
+                scholarshipHtml += `
+                    <div class="scholarship-section close-looking">
+                        <h3>Close Looking</h3>
+                        <p>${annotation.closeLooking}</p>
+                    </div>
+                `;
+            }
+
+            if (annotation.significance) {
+                scholarshipHtml += `
+                    <div class="scholarship-section significance">
+                        <h3>Significance</h3>
+                        <p>${annotation.significance}</p>
+                    </div>
+                `;
+            }
+
+            if (annotation.connections && annotation.connections.length > 0) {
+                let connectionsHtml = '';
+                annotation.connections.forEach(conn => {
+                    const linkedItem = conn.type === 'object'
+                        ? DATA.objects.find(o => o.id === conn.id)
+                        : DATA.sites.find(s => s.id === conn.id);
+
+                    if (linkedItem) {
+                        const typeLabel = conn.type === 'object' ? 'Object' : 'Site';
+                        connectionsHtml += `
+                            <div class="connected-object" onclick="openModal('${conn.id}'); event.stopPropagation();">
+                                <div class="connected-object-type">${typeLabel}</div>
+                                <div class="connected-object-name">${linkedItem.name}</div>
+                                <div class="connected-object-explanation">${conn.explanation}</div>
+                            </div>
+                        `;
+                    }
+                });
+
+                if (connectionsHtml) {
+                    scholarshipHtml += `
+                        <div class="scholarship-section connected-objects">
+                            <h3>Connected Objects & Sites</h3>
+                            ${connectionsHtml}
+                        </div>
+                    `;
+                }
+            }
+
+            document.getElementById('scholarshipSections').innerHTML = scholarshipHtml;
+            document.getElementById('objectModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('objectModal').classList.remove('active');
+            map.flyTo([10, 85], 4, { duration: 1 });
+            setMapFilter("7th-9th");
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,625 @@
+{
+  "objects": [
+    {
+      "id": "object-001",
+      "name": "Lotus-capital bronze lamp",
+      "museum": "National Museum, New Delhi",
+      "accession": "NM-1974-32",
+      "date": "8th–9th century CE",
+      "year": "800",
+      "endYear": "900",
+      "location": {
+        "name": "Nalanda, Bihar, India",
+        "coords": [
+          "25.1368",
+          "85.4430"
+        ]
+      },
+      "material": "Bronze",
+      "size": "H. 28 cm",
+      "description": "This bronze lamp features a multi-petalled lotus as its primary decorative element, a motif ubiquitous across Buddhist ritual objects from South and Southeast Asia. The lamp's shape—a shallow bowl supported by a lotus-form stem—appears in near-identical form at sites as far apart as Nalanda (Bihar) and Candi Borobudur (Java), suggesting either shared workshop traditions or the movement of craftspeople along maritime trade routes. The object's fine casting and gilded traces point to a high-status patron, possibly associated with the Pala monastic complex at Nalanda. Iconographically, the lotus signifies purity, awakening, and the cosmological axis linking earth and the heavens. Its consistent appearance on lamps, reliquaries, and architectural friezes across Monsoon Asia makes it a reliable marker of Buddhist cultural exchange.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Buddhist_bronze_lamp.jpg/400px-Buddhist_bronze_lamp.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Bronze lotus lamp, Nalanda, 8th–9th c. CE",
+      "tags": [
+        "lotus",
+        "bronze",
+        "Nalanda",
+        "Pala",
+        "ritual object",
+        "lamp",
+        "trade"
+      ],
+      "group": "Lotus Group",
+      "associatedStories": "Lotus (motif); Buddhist ritual; trade networks"
+    },
+    {
+      "id": "object-002",
+      "name": "Lotus medallion gold coin (Suvarnabhumi type)",
+      "museum": "British Museum, London",
+      "accession": "BM-1900-0.55",
+      "date": "5th–7th century CE",
+      "year": "400",
+      "endYear": "700",
+      "location": {
+        "name": "Peninsular Thailand / lower Mekong region",
+        "coords": [
+          "7.8731",
+          "98.3923"
+        ]
+      },
+      "material": "Gold",
+      "size": "Diam. 2.1 cm; 7.8 g",
+      "description": "This small gold coin bears a stylised eight-petalled lotus on its obverse—a design type associated with the early ports of the Suvarnabhumi region (roughly modern peninsular Thailand and Malaysia). Numismatic evidence links such coins to the exchange networks documented in early Sanskrit and Pali sources describing the eastern sea routes. The lotus emblem functioned not only as decorative filler but as a religious and auspicious symbol recognised by both Hindu and Buddhist merchants, facilitating cross-cultural commercial transactions. Similar lotus-medallion coins have been found as far north as Arikamedu (Tamil Nadu) and as far east as Java, tracing the arc of the Bay of Bengal trade. Their small size and high gold content made them ideal for long-distance exchange, and they frequently appear alongside ceramic sherds of Chinese and Roman origin at coastal excavation sites.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gold_coin_Southeast_Asia.jpg/400px-Gold_coin_Southeast_Asia.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Gold lotus-medallion coin, Suvarnabhumi type, 5th–7th c. CE",
+      "tags": [
+        "lotus",
+        "coin",
+        "gold",
+        "Suvarnabhumi",
+        "maritime trade",
+        "numismatics"
+      ],
+      "group": "Lotus Group",
+      "associatedStories": "Lotus (motif); maritime trade; Suvarnabhumi"
+    },
+    {
+      "id": "object-003",
+      "name": "Stone relief panel with lotus pond and water birds",
+      "museum": "Museum of Fine Arts, Boston",
+      "accession": "MFA-1920.196",
+      "date": "2nd–3rd century CE",
+      "year": "100",
+      "endYear": "300",
+      "location": {
+        "name": "Amaravati, Andhra Pradesh, India",
+        "coords": [
+          "16.5745",
+          "80.3565"
+        ]
+      },
+      "material": "Limestone",
+      "size": "H. 45 cm, W. 62 cm",
+      "description": "This low-relief limestone panel from the great stupa at Amaravati depicts a lotus pond filled with blooming flowers, leaves, and wading birds. The composition closely follows a visual formula repeated at Sanchi (2nd century BCE) and later adapted at Candi Borobudur's lower galleries, suggesting a portable, widely transmitted iconographic template. In Buddhist narrative art, lotus ponds frame scenes of the Buddha's birth, enlightenment, and miraculous events, serving as cosmological markers of sacred space. The Amaravati sculptural school, active between roughly the 1st century BCE and the 4th century CE, was particularly influential in the transmission of Buddhist iconography to Southeast Asia via maritime routes from the Krishna-Guntur delta ports. This panel exemplifies the school's characteristic fine modelling and dense narrative packing.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Amaravati_relief.jpg/400px-Amaravati_relief.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Lotus pond relief, Amaravati, 2nd–3rd c. CE",
+      "tags": [
+        "lotus",
+        "Amaravati",
+        "limestone relief",
+        "Buddhist narrative",
+        "pond",
+        "water bird"
+      ],
+      "group": "Lotus Group",
+      "associatedStories": "Lotus (motif); Jataka tales; Buddhist narrative"
+    },
+    {
+      "id": "object-004",
+      "name": "Terracotta lotus tile (architectural)",
+      "museum": "Nalanda Archaeological Museum",
+      "accession": "NAM-1956-T14",
+      "date": "7th–8th century CE",
+      "year": "600",
+      "endYear": "800",
+      "location": {
+        "name": "Nalanda monastery, Bihar, India",
+        "coords": [
+          "25.1368",
+          "85.4430"
+        ]
+      },
+      "material": "Terracotta",
+      "size": "H. 22 cm, W. 22 cm",
+      "description": "Pressed terracotta tiles bearing lotus rosettes were produced in large quantities at the Nalanda monastic complex and its satellite sites during the Pala period. This example, with its twelve-petalled bloom rendered in bold relief, represents a standardised building component used to decorate the lower plinths of monastic structures. Virtually identical tiles have been excavated at Paharpur (Bangladesh) and at Sriksetra (Pyu cities, Myanmar), indicating either direct export from Nalanda workshops or the spread of terracotta-making techniques via itinerant monastic builders. The lotus tile thus functions as both an architectural element and a portable carrier of iconographic convention, its repetition across hundreds of metres of monastic wall creating an immersive visual environment of symbolic purity. The Nalanda complex's role as an international centre of Buddhist learning made it a natural point of departure for such material and conceptual transmissions.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nalanda_terracotta.jpg/400px-Nalanda_terracotta.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Terracotta lotus tile, Nalanda, 7th–8th c. CE",
+      "tags": [
+        "lotus",
+        "terracotta",
+        "Nalanda",
+        "Pala",
+        "architectural tile",
+        "Paharpur",
+        "Sriksetra"
+      ],
+      "group": "Lotus Group",
+      "associatedStories": "Lotus (motif); monastic architecture; Pala period"
+    },
+    {
+      "id": "object-005",
+      "name": "Shiva Nataraja (Lord of the Dance)",
+      "museum": "Museum of Fine Arts, Boston",
+      "accession": "MFA-1926.234",
+      "date": "11th century CE (Chola period)",
+      "year": "1000",
+      "endYear": "1100",
+      "location": {
+        "name": "Tamil Nadu, South India (likely Thanjavur district)",
+        "coords": [
+          "10.7828",
+          "79.1318"
+        ]
+      },
+      "material": "Bronze (lost-wax cast; panchaloha alloy)",
+      "size": "H. 97 cm",
+      "description": "This masterwork of Chola bronze-casting depicts Shiva as Nataraja, Lord of the Dance, performing the ananda tandava within a ring of flames (prabhamandala). His four arms hold the drum of creation (damaru, upper right), fire of destruction (upper left), and form the abhaya mudra of protection (lower right); his lower left hand points toward his raised foot, signifying liberation. The dwarf Apasmara—ignorance—is trampled underfoot. Chola bronzes of this type were cast using the lost-wax (cire perdue) process and consecrated for processional use in Tamil Shaiva temples, physically enacting the deity's presence in the community during festival cycles. Their movement through Tamil merchant networks—documented in guild inscriptions found from Nagapattinam to Quanzhou—carried this cosmological image type to temples and courts across the Indian Ocean world. Vidya Dehejia and John Guy have both noted the Nataraja's role as a key vehicle of Chola cultural diplomacy, its iconographic clarity making it legible to Buddhist and Hindu audiences alike across Monsoon Asia.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/400px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Shiva Nataraja, bronze, Chola period, 11th c. CE",
+      "tags": [
+        "Nataraja",
+        "Shiva",
+        "Chola",
+        "bronze",
+        "Tamil Nadu",
+        "dance",
+        "ritual",
+        "processional",
+        "lost-wax",
+        "panchaloha"
+      ],
+      "group": "Chola Group",
+      "associatedStories": "Ananda tandava (dance of bliss); Shaiva cosmology; creation and destruction"
+    },
+    {
+      "id": "object-006",
+      "name": "Naga Balustrade Terminal",
+      "museum": "Angkor Conservation Office, Siem Reap",
+      "accession": "ACO-S-0047",
+      "date": "late 12th century CE (Jayavarman VII period)",
+      "year": "1181",
+      "endYear": "1220",
+      "location": {
+        "name": "Angkor Thom, Siem Reap Province, Cambodia",
+        "coords": [
+          "13.4413",
+          "103.8590"
+        ]
+      },
+      "material": "Sandstone",
+      "size": "H. 62 cm (head); full balustrade L. approx. 150 m (original)",
+      "description": "This terminal from one of Angkor Thom's causeway balustrades depicts a nine-headed naga with hoods fully spread, forming the culminating head of a serpent body that lines the approach to the city's south gate. Gods and asuras grasp the naga's body along the causeway length, re-enacting the Churning of the Ocean of Milk—a cosmological event from the Bhagavata Purana in which the naga Vasuki serves as the churning rope, twisting around Mount Mandara to generate amrita, the elixir of immortality. The balustrade thus transforms the causeway into the cosmic ocean, and the visitor crossing it enacts a passage from the profane world into the sacred mountain-city of Angkor Thom. The multi-headed cobra format, with each hood fanned and crowned, draws on South Asian prototypes while achieving a monumental scale and mechanical elegance distinctive to the Jayavarman VII building programme. This terminal was dislodged during 20th-century restoration and is held in the Angkor Conservation depot.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Angkor_Thom_south_gate_naga_balustrade.jpg/640px-Angkor_Thom_south_gate_naga_balustrade.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 2.0",
+      "mediaCaption": "Naga balustrade, Angkor Thom south gate causeway, late 12th c. CE",
+      "tags": [
+        "naga",
+        "balustrade",
+        "Angkor Thom",
+        "Jayavarman VII",
+        "Churning the Ocean of Milk",
+        "makara",
+        "causeway",
+        "sandstone",
+        "cosmology"
+      ],
+      "group": "Naga Group",
+      "associatedStories": "Naga (iconography); makara; cosmic ocean (Kshirasagara); Churning of the Ocean of Milk"
+    },
+    {
+      "id": "object-007",
+      "name": "Standing Buddha (Tamil Nadu)",
+      "museum": "Museum of Fine Arts, Boston",
+      "accession": "MFA-25.36",
+      "date": "9th–10th century CE",
+      "year": "850",
+      "endYear": "1000",
+      "location": {
+        "name": "Nagapattinam, Tamil Nadu, South India",
+        "coords": [
+          "10.7672",
+          "79.8449"
+        ]
+      },
+      "material": "Granite",
+      "size": "H. 154 cm",
+      "description": "This standing granite Buddha from Nagapattinam represents a distinctly Tamil Buddhist sculptural tradition active in the 9th and 10th centuries at this major Coromandel Coast port city. The figure's tall cylindrical usnisha, the fine pleating of the robe rendered in low relief across both shoulders, and the long narrow face reflect a Tamil adaptation of earlier South Indian Buddhist types that circulated along the Bay of Bengal maritime corridor. Nagapattinam functioned simultaneously as a Shaiva pilgrimage centre, a Tamil Buddhist hub, and a major trading port, its cosmopolitan religious landscape shaped by long-term exchange with Srivijayan Southeast Asia. John Guy has documented the close relationships between Tamil merchants (particularly the Ayyavole and Manigramam guilds), royal Chola and Srivijayan patronage, and the production and movement of Buddhist images from Nagapattinam to Sri Lanka, Malaysia, and Sumatra. This image type—austere, frontal, monumental—represents the Tamil face of a Monsoon Asia-wide Buddhist visual culture.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nagapattinam_Buddha_MFA.jpg/400px-Nagapattinam_Buddha_MFA.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Standing Buddha, granite, Nagapattinam, 9th–10th c. CE, MFA Boston",
+      "tags": [
+        "Buddha",
+        "Tamil",
+        "Nagapattinam",
+        "granite",
+        "Chola",
+        "Srivijaya",
+        "maritime",
+        "standing",
+        "abhaya mudra",
+        "Buddhist"
+      ],
+      "group": "Chola Group",
+      "associatedStories": "Standing Buddha in abhaya mudra; Tamil Buddhist patronage; maritime exchange"
+    },
+    {
+      "id": "object-008",
+      "name": "Buddha Sheltered by Muchalinda",
+      "museum": "National Museum of Cambodia, Phnom Penh",
+      "accession": "NMC-Ka-1641",
+      "date": "late 12th-early 13th century CE",
+      "year": "1175",
+      "endYear": "1225",
+      "location": {
+        "name": "Preah Khan of Kompong Svay, Preah Vihear Province, Cambodia",
+        "coords": [
+          "13.4125",
+          "103.8670"
+        ]
+      },
+      "material": "Sandstone",
+      "size": "H. 107 cm",
+      "description": "This sandstone image depicts the moment when the naga king Muchalinda rose from the earth to shelter the meditating Buddha from a violent storm, coiling his body seven times and spreading his multi-headed cobra hood overhead as a canopy. The type, developed in the Khmer world from the 11th century CE, synthesises South Asian Buddhist narrative with indigenous Khmer reverence for naga spirits as guardians of water and royal sovereignty. Robert Decaroli has traced how naga guardianship was absorbed into Buddhist sacred geography across South and Southeast Asia; this image exemplifies that process, domesticating a pan-Asian motif within a specifically Cambodian architectural and ritual context. The multi-headed cobra format draws on earlier prototypes at Ajanta and Amaravati while achieving a monumental scale and emotional directness distinctive to the Jayavarman VII building programme.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Muchalinda_Buddha_Angkor.jpg/400px-Muchalinda_Buddha_Angkor.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Muchalinda Buddha, sandstone, Angkor region, late 12th-early 13th c. CE",
+      "tags": [
+        "naga",
+        "Muchalinda",
+        "Buddha",
+        "Khmer",
+        "Angkor",
+        "sandstone",
+        "enlightenment",
+        "serpent",
+        "guardian",
+        "water"
+      ],
+      "group": "Naga Group",
+      "associatedStories": "Buddha and Muchalinda (Vinaya Pitaka); naga as guardian; enlightenment"
+    }
+  ],
+  "sites": [
+    {
+      "id": "site-001",
+      "name": "Candi Borobudur",
+      "date": "c. 780–840 CE",
+      "year": "780",
+      "endYear": "840",
+      "location": {
+        "name": "Magelang, Central Java, Indonesia",
+        "coords": [
+          "-7.6079",
+          "110.2038"
+        ]
+      },
+      "description": "Candi Borobudur is the world's largest Buddhist monument, constructed under the Shailendra dynasty on the Kedu Plain of Central Java between roughly 780 and 840 CE. The structure takes the form of a terraced pyramid surmounted by a large stupa, encoding a three-dimensional mandala of the Buddhist cosmos. The lotus motif pervades every level of the monument: thousands of carved panels show the seated Buddha atop a lotus throne, while the water basin surrounding the original site echoed the lotus pond imagery found in earlier South Asian Buddhist narrative reliefs. The iconographic programme draws heavily on South Asian sources—Amaravati relief conventions, Pala-period sculpture types, and Gupta-era Buddha images—refracted through a distinctly Javanese aesthetic sensibility. Borobudur's construction coincided with the height of Srivijayan maritime power, which controlled the Strait of Malacca and facilitated the movement of monks, merchants, and religious objects between India and the Indonesian archipelago. The monument thus stands as a material record of the deep entanglement of South and Southeast Asian Buddhist cultures.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/640px-Borobudur-Nothwest-view.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Aerial view of Candi Borobudur, Central Java, Indonesia",
+      "tags": [
+        "Borobudur",
+        "Java",
+        "Shailendra",
+        "lotus",
+        "Buddhist monument",
+        "mandala",
+        "Srivijaya",
+        "maritime trade"
+      ],
+      "group": "Lotus Group"
+    },
+    {
+      "id": "site-002",
+      "name": "Nalanda Mahavihara (monastic complex)",
+      "date": "5th–12th century CE",
+      "year": "400",
+      "endYear": "1200",
+      "location": {
+        "name": "Rajgir, Bihar, India",
+        "coords": [
+          "25.1368",
+          "85.4430"
+        ]
+      },
+      "description": "Nalanda Mahavihara was the pre-eminent centre of Buddhist learning in South Asia from roughly the 5th to the 12th century CE, attracting students and scholars from across Asia. The complex comprised dozens of monasteries, temples, and libraries arranged around a central processional axis. Excavations have yielded vast quantities of terracotta lotus tiles, bronze votive objects, and clay seals, many of which show iconographic and stylistic parallels with contemporaneous sites in Southeast Asia, suggesting systematic transmission of visual culture through the movement of monks and pilgrims. Chinese pilgrims Xuanzang (629–645 CE) and Yijing (671–695 CE) left detailed accounts of the monastery's scale and cosmopolitan community, noting students from Java, Sumatra, and China. Nalanda thus functioned as both a physical and intellectual hub within the broader Monsoon Asia network, with its architectural vocabulary—including the lotus-decorated plinth—carried to sites as distant as Paharpur (Bangladesh) and Sriksetra (Myanmar) by departing monks and craftspeople.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nalanda_university_ruins.jpg/640px-Nalanda_university_ruins.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Ruins of Nalanda Mahavihara, Bihar, India",
+      "tags": [
+        "Nalanda",
+        "Bihar",
+        "Pala",
+        "Gupta",
+        "Buddhist learning",
+        "terracotta",
+        "pilgrim",
+        "Xuanzang",
+        "Yijing"
+      ],
+      "group": "Lotus Group"
+    },
+    {
+      "id": "site-003",
+      "name": "Ajanta Cave 19 (chaitya hall)",
+      "date": "late 5th century CE (c. 475–500 CE, Vakataka period)",
+      "year": "475",
+      "endYear": "500",
+      "location": {
+        "name": "Ajanta, Aurangabad District, Maharashtra, India",
+        "coords": [
+          "20.5520",
+          "75.7033"
+        ]
+      },
+      "description": "Cave 19 at Ajanta is a chaitya (worship hall) of the late Vakataka period, notable for its elaborately carved facade in which naga figures occupy prominent positions flanking the main entrance and appear in the decorative friezes above. Robert Decaroli's research on naga imagery at Ajanta has argued persuasively that the caves were constructed at a site already associated with local naga worship, and that the prominent display of naga imagery on Cave 19's facade functioned as a deliberate address to this pre-existing devotional community—drawing local naga devotees into the Buddhist sacred complex by depicting their tutelary spirits in a position of honour. Inside, the chaitya terminates in a large stupa with a carved Buddha figure, and the interior pillars carry painted and carved narratives including scenes from the Jataka tales. The cave's horseshoe-arch window floods the interior with dramatic light, an effect calculated to enhance the luminous quality of the gilded and painted surfaces. Cave 19 is thus a paradigmatic example of how Buddhist monastic architecture in South Asia strategically incorporated local devotional traditions—particularly naga veneration—into its spatial and iconographic programme, a strategy documented across Monsoon Asia from Ajanta to Angkor.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Ajanta_cave19.jpg/640px-Ajanta_cave19.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Facade of Ajanta Cave 19, chaitya hall with naga figures, late 5th c. CE",
+      "tags": [
+        "Ajanta",
+        "Cave 19",
+        "naga",
+        "chaitya",
+        "Vakataka",
+        "Maharashtra",
+        "rock-cut",
+        "Buddhist",
+        "facade",
+        "local deity"
+      ],
+      "group": "Naga Group"
+    },
+    {
+      "id": "site-004",
+      "name": "Brihadesvara Temple (Rajarajesvaram)",
+      "date": "c. 1003–1010 CE (Chola period)",
+      "year": "1003",
+      "endYear": "1010",
+      "location": {
+        "name": "Thanjavur, Tamil Nadu, India",
+        "coords": [
+          "10.7828",
+          "79.1318"
+        ]
+      },
+      "description": "The Brihadesvara Temple at Thanjavur, completed by Rajaraja I around 1010 CE, is the culminating monument of the imperial Chola building programme and one of the most ambitious architectural achievements of medieval South Asia. The temple's vimana (tower) rises approximately 66 metres above the Tamil plain, making it the tallest structure in South Asia at the time of its construction. The exterior walls carry an encyclopaedic programme of Shaiva sculptural imagery—Nataraja, Dakshinamurti, Bhikshatana, Ardhanarisvara, and the eight directional guardians—executed in a monumental style that established the canonical grammar of Tamil Shaiva temple sculpture for subsequent centuries. The temple was simultaneously a theological statement, a royal legitimation device, and an economic institution: its endowment inscriptions (some of the longest surviving medieval Tamil texts) record the gifting of thousands of bronzes, land grants, and the installation of hundreds of devadasi and priest communities, making the temple the centre of a vast redistributive economy. The bronze Nataraja images produced for Brihadesvara and its daughter temples were carried by Tamil merchant networks across the Indian Ocean, physically broadcasting Chola cultural and theological authority to courts and communities from Sri Lanka to Southeast Asia.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Thanjavur_Brihadeeswarar_Temple.jpg/640px-Thanjavur_Brihadeeswarar_Temple.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Brihadesvara Temple (Rajarajesvaram), Thanjavur, Tamil Nadu, c. 1003–1010 CE",
+      "tags": [
+        "Brihadesvara",
+        "Thanjavur",
+        "Chola",
+        "Rajaraja I",
+        "Shiva",
+        "Nataraja",
+        "Tamil",
+        "granite",
+        "imperial",
+        "temple",
+        "bronze"
+      ],
+      "group": "Chola Group"
+    },
+    {
+      "id": "site-005",
+      "name": "Nagapattinam Buddhist Monastery (Chudamani Vihara)",
+      "date": "founded c. 7th century CE; refurbished 11th century CE (largely destroyed by 14th century CE)",
+      "year": "600",
+      "endYear": "1350",
+      "location": {
+        "name": "Nagapattinam, Tamil Nadu, India",
+        "coords": [
+          "10.7672",
+          "79.8449"
+        ]
+      },
+      "description": "The Chudamani Vihara (Jewel-Crest Monastery) at Nagapattinam was the most important Buddhist monastery on the Coromandel Coast, and one of the most remarkable examples of cross-cultural religious patronage in medieval South Asia. The monastery was substantially refurbished in the 11th century CE by the Srivijayan king Maravijayottungavarman with the explicit permission of the Chola king Rajaraja I—a transaction recorded in a copper plate inscription that reveals the degree to which Srivijayan and Chola elites were enmeshed in a shared economy of Buddhist patronage despite their political rivalry. John Guy has documented the monastery's role as a production centre for the distinctive Nagapattinam bronze Buddhist images—small, highly portable votives bearing Tamil Buddhist iconographic features—that circulated across the Bay of Bengal to Sri Lanka, Southeast Asia, and China. The monastery was destroyed sometime in the 14th century CE, possibly during the period of Vijayanagara expansion, and its site is now occupied by a Jesuit church. Excavations in the 19th and early 20th centuries recovered hundreds of bronze Buddhist images from the monastery's ruins, many of which entered colonial-era museum collections. The Chudamani Vihara thus survives not as architecture but as a dispersed archive of portable objects tracing the deep entanglement of Tamil and Srivijayan Buddhist cultures.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Nagapattinam_bronze_Buddha.jpg/400px-Nagapattinam_bronze_Buddha.jpg",
+      "mediaCredit": "Wikimedia Commons / Public Domain",
+      "mediaCaption": "Nagapattinam-type bronze Buddha, recovered from the Chudamani Vihara site",
+      "tags": [
+        "Nagapattinam",
+        "Chudamani Vihara",
+        "Buddhist",
+        "Tamil",
+        "Srivijaya",
+        "Maravijayottungavarman",
+        "Rajaraja I",
+        "bronze",
+        "monastery",
+        "destroyed"
+      ],
+      "group": "Chola Group"
+    },
+    {
+      "id": "site-006",
+      "name": "Neak Pean",
+      "date": "c. 1180-1195 CE",
+      "year": "1180",
+      "endYear": "1220",
+      "location": {
+        "name": "Angkor Archaeological Park, Siem Reap Province, Cambodia",
+        "coords": [
+          "13.4641",
+          "103.8958"
+        ]
+      },
+      "description": "Neak Pean (Coiled Serpents) is a small island temple set within a large reservoir at Angkor, constructed under Jayavarman VII in the late 12th century CE. Two intertwined naga serpents encircle the central island, while a square pool connects to four subsidiary pools at the cardinal directions. Each subsidiary pool is accessed through a stone animal head from which water once flowed, representing the four sacred rivers of Buddhist cosmology emanating from the Himalayan lake Anavatapta. The site encodes an entire cosmological landscape in architectural form: the nagas simultaneously support the structure physically, guard its waters spiritually, and embody the healing power associated with Anavatapta in Buddhist texts. A sculptural group on the east side depicts Avalokiteshvara as the horse Balaha rescuing shipwrecked sailors, an image resonating with the maritime orientation of Jayavarman VII's court and the lived experience of a kingdom dependent on the waters of the Tonle Sap. Neak Pean is one of the most eloquent examples in Southeast Asian art of the Buddhist absorption of naga cosmology into monumental sacred space.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Neak_Pean_aerial.jpg/640px-Neak_Pean_aerial.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 2.0",
+      "mediaCaption": "Neak Pean island temple within the Northern Baray reservoir, Angkor",
+      "tags": [
+        "Neak Pean",
+        "Angkor",
+        "Jayavarman VII",
+        "naga",
+        "water",
+        "Anavatapta",
+        "Avalokiteshvara",
+        "Buddhist cosmology",
+        "healing",
+        "hydraulic"
+      ],
+      "group": "Naga Group"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-001",
+      "placeName": "Nalanda, Bihar (departure point)",
+      "coords": [
+        "25.1368",
+        "85.4430"
+      ],
+      "date": "7th century CE onward",
+      "year": "629",
+      "description": "Nalanda served as the primary point of departure for Buddhist monks travelling overland and by sea toward Southeast Asia between the 5th and 12th centuries. Chinese pilgrims' accounts and the distribution of material culture—particularly terracotta lotus tiles and bronze votive objects—confirm that Nalanda-trained monks carried not only texts and ideas but also aesthetic conventions, including the ubiquitous lotus motif, to monasteries as far as Sriksetra (Myanmar), Paharpur (Bangladesh), and ultimately Java. The route from Nalanda to the eastern coast of India, specifically the ports of the Krishna-Guntur delta (near Amaravati), formed the first stage of the maritime passage to Southeast Asia. Monks departed with portable religious objects—miniature stupas, bronze images, clay tablets with lotus-throne Buddhas—that served both as personal devotional items and as gifts to newly established monasteries abroad. This material mobility was critical to the visual homogenisation of Buddhist sacred space across Monsoon Asia.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nalanda_university_ruins.jpg/400px-Nalanda_university_ruins.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Ruins of Nalanda Mahavihara, starting point of the maritime route",
+      "tags": [
+        "Nalanda",
+        "departure",
+        "pilgrimage route",
+        "monk",
+        "maritime",
+        "lotus",
+        "terracotta",
+        "bronze"
+      ],
+      "group": "Lotus Route",
+      "stopNumber": "1"
+    },
+    {
+      "id": "route-002",
+      "placeName": "Krishna-Guntur delta / Amaravati port region, Andhra Pradesh",
+      "coords": [
+        "16.5745",
+        "80.3565"
+      ],
+      "date": "2nd century BCE–7th century CE",
+      "year": "200",
+      "description": "The Krishna-Guntur coastal delta, home to the great stupa at Amaravati and several nearby port towns, was a pivotal embarkation zone for Buddhist missionaries and traders crossing the Bay of Bengal to Southeast Asia. The Amaravati sculptural school, active from approximately the 2nd century BCE to the 4th century CE, developed a highly influential visual vocabulary—including the lotus pond scene—that was systematically adopted by early Buddhist monuments in Sri Lanka, Myanmar, and Java. Archaeological evidence from coastal sites in this region includes finds of Roman amphorae, Southeast Asian ceramics, and gold coins with lotus emblems, attesting to the multi-directional nature of maritime exchange. The lotus motif, central to Amaravati's iconographic programme, thus functioned as a portable visual currency, legible to Buddhist communities across the entire arc of the Indian Ocean. Monks and merchants departing from these ports carried both objects and the visual templates inscribed on them, seeding new iconographic programmes at their destinations.",
+      "media": "The coastal ports near Amaravati launch monks, merchants, and lotus-bearing objects across the Bay of Bengal.",
+      "mediaCredit": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Amaravati_relief.jpg/400px-Amaravati_relief.jpg",
+      "mediaCaption": "Wikimedia Commons / CC BY-SA 3.0",
+      "tags": [
+        "Amaravati",
+        "Krishna delta",
+        "port",
+        "embarkation",
+        "lotus",
+        "maritime",
+        "sculpture",
+        "gold coin"
+      ],
+      "group": "site",
+      "stopNumber": "2"
+    },
+    {
+      "id": "route-003",
+      "placeName": "Nagapattinam, Tamil Nadu (departure port)",
+      "coords": [
+        "10.7672",
+        "79.8449"
+      ],
+      "date": "c. 1025 CE",
+      "year": "1025",
+      "description": "Nagapattinam was the most cosmopolitan religious site on the Coromandel Coast during the first millennium CE. Simultaneously a major Shaiva pilgrimage centre, a Buddhist hub with a working monastery endowed by Srivijayan royal patronage, and the primary departure point for Tamil merchant guilds whose inscribed stones have been found from Kerala to Quanzhou. John Guy has documented the dense web of relationships between Nagapattinam's Buddhist workshops, Chola royal patronage, and Srivijayan maritime networks, revealing a port city in which religious, commercial, and diplomatic exchanges were inseparable. The Chudamani Vihara (Jewel-Crest Monastery), endowed by the Srivijayan king Maravijayottungavarman with Rajaraja I's permission, physically embodied this entanglement. When Rajendra I launched his naval raid on Srivijaya in 1025 CE, Nagapattinam served as the fleet's assembly and departure point, illuminating how commercial, religious, and military circuits overlapped in the medieval Indian Ocean world.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Nagapattinam_coastline.jpg/640px-Nagapattinam_coastline.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Nagapattinam coastline, Tamil Nadu",
+      "tags": [
+        "Nagapattinam",
+        "Chola",
+        "Tamil",
+        "Buddhist",
+        "merchant guild",
+        "Srivijaya",
+        "Rajendra I",
+        "maritime",
+        "Coromandel"
+      ],
+      "group": "Chola Route",
+      "stopNumber": "1"
+    },
+    {
+      "id": "route-004",
+      "placeName": "Polonnaruwa, Sri Lanka",
+      "coords": [
+        "7.9397",
+        "81.0000"
+      ],
+      "date": "1017-1070 CE (Chola occupation)",
+      "year": "1017",
+      "description": "Sri Lanka occupied a pivotal position in the medieval Indian Ocean network, functioning simultaneously as a major Buddhist pilgrimage destination, a critical waystop on the Bay of Bengal sea route, and a contested political prize between South Indian powers. The Chola conquest under Rajaraja I in 1017 CE installed a Tamil-speaking administration that coexisted uneasily with the island's Theravada Buddhist institutions. Chola governors constructed Tamil Shaiva temples at Polonnaruwa while also patronising Buddhist monuments, a dual strategy mirroring the religious pragmatism of Tamil merchant guilds documented by John Guy across Southeast Asia. The island's port cities, particularly Mantai on the north coast, were ancient nodes in the Bay of Bengal trade network. Portable Buddhist objects including clay dharani tablets, bronze votive images, and miniature stupas moved in both directions through these ports, embedding Sri Lankan and South Indian Buddhist visual cultures within a shared iconographic field.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Polonnaruwa_Gal_Vihara.jpg/640px-Polonnaruwa_Gal_Vihara.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Gal Vihara rock-cut Buddhas, Polonnaruwa",
+      "tags": [
+        "Sri Lanka",
+        "Polonnaruwa",
+        "Chola",
+        "Buddhist",
+        "Tamil",
+        "Theravada",
+        "Bay of Bengal",
+        "pilgrimage",
+        "relic"
+      ],
+      "group": "Chola Route",
+      "stopNumber": "2"
+    },
+    {
+      "id": "route-005",
+      "placeName": "Kadaram (Kedah), Malay Peninsula",
+      "coords": [
+        "6.1197",
+        "100.3673"
+      ],
+      "date": "c. 1025 CE",
+      "year": "1025",
+      "description": "Kadaram, identified with the Bujang Valley area of modern Kedah, is one of the principal targets named in Rajendra I's victory inscription of 1025 CE. The Bujang Valley archaeological record reveals Hindu-Buddhist temple complexes active from the 5th to the 14th century CE, making this one of the earliest continuously occupied Indic religious sites in the Malay world. Tamil merchant guild inscriptions, bronze icons, and Indian-style brick temples attest to the sustained presence of South Indian commercial and religious networks at this strategic location. Kadaram controlled the northern mouth of the Strait of Malacca, and its submission was as much a commercial as a military objective for Rajendra I. The Chola raid did not establish permanent occupation; rather, it functioned as a demonstration of naval reach intended to redirect Strait of Malacca trade toward Chola-aligned networks and away from Srivijayan control.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bujang_Valley_temple.jpg/640px-Bujang_Valley_temple.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Hindu-Buddhist temple remains, Bujang Valley, Kedah",
+      "tags": [
+        "Kedah",
+        "Kadaram",
+        "Malay Peninsula",
+        "Chola",
+        "Rajendra I",
+        "Strait of Malacca",
+        "Tamil merchant",
+        "Hindu-Buddhist",
+        "Bujang Valley"
+      ],
+      "group": "Chola Route",
+      "stopNumber": "3"
+    },
+    {
+      "id": "route-006",
+      "placeName": "Palembang / Srivijaya, Sumatra",
+      "coords": [
+        "-2.9761",
+        "104.7754"
+      ],
+      "date": "c. 1025 CE",
+      "year": "1025",
+      "description": "Palembang in South Sumatra was the heartland of the Srivijayan maritime empire, which dominated the Strait of Malacca and Bay of Bengal trade from the 7th to the 13th century CE. The Chinese pilgrim Yijing, who stopped at Srivijaya in 671 CE on his way to Nalanda, described a thriving Buddhist community of over a thousand monks engaged in Sanskrit learning, making the city an intermediary station between Chinese and Indian Buddhist scholarship. Srivijayan kings aggressively patronised South Asian Buddhist institutions, including Nalanda in Bihar and the Chudamani Vihara at Nagapattinam, creating material and institutional links moving objects, texts, and ideas across the Bay of Bengal. The 1025 CE Chola naval raid disrupted but did not destroy this network; Srivijayan maritime power gradually declined thereafter, with Chola-aligned Tamil merchant guilds increasingly dominant in the Strait's commercial life.",
+      "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Srivijaya_empire.jpg/640px-Srivijaya_empire.jpg",
+      "mediaCredit": "Wikimedia Commons / CC BY-SA 3.0",
+      "mediaCaption": "Map of the Srivijayan empire centred on Palembang, Sumatra",
+      "tags": [
+        "Srivijaya",
+        "Palembang",
+        "Sumatra",
+        "Chola",
+        "Rajendra I",
+        "maritime empire",
+        "Buddhist",
+        "Yijing",
+        "Strait of Malacca"
+      ],
+      "group": "Chola Route",
+      "stopNumber": "4"
+    }
+  ]
+}

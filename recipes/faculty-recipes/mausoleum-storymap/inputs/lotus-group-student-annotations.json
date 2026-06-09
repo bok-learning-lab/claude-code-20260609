@@ -1,0 +1,163 @@
+{
+  "studentGroupProfile": {
+    "name": "Lotus Group",
+    "thesis": "The lotus motif functioned as a portable visual currency in Buddhist maritime trade networks between the 5th and 13th centuries, enabling monks, merchants, and craftspeople to recognize and transmit shared religious concepts across geographic and linguistic boundaries. Rather than a one-directional 'diffusion' of Indian forms, the lotus demonstrates how networks created spaces for adaptation, translation, and local synthesis.",
+    "researchPhases": [
+      {
+        "period": "5th–7th century CE",
+        "phaseName": "Buddhist Learning Centers & Standardization",
+        "narrative": "Nalanda and Amaravati emerge as major centers of Buddhist learning and artistic production. The lotus becomes standardized as an iconographic marker of purity, enlightenment, and the cosmological axis linking earth and heavens. Sculptural schools at these sites—particularly Amaravati's relief tradition—develop a portable visual template that will be transmitted across the Indian Ocean."
+      },
+      {
+        "period": "7th–9th century CE",
+        "phaseName": "Maritime Consolidation & Object Movement",
+        "narrative": "Pala-period monks and craftspeople carry lotus-decorated objects (bronze coins, terracotta tiles, votive objects) along Bay of Bengal trade routes. Documentary evidence (Chinese pilgrim accounts) and archaeological finds (identical tiles at Nalanda, Paharpur, and Sriksetra) suggest systematic transmission via merchant guilds and monastic networks. Objects appear simultaneously at geographically distant sites—not random diffusion, but coordinated transmission."
+      },
+      {
+        "period": "10th–13th century CE",
+        "phaseName": "Monument Synthesis & Local Adaptation",
+        "narrative": "Southeast Asian temple builders—at Borobudur, Angkor, and Thai sanctuaries—absorb the lotus vocabulary into monumental architecture. But crucially, they adapt it. The lotus is integrated with local water management systems (hydraulic engineering), indigenous naga cosmologies, and regional patronage networks. This is not passive reception but creative synthesis."
+      }
+    ],
+    "curatedThemes": [
+      {
+        "name": "Lotus as Purity & Enlightenment",
+        "description": "Objects where the lotus signals Buddhist enlightenment, the transcendence of samsara, and the purity of sacred space. Appears on ritual objects, architectural friezes, and as a base for Buddha images.",
+        "objectIds": ["object-001", "object-004", "object-005", "object-009"],
+        "studentExplanation": "We chose these objects because they show the lotus functioning as a consistent iconographic marker of spiritual transcendence across different media (bronze, stone, terracotta). Notice how the form varies slightly—a capital on a lamp, a relief in stone, a tile in terracotta—but the *meaning* remains constant. This consistency suggests it was a deliberate, learned visual language."
+      },
+      {
+        "name": "Coastal Ports & Maritime Exchange Networks",
+        "description": "Sites and objects tied to maritime merchant networks and port cities: Nagapattinam, Amaravati delta, Suvarnabhumi. These are the physical nodes where monks, merchants, and artisans met and exchanged objects and ideas.",
+        "siteIds": ["site-002", "site-008"],
+        "objectIds": ["object-002", "object-008"],
+        "routeIds": ["route-001", "route-002"],
+        "studentExplanation": "We grouped these because they mark the *infrastructure* of cultural transmission. Port cities weren't passive recipients—they were active hubs where South Asian, Southeast Asian, and Chinese merchants, pilgrims, and craftspeople intersected. The gold coins and standing Buddhas from these sites show that knowledge moved in multiple directions, not from 'center' to 'periphery.'"
+      },
+      {
+        "name": "Monastic Transmission & Itinerant Craftspeople",
+        "description": "Evidence of monks and master craftspeople moving across Monsoon Asia, carrying texts, portable objects, and technical knowledge. Includes monastic complexes (Nalanda), architectural tiles, bronze votive objects, and documented pilgrimage routes.",
+        "siteIds": ["site-001", "site-003", "site-004"],
+        "objectIds": ["object-001", "object-004", "object-005"],
+        "routeIds": ["route-001"],
+        "studentExplanation": "Chinese pilgrims Xuanzang and Yijing documented monks traveling from Nalanda to Southeast Asia with portable religious objects and technical knowledge. The fact that virtually identical terracotta lotus tiles appear at Nalanda (starting point), Paharpur (intermediate), and Sriksetra (Myanmar) suggests these weren't lucky coincidences but evidence of trained craftspeople replicating templates as monasteries were established."
+      }
+    ]
+  },
+  "objectAnnotations": {
+    "object-001": {
+      "name": "Lotus-capital bronze lamp",
+      "closeLooking": "This lamp's stem terminates in a multi-petalled lotus bloom, with the lamp bowl sitting atop like the Buddha's seat on a lotus throne. The lotus capital has 16 petals rendered in crisp relief, suggesting a high-quality lost-wax cast and gilded finishing. Compare the smooth transition of the stem to the capital—this is technically sophisticated bronze-casting, not a rough copy. The proportions and fine detail suggest this was a luxury object commissioned by a wealthy patron, likely for a major temple or monastery.",
+      "significance": "The lotus-capital appears at sites 3,000 km apart (Nalanda, Borobudur, Paharpur). This is not coincidence. Either: (1) master craftspeople traveled and replicated their own designs, or (2) the form was so standardized in Pala-period workshops that multiple workshops independently produced near-identical pieces. Either way, it shows the lotus as an *intentional, deliberate* visual language that monks and craftspeople learned and transmitted.",
+      "connections": [
+        {
+          "linkedObjectId": "object-003",
+          "linkedObjectName": "Lotus medallion gold coin (Suvarnabhumi type)",
+          "explanation": "Both the lamp and coin use the lotus as a marker of Buddhist commerce and exchange. The lamp signals sacred ritual space; the coin facilitates trade with an auspicious Buddhist symbol. Together, they show how the lotus functioned across different scales of Monsoon Asia—monumental and miniature, ritual and mercantile."
+        },
+        {
+          "linkedSiteId": "site-001",
+          "linkedSiteName": "Candi Borobudur",
+          "explanation": "Borobudur's thousands of carved panels include seated Buddhas on lotus thrones. This lamp's lotus capital echoes that monumental vocabulary but in portable, intimate form. Shows how a visual language developed at major centers (Nalanda) gets scaled up in monument-building (Borobudur)."
+        }
+      ]
+    },
+    "object-003": {
+      "name": "Lotus medallion gold coin (Suvarnabhumi type)",
+      "closeLooking": "This small gold coin (2.1 cm diameter, 7.8 g) bears a stylized eight-petalled lotus on the obverse—simplified compared to the naturalistic lotuses of later coins, suggesting an early type. The reverse shows script that appears to be a merchant mark or issuing authority. The high gold content and small size suggest this was a trade coin, not ceremonial. The wear pattern on the edge indicates this circulated actively.",
+      "significance": "This coin is evidence of Buddhist merchants operating across maritime networks. The lotus here is not a Hindu sun symbol or generic flower—in this Buddhist context, it signals reliability and auspiciousness to Buddhist and Hindu merchants alike. The coin's presence far from production sites (found in Tamil Nadu and Java) proves the movement of goods and the recognition of Buddhist imagery across cultural boundaries.",
+      "connections": [
+        {
+          "linkedObjectId": "object-001",
+          "linkedObjectName": "Lotus-capital bronze lamp",
+          "explanation": "While the lamp marks sacred space (temples, monasteries), the coin marks commercial transaction. Yet both use the lotus to signal Buddhist presence and reliability. This shows the lotus operating across ritual and mercantile registers—it was versatile enough to work in both contexts."
+        },
+        {
+          "linkedRouteId": "route-001",
+          "linkedRouteName": "Bay of Bengal Maritime Route",
+          "explanation": "This coin's travel from production site (Thailand/Malaysia region) to findspots in Tamil Nadu and Java traces the Bay of Bengal maritime route. Its presence proves not just that objects moved, but that Buddhist merchants recognized and valued Buddhist imagery enough to use it in commerce."
+        }
+      ]
+    },
+    "object-004": {
+      "name": "Stone relief panel with lotus pond and water birds",
+      "closeLooking": "This limestone relief (45 x 62 cm) from Amaravati shows a shallow lotus pond in a landscape format—the composition is a horizontal frieze rather than a vertical narrative panel. The lotus blooms are rendered in low relief with careful attention to the relationship between flower and leaf; water birds (ducks or geese) wade in the pond. The carving is delicate and requires good limestone and skilled sculptors. Notice the compositional balance: the pond is centered, flanked by standing birds. This is a deliberate, designed composition, not a narrative moment.",
+      "significance": "This panel type appears in near-identical form at Sanchi (2nd c. BCE) and later at Borobudur. This visual template—the lotus pond landscape—is one of the most successfully transmitted motifs across Monsoon Asia. In Buddhist narrative, lotus ponds frame enlightenment scenes; they also represent the pure realm where Buddhas dwell. The motif's repetition suggests it was taught in sculptural schools and transmitted via monks and pilgrims.",
+      "connections": [
+        {
+          "linkedSiteId": "site-004",
+          "linkedSiteName": "Candi Borobudur",
+          "explanation": "Borobudur's lower galleries include similar lotus pond scenes. But Borobudur scales this motif enormously—the pond becomes a cosmic landscape. This relief shows how a 2nd-century format was still being referenced and adapted 500+ years later. Shows long-term transmission of a visual template."
+        },
+        {
+          "linkedSiteId": "site-001",
+          "linkedSiteName": "Nalanda Mahavihara",
+          "explanation": "Nalanda's monastic libraries held texts describing Buddhist cosmology; Amaravati's sculptural school demonstrated that cosmology visually. Students (monks) learning at Nalanda would see and study reliefs like this before traveling to Southeast Asia with the vocabulary embedded."
+        }
+      ]
+    },
+    "object-005": {
+      "name": "Terracotta lotus tile (architectural)",
+      "closeLooking": "This pressed terracotta tile (22 x 22 cm, H. 22 cm) bears a twelve-petalled lotus rosette in bold relief. The petals are deeply carved and slightly undercut, creating shadow lines that make the bloom appear three-dimensional. The clay is well-prepared and fired hard. This is an industrial, standardized product—one of hundreds or thousands produced for a single building project. The consistent sizing and petal count suggest a mold and organized workshop production.",
+      "significance": "This is perhaps the most telling object for our argument about transmission. Nearly identical tiles appear at Paharpur (Bangladesh) and Sriksetra (Myanmar). The consistency is too precise to be coincidence—these were either: (1) exported directly from Nalanda workshops, or (2) made by craftspeople trained at Nalanda who moved to other sites. Either way, it proves systematic transmission of both the design *and* the manufacturing technique.",
+      "connections": [
+        {
+          "linkedSiteId": "site-001",
+          "linkedSiteName": "Nalanda Mahavihara",
+          "explanation": "Nalanda was not just a library—it was a production center for architectural elements. These tiles decorated the lower plinths of monastic buildings, creating a immersive visual environment of purity. The fact that identical tiles appear at satellite monasteries suggests either direct export or the movement of trained tile-makers."
+        },
+        {
+          "linkedSiteId": "site-003",
+          "linkedSiteName": "Paharpur",
+          "explanation": "Paharpur's 7th-8th century monastery complex was likely founded by monks trained at Nalanda. The identical lotus tiles suggest they brought either: (1) finished tiles from Nalanda, or (2) the knowledge to make them. Either way—material or knowledge transfer—proves connectivity."
+        }
+      ]
+    },
+    "object-009": {
+      "name": "Standing Buddha (Tamil Nadu)",
+      "closeLooking": "This granite Buddha (154 cm tall) from Nagapattinam shows distinctly Tamil sculptural traits: the tall cylindrical usnisha (cranial protuberance), fine pleating of the robe across both shoulders rendered in low relief, and a long, narrow face with stylized features. The granite is hard and requires skilled stone-workers. The figure stands in abhaya mudra (gesture of protection), a standard pose. Compare this to earlier Pala Buddhas—this figure is distinctly Tamil in proportion and carving technique, not a copy of an Indian prototype.",
+      "significance": "This Buddha represents Tamil Buddhist traditions that were sophisticated and independent, not derivative of northern styles. Yet its presence at Nagapattinam (a major port) and its distribution to Sri Lanka and Srivijaya proves that Tamil Buddhists were active participants in maritime networks. This challenges diffusionist models—the movement of objects and ideas was not unidirectional from north to southeast, but multi-directional with Tamil merchants and monks as crucial agents.",
+      "connections": [
+        {
+          "linkedRouteId": "route-001",
+          "linkedRouteName": "Bay of Bengal Maritime Route",
+          "explanation": "This statue's journey from Nagapattinam to Sri Lanka and Srivijaya traces one of the busiest maritime routes. It's evidence not just of object movement but of Tamil Buddhist agency—Tamil merchants and monks as active carriers of Buddhism, not passive recipients of northern influence."
+        },
+        {
+          "linkedSiteId": "site-002",
+          "linkedSiteName": "Nalanda Mahavihara",
+          "explanation": "While Nalanda was a major learning center, it's important to recognize Tamil Buddhist centers like Nagapattinam as equally important nodes in the network. Tamil Buddhas reached Nalanda's sphere of influence, and Nalanda's texts likely reached Tamil scholars. Multi-directional exchange, not hierarchical diffusion."
+        }
+      ]
+    }
+  },
+  "siteAnnotations": {
+    "site-001": {
+      "name": "Candi Borobudur",
+      "curatorialNote": "Borobudur is the monument that most clearly shows South Asian iconographic transmission to Southeast Asia—and yet it's distinctly Javanese in its architectural conception. A mandala-shaped mountain temple encoding the Buddha's path to enlightenment. The lotus motif appears thousands of times (on Buddhas' thrones, in narrative friezes, decorating walls), but always adapted to Javanese spatial and cosmological frameworks.",
+      "scholarlySynthesis": "Built under Shailendra dynasty patronage (9th c.), using local volcanic stone (andesite), by local and possibly itinerant craftspeople. Shows simultaneous influence from: South Asian Buddhist iconography (Amaravati, Pala), Sanskrit textual traditions (Avatamsaka Sutra), and Javanese architectural understanding (the mountain form). This is *synthesis*, not copying."
+    },
+    "site-002": {
+      "name": "Nalanda Mahavihara",
+      "curatorialNote": "Nalanda was the largest Buddhist university of its era, attracting students from across Asia. The site itself is both a learning institution *and* an artistic production center. The tens of thousands of recovered votive objects, clay seals, and terracotta tiles show that workshops operated alongside libraries—both were transmitting Buddhist knowledge.",
+      "scholarlySynthesis": "Active from 5th–12th centuries, with peak influence in 7th–9th centuries. Chinese pilgrims documented thousands of students, organized curriculum, and living masters. Crucially, departing monks brought with them not just texts but also *material culture*—images, tiles, portable objects—that carried visual conventions to Southeast Asia."
+    },
+    "site-003": {
+      "name": "Paharpur",
+      "curatorialNote": "Paharpur Somapuri monastery in Bangladesh shows direct influence from Nalanda. The layout, the building techniques, and especially the terracotta architectural tiles are nearly identical to Nalanda originals. This is our strongest evidence for *migration of knowledge and personnel*—either the site was founded by Nalanda-trained monks, or it received direct instruction from Nalanda masters.",
+      "scholarlySynthesis": "7th–8th century monastery complex. The tiles we studied (object-005) appear here identically to Nalanda examples. This proximity and identity suggests direct transmission—not copying from drawings, but actual exchange of people and materials."
+    },
+    "site-004": {
+      "name": "Candi Borobudur",
+      "curatorialNote": "Similar to site-001 but with focus on how the lotus motif specifically functions across the monument's narrative galleries. Thousands of panels showing Buddhas on lotus thrones; narrative scenes of the Buddha's life surrounded by lotus imagery; architectural friezes with lotus patterns.",
+      "scholarlySynthesis": "The saturation of the lotus motif at Borobudur—not incidental decoration but structural to the monument's cosmology—shows how thoroughly the motif had become embedded in Buddhist visual language by the 9th century. Local Javanese artisans had internalized the lotus as a fundamental Buddhist symbol."
+    }
+  },
+  "routeAnnotations": {
+    "route-001": {
+      "name": "Bay of Bengal Maritime Route",
+      "studentSynthesis": "This route links the sites and objects we studied. Objects we found (the gold coin, the Standing Buddha) traveled this route. The route is documented in: (1) Chinese pilgrimage accounts (Xuanzang, Yijing describing their journeys), (2) merchant guild inscriptions found at multiple ports, (3) archaeological finds (similar objects at distant sites), and (4) textual references to Buddhist maritime trade in Sanskrit and Chinese texts.",
+      "studentArgument": "The consistency of objects and architectural elements across this route—identical tiles, similar Buddhas, repeated lotus motifs—proves this wasn't random movement of merchants. Buddhist monastic networks intentionally maintained this route, with established ports (Nagapattinam, Amaravati delta) as key nodes. The lotus motif's appearance across the route shows monks and merchants recognized a shared visual language that signaled Buddhist presence and reliable trading partnership."
+    }
+  }
+}

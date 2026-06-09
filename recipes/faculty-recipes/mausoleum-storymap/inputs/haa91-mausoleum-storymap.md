@@ -6,16 +6,16 @@ _Transcribed from the handwritten "Project as Recipe" card ([`haa91-mausoleum-st
 
 - Final project instructions.
 - PDF of the key readings.
-- Scalar site-based purposes.
+- Scalar site based projects.
 - Maps.
-- Geo coordinates.
+- Images.
+- Geocoordinates.
 - Google Sheet-based data compiled by students.
 
 ## Instructions — prompts, skills, scripts, tools
 
-- Students will form teams to build an interactive story map collaboratively that shows all the items collected up by students, organized by the five Google Sheet-based titles and the Scalar site pages.
-- Not sure if we will continue with Scalar or do an arc.gis StoryMap arch, etc.
+- Students will form teams and collaborate to build an interactive storymap that shows all the items collected by students that are in the google sheet based data files and the scalar site pages (but not sure if we will continue with scalar or do a storymap, etc.).
 
 ## Serving — your output
 
-Digital site with story maps that put different sites and routes across time and space (basically making a presentable site template for students to build their final purposes collaboratively).
+Digital site with storymaps that put objects, sites, and routes across time and space (basically make a presentable site template that students build their final projects collaboratively).

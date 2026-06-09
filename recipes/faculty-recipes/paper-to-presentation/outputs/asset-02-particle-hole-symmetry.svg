@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 28px; font-weight: 600; fill: #ffffff; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 500; fill: #ffffff; }
+      .sublabel { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #b3b3b3; }
+    </style>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1000" height="700" fill="#1a1a1a"/>
+
+  <!-- Title -->
+  <text x="500" y="40" class="title" text-anchor="middle">Particle-Hole Symmetry: ν → 1−ν</text>
+
+  <!-- ============================================================ -->
+  <!-- LEFT: ν = 1/3 -->
+  <!-- ============================================================ -->
+  <g>
+    <text x="200" y="100" class="label" text-anchor="middle">ν = 1/3</text>
+    <text x="200" y="122" class="sublabel" text-anchor="middle">(1 filled, 2 empty)</text>
+
+    <!-- Filled wedge (1/3, dark blue) -->
+    <path d="M 200,200 L 200,130 A 70,70 0 0,0 135,252 Z" fill="#0A84FF" stroke="#666666" stroke-width="2"/>
+
+    <!-- Empty wedge top (light blue) -->
+    <path d="M 200,200 L 135,252 A 70,70 0 0,0 265,252 Z" fill="#0A84FF" opacity="0.25" stroke="#666666" stroke-width="2"/>
+
+    <!-- Empty wedge bottom (light blue) -->
+    <path d="M 200,200 L 265,252 A 70,70 0 0,0 200,130 Z" fill="#0A84FF" opacity="0.25" stroke="#666666" stroke-width="2"/>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- CENTER: TRANSFORMATION ARROW -->
+  <!-- ============================================================ -->
+  <g>
+    <defs>
+      <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#FF9500"/>
+      </marker>
+    </defs>
+    <path d="M 310,210 L 390,210" stroke="#FF9500" stroke-width="5" fill="none" marker-end="url(#arrowOrange)"/>
+    <text x="350" y="195" class="label" text-anchor="middle" fill="#FF9500">PH Transform</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT: ν = 2/3 -->
+  <!-- ============================================================ -->
+  <g>
+    <text x="800" y="100" class="label" text-anchor="middle">ν = 2/3</text>
+    <text x="800" y="122" class="sublabel" text-anchor="middle">(2 filled, 1 empty)</text>
+
+    <!-- Filled wedge top (2/3, dark blue) -->
+    <path d="M 800,200 L 800,130 A 70,70 0 0,0 135,252 Z" fill="#0A84FF" stroke="#666666" stroke-width="2"/>
+
+    <!-- Filled wedge bottom left (dark blue) -->
+    <path d="M 800,200 L 135,252 A 70,70 0 0,0 265,252 Z" fill="#0A84FF" stroke="#666666" stroke-width="2"/>
+
+    <!-- Empty wedge (light blue, 1/3) -->
+    <path d="M 800,200 L 265,252 A 70,70 0 0,0 800,130 Z" fill="#0A84FF" opacity="0.25" stroke="#666666" stroke-width="2"/>
+  </g>
+
+  <!-- Legend -->
+  <g>
+    <rect x="80" y="320" width="16" height="16" fill="#0A84FF" stroke="#666666" stroke-width="1"/>
+    <text x="105" y="332" class="sublabel">Filled (occupied states)</text>
+
+    <rect x="80" y="350" width="16" height="16" fill="#0A84FF" opacity="0.25" stroke="#666666" stroke-width="1"/>
+    <text x="105" y="362" class="sublabel">Empty (unoccupied states)</text>
+  </g>
+
+  <text x="500" y="380" class="sublabel" text-anchor="middle" font-size="15">
+    Particle-hole symmetry swaps filled ↔ empty states
+  </text>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM: SPECIAL CASE ν = 1/2 -->
+  <!-- ============================================================ -->
+
+  <rect x="120" y="430" width="760" height="240" fill="#FF9500" opacity="0.08" stroke="#FF9500" stroke-width="2" rx="8"/>
+
+  <text x="500" y="470" class="label" text-anchor="middle" font-size="20">Special Case: ν = 1/2 is Self-Dual</text>
+
+  <!-- Left half: before -->
+  <g>
+    <text x="250" y="510" class="sublabel" text-anchor="middle">Before</text>
+
+    <!-- Half-filled circle: top half filled -->
+    <circle cx="250" cy="560" r="50" fill="none" stroke="#666666" stroke-width="2"/>
+    <path d="M 250,510 A 50,50 0 0,0 250,610 L 250,560 Z" fill="#0A84FF" opacity="0.25"/>
+    <path d="M 250,510 A 50,50 0 0,1 250,610 L 250,560 Z" fill="#0A84FF"/>
+  </g>
+
+  <!-- Arrow -->
+  <g>
+    <defs>
+      <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#34C759"/>
+      </marker>
+    </defs>
+    <path d="M 340,560 L 410,560" stroke="#34C759" stroke-width="4" fill="none" marker-end="url(#arrowGreen)"/>
+  </g>
+
+  <!-- Right half: after (same) -->
+  <g>
+    <text x="650" y="510" class="sublabel" text-anchor="middle">After PH Transform</text>
+
+    <!-- Half-filled circle: identical -->
+    <circle cx="650" cy="560" r="50" fill="none" stroke="#666666" stroke-width="2"/>
+    <path d="M 650,510 A 50,50 0 0,0 650,610 L 650,560 Z" fill="#0A84FF" opacity="0.25"/>
+    <path d="M 650,510 A 50,50 0 0,1 650,610 L 650,560 Z" fill="#0A84FF"/>
+  </g>
+
+  <!-- Explanation -->
+  <text x="500" y="650" class="sublabel" text-anchor="middle" font-size="15">
+    At ν = 1/2, the state is exactly self-dual: ν = 1 − ν
+  </text>
+</svg>
