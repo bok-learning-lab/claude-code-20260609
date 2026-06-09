@@ -1,0 +1,55 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Lesson Plan: Week 6}
+\subtitle{Eigenvalues, Eigenvectors, and Diagonalization}
+\date{}
+\begin{document}
+\maketitle
+
+\textbf{Learning Objectives.} By the end of this week, students will be able to:
+\begin{itemize}
+    \item Find eigenvalues as roots of the characteristic polynomial.
+    \item Find eigenvectors by solving $(A - \lambda I)x = 0$.
+    \item Determine when a matrix is diagonalizable and carry out $A = PDP^{-1}$.
+\end{itemize}
+
+\bigskip
+
+\textbf{Lecture 1 (50 min) --- Eigenvalues and Eigenvectors}
+
+\textit{Minutes 0--10: Motivation.} Ask: what vectors does a linear transformation merely scale (not rotate or shear)? Show a geometric example: reflection across the $x$-axis. The $x$-axis direction is ``special.'' Define eigenvector and eigenvalue.
+
+\textit{Minutes 10--25: Characteristic Polynomial.} Derive $\det(A - \lambda I) = 0$. Work a $2\times 2$ example fully. Note that the characteristic polynomial of an $n \times n$ matrix has degree $n$.
+
+\textit{Minutes 25--45: Finding Eigenvectors.} Show how to find the eigenspace for each $\lambda$. Work a $3\times 3$ example with a repeated eigenvalue.
+
+\textit{Minutes 45--50: Key observation.} Eigenvectors for distinct eigenvalues are linearly independent. (Proof next time.)
+
+\bigskip
+
+\textbf{Lecture 2 (50 min) --- Diagonalization}
+
+\textit{Minutes 0--10: Review.} Quick poll: which matrices have real eigenvalues? (Symmetric ones always do.) What about $\begin{pmatrix}0&-1\\1&0\end{pmatrix}$?
+
+\textit{Minutes 10--30: Diagonalization Theorem.} State and prove: $A$ is diagonalizable iff it has $n$ linearly independent eigenvectors. Work through $A = PDP^{-1}$ construction.
+
+\textit{Minutes 30--45: Powers and Dynamical Systems.} Show $A^k = PD^kP^{-1}$. Motivate with a discrete population model. Work through computing $A^{10}$ by hand.
+
+\textit{Minutes 45--50: Limitations.} Show an example of a non-diagonalizable matrix (e.g., $\begin{pmatrix}1&1\\0&1\end{pmatrix}$). Preview Jordan form (briefly, for context only).
+
+\bigskip
+
+\textbf{Section (50 min)}
+\begin{itemize}
+    \item Worksheet 2: eigenvalue practice and population dynamics application.
+    \item Students work the dynamical system problem in groups.
+    \item Discussion: what real-world processes lead to repeated eigenvalues?
+\end{itemize}
+
+\bigskip
+
+\textbf{Assigned Reading.} Lay \S5.1--5.3 (or equivalent).
+
+\textbf{Assigned Work.} Problem Set 2, Problems 3 and 4.
+
+\end{document}

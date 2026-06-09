@@ -1,0 +1,39 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Worksheet 3: Fourier Series}
+\date{}
+\begin{document}
+\maketitle
+
+\textbf{Warm-up.} Recall that the inner product on $C[0,2\pi]$ is $\langle f, g \rangle = \int_0^{2\pi} f(t)g(t)\,dt$. Verify that $\cos mt$ and $\cos nt$ are orthogonal for $m \neq n$.
+
+\bigskip
+
+\textbf{Exercise 1.} Compute the Fourier series of:
+\begin{enumerate}
+    \item[(a)] $f(t) = 1$ on $[-\pi, \pi]$.
+    \item[(b)] $f(t) = t^2$ on $[-\pi, \pi]$ (compute $a_0$, $a_1$, $a_2$, and the general $a_n$; note the function is even).
+\end{enumerate}
+
+\bigskip
+
+\textbf{Exercise 2.} A square wave is defined by
+\[
+f(t) = \begin{cases} 1 & 0 < t < \pi \\ -1 & \pi < t < 2\pi \end{cases}
+\]
+extended periodically.
+\begin{enumerate}
+    \item[(a)] Find the Fourier series. (Hint: $f$ is odd after a shift.)
+    \item[(b)] Write out the first four nonzero terms explicitly.
+    \item[(c)] What does Parseval's identity say about this series?
+\end{enumerate}
+
+\bigskip
+
+\textbf{Exercise 3 (Application --- Signal Processing).} An audio signal is modeled as $f(t) = 3\sin t + \sin 3t + 0.5\sin 5t$. If you apply a low-pass filter that removes all frequencies above $n = 2$, what signal remains? Sketch both the original and filtered signals.
+
+\bigskip
+
+\textbf{Reflection.} In what sense is the Fourier series a ``change of basis''? What is the basis, and what is the vector space?
+
+\end{document}

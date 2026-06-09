@@ -1,0 +1,59 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Lesson Plan: Week 11}
+\subtitle{Fourier Series and Applications}
+\date{}
+\begin{document}
+\maketitle
+
+\textbf{Learning Objectives.} By the end of this week, students will be able to:
+\begin{itemize}
+    \item Compute Fourier coefficients using orthogonality of $\{1, \cos nt, \sin nt\}$.
+    \item Write the Fourier series of a piecewise-continuous periodic function.
+    \item Connect Fourier series to orthogonal projection in a function space.
+    \item Apply Fourier series to solve the heat equation.
+\end{itemize}
+
+\bigskip
+
+\textbf{Lecture 1 (50 min) --- Fourier Series as Orthogonal Projection}
+
+\textit{Minutes 0--10: Bridge from earlier material.} Recall orthogonal projection in $\mathbb{R}^n$. Now the ``space'' is $C[-\pi,\pi]$ with inner product $\langle f,g \rangle = \int_{-\pi}^{\pi}f(t)g(t)\,dt$. The ``basis'' is $\{1, \cos t, \sin t, \cos 2t, \sin 2t, \ldots\}$.
+
+\textit{Minutes 10--20: Orthogonality.} Verify that $\langle \cos mt, \cos nt \rangle = 0$ for $m \neq n$. Compute $\langle \cos nt, \cos nt \rangle = \pi$.
+
+\textit{Minutes 20--40: Fourier Coefficients.} Derive the formulas:
+\[
+a_n = \frac{1}{\pi}\int_{-\pi}^{\pi}f(t)\cos(nt)\,dt, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi}f(t)\sin(nt)\,dt.
+\]
+Work $f(t) = t$ as a fully computed example.
+
+\textit{Minutes 40--50: Convergence.} State the Dirichlet theorem (without proof). Discuss the Gibbs phenomenon; show a plot.
+
+\bigskip
+
+\textbf{Lecture 2 (50 min) --- Heat Equation and Signal Processing}
+
+\textit{Minutes 0--15: Heat equation setup.} Derive $u_t = u_{xx}$ from first principles (briefly). State boundary conditions. Show that $e^{-n^2 t}\sin(nx)$ satisfies the equation.
+
+\textit{Minutes 15--35: Superposition.} Use linearity to write the general solution as a Fourier series. Work through an example with given initial data $u(x,0) = \sin x + \frac{1}{2}\sin 3x$.
+
+\textit{Minutes 35--45: Signal processing application.} Describe a periodic signal as a sum of harmonics. Explain what a low-pass filter does in terms of truncating the Fourier series.
+
+\textit{Minutes 45--50: Parseval's Identity.} State $\sum |c_n|^2 = \|f\|^2$. Use to evaluate $\sum 1/n^2$.
+
+\bigskip
+
+\textbf{Section (50 min)}
+\begin{itemize}
+    \item Worksheet 3: Fourier series computation, square wave, and signal filtering.
+    \item Students sketch partial sums and observe convergence.
+\end{itemize}
+
+\bigskip
+
+\textbf{Assigned Reading.} Course notes on Fourier series; Lay \S6.8 if available.
+
+\textbf{Assigned Work.} Problem Set 3, Problems 1--3.
+
+\end{document}

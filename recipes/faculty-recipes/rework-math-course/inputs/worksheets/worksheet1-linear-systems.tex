@@ -1,0 +1,50 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Worksheet 1: Linear Systems and Row Reduction}
+\date{}
+\begin{document}
+\maketitle
+
+\textbf{Warm-up.} Write the augmented matrix for the system and identify the number of equations and unknowns.
+\[
+3x - y + z = 5,\quad x + 2y = -1,\quad 2x - y + 4z = 7.
+\]
+
+\bigskip
+
+\textbf{Exercise 1.} Row-reduce each augmented matrix to reduced row echelon form (RREF). State whether the system is consistent, and if so, give all solutions.
+\[
+(a)\;\begin{pmatrix}1&3&-2&5\\2&5&-1&4\\3&8&-3&9\end{pmatrix}
+\qquad
+(b)\;\begin{pmatrix}1&2&-1&3\\0&1&2&-1\\2&5&0&5\end{pmatrix}
+\]
+
+\bigskip
+
+\textbf{Exercise 2.} For the matrix
+\[
+A = \begin{pmatrix}1&2&0&3\\2&4&1&7\\0&0&1&1\end{pmatrix},
+\]
+\begin{enumerate}
+    \item[(a)] Find a basis for $\text{Nul}(A)$ and state its dimension.
+    \item[(b)] Find a basis for $\text{Col}(A)$ and state its dimension.
+    \item[(c)] Verify the Rank-Nullity Theorem.
+\end{enumerate}
+
+\bigskip
+
+\textbf{Exercise 3 (Application --- Epidemiology).} In a simple compartment model, the number of susceptible ($S$), infected ($I$), and recovered ($R$) individuals satisfies a linear system at equilibrium. Suppose
+\[
+\begin{cases}
+-0.3S + 0.1R = 0 \\
+0.3S - 0.2I = 0 \\
+0.2I - 0.1R = 0
+\end{cases}
+\]
+with $S + I + R = 1000$. Find all equilibrium solutions.
+
+\bigskip
+
+\textbf{Reflection.} In your own words, explain what the free variables in a linear system represent geometrically.
+
+\end{document}

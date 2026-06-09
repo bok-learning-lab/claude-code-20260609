@@ -1,0 +1,48 @@
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\title{Math 21b --- Problem Set 2}
+\subtitle{Orthogonality, Eigenvalues, and Dynamical Systems}
+\date{Due: Week 7}
+\begin{document}
+\maketitle
+
+\textbf{Instructions:} Write up solutions neatly. Justify all claims.
+
+\bigskip
+
+\textbf{1.} (Gram--Schmidt) Apply the Gram--Schmidt process to the following basis of $\mathbb{R}^3$ to obtain an orthonormal basis:
+\[
+\left\{\begin{pmatrix}1\\1\\1\end{pmatrix},\;\begin{pmatrix}1\\1\\0\end{pmatrix},\;\begin{pmatrix}1\\0\\0\end{pmatrix}\right\}.
+\]
+
+\bigskip
+
+\textbf{2.} (Least squares) A researcher measures the relationship between temperature $t$ (in ${}^\circ$C) and reaction rate $y$ at four data points: $(0,1)$, $(1,2)$, $(2,2.5)$, $(3,4)$.
+\begin{enumerate}
+    \item[(a)] Set up the least-squares problem for fitting $y = a + bt$.
+    \item[(b)] Solve the normal equations $A^T A \hat{x} = A^T b$.
+    \item[(c)] Compute the residual and interpret it.
+\end{enumerate}
+
+\bigskip
+
+\textbf{3.} (Eigenvalues and diagonalization)
+\begin{enumerate}
+    \item[(a)] Find the eigenvalues and eigenvectors of $A = \begin{pmatrix}5&-4\\2&-1\end{pmatrix}$.
+    \item[(b)] Use diagonalization to solve the difference equation $x_{n+1} = Ax_n$ with $x_0 = \begin{pmatrix}1\\1\end{pmatrix}$.
+    \item[(c)] What happens to $x_n$ as $n \to \infty$?
+\end{enumerate}
+
+\bigskip
+
+\textbf{4.} (Differential equations) Solve the system
+\[
+x' = \begin{pmatrix}1&-2\\1&-1\end{pmatrix}x,\quad x(0)=\begin{pmatrix}1\\0\end{pmatrix}.
+\]
+Describe the behavior of solutions as $t \to \infty$.
+
+\bigskip
+
+\textbf{5.} (Challenge) Prove that if $A$ is symmetric ($A = A^T$), then eigenvectors corresponding to distinct eigenvalues are orthogonal.
+
+\end{document}
