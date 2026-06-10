@@ -1,0 +1,54 @@
+[
+  {
+    "episode": "ep-03",
+    "cue_index": 0,
+    "start_ms": 12400,
+    "end_ms": 15800,
+    "speaker": "Layla",
+    "scene": "kitchen",
+    "text": "صباح الخير، شو رأيك نشرب قهوة؟",
+    "tokens": [
+      { "surface": "صباح", "lemma": "صباح" },
+      { "surface": "الخير", "lemma": "خير" },
+      { "surface": "شو", "lemma": "شو" },
+      { "surface": "رأيك", "lemma": "رأي" },
+      { "surface": "نشرب", "lemma": "شرب" },
+      { "surface": "قهوة", "lemma": "قهوة" }
+    ]
+  },
+  {
+    "episode": "ep-03",
+    "cue_index": 1,
+    "start_ms": 16200,
+    "end_ms": 19100,
+    "speaker": "Karim",
+    "scene": "kitchen",
+    "text": "أكيد، بس بدّي أروح عالسوق أول شي.",
+    "tokens": [
+      { "surface": "أكيد", "lemma": "أكيد" },
+      { "surface": "بس", "lemma": "بس" },
+      { "surface": "بدّي", "lemma": "أراد" },
+      { "surface": "أروح", "lemma": "راح" },
+      { "surface": "عالسوق", "lemma": "سوق" },
+      { "surface": "أول", "lemma": "أول" },
+      { "surface": "شي", "lemma": "شيء" }
+    ]
+  },
+  {
+    "episode": "ep-03",
+    "cue_index": 2,
+    "start_ms": 19400,
+    "end_ms": 22600,
+    "speaker": "Layla",
+    "scene": "kitchen",
+    "text": "بكرا؟ أنا كمان بدّي أجي معك.",
+    "tokens": [
+      { "surface": "بكرا", "lemma": "بكرة" },
+      { "surface": "أنا", "lemma": "أنا" },
+      { "surface": "كمان", "lemma": "كمان" },
+      { "surface": "بدّي", "lemma": "أراد" },
+      { "surface": "أجي", "lemma": "جاء" },
+      { "surface": "معك", "lemma": "مع" }
+    ]
+  }
+]

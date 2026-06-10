@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HAA91 — Art of Monsoon Asia · StoryMap</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {
+  --ink: #141414;
+  --bg: #fafaf7;
+  --accent: #c8102e;
+  --rule: #d8d4c8;
+  --cat-monuments: #b65426;
+  --cat-objects:   #3a7a55;
+  --cat-routes:    #1d4f78;
+  --cat-people:    #7a3a78;
+  --cat-texts:     #8a7327;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); }
+header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid var(--rule); background: var(--bg); }
+header h1 { font-size: 18px; font-weight: 600; margin: 0; letter-spacing: 0.01em; }
+header h1 .accent { color: var(--accent); }
+header a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); font-size: 13px; }
+main { display: grid; grid-template-columns: 240px 1fr; grid-template-rows: 1fr 96px; height: calc(100% - 50px); }
+aside { border-right: 1px solid var(--rule); padding: 16px 14px; overflow: auto; background: var(--bg); }
+aside h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #555; margin: 0 0 10px; }
+.chip { display: block; width: 100%; text-align: left; padding: 8px 10px; margin-bottom: 6px; border: 1px solid var(--rule); border-radius: 3px; background: #fff; font-size: 13px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.chip .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 8px; vertical-align: middle; }
+#map { grid-column: 2; grid-row: 1; }
+#timeline { grid-column: 1 / span 2; grid-row: 2; padding: 14px 18px; border-top: 1px solid var(--rule); background: var(--bg); display: flex; align-items: center; gap: 16px; }
+#timeline label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #555; min-width: 72px; }
+#timeline .slider { flex: 1; display: flex; gap: 12px; align-items: center; }
+#timeline input[type=range] { flex: 1; }
+#timeline output { font-variant-numeric: tabular-nums; font-size: 13px; min-width: 110px; text-align: right; }
+.panel { position: absolute; top: 70px; right: 18px; width: 340px; max-height: calc(100% - 220px); background: #fff; border: 1px solid var(--ink); padding: 18px 20px; overflow: auto; display: none; box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
+.panel.open { display: block; }
+.panel .close { float: right; cursor: pointer; font-size: 18px; line-height: 1; color: #555; border: none; background: none; }
+.panel h3 { margin: 0 0 4px; font-size: 16px; }
+.panel .meta { font-size: 12px; color: #555; margin-bottom: 12px; }
+.panel .credit { margin-top: 14px; font-size: 12px; color: #555; }
+@media (max-width: 700px) {
+  main { grid-template-columns: 1fr; grid-template-rows: auto 1fr 96px; }
+  aside { border-right: none; border-bottom: 1px solid var(--rule); padding: 12px; }
+  aside .chip { display: inline-block; width: auto; margin-right: 6px; }
+  #map { grid-column: 1; grid-row: 2; }
+  #timeline { grid-row: 3; }
+  .panel { position: fixed; left: 12px; right: 12px; top: 12px; width: auto; max-height: 70vh; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>HAA91 · <span class="accent">Art of Monsoon Asia</span></h1>
+  <a href="#how-to-read">How to read this map</a>
+</header>
+<main>
+  <aside>
+    <h2>Categories</h2>
+    <button class="chip" data-cat="monuments" aria-pressed="true"><span class="dot" style="background:var(--cat-monuments)"></span>Monuments &amp; sites</button>
+    <button class="chip" data-cat="objects"   aria-pressed="true"><span class="dot" style="background:var(--cat-objects)"></span>Movable objects</button>
+    <button class="chip" data-cat="routes"    aria-pressed="true"><span class="dot" style="background:var(--cat-routes)"></span>Routes &amp; networks</button>
+    <button class="chip" data-cat="people"    aria-pressed="true"><span class="dot" style="background:var(--cat-people)"></span>People &amp; patrons</button>
+    <button class="chip" data-cat="texts"     aria-pressed="true"><span class="dot" style="background:var(--cat-texts)"></span>Texts &amp; inscriptions</button>
+  </aside>
+  <div id="map"></div>
+  <div id="timeline">
+    <label for="t0">From</label>
+    <div class="slider"><input id="t0" type="range" min="0" max="2000" step="10" value="0" /></div>
+    <output id="t0out">0 CE</output>
+    <label for="t1">To</label>
+    <div class="slider"><input id="t1" type="range" min="0" max="2000" step="10" value="2000" /></div>
+    <output id="t1out">2000 CE</output>
+  </div>
+</main>
+<div class="panel" id="panel">
+  <button class="close" id="panelClose" aria-label="Close">&times;</button>
+  <h3 id="panelTitle">—</h3>
+  <div class="meta" id="panelMeta">—</div>
+  <p id="panelDesc">—</p>
+  <div class="credit" id="panelCredit">—</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CAT_COLOR = {
+  monuments: getComputedStyle(document.documentElement).getPropertyValue('--cat-monuments').trim(),
+  objects:   getComputedStyle(document.documentElement).getPropertyValue('--cat-objects').trim(),
+  routes:    getComputedStyle(document.documentElement).getPropertyValue('--cat-routes').trim(),
+  people:    getComputedStyle(document.documentElement).getPropertyValue('--cat-people').trim(),
+  texts:     getComputedStyle(document.documentElement).getPropertyValue('--cat-texts').trim(),
+};
+const active = new Set(Object.keys(CAT_COLOR));
+
+const map = L.map('map').setView([15, 90], 3);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+
+const markers = [];
+
+function renderMarkers() {
+  const t0 = +document.getElementById('t0').value;
+  const t1 = +document.getElementById('t1').value;
+  markers.forEach(({ marker, row }) => {
+    // a row is visible if (a) its category is active and (b) its date range overlaps [t0, t1].
+    const inWindow = row.date_end >= t0 && row.date_start <= t1;
+    if (active.has(row.category) && inWindow) marker.addTo(map);
+    else map.removeLayer(marker);
+  });
+}
+
+function openPanel(row) {
+  document.getElementById('panelTitle').textContent = row.title;
+  document.getElementById('panelMeta').textContent  = `${row.category} · ${row.date_start}–${row.date_end} CE`;
+  document.getElementById('panelDesc').textContent  = row.short_description;
+  document.getElementById('panelCredit').textContent = `Compiled by: ${row.student_team}`;
+  document.getElementById('panel').classList.add('open');
+}
+document.getElementById('panelClose').onclick = () => document.getElementById('panel').classList.remove('open');
+
+fetch('data.json').then(r => r.json()).then(rows => {
+  rows.forEach(row => {
+    const color = CAT_COLOR[row.category] || '#777';
+    const marker = L.circleMarker([row.lat, row.lon], { radius: 7, color, fillColor: color, fillOpacity: 0.85, weight: 2 });
+    marker.on('click', () => openPanel(row));
+    markers.push({ marker, row });
+  });
+  renderMarkers();
+});
+
+document.querySelectorAll('.chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const cat = btn.dataset.cat;
+    const pressed = btn.getAttribute('aria-pressed') === 'true';
+    btn.setAttribute('aria-pressed', String(!pressed));
+    if (pressed) active.delete(cat); else active.add(cat);
+    renderMarkers();
+  });
+});
+
+['t0', 't1'].forEach(id => {
+  const el = document.getElementById(id);
+  const out = document.getElementById(id + 'out');
+  el.addEventListener('input', () => {
+    out.textContent = el.value + ' CE';
+    renderMarkers();
+  });
+});
+</script>
+</body>
+</html>

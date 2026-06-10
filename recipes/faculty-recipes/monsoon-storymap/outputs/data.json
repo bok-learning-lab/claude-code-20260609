@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Brihadisvara Temple, Thanjavur",
+    "category": "monuments",
+    "lat": 10.7828,
+    "lon": 79.1316,
+    "date_start": 1003,
+    "date_end": 1010,
+    "short_description": "Chola-period Shaiva temple, vimana rising 66 m. Granite quarried inland, transported via the Kaveri delta during the northeast monsoon.",
+    "image_url": "img/brihadisvara.jpg",
+    "student_team": "Team A"
+  },
+  {
+    "title": "Borobudur Stupa",
+    "category": "monuments",
+    "lat": -7.6079,
+    "lon": 110.2038,
+    "date_start": 780,
+    "date_end": 833,
+    "short_description": "Mahayana stupa-mandala, Sailendra dynasty, Central Java. Reliefs depict monsoon-trade ships of the Indian Ocean network.",
+    "image_url": "img/borobudur.jpg",
+    "student_team": "Team B"
+  },
+  {
+    "title": "Hokusai, 'The Great Wave off Kanagawa'",
+    "category": "objects",
+    "lat": 35.3036,
+    "lon": 139.6407,
+    "date_start": 1830,
+    "date_end": 1833,
+    "short_description": "Polychrome woodblock print. Edo-period engagement with imported Prussian blue pigment along late-monsoon-era trade routes.",
+    "image_url": "img/hokusai-wave.jpg",
+    "student_team": "Team C"
+  },
+  {
+    "title": "Patola silk, Patan",
+    "category": "objects",
+    "lat": 23.8505,
+    "lon": 72.1262,
+    "date_start": 1600,
+    "date_end": 1700,
+    "short_description": "Double-ikat silk produced in Gujarat, traded along the monsoon route to Maluku in exchange for cloves and nutmeg.",
+    "image_url": "img/patola.jpg",
+    "student_team": "Team A"
+  },
+  {
+    "title": "The Spice Route from Malabar to Aden",
+    "category": "routes",
+    "lat": 12.3,
+    "lon": 60.0,
+    "date_start": 900,
+    "date_end": 1500,
+    "short_description": "Indian Ocean shipping lane that depended on the southwest monsoon for outbound voyages and the northeast monsoon for return.",
+    "image_url": "img/spice-route.jpg",
+    "student_team": "Team D"
+  },
+  {
+    "title": "Rajendra Chola I",
+    "category": "people",
+    "lat": 10.8,
+    "lon": 79.7,
+    "date_start": 1014,
+    "date_end": 1044,
+    "short_description": "Chola emperor whose naval expeditions to Srivijaya (1025) exploited monsoon timing; patron of Brihadisvara and Gangaikonda Cholapuram.",
+    "image_url": "img/rajendra.jpg",
+    "student_team": "Team E"
+  },
+  {
+    "title": "Periplus of the Erythraean Sea",
+    "category": "texts",
+    "lat": 30.0,
+    "lon": 32.0,
+    "date_start": 40,
+    "date_end": 70,
+    "short_description": "Greek navigational text describing Indian Ocean monsoon trade routes and port cities. The earliest surviving practical sailing guide for the region.",
+    "image_url": "img/periplus.jpg",
+    "student_team": "Team D"
+  },
+  {
+    "title": "Angkor Wat",
+    "category": "monuments",
+    "lat": 13.4125,
+    "lon": 103.866,
+    "date_start": 1113,
+    "date_end": 1150,
+    "short_description": "Khmer temple complex aligned to the equinox sunrise. Reservoir system (barays) calibrated to monsoon flood cycles.",
+    "image_url": "img/angkor.jpg",
+    "student_team": "Team B"
+  }
+]

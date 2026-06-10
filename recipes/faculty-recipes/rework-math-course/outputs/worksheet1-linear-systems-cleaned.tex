@@ -1,0 +1,133 @@
+% Source: inputs/worksheets/worksheet1-linear-systems.tex
+% Cleaned version for Math 21b, with breathing room, boxed definitions/theorems, and writing space.
+%
+% Changes from the original:
+%   - Added tcolorbox-based environments: defn, thm, work.
+%   - Standardized notation macros: \Nul, \Col, \rank.
+%   - Added a Definition box for "augmented matrix" (warm-up depends on it).
+%   - Added writing space after each exercise via the work environment.
+%   - REVIEW comments flag two items for the instructor (see below).
+%
+% % REVIEW: Exercise 3, equation 3 (0.2I - 0.1R = 0): with eqs 1 and 2,
+%   equation 3 is the negative of eq 1 + eq 2. The system is rank 2 with a
+%   one-parameter family of solutions. The original wording "Find all
+%   equilibrium solutions" is correct but students may expect a unique answer.
+%   Consider adding "(parameterized by the population constraint)" to set expectations.
+%
+% % REVIEW: Reflection question references "geometrically" — does the course
+%   define the geometric picture before this worksheet, or is this the first
+%   exposure? If first, consider scaffolding with a 2D example.
+
+\documentclass{amsart}
+\usepackage{amsmath, amssymb}
+\usepackage[most]{tcolorbox}
+
+% Standardized notation macros
+\newcommand{\Nul}{\operatorname{Nul}}
+\newcommand{\Col}{\operatorname{Col}}
+\newcommand{\Row}{\operatorname{Row}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\nullity}{\operatorname{nullity}}
+
+% Visual environments — sober charcoal rule, no fluorescent fills.
+\newtcolorbox{defn}[1][]{
+  enhanced, breakable,
+  colback=white, colframe=black!75!white, boxrule=0.6pt,
+  arc=1pt, left=10pt, right=10pt, top=6pt, bottom=6pt,
+  title=#1, fonttitle=\bfseries,
+  attach boxed title to top left={xshift=8pt, yshift=-7pt},
+  boxed title style={colback=white, colframe=black!75!white, boxrule=0.4pt, arc=0pt},
+}
+\newtcolorbox{thm}[1][]{
+  enhanced, breakable,
+  colback=black!4!white, colframe=black!75!white, boxrule=0.6pt,
+  arc=1pt, left=10pt, right=10pt, top=6pt, bottom=6pt,
+  title=#1, fonttitle=\bfseries,
+  attach boxed title to top left={xshift=8pt, yshift=-7pt},
+  boxed title style={colback=white, colframe=black!75!white, boxrule=0.4pt, arc=0pt},
+}
+\newtcolorbox{work}[1][Work here]{
+  enhanced, breakable,
+  colback=white, colframe=black!25!white, boxrule=0.3pt,
+  arc=0pt, left=10pt, right=10pt, top=8pt, bottom=8pt,
+  height=8\baselineskip,
+  title=\textit{\small #1}, fonttitle=\normalfont,
+  attach boxed title to top left={xshift=8pt, yshift=-6pt},
+  boxed title style={colback=white, colframe=white, boxrule=0pt, arc=0pt},
+}
+
+\title{Math 21b --- Worksheet 1: Linear Systems and Row Reduction}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{defn}[Augmented matrix]
+The \emph{augmented matrix} of a linear system $A\mathbf{x} = \mathbf{b}$ is the $m \times (n+1)$ matrix $[A \mid \mathbf{b}]$ formed by appending the constant column to the coefficient matrix. Row operations on $[A \mid \mathbf{b}]$ correspond exactly to equation operations on the original system.
+\end{defn}
+
+\vspace{1em}
+
+\textbf{Warm-up.} Write the augmented matrix for the system and identify the number of equations and unknowns.
+\[
+3x - y + z = 5,\quad x + 2y = -1,\quad 2x - y + 4z = 7.
+\]
+\begin{work}[Augmented matrix and dimensions]
+\end{work}
+
+\vspace{2em}
+
+\textbf{Exercise 1.} Row-reduce each augmented matrix to reduced row echelon form (RREF). State whether the system is consistent, and if so, give all solutions.
+\[
+(a)\;\begin{pmatrix}1&3&-2&5\\2&5&-1&4\\3&8&-3&9\end{pmatrix}
+\qquad
+(b)\;\begin{pmatrix}1&2&-1&3\\0&1&2&-1\\2&5&0&5\end{pmatrix}
+\]
+\begin{work}[RREF and solution set]
+\end{work}
+
+\vspace{2em}
+
+\textbf{Exercise 2.} For the matrix
+\[
+A = \begin{pmatrix}1&2&0&3\\2&4&1&7\\0&0&1&1\end{pmatrix},
+\]
+\begin{enumerate}
+    \item[(a)] Find a basis for $\Nul(A)$ and state its dimension.
+    \item[(b)] Find a basis for $\Col(A)$ and state its dimension.
+    \item[(c)] Verify the Rank-Nullity Theorem.
+\end{enumerate}
+\begin{work}[Basis computations and verification]
+\end{work}
+
+\vspace{1em}
+
+\begin{thm}[Rank-Nullity]
+For any $m \times n$ matrix $A$,
+\[
+\rank(A) + \nullity(A) = n,
+\]
+where $n$ is the number of columns of $A$.
+\end{thm}
+
+\vspace{2em}
+
+\textbf{Exercise 3 (Application --- Epidemiology).} In a simple compartment model, the number of susceptible ($S$), infected ($I$), and recovered ($R$) individuals satisfies a linear system at equilibrium. Suppose
+\[
+\begin{cases}
+-0.3S + 0.1R = 0 \\
+0.3S - 0.2I = 0 \\
+0.2I - 0.1R = 0
+\end{cases}
+\]
+with $S + I + R = 1000$. Find all equilibrium solutions.
+\begin{work}[Set up the augmented matrix, row-reduce, apply the constraint]
+\end{work}
+
+\vspace{2em}
+
+\textbf{Reflection.} In your own words, explain what the free variables in a linear system represent geometrically.
+\begin{work}[Two to four sentences]
+\end{work}
+
+\end{document}
