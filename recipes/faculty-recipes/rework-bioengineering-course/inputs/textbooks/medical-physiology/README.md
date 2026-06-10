@@ -98,45 +98,45 @@ Citation-anchor quotes are kept short — usually 1–3 sentences each. They are
 | 20 | The Microcirculation | IV | done |
 | 21 | Cardiac Electrophysiology and the Electrocardiogram | IV | done |
 | 22 | The Heart as a Pump | IV | done |
-| 23 | Regulation of Arterial Pressure and Cardiac Output | IV | pending |
-| 24 | Special Circulations | IV | pending |
-| 25 | Integrated Control of the Cardiovascular System | IV | pending |
-| 26 | Organization of the Respiratory System | V | pending |
-| 27 | Mechanics of Ventilation | V | pending |
-| 28 | Acid-Base Physiology | V | pending |
-| 29 | Transport of Oxygen and Carbon Dioxide in the Blood | V | pending |
-| 30 | Gas Exchange in the Lungs | V | pending |
-| 31 | Ventilation and Perfusion of the Lungs | V | pending |
-| 32 | Control of Ventilation | V | pending |
-| 33 | Organization of the Urinary System | VI | pending |
-| 34 | Glomerular Filtration and Renal Blood Flow | VI | pending |
-| 35 | Transport of Sodium and Chloride | VI | pending |
-| 36 | Transport of Urea, Glucose, Phosphate, Calcium, Magnesium, Organic Solutes | VI | pending |
-| 37 | Transport of Potassium | VI | pending |
-| 38 | Urine Concentration and Dilution | VI | pending |
-| 39 | Transport of Acids and Bases | VI | pending |
-| 40 | Integration of Salt and Water Balance | VI | pending |
-| 41 | Organization of the Gastrointestinal System | VII | pending |
-| 42 | Gastric Function | VII | pending |
-| 43 | Pancreatic and Salivary Glands | VII | pending |
-| 44 | Intestinal Fluid and Electrolyte Movement | VII | pending |
-| 45 | Nutrient Digestion and Absorption | VII | pending |
-| 46 | Hepatobiliary Function | VII | pending |
-| 47 | Organization of Endocrine Control | VIII | pending |
-| 48 | Endocrine Regulation of Growth and Body Mass | VIII | pending |
-| 49 | The Thyroid Gland | VIII | pending |
-| 50 | The Adrenal Gland | VIII | pending |
-| 51 | The Endocrine Pancreas | VIII | pending |
-| 52 | The Parathyroid Glands and Vitamin D | VIII | pending |
-| 53 | Sexual Differentiation | IX | pending |
-| 54 | The Male Reproductive System | IX | pending |
-| 55 | The Female Reproductive System | IX | pending |
-| 56 | Fertilization, Pregnancy, and Lactation | IX | pending |
-| 57 | Fetal and Neonatal Physiology | IX | pending |
-| 58 | Metabolism | X | pending |
-| 59 | Regulation of Body Temperature | X | pending |
-| 60 | Exercise Physiology and Sports Science | X | pending |
-| 61 | Environmental Physiology | X | pending |
-| 62 | The Physiology of Aging | X | pending |
+| 23 | Regulation of Arterial Pressure and Cardiac Output | IV | done |
+| 24 | Special Circulations | IV | done |
+| 25 | Integrated Control of the Cardiovascular System | IV | done |
+| 26 | Organization of the Respiratory System | V | done |
+| 27 | Mechanics of Ventilation | V | done |
+| 28 | Acid-Base Physiology | V | done |
+| 29 | Transport of Oxygen and Carbon Dioxide in the Blood | V | done |
+| 30 | Gas Exchange in the Lungs | V | done |
+| 31 | Ventilation and Perfusion of the Lungs | V | done |
+| 32 | Control of Ventilation | V | done |
+| 33 | Organization of the Urinary System | VI | done |
+| 34 | Glomerular Filtration and Renal Blood Flow | VI | done |
+| 35 | Transport of Sodium and Chloride | VI | done |
+| 36 | Transport of Urea, Glucose, Phosphate, Calcium, Magnesium, Organic Solutes | VI | done |
+| 37 | Transport of Potassium | VI | done |
+| 38 | Urine Concentration and Dilution | VI | done |
+| 39 | Transport of Acids and Bases | VI | done |
+| 40 | Integration of Salt and Water Balance | VI | done |
+| 41 | Organization of the Gastrointestinal System | VII | done |
+| 42 | Gastric Function | VII | done |
+| 43 | Pancreatic and Salivary Glands | VII | done |
+| 44 | Intestinal Fluid and Electrolyte Movement | VII | done |
+| 45 | Nutrient Digestion and Absorption | VII | done |
+| 46 | Hepatobiliary Function | VII | done |
+| 47 | Organization of Endocrine Control | VIII | done |
+| 48 | Endocrine Regulation of Growth and Body Mass | VIII | done |
+| 49 | The Thyroid Gland | VIII | done |
+| 50 | The Adrenal Gland | VIII | done |
+| 51 | The Endocrine Pancreas | VIII | done |
+| 52 | The Parathyroid Glands and Vitamin D | VIII | done |
+| 53 | Sexual Differentiation | IX | done |
+| 54 | The Male Reproductive System | IX | done |
+| 55 | The Female Reproductive System | IX | done |
+| 56 | Fertilization, Pregnancy, and Lactation | IX | done |
+| 57 | Fetal and Neonatal Physiology | IX | done |
+| 58 | Metabolism | X | done |
+| 59 | Regulation of Body Temperature | X | done |
+| 60 | Exercise Physiology and Sports Science | X | done |
+| 61 | Environmental Physiology | X | done |
+| 62 | The Physiology of Aging | X | done |
 
 Update the `Status` column as each chapter is generated.

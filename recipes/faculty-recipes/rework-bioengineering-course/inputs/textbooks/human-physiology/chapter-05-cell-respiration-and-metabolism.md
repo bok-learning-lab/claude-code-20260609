@@ -69,9 +69,11 @@ $$\mathrm{Pyruvate} + \mathrm{NADH} + \mathrm{H^+} \xrightarrow{\text{LDH}} \mat
 
 ### Figures
 
-#### Figure 5.1 — Overview of energy metabolism using blood glucose *(listed)*
+#### Figure 5.1 — Overview of energy metabolism using blood glucose *(viewed)*
 
-A broad-stroke flowchart starting from "Blood glucose" (in the bloodstream) descending into a generic cell. Blood glucose has two sources: (1) **dietary carbohydrate via digestion** (food → digestive tract → portal vein → liver → blood); (2) **liver glycogen breakdown (glycogenolysis)**. Inside the cell, glucose feeds into the three-stage aerobic respiration pipeline: **glycolysis (cytoplasm)** → **pyruvate** → **acetyl-CoA → citric acid cycle (mitochondrial matrix)** → **electron transport (mitochondrial cristae)** → CO₂ + H₂O + ATP. Branch arrows show that pyruvate can also enter the **lactate pathway** under anaerobic conditions.
+A layered cross-section figure tracing glucose from the body into a cell. At top, a **digestive tract** and a **liver** (drawn with a red "Glycogen in liver" depot) both feed **Glucose** into the **blood plasma** — labels read "Glucose from digestive tract" and "Glucose from liver." Horizontal bands stacked top to bottom label the compartments the glucose crosses: **Capillary**, **Interstitial fluid**, **Plasma membrane** (drawn as a yellow phospholipid bilayer with embedded transporter channels), and **Cytoplasm**. Once **Glucose in cell cytoplasm**, a vertical pathway descends: **Glycolysis** → **Pyruvate**, with a branch arrow to **Lactate** flagged **Anaerobic / Metabolism in skeletal muscle**; pyruvate otherwise drops "into mitochondrion" where the **Citric acid cycle** and **Electron transport system** (flagged **Aerobic / Respiration**) yield **CO₂ + H₂O**. Color-coded yellow callouts mark the anaerobic vs. aerobic branch points.
+
+> Vision note: The figure's pedagogical point — explicitly noted in the caption — is that the schematic exaggerates the plasma membrane's size relative to the cell and interstitial fluid; the plasma-membrane molecules cannot cross without transporters. Anchor for any glucose-uptake, glycolysis-vs-respiration, or aerobic/anaerobic-fate question.
 
 > Vision note: This is the chapter's master overview map. Re-used implicitly in every later step.
 
@@ -385,7 +387,7 @@ Two stacked panels showing transamination. **Top panel (AST):** Glutamic acid + 
 ---
 
 ## Format-verification notes
-**Figures viewed and described from image:** 5.3, 5.4 (paired), 5.7, 5.8, 5.15 (5 viewed pages; Tables 5.1, 5.3 visible on viewed pages).
-**Figures listed by caption + textual reference only:** 5.1, 5.2, 5.5, 5.6, 5.9, 5.10, 5.11, 5.12, 5.13, 5.14, 5.16, 5.17, 5.18.
+**Figures viewed and described from image:** 5.1, 5.3, 5.4 (paired), 5.7, 5.8, 5.15 (Tables 5.1, 5.3 visible on viewed pages).
+**Figures listed by caption + textual reference only:** 5.2, 5.5, 5.6, 5.9, 5.10, 5.11, 5.12, 5.13, 5.14, 5.16, 5.17, 5.18.
 
 *End of Chapter 5. Next: Chapter 6 — Interactions Between Cells and the Extracellular Environment, p. 128.*

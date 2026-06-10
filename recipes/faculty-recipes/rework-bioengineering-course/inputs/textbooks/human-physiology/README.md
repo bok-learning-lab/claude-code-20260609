@@ -81,19 +81,19 @@ Citation-anchor quotes are kept short — usually 1–3 sentences each. They are
 | 4 | Enzymes and Energy | 86–103 | 109–126 | done |
 | 5 | Cell Respiration and Metabolism | 104–127 | 127–150 | done |
 | 6 | Interactions Between Cells and the Extracellular Environment | 128–159 | 151–182 | done |
-| 7 | The Nervous System | 160–203 | 183–226 | pending |
-| 8 | The Central Nervous System | 204–241 | 227–264 | pending |
-| 9 | The Autonomic Nervous System | 242–264 | 265–287 | pending |
-| 10 | Sensory Physiology | 265–314 | 288–337 | pending |
-| 11 | Endocrine Glands | 315–357 | 338–380 | pending |
-| 12 | Muscle | 358–402 | 381–425 | pending |
-| 13 | Blood, Heart, and Circulation | 403–448 | 426–471 | pending |
-| 14 | Cardiac Output, Blood Flow, and Blood Pressure | 449–491 | 472–514 | pending |
-| 15 | The Immune System | 492–530 | 515–553 | pending |
-| 16 | Respiratory Physiology | 531–579 | 554–602 | pending |
-| 17 | Physiology of the Kidneys | 580–617 | 603–640 | pending |
+| 7 | The Nervous System | 160–203 | 183–226 | done |
+| 8 | The Central Nervous System | 204–241 | 227–264 | done |
+| 9 | The Autonomic Nervous System | 242–264 | 265–287 | done |
+| 10 | Sensory Physiology | 265–314 | 288–337 | done |
+| 11 | Endocrine Glands | 315–357 | 338–380 | done |
+| 12 | Muscle | 358–402 | 381–425 | done |
+| 13 | Blood, Heart, and Circulation | 403–448 | 426–471 | done |
+| 14 | Cardiac Output, Blood Flow, and Blood Pressure | 449–491 | 472–514 | done |
+| 15 | The Immune System | 492–530 | 515–553 | done |
+| 16 | Respiratory Physiology | 531–579 | 554–602 | done |
+| 17 | Physiology of the Kidneys | 580–617 | 603–640 | done |
 | 18 | The Digestive System | 618–661 | 641–684 | done |
-| 19 | Regulation of Metabolism | 662–701 | 685–724 | pending |
-| 20 | Reproduction | 702–768 | 725–791 | pending |
+| 19 | Regulation of Metabolism | 662–701 | 685–724 | done |
+| 20 | Reproduction | 702–768 | 725–791 | done |
 
 Update the `Status` column as each chapter is generated.
